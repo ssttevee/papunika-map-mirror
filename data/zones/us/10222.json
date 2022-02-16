@@ -1,0 +1,388 @@
+{
+    "markers": [
+      {
+        "markerType":"AStory",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_astory",
+        "data":[
+           {
+              "coordinates":[
+                -161.375, 117.875
+              ],
+              "id":"astory_0",
+              "popupTitle":"Tragedy Written in Stone",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"#1 Tragedy Written in Stone",
+              "tooltipDirection":"left"
+           }
+        ]
+     },
+      {
+        "markerType":"HStory",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_hstory",
+        "data":[
+           {
+              "coordinates":[
+                -176.125, 93.25
+              ],
+              "id":"hstory_0",
+              "popupTitle":"Burnt with Love",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"#3 Burnt with Love",
+              "tooltipDirection":"left"
+           },
+           {
+              "coordinates":[               
+                -106.125, 119.25
+              ],
+              "id":"hstory_1",
+              "popupTitle":"The Cursed Grave Keeper",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"#4 The Cursed Grave Keeper",
+              "tooltipDirection":"left"
+           },
+           {
+            "coordinates":[
+              -160.125, 168.25
+            ],
+            "id":"hstory_2",
+            "popupTitle":"A Knight in Shining Armor (3/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10211&m=hstory_0"
+               },
+               {
+                  "link":"z=10220&m=hstory_1"
+               },
+               {
+                  "link":"z=10222&m=hstory_2"
+               }
+            ],
+            "popupMedia":"",
+            "tooltip":"#6 A Knight in Shining Armor (3/3)",
+            "tooltipDirection":"right"
+         }
+        ]
+       },
+      {
+        "markerType":"Monster",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_monster",
+        "data":[
+           {
+              "coordinates":[
+                -142, 129.875
+              ],
+              "id":"monster_0",
+              "popupTitle":"Nasty Plague Pest",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"#6 Nasty Plague Pest",
+              "tooltipDirection":"right"
+           },
+           {
+            "coordinates":[
+              -119.625, 109
+            ],
+            "id":"monster_1",
+            "popupTitle":"Imperfect Mutant Boss",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#8 Imperfect Mutant Boss",
+            "tooltipDirection":"left"
+         },
+         {
+          "coordinates":[
+            -85.375, 134.25
+          ],
+          "id":"monster_2",
+          "popupTitle":"Corpse Spider Boss",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#9 Corpse Spider Boss",
+          "tooltipDirection":"right"
+       }
+        ]
+     },
+     {
+      "markerType":"Boss",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_boss",
+      "data":[
+         {
+            "coordinates":[
+              -133.25, 100.875
+            ],
+            "id":"boss_0",
+            "popupTitle":"Rudric",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Rudric",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+    "markerType":"Food",
+    "enabled":true,
+    "allowSidebar":true,
+    "layerID":"layer_food",
+    "data":[
+       {
+          "coordinates":[
+            -130.75, 120.75
+          ],
+          "id":"food_0",
+          "popupTitle":"Regria Flower Oil",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#2 Regria Flower Oil",
+          "tooltipDirection":"right"
+       }
+    ]
+ },
+      {
+        "markerType":"Ingredient",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_ingredient",
+        "data":[
+           {
+              "coordinates":[
+                -77, 142.625
+              ],
+              "id":"ingredient_0",
+              "popupTitle":"Solar Tree Sprout",
+              "popupContent":"Required ingredient for '#3 Solar Tree Sprout Cider'.<br>Used at cook Hely.",
+              "popupMedia":"",
+              "tooltip":"#3 Solar Tree Sprout (1/1)",
+              "tooltipDirection":"right"
+           }
+        ]
+     },
+      {
+        "markerType":"Viewpoint",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_viewpoint",
+        "data":[
+           {
+              "coordinates":[
+                -115.25, 139.5
+              ],
+              "id":"viewpoint_0",
+              "popupTitle":"Rethramis Border Monastery",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"#7 Rethramis Border Monastery",
+              "tooltipDirection":"right"
+           },
+           {
+            "coordinates":[
+              -84.75, 83.875
+            ],
+            "id":"viewpoint_1",
+            "popupTitle":"Statue of the Goddess",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#8 Statue of the Goddess",
+            "tooltipDirection":"right"
+         }
+        ]
+     },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+              -110.125, 147.125
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Ben",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Ben",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+      {
+        "markerType":"Mokoko",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_mokoko",
+        "data":[
+           {
+              "coordinates":[
+                -107.75, 61.25
+              ],
+              "id":"mokoko_0",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"Locked behind secret passage.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -119.125, 168.25
+              ],
+              "id":"mokoko_1",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -95.5, 169.125
+              ],
+              "id":"mokoko_2",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -121, 137.625
+              ],
+              "id":"mokoko_3",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -103.5, 64.5
+              ],
+              "id":"mokoko_4",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"Locked behind secret passage.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -102.5, 65.75
+              ],
+              "id":"mokoko_5",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"Locked behind secret passage.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -208.875, 131.125
+              ],
+              "id":"mokoko_6",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -121, 136.125
+              ],
+              "id":"mokoko_7",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -176.75, 119.375
+              ],
+              "id":"mokoko_8",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+            "coordinates":[
+              -199.75, 115.625
+            ],
+            "id":"mokoko_9",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+        ]
+       },
+      {
+        "markerType":"SPassage",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_spassage",
+        "data":[
+           {
+              "coordinates":[
+                -132.875, 78.25
+              ],
+              "id":"spassage_0",
+              "popupTitle":"Secret Passage",
+              "popupContent":"Kill nearby enemies. Hidden jump will appear.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           }
+        ]
+       },
+      {
+        "markerType": "Portal",
+        "enabled": true,
+        "allowSidebar": false,
+        "layerID": "layer_portal",
+        "data": [
+          {
+            "coordinates": [-231.5, 126.5],
+            "id": "portal_0",
+            "destinationID": "10220",
+            "tooltip": "Ankumo Mountain",
+            "tooltipDirection": "bottom"
+          },
+          {
+            "coordinates": [-40.875, 89.625],
+            "id": "portal_1",
+            "destinationID": "10252",
+            "tooltip": "Aquilok's Tail",
+            "tooltipDirection": "bottom"
+          },
+          {
+            "coordinates": [-15.25, 135.25],
+            "id": "portal_2",
+            "tooltip": "Saland Hill",
+            "destinationID": "10611",
+            "tooltipDirection": "bottom"
+          }
+        ]
+      }
+    ]
+ }

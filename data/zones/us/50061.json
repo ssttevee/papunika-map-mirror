@@ -1,0 +1,114 @@
+{
+  "markers":[
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -144.625, 195.875
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -179.625, 131.25
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -127.25, 145.375
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -101.375, 184.25
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -185, 131.125
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -124.375, 143.75
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -96.375, 182.5
+            ],
+            "id":"spassage_2",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -251.75, 134.75
+              ],
+              "id":"portal_0",
+              "destinationID":"overworld",
+              "tooltip":"Open Seas",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

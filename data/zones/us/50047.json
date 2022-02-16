@@ -1,0 +1,133 @@
+{
+  "markers":[
+   {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -159, 67.75
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Black Marketeer",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Black Marketeer",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -102.75, 204
+            ],
+            "id":"tmerchant_1",
+            "popupTitle":"Black Marketeer",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Black Marketeer",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -104, 128.25
+            ],
+            "id":"tmerchant_2",
+            "popupTitle":"Black Marketeer",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Black Marketeer",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Resonance",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_resonance",
+      "data":[
+         {
+            "coordinates":[
+               -180.375, 60.375
+            ],
+            "id":"resonance_0",
+            "popupTitle":"Song of Resonance",
+            "popupContent":"Play Song of Resonance in front of statue.",
+            "popupMedia":"",
+            "tooltip":"Song of Resonance",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -153.875, 54.875
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play Song of Resonance at marked location to get there.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -134.375, 92.375
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -167.75, 196
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -154, 58.875
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play Song of Resonance at marked location to get there.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -209, 147.5
+              ],
+              "id":"portal_0",
+              "destinationID":"overworld",
+              "tooltip":"Open Seas",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

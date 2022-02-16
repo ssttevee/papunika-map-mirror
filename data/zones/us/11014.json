@@ -1,0 +1,147 @@
+{
+  "name":"Forest of Giants",
+  "continent":"Tortoyk",
+  "zoneTiles":"public/tiles/zones/tortoyk/zone_35",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -172.625, 108.625
+            ],
+            "id":"hstory_0",
+            "popupTitle":"Road to Becoming a Naruni Expert (4/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11011&m=hstory_1"
+               },
+               {
+                  "link":"z=11012&m=hstory_1"
+               },
+               {
+                  "link":"z=11013&m=hstory_2"
+               },
+               {
+                  "link":"z=11014&m=hstory_0"
+               }
+            ],
+            "popupMedia":"",
+            "tooltip":"#4 Road to Becoming a Naruni Expert (4/4)",
+            "tooltipDirection":"left"
+         }
+      ]
+     },  
+     {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -175.5, 145.625
+            ],
+            "id":"monster_0",
+            "popupTitle":"Hardshelled Red Rock Pebbling",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#9 Hardshelled Red Rock Pebbling",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -149.875, 168
+          ],
+          "id":"monster_1",
+          "popupTitle":"Bloodshot Cyclops",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#10 Bloodshot Cyclops",
+          "tooltipDirection":"right"
+       },
+       {
+        "coordinates":[
+         -34.625, 150.75
+        ],
+        "id":"monster_2",
+        "popupTitle":"Red Mist Sorcerer",
+        "popupContent":"",
+        "popupMedia":"",
+        "tooltip":"#11 Red Mist Sorcerer",
+        "tooltipDirection":"right"
+     }
+      ]
+   }, 
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -103.875, 136.125
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Hand of Tortoyk",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#6 Hand of Tortoyk",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -147.75, 127.375
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Oliver",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Oliver",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -244.25, 111.75
+              ],
+              "id":"portal_0",
+              "destinationID":"11013",
+              "tooltip":"Skyreach Steppe",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -53.5, 171
+            ],
+            "id":"portal_1",
+            "destinationID":"11052",
+            "tooltip":"Tortoyk's Heart",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

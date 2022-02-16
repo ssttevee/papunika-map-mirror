@@ -1,0 +1,520 @@
+{
+  "name":"Parna Forest",
+  "continent":"North Vern",
+  "zoneTiles":"public/tiles/zones/north_vern/zone_66",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Affinity",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_affinity",
+      "data":[
+         {
+            "coordinates":[
+               -113, 140.5
+            ],
+            "id":"affinity_0",
+            "popupTitle":"Adventurer Selfa",
+            "rapportId": "22036",
+            "tooltip":"Adventurer Selfa",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"AStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_astory",
+      "data":[
+         {
+            "coordinates":[
+               -114.25, 144.5
+            ],
+            "id":"astory_0",
+            "popupTitle":"Probing Goblin Village",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#2 Probing Goblin Village",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -198.25, 175.5
+            ],
+            "id":"hstory_0",
+            "popupTitle":"Lesson Learned from Failures (1/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11112&m=hstory_0"
+               },
+               {
+                  "link":"z=11112&m=hstory_1"
+               },
+               {
+                  "link":"z=11112&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#3 Lesson Learned from Failures (1/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -199.125, 169.125
+            ],
+            "id":"hstory_1",
+            "popupTitle":"Lesson Learned from Failures (2/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11112&m=hstory_0"
+               },
+               {
+                  "link":"z=11112&m=hstory_1"
+               },
+               {
+                  "link":"z=11112&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#3 Lesson Learned from Failures (2/3)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -195.375, 162
+            ],
+            "id":"hstory_2",
+            "popupTitle":"Lesson Learned from Failures (3/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11112&m=hstory_0"
+               },
+               {
+                  "link":"z=11112&m=hstory_1"
+               },
+               {
+                  "link":"z=11112&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#3 Lesson Learned from Failures (3/3)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -58.25, 108.5
+            ],
+            "id":"hstory_3",
+            "popupTitle":"Abandoned Kid (1/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11112&m=hstory_3"
+               },
+               {
+                  "link":"z=11112&m=hstory_4"
+               },
+               {
+                  "link":"z=11112&m=hstory_5"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#4 Abandoned Kid (1/3)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -34.25, 117.375
+            ],
+            "id":"hstory_4",
+            "popupTitle":"Abandoned Kid (2/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11112&m=hstory_3"
+               },
+               {
+                  "link":"z=11112&m=hstory_4"
+               },
+               {
+                  "link":"z=11112&m=hstory_5"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#4 Abandoned Kid (2/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -40, 173.5
+            ],
+            "id":"hstory_5",
+            "popupTitle":"Abandoned Kid (3/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11112&m=hstory_3"
+               },
+               {
+                  "link":"z=11112&m=hstory_4"
+               },
+               {
+                  "link":"z=11112&m=hstory_5"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#4 Abandoned Kid (3/3)",
+            "tooltipDirection":"right"
+         }
+      ]
+     },  
+     {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -174.5, 173.125
+            ],
+            "id":"monster_0",
+            "popupTitle":"Adept Troll Combatant",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 Adept Troll Combatant",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -152.5, 225
+          ],
+          "id":"monster_1",
+          "popupTitle":"Wanted Wicked Adventurer",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#2 Wanted Wicked Adventurer",
+          "tooltipDirection":"right"
+       },
+       {
+        "coordinates":[
+         -126.875, 120.625
+        ],
+        "id":"monster_2",
+        "popupTitle":"Old Dryad",
+        "popupContent":"",
+        "popupMedia":"",
+        "tooltip":"#3 Old Dryad",
+        "tooltipDirection":"right"
+     },
+     {
+      "coordinates":[
+         -178.375, 74.375
+      ],
+      "id":"monster_3",
+      "popupTitle":"Sharpeyed Tail Slime",
+      "popupContent":"",
+      "popupMedia":"",
+      "tooltip":"#4 Sharpeyed Tail Slime",
+      "tooltipDirection":"left"
+   }
+      ]
+   },   
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -115, 167.5
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Vine",
+            "popupContent":"Required ingredient for '#2 Balankar Ranger's Salad'.<br>Used at cook Stelia.<br>Collect a second Vine if you plan to craft the food 'Long Live the Queen!'.",
+            "popupMedia":"",
+            "tooltip":"#2 Vine (1/1)",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -51.25, 122.875
+          ],
+          "id":"ingredient_1",
+          "popupTitle":"Unknown Soup",
+          "popupContent":"Required ingredient for '#5 Goblin Fish Soup'.<br>Used at cook Stelia.<br>Collect a second Unknown Soup if you plan to craft the food 'Long Live the Queen!'.",
+          "parts": [
+            {
+               "link":"z=11112&m=ingredient_1"
+            },
+            {
+               "link":"z=11112&m=ingredient_2"
+            }
+        ],
+          "popupMedia":"",
+          "tooltip":"#5 Unknown Soup (1/2)",
+          "tooltipDirection":"right"
+       },
+       {
+         "coordinates":[
+            -53.875, 144.75
+         ],
+         "id":"ingredient_2",
+         "popupTitle":"Goblins' Fish",
+         "popupContent":"Required ingredient for '#5 Goblin Fish Soup'.<br>Used at cook Stelia.<br>Collect a second Goblins' Fish if you plan to craft the food 'Long Live the Queen!'.",
+         "parts": [
+            {
+               "link":"z=11112&m=ingredient_1"
+            },
+            {
+               "link":"z=11112&m=ingredient_2"
+            }
+        ],
+          "popupMedia":"",
+         "tooltip":"#5 Goblins' Fish (2/2)",
+         "tooltipDirection":"right"
+      }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -136.375, 154.625
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Parna Tree",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#4 Parna Tree",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -121.375, 140.25
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Peter",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Peter",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -88.625, 197.375
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -103.75, 59.875
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -101.875, 61.5
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -181, 85.625
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -166, 197.5
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -121.25, 82
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -122.125, 84.25
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -179.25, 189.75
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -147.75, 33.375
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -139.875, 155.75
+            ],
+            "id":"mokoko_9",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -114.25, 130.875
+            ],
+            "id":"mokoko_10",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -145, 143.75
+            ],
+            "id":"mokoko_11",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -110.25, 91.625
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Kill all nearby enemies, then interact with the mushroom.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -107, 58.125
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Kill all nearby enemies, then talk with the goblin. Climb up the ladder.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -248.75, 152.25
+              ],
+              "id":"portal_0",
+              "destinationID":"11101",
+              "tooltip":"Rania Village",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

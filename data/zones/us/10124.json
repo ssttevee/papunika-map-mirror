@@ -1,0 +1,649 @@
+{
+  "name":"Ruins of Genail",
+  "continent":"Rohendel",
+  "zoneTiles":"public/tiles/zones/rohendel/zone_82",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -125, 242.125
+            ],
+            "id":"hstory_0",
+            "popupTitle":"Moon Tower History (1/2)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10124&m=hstory_0"
+               },
+               {
+                  "link":"z=10124&m=hstory_1"
+               }
+           ],
+           "popupMedia":"",
+            "tooltip":"#1 Moon Tower History (1/2)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -129.125, 115
+            ],
+            "id":"hstory_1",
+            "popupTitle":"Moon Tower History (2/2)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10124&m=hstory_0"
+               },
+               {
+                  "link":"z=10124&m=hstory_1"
+               }
+           ],
+           "popupMedia":"public/comments/rohendel/zone_82/hstory_82_2.jpg",
+            "tooltip":"#1 Moon Tower History (2/2)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -137.5, 116.875
+            ],
+            "id":"hstory_2",
+            "popupTitle":"Duty of a Healer (2/5)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10123&m=hstory_0"
+               },
+               {
+                  "link":"z=10124&m=hstory_2"
+               },
+               {
+                  "link":"z=10124&m=hstory_3"
+               },
+               {
+                  "link":"z=10124&m=hstory_4"
+               },
+               {
+                  "link":"z=10124&m=hstory_5"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#4 Duty of a Healer (2/5)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -159.25, 40.125
+            ],
+            "id":"hstory_3",
+            "popupTitle":"Duty of a Healer (3/5)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10123&m=hstory_0"
+               },
+               {
+                  "link":"z=10124&m=hstory_2"
+               },
+               {
+                  "link":"z=10124&m=hstory_3"
+               },
+               {
+                  "link":"z=10124&m=hstory_4"
+               },
+               {
+                  "link":"z=10124&m=hstory_5"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#4 Duty of a Healer (3/5)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -139, 45.375
+            ],
+            "id":"hstory_4",
+            "popupTitle":"Duty of a Healer (4/5)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10123&m=hstory_0"
+               },
+               {
+                  "link":"z=10124&m=hstory_2"
+               },
+               {
+                  "link":"z=10124&m=hstory_3"
+               },
+               {
+                  "link":"z=10124&m=hstory_4"
+               },
+               {
+                  "link":"z=10124&m=hstory_5"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#4 Duty of a Healer (4/5)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -124.375, 111
+            ],
+            "id":"hstory_5",
+            "popupTitle":"Duty of a Healer (5/5)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10123&m=hstory_0"
+               },
+               {
+                  "link":"z=10124&m=hstory_2"
+               },
+               {
+                  "link":"z=10124&m=hstory_3"
+               },
+               {
+                  "link":"z=10124&m=hstory_4"
+               },
+               {
+                  "link":"z=10124&m=hstory_5"
+               }
+           ],
+           "popupMedia":"public/comments/rohendel/zone_82/hstory_82_1.jpg",
+            "tooltip":"#4 Duty of a Healer (5/5)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -168.375, 95.875
+            ],
+            "id":"hstory_6",
+            "popupTitle":"Endlessly lasting century (2/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10101&m=hstory_0"
+               },
+               {
+                  "link":"z=10124&m=hstory_6"
+               },
+               {
+                  "link":"z=10125&m=hstory_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#5 Endlessly lasting century (2/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -95.5, 126
+            ],
+            "id":"hstory_7",
+            "popupTitle":"Everlasting memory (3/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10101&m=hstory_1"
+               },
+               {
+                  "link":"z=10123&m=hstory_1"
+               },
+               {
+                  "link":"z=10124&m=hstory_7"
+               },
+               {
+                  "link":"z=10124&m=hstory_8"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#6 Everlasting memory (3/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -78.125, 151.375
+            ],
+            "id":"hstory_8",
+            "popupTitle":"Everlasting memory (4/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10101&m=hstory_1"
+               },
+               {
+                  "link":"z=10123&m=hstory_1"
+               },
+               {
+                  "link":"z=10124&m=hstory_7"
+               },
+               {
+                  "link":"z=10124&m=hstory_8"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#6 Everlasting memory (4/4)",
+            "tooltipDirection":"left"
+         }
+      ]
+     }, 
+   {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -105.5, 49.125
+            ],
+            "id":"monster_0",
+            "popupTitle":"Chaos mutilated beast",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#8 Chaos mutilated beast",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -205.125, 93.75
+          ],
+          "id":"monster_1",
+          "popupTitle":"Frenzied Genail Golem",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#9 Frenzied Genail Golem",
+          "tooltipDirection":"right"
+       },
+       {
+        "coordinates":[
+         -159.25, 84.125
+        ],
+        "id":"monster_2",
+        "popupTitle":"Frenzied Genail Golem",
+        "popupContent":"",
+        "popupMedia":"",
+        "tooltip":"#9 Frenzied Genail Golem",
+        "tooltipDirection":"right"
+     },
+     {
+      "coordinates":[
+         -137.375, 57.375
+      ],
+      "id":"monster_3",
+      "popupTitle":"Arden, Drow Sunset Tower",
+      "popupContent":"",
+      "popupMedia":"",
+      "tooltip":"#10 Arden, Drow Sunset Tower",
+      "tooltipDirection":"right"
+   },
+   {
+    "coordinates":[
+      -154, 200.625
+    ],
+    "id":"monster_4",
+    "popupTitle":"Relic Genail Construct",
+    "popupContent":"",
+    "popupMedia":"",
+    "tooltip":"#11 Relic Genail Construct",
+    "tooltipDirection":"right"
+ }
+      ]
+   },
+   {
+      "markerType":"Boss",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_boss",
+      "data":[
+         {
+            "coordinates":[
+               -194, 91.875
+            ],
+            "id":"boss_0",
+            "popupTitle":"Harmaddon",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Harmaddon",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Food",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_food",
+      "data":[
+         {
+            "coordinates":[
+               -52.875, 79.875
+            ],
+            "id":"food_0",
+            "popupTitle":"Cookies 'My Heart'",
+            "popupContent":"Buy at traveling merchant Arisier.",
+            "popupMedia":"",
+            "tooltip":"#2 Cookies 'My Heart'",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -60.5, 99.875
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Kairfillen",
+            "popupContent":"Required ingredient for '#6 Jenail feast'.<br>Collectible Item<br>Used at cook Elara.",
+            "parts": [
+               {
+                  "link":"z=10201&m=ingredient_1"
+               },
+               {
+                  "link":"z=10124&m=ingredient_0"
+               },
+               {
+                  "text": "Any Elite Monster"
+               },
+               {
+                  "link":"z=10124&m=ingredient_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#6 Kairfillen (2/4)",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -62.125, 96.25
+          ],
+          "id":"ingredient_1",
+          "popupTitle":"Kairfillen",
+          "popupContent":"Required ingredient for '#6 Jenail feast'.<br>Collectible Item<br>Used at cook Elara.<br>",
+          "parts": [
+            {
+               "link":"z=10201&m=ingredient_1"
+            },
+            {
+               "link":"z=10124&m=ingredient_0"
+            },
+            {
+               "text": "Any Elite Monster"
+            },
+            {
+               "link":"z=10124&m=ingredient_3"
+            }
+        ],
+         "popupMedia":"",
+          "tooltip":"#6 Kairfillen (2/4)",
+          "tooltipDirection":"left"
+       },
+       {
+        "coordinates":[
+         -61.125, 79
+        ],
+        "id":"ingredient_2",
+        "popupTitle":"Kairfillen",
+        "popupContent":"Required ingredient for '#6 Jenail feast'.<br>Collectible Item<br>Used at cook Elara.<br>",
+        "parts": [
+          {
+             "link":"z=10201&m=ingredient_1"
+          },
+          {
+             "link":"z=10124&m=ingredient_0"
+          },
+          {
+             "text": "Any Elite Monster"
+          },
+          {
+             "link":"z=10124&m=ingredient_3"
+          }
+      ],
+       "popupMedia":"",
+        "tooltip":"#6 Kairfillen (2/4)",
+        "tooltipDirection":"left"
+     },
+     {
+      "coordinates":[
+         -197, 90.25
+      ],
+      "id":"ingredient_3",
+      "popupTitle":"Bara brit",
+      "popupContent":"Required ingredient for '#6 Jenail feast'.<br>Drops from Boss Harmaddon.<br>Used at cook Elara.",
+      "parts": [
+         {
+            "link":"z=10201&m=ingredient_1"
+         },
+         {
+            "link":"z=10124&m=ingredient_0"
+         },
+         {
+            "text": "Any Elite Monster"
+         },
+         {
+            "link":"z=10124&m=ingredient_3"
+         }
+     ],
+      "popupMedia":"",
+      "tooltip":"#6 Bara brit (4/4)",
+      "tooltipDirection":"left"
+   }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -72, 68
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Star Square",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#7 Star Square",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -54, 77.75
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Arisier",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Arisier",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -110.75, 54.125
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Music of Eternity', which you get from Rohendel's Adventure's Tome reward at 60%.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -131.25, 112.125
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Music of Eternity', which you get from Rohendel's Adventure's Tome reward at 60%.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -127.625, 122.75
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"public/comments/rohendel/zone_82/mokoko_82_1.jpg",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -136.875, 107.375
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -180.875, 107.5
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -187.125, 106.875
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Music of Eternity', which you get from Rohendel's Adventure's Tome reward at 60%.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -174.125, 162.125
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -183.125, 196.875
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -74.375, 163.5
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -77.375, 159.125
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Use Adventure's Tome Food '#1 Elixir of Secret Vision' at this location to enter.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -177.75, 161
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Requires 250 Kindness or higher to enter the building.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -141.5, 246.25
+              ],
+              "id":"portal_0",
+              "destinationID":"10123",
+              "tooltip":"Wind Hill",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -118.5, 160.5
+            ],
+            "id":"portal_1",
+            "destinationID":"10161",
+            "tooltip":"Temple of the Elements",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

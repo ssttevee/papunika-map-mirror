@@ -1,0 +1,160 @@
+{
+  "name":"Yeon's Barrier",
+  "continent":"Anikka",
+  "zoneTiles":"public/tiles/zones/anikka/zone_42",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -96.125, 113.5
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Sealed Special Sauce",
+            "popupContent":"Required ingredient for '#3 Secret Yeon-Style Marinated Special'.<br>Used at cook Sobin.",
+            "popupMedia":"",
+            "tooltip":"#3 Sealed Special Sauce (1/1)",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -64.625, 71.875
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -105.875, 108.75
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -61.75, 135.125
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -109.625, 99.625
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -164.75, 208.125
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -91.5, 27.25
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -146.875, 38.25
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -92.5, 28.625
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Jump down.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -110.375, 107.625
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Destroy barricade.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -209.5, 28.5
+              ],
+              "id":"portal_0",
+              "destinationID":"10722",
+              "tooltip":"Rattan Hill",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

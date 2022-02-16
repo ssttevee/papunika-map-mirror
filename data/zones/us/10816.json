@@ -1,0 +1,289 @@
+{
+  "name":"Dyorika Plain",
+  "continent":"East Luterra",
+  "zoneTiles":"public/tiles/zones/east_luterra/zone_19",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Affinity",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_affinity",
+      "data":[
+         {
+            "coordinates":[
+               -153.875, 153.5
+            ],
+            "id":"affinity_0",
+            "popupTitle":"Elia Nahun",
+            "rapportId": "14009",
+            "tooltip":"Elia Nahun",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -114.125, 102.125
+            ],
+            "id":"affinity_1",
+            "popupTitle":"Norin Nahun",
+            "rapportId": "14010",
+            "tooltip":"Norin Nahun",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -92.75, 154.375
+            ],
+            "id":"affinity_2",
+            "popupTitle":"Apprentice Blacksmith Turner",
+            "rapportId": "14012",
+            "tooltip":"Apprentice Blacksmith Turner",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -101, 199.375
+            ],
+            "id":"monster_0",
+            "popupTitle":"Bulky Crow",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 Bulky Crow",
+            "tooltipDirection":"left"
+         },
+         {
+          "coordinates":[
+            -23.625, 146.75
+          ],
+          "id":"monster_1",
+          "popupTitle":"Sturdy Redfeather",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#3 Sturdy Redfeather",
+          "tooltipDirection":"left"
+       }
+      ]
+   },
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -146.5, 184.5
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Dry-aged Meat",
+            "popupContent":"Required ingredient for '#5 Thirain T-Bone Steak'.<br>Buy at traveling merchant Morris. Used at cook Hyde.",
+            "popupMedia":"",
+            "tooltip":"#5 Dry-aged Meat (1/1)",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -117.875, 208.5
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Cliff Overlooking Nahun's Birthplace",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 Cliff Overlooking Nahun's Birthplace",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -146.375, 181.5
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Morris",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Morris",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+ {
+    "markerType":"Mokoko",
+    "enabled":true,
+    "allowSidebar":true,
+    "layerID":"layer_mokoko",
+    "data":[
+       {
+          "coordinates":[
+            -16.625, 160.75
+          ],
+          "id":"mokoko_0",
+          "popupTitle":"Mokoko Seed",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"",
+          "tooltipDirection":"right"
+       },
+       {
+          "coordinates":[
+            -119.25, 122.625
+          ],
+          "id":"mokoko_1",
+          "popupTitle":"Mokoko Seed",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"",
+          "tooltipDirection":"right"
+       },
+       {
+          "coordinates":[
+            -99.75, 207.875
+          ],
+          "id":"mokoko_2",
+          "popupTitle":"Mokoko Seed",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"",
+          "tooltipDirection":"right"
+       },
+       {
+          "coordinates":[
+            -117.875, 165
+          ],
+          "id":"mokoko_3",
+          "popupTitle":"Mokoko Seed",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"",
+          "tooltipDirection":"right"
+       },
+       {
+          "coordinates":[
+            -141.25, 93.875
+          ],
+          "id":"mokoko_4",
+          "popupTitle":"Mokoko Seed",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"",
+          "tooltipDirection":"right"
+       },
+       {
+          "coordinates":[
+            -112, 31.5
+          ],
+          "id":"mokoko_5",
+          "popupTitle":"Mokoko Seed",
+          "popupContent":"Locked behind secret passage.",
+          "popupMedia":"",
+          "tooltip":"",
+          "tooltipDirection":"right"
+       },
+       {
+          "coordinates":[
+            -100.75, 107.75
+          ],
+          "id":"mokoko_6",
+          "popupTitle":"Mokoko Seed",
+          "popupContent":"Locked behind secret passage.",
+          "popupMedia":"",
+          "tooltip":"",
+          "tooltipDirection":"right"
+       },
+       {
+          "coordinates":[
+            -221.625, 145
+          ],
+          "id":"mokoko_7",
+          "popupTitle":"Mokoko Seed",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"",
+          "tooltipDirection":"right"
+       },
+       {
+          "coordinates":[
+            -198.375, 112.625
+          ],
+          "id":"mokoko_8",
+          "popupTitle":"Mokoko Seed",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"",
+          "tooltipDirection":"right"
+       },
+       {
+         "coordinates":[
+            -214.25, 142.125
+         ],
+         "id":"mokoko_9",
+         "popupTitle":"Mokoko Seed",
+         "popupContent":"",
+         "popupMedia":"",
+         "tooltip":"",
+         "tooltipDirection":"right"
+      },
+      {
+         "coordinates":[
+            -180, 193.75
+         ],
+         "id":"mokoko_10",
+         "popupTitle":"Mokoko Seed",
+         "popupContent":"",
+         "popupMedia":"",
+         "tooltip":"",
+         "tooltipDirection":"right"
+      }
+    ]
+   },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -178, 60.75
+              ],
+              "id":"portal_0",
+              "destinationID":"10801",
+              "tooltip":"Luterra Castle",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -122.25, 232.25
+            ],
+            "id":"portal_1",
+            "destinationID":"10817",
+            "tooltip":"Sunbright Hill",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

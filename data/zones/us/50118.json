@@ -1,0 +1,77 @@
+{
+  "markers":[
+   {
+      "markerType":"Affinity",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_affinity",
+      "data":[
+         {
+            "coordinates":[
+               -147.75, 116.375
+            ],
+            "id":"affinity_0",
+            "popupTitle":"Ginger Wail",
+            "rapportId": "51500",
+            "tooltip":"Ginger Wail",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Minuet",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_minuet",
+      "data":[
+         {
+            "coordinates":[
+               -135.375, 166.25
+            ],
+            "id":"minuet_0",
+            "popupTitle":"Song of Minuet",
+            "popupContent":"Play Song of Minuet",
+            "popupMedia":"",
+            "tooltip":"Song of Minuet",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -130.5, 163.25
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -221, 145.25
+              ],
+              "id":"portal_0",
+              "destinationID":"overworld",
+              "tooltip":"Open Seas",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

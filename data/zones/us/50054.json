@@ -1,0 +1,39 @@
+{
+  "markers":[
+   {
+      "markerType":"Affinity",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_affinity",
+      "data":[
+         {
+            "coordinates":[
+               -146.125, 119.125
+            ],
+            "id":"affinity_0",
+            "popupTitle":"Zarina",
+            "rapportId": "19325",
+            "tooltip":"Zarina",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -157.75, 109.5
+              ],
+              "id":"portal_0",
+              "destinationID":"overworld",
+              "tooltip":"Open Seas",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

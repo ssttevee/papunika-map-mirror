@@ -1,0 +1,122 @@
+{
+  "markers":[
+   {
+      "markerType":"Boss",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_boss",
+      "data":[
+         {
+            "coordinates":[
+               -87.25, 135.75
+            ],
+            "id":"boss_0",
+            "popupTitle":"Tooki King",
+            "popupContent":"Spawns during coop quest.",
+            "popupMedia":"",
+            "tooltip":"Tooki King",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Notice",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_notice",
+      "data":[
+         {
+            "coordinates":[
+               -88.25, 132
+            ],
+            "id":"notice_0",
+            "popupTitle":"Spawn Location 1",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Spawn Location 1",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -138.5, 73.5
+            ],
+            "id":"notice_1",
+            "popupTitle":"Spawn Location 2",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Spawn Location 2",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -100, 156.5
+            ],
+            "id":"notice_2",
+            "popupTitle":"Spawn Location 3",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Spawn Location 3",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -108, 175.5
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -161.5, 108.25
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -92, 126.5
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -112.5, 211.25
+              ],
+              "id":"portal_0",
+              "destinationID":"overworld",
+              "tooltip":"Open Seas",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

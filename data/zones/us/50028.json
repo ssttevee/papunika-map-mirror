@@ -1,0 +1,67 @@
+{
+  "markers":[
+   {
+      "markerType":"Notice",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_notice",
+      "data":[
+         {
+            "coordinates":[
+               -90, 89.5
+            ],
+            "id":"notice_0",
+            "popupTitle":"Notice",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Mokoko Seeds on 2F, 3F, 5F",
+            "tooltipDirection":"left"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -182.75, 159.25
+              ],
+              "id":"portal_0",
+              "destinationID":"overworld",
+              "tooltip":"Open Seas",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -144.25, 82.25
+            ],
+            "id":"portal_1",
+            "destinationID":"50028_2",
+            "tooltip":"2F",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -77.75, 149
+            ],
+            "id":"portal_2",
+            "destinationID":"50028_2",
+            "tooltip":"2F",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -106, 110.75
+            ],
+            "id":"portal_3",
+            "destinationID":"50028_3",
+            "tooltip":"3F",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

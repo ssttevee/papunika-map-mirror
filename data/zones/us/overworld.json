@@ -1,0 +1,2881 @@
+{
+    "name": "Overworld",
+    "continent": "Arkesia",
+    "zones": [
+      {
+        "id": "10001",
+        "name": "Trixion",
+         "continent": "Trixion",
+        "location": [],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": ""
+      },
+      {
+        "id": "10201",
+        "name": "Prideholme",
+         "continent": "Rethramis",
+        "location": [
+          -190.4375,
+          105.9375
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-rethramis/"
+      },
+      {
+        "id": "10211",
+        "name": "Loghill",
+         "continent": "Rethramis",
+        "location": [
+            -180,
+            110
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-rethramis/"
+      },      
+      {
+        "id": "10253",
+        "name": "Toxiclaw Cavern",
+        "continent": "Rethramis",
+        "location": [
+            -180,
+            110
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "mapOverwrite": "10253-1",
+        "guidePath": "https://papunika.com/tome-rethramis/"
+      },
+      {
+        "id": "10220",
+        "name": "Ankumo Mountain",
+        "continent": "Rethramis",
+        "location": [
+            -188.3125,
+            122.1875
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-rethramis/"
+      },
+      {
+        "id": "10251",
+        "name": "Aquilok's Head",
+        "continent": "Rethramis",
+        "location": [
+            -188.3125,
+            122.1875
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "mapOverwrite": "10251-1",
+        "guidePath": "https://papunika.com/tome-rethramis/"
+      },
+      {
+        "id": "10222",
+        "name": "Rethramis Border",
+        "continent": "Rethramis",
+        "location": [
+            -176.4375,
+            119.9375
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-rethramis/"
+      },
+      {
+        "id": "10252",
+        "name": "Aquilok's Tail",
+        "continent": "Rethramis",
+        "location": [
+            -176.4375,
+            119.9375
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "mapOverwrite": "10252-1",
+        "guidePath": "https://papunika.com/tome-rethramis/"
+      },
+      {
+        "id": "10611",
+        "name": "Saland Hill",
+        "continent": "Yudia",
+        "location": [
+            -184.9375,
+            129.5625
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-yudia/"
+      },
+      {
+        "id": "10691",
+        "name": "Morai Ruins",
+        "continent": "Yudia",
+        "location": [
+            -184.9375,
+            129.5625
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-yudia/"
+      },
+      {
+        "id": "10619",
+        "name": "Ozhorn Hill",
+        "continent": "Yudia",
+        "location": [
+            -179.75,
+            127.9375
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-yudia/"
+      },
+      {
+        "id": "10651",
+        "name": "Sapira Cave",
+        "continent": "Yudia",
+        "location": [
+            -179.75,
+            127.9375
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-yudia/"
+      },
+      {
+        "id": "10811",
+        "name": "Mount Zagoras",
+        "continent": "West Luterra",
+        "location": [
+            -192.3125,
+            136.1875
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-west-luterra/"
+      },
+      {
+        "id": "10812",
+        "name": "Lakebar",
+        "continent": "West Luterra",
+        "location": [
+            -187.75,
+            139.1875
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-west-luterra/"
+      },
+      {
+        "id": "10851",
+        "name": "Brilliant Ridge",
+        "continent": "West Luterra",
+        "location": [
+            -187.75,
+            139.1875
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-west-luterra/"
+      },
+      {
+        "id": "10813",
+        "name": "Medrick Monastery",
+        "continent": "West Luterra",
+        "location": [
+            -183.1875,
+            135.4375
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-west-luterra/"
+      },
+      {
+        "id": "10814",
+        "name": "Bilbrin Forest",
+        "continent": "West Luterra",
+        "location": [
+            -178.8125,
+            136.8125
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-west-luterra/"
+      },
+      {
+        "id": "10855",
+        "name": "Gray Hammer Mine",
+        "continent": "West Luterra",
+        "location": [
+            -178.8125,
+            136.8125
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-west-luterra/"
+      },
+      {
+        "id": "10815",
+        "name": "Battlebound Plains",
+        "continent": "West Luterra",
+        "location": [
+            -181.625,
+            143.6875
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-west-luterra/"
+      },
+      {
+        "id": "10801",
+        "name": "Luterra Castle",
+        "continent": "East Luterra",
+        "location": [
+          -185.4375,
+          149
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-east-luterra/"
+      },
+      {
+        "id": "10801_2",
+        "name": "Kadan Cathedral Basement",
+        "continent": "East Luterra",
+        "location": [
+          -185.4375,
+          149
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-east-luterra/"
+      },
+      {
+        "id": "10804",
+        "name": "Wavestrand Port",
+        "continent": "East Luterra",
+        "location": [
+          -173.625,
+          162
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-east-luterra/"
+      },
+      {
+        "id": "10816",
+        "name": "Dyorika Plain",
+        "continent": "East Luterra",
+        "location": [
+          -175.9375,
+          144.3125
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-east-luterra/"
+      },
+      {
+        "id": "10817",
+        "name": "Sunbright Hill",
+        "continent": "East Luterra",
+        "location": [
+          -171.9375,
+          148.9375
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-east-luterra/"
+      },
+      {
+        "id": "10818",
+        "name": "Flowering Orchard",
+        "continent": "East Luterra",
+        "location": [
+          -190.1875,
+          155.75
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-east-luterra/"
+      },
+      {
+        "id": "10819",
+        "name": "Blackrose Chapel",
+        "continent": "East Luterra",
+        "location": [
+          -183.3125,
+          156.1875
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-east-luterra/"
+      },
+      {
+        "id": "10820",
+        "name": "Leyar Terrace",
+        "continent": "East Luterra",
+        "location": [
+          -178.6875,
+          161.6875
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-east-luterra/"
+      },
+      {
+        "id": "10821",
+        "name": "Borea's Domain",
+        "continent": "East Luterra",
+        "location": [
+          -177.3125,
+          154.4375
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-east-luterra/"
+      },
+      {
+        "id": "10823",
+        "name": "Croconys Seashore",
+        "continent": "East Luterra",
+        "location": [
+          -167.125,
+          159.6875
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-east-luterra/"
+      },
+      {
+        "id": "10852",
+        "name": "Blackrose Basement",
+        "continent": "East Luterra",
+        "location": [
+          -183.3125,
+          156.1875
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-east-luterra/"
+      },
+      {
+        "id": "10854",
+        "name": "Stormcry Grotto",
+        "continent": "East Luterra",
+        "location": [
+          -167.125,
+          159.6875
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-east-luterra/"
+      },
+      {
+        "id": "10892",
+        "name": "Lastra Forest",
+        "continent": "East Luterra",
+        "location": [
+          -171.9375,
+          148.9375
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-east-luterra/"
+      },
+      {
+        "id": "10892_2",
+        "name": "King's Tomb",
+        "continent": "East Luterra",
+        "location": [
+          -171.9375,
+          148.9375
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-east-luterra/"
+      },
+      {
+        "id": "11011",
+        "name": "Seaswept Woods",
+        "continent": "Tortoyk",
+        "location": [
+          -155.28125,
+          181.40625
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-tortoyk/"
+      },
+      {
+        "id": "11001",
+        "name": "Mokoko Village",
+        "continent": "Tortoyk",
+        "location": [
+          -153.40625,
+          183.5625
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-tortoyk/"
+      },
+      {
+        "id": "11012",
+        "name": "Sweetwater Forest",
+        "continent": "Tortoyk",
+        "location": [
+          -153.875,
+          186.6875
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-tortoyk/"
+      },
+      {
+        "id": "11051",
+        "name": "Pirate Den",
+        "continent": "Tortoyk",
+        "location": [
+          -153.875,
+          186.6875
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-tortoyk/"
+      },
+      {
+        "id": "11013",
+        "name": "Skyreach Steppe",
+        "continent": "Tortoyk",
+        "location": [
+          -151,
+          183.9375
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-tortoyk/"
+      },
+      {
+        "id": "11014",
+        "name": "Forest of Giants",
+        "continent": "Tortoyk",
+        "location": [
+          -150.40625,
+          186.9375
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-tortoyk/"
+      },
+      {
+        "id": "11052",
+        "name": "Tortoyk's Heart",
+        "continent": "Tortoyk",
+        "location": [
+          -150.40625,
+          186.9375
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-tortoyk/"
+      },
+      {
+        "id": "10701",
+        "name": "Port City Changhun",
+        "continent": "Anikka",
+        "location": [
+          -133.5625,
+          203.125
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-anikka/"
+      },
+      {
+        "id": "10721",
+        "name": "Delphi Township",
+        "continent": "Anikka",
+        "location": [
+          -136.6875,
+          214.1875
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-anikka/"
+      },
+      {
+        "id": "10761",
+        "name": "Moonmist Manor",
+        "continent": "Anikka",
+        "location": [
+          -136.6875,
+          214.1875
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-anikka/"
+      },
+      {
+        "id": "10724",
+        "name": "Prisma Valley",
+        "continent": "Anikka",
+        "location": [
+          -121.5625,
+          240.1875
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-anikka/"
+      },
+      {
+        "id": "10722",
+        "name": "Rattan Hill",
+        "continent": "Anikka",
+        "location": [
+          -122.9375,
+          209.75
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-anikka/"
+      },
+      {
+        "id": "10762",
+        "name": "Yeon's Barrier",
+        "continent": "Anikka",
+        "location": [
+          -122.9375,
+          209.75
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-anikka/"
+      },
+      {
+        "id": "10723",
+        "name": "Melody Forest",
+        "continent": "Anikka",
+        "location": [
+          -133.25,
+          227.375
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-anikka/"
+      },
+      {
+        "id": "10763",
+        "name": "Jeok's Barrier",
+        "continent": "Anikka",
+        "location": [
+          -133.25,
+          227.375
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-anikka/"
+      },
+      {
+        "id": "10725",
+        "name": "Twilight Mists",
+        "continent": "Anikka",
+        "location": [
+          -125.5,
+          228.75
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-anikka/"
+      },
+      {
+        "id": "10765",
+        "name": "Bleak Edge",
+        "continent": "Anikka",
+        "location": [
+          -125.5,
+          228.75
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-anikka/"
+      },
+      {
+        "id": "10764",
+        "name": "Foul Hollow",
+        "continent": "Anikka",
+        "location": [
+          -125.5,
+          228.75
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-anikka/"
+      },
+      {
+        "id": "10421",
+        "name": "Arid Path",
+        "continent": "Arthetine",
+        "location": [
+          -92.375,
+          192.0625
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-arthetine/"
+      },
+      {
+        "id": "10401",
+        "name": "Stern",
+        "continent": "Arthetine",
+        "location": [
+          -92.5625,
+          199.5625
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-arthetine/"
+      },
+      {
+        "id": "10401_2",
+        "name": "Stern Underground",
+        "continent": "Arthetine",
+        "location": [
+          -92.5625,
+          199.5625
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-arthetine/"
+      },
+      {
+        "id": "10401_3",
+        "name": "Eye of Sceptrum",
+        "continent": "Arthetine",
+        "location": [
+          -92.5625,
+          199.5625
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-arthetine/"
+      },
+      {
+        "id": "10424",
+        "name": "Windbringer Hills",
+        "continent": "Arthetine",
+        "location": [
+          -99,
+          196.6875
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-arthetine/"
+      },
+      {
+        "id": "10425",
+        "name": "Totrich",
+        "continent": "Arthetine",
+        "location": [
+          -92.125,
+          207.25
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-arthetine/"
+      },
+      {
+        "id": "10462",
+        "name": "Dr. Bergstrom's Laboratory",
+        "continent": "Arthetine",
+        "location": [
+          -92.125,
+          207.25
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-arthetine/"
+      },
+      {
+        "id": "10426",
+        "name": "Riza Falls",
+        "continent": "Arthetine",
+        "location": [
+          -86.5,
+          204
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-arthetine/"
+      },
+      {
+        "id": "10463",
+        "name": "Verdantier",
+        "continent": "Arthetine",
+        "location": [
+          -86.5,
+          204
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-arthetine/"
+      },
+      {
+        "id": "10463_2",
+        "name": "Verdantier Gear Unit",
+        "continent": "Arthetine",
+        "location": [
+          -86.5,
+          204
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-arthetine/"
+      },
+      {
+        "id": "10463_3",
+        "name": "Verdantier",
+        "continent": "Arthetine",
+        "location": [
+          -86.5,
+          204
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": ""
+      },
+      {
+        "id": "10428",
+        "name": "Red Sand Desert",
+        "continent": "Arthetine",
+        "location": [
+          -98.59375,
+          209.03125
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-arthetine/"
+      },
+      {
+        "id": "10422",
+        "name": "Scraplands",
+        "continent": "Arthetine",
+        "location": [
+          -87.1875,
+          197.25
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-arthetine/"
+      },
+      {
+        "id": "10461",
+        "name": "Soldier Ant Nest",
+        "continent": "Arthetine",
+        "location": [
+          -87.1875,
+          197.25
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-arthetine/"
+      },
+      {
+        "id": "10423",
+        "name": "Nebelhorn",
+        "continent": "Arthetine",
+        "location": [
+          -81.3125,
+          195.0625
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-arthetine/"
+      },
+      {
+        "id": "10491",
+        "name": "Heart of Sceptrum",
+        "continent": "Arthetine",
+        "location": [
+          -81.3125,
+          195.0625
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-arthetine/"
+      },
+      {
+        "id": "10491_2",
+        "name": "Machine Room Sector",
+        "continent": "Arthetine",
+        "location": [
+          -81.3125,
+          195.0625
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-arthetine/"
+      },
+      {
+        "id": "10491_2",
+        "name": "Robot Factory Area",
+        "continent": "Arthetine",
+        "location": [
+          -81.3125,
+          195.0625
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-arthetine/"
+      },
+      {
+        "id": "11111",
+        "name": "Port Krona",
+        "continent": "North Vern",
+        "location": [
+          -117.90625,
+          147.59375
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-north-vern/"
+      },
+      {
+        "id": "11102",
+        "name": "Vern Castle",
+        "continent": "North Vern",
+        "location": [
+          -122.4375,
+          136.25
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-north-vern/"
+      },
+      {
+        "id": "11101",
+        "name": "Rania Village",
+        "continent": "North Vern",
+        "location": [
+          -112.625,
+          136.03125
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-north-vern/"
+      },
+      {
+        "id": "11113",
+        "name": "Fesnar Highland",
+        "continent": "North Vern",
+        "location": [
+          -112.09375,
+          125.34375
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-north-vern/"
+      },
+      {
+        "id": "11114",
+        "name": "Vernese Forest",
+        "continent": "North Vern",
+        "location": [
+          -107.15625,
+          135.25
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-north-vern/"
+      },
+      {
+        "id": "11151",
+        "name": "Gorgon's Nest",
+        "continent": "North Vern",
+        "location": [
+          -107.15625,
+          135.25
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-north-vern/"
+      },
+      {
+        "id": "11112",
+        "name": "Parna Forest",
+        "continent": "North Vern",
+        "location": [
+          -110.3125,
+          141.5625
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-north-vern/"
+      },
+      {
+        "id": "11115",
+        "name": "Balankar Mountains",
+        "continent": "North Vern",
+        "location": [
+          -119.28125,
+          129.65625
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-north-vern/"
+      },
+      {
+        "id": "11152",
+        "name": "Ancient Elveria",
+        "continent": "North Vern",
+        "location": [
+          -119.28125,
+          129.65625
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-north-vern/"
+      },
+      {
+        "id": "10321",
+        "name": "Frozen Sea",
+        "continent": "Shushire",
+        "location": [
+          -58.03125,
+          130.625
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-shushire/"
+      },
+      {
+        "id": "10301",
+        "name": "Rigens Village",
+        "continent": "Shushire",
+        "location": [
+          -49.65625,
+          138.0625
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-shushire/"
+      },
+      {
+        "id": "10322",
+        "name": "Bitterwind Hill",
+        "continent": "Shushire",
+        "location": [
+          -55.375,
+          144.625
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-shushire/"
+      },
+      {
+        "id": "10324",
+        "name": "Lake Eternity",
+        "continent": "Shushire",
+        "location": [
+          -60.5,
+          152.1875
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-shushire/"
+      },
+      {
+        "id": "10362",
+        "name": "Vrad's Hideout",
+        "continent": "Shushire",
+        "location": [
+          -60.5,
+          152.1875
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-shushire/"
+      },
+      {
+        "id": "10323",
+        "name": "Iceblood Plateau",
+        "continent": "Shushire",
+        "location": [
+          -44.0625,
+          147
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-shushire/"
+      },
+      {
+        "id": "10361",
+        "name": "Frostpeak Temple",
+        "continent": "Shushire",
+        "location": [
+          -44.0625,
+          147
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-shushire/"
+      },
+      {
+        "id": "10325",
+        "name": "Icewing Heights",
+        "continent": "Shushire",
+        "location": [
+          -46.125,
+          158.75
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-shushire/"
+      },
+      {
+        "id": "10363",
+        "name": "Maze of Mirrors",
+        "continent": "Shushire",
+        "location": [
+          -46.125,
+          158.75
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-shushire/"
+      },
+      {
+        "id": "10121",
+        "name": "Soaring Harbor",
+        "continent": "Rohendel",
+        "location": [
+          -138,
+          39.1875
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-rohendel/"
+      },
+      {
+        "id": "10101",
+        "name": "Queen's Garden",
+        "continent": "Rohendel",
+        "location": [
+          -134.25,
+          30.9375
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-rohendel/"
+      },
+      {
+        "id": "10101_2",
+        "name": "Queen's Garden 1B",
+        "continent": "Rohendel",
+        "location": [
+          -134.25,
+          30.9375
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-rohendel/"
+      },
+      {
+        "id": "10101_3",
+        "name": "Queen's Garden 1F",
+        "continent": "Rohendel",
+        "location": [
+          -134.25,
+          30.9375
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-rohendel/"
+      },
+      {
+        "id": "10122",
+        "name": "Glass Lotus Lake",
+        "continent": "Rohendel",
+        "location": [
+          -127.5625,
+          32
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-rohendel/"
+      },
+      {
+        "id": "10123",
+        "name": "Wind Hill",
+        "continent": "Rohendel",
+        "location": [
+          -124.75,
+          23.25
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-rohendel/"
+      },
+      {
+        "id": "10124",
+        "name": "The Ruins of Genail",
+        "continent": "Rohendel",
+        "location": [
+          -138.9375,
+          20.5625
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-rohendel/"
+      },
+      {
+        "id": "10125",
+        "name": "Ancient Flower Garden",
+        "continent": "Rohendel",
+        "location": [
+          -126.1875,
+          39.5625
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-rohendel/"
+      },
+      {
+        "id": "10161",
+        "name": "Temple of the Elements",
+        "continent": "Rohendel",
+        "location": [
+          -138.9375,
+          20.5625
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-rohendel/"
+      },
+      {
+        "id": "10191",
+        "name": "Abode of Dreams",
+        "continent": "Rohendel",
+        "location": [
+          -126.1875,
+          39.5625
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-rohendel/"
+      },
+      {
+        "id": "10191_2",
+        "name": "Abode of Dreams 2F",
+        "continent": "Rohendel",
+        "location": [
+          -126.1875,
+          39.5625
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-rohendel/"
+      },
+      {
+        "id": "10191_3",
+        "name": "Abode of Dreams 3F",
+        "continent": "Rohendel",
+        "location": [
+          -126.1875,
+          39.5625
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-rohendel/"
+      },
+      {
+        "id": "10191_4",
+        "name": "Abode of Dreams 4F",
+        "continent": "Rohendel",
+        "location": [
+          -126.1875,
+          39.5625
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-rohendel/"
+      },
+      {
+        "id": "10191_5",
+        "name": "Abode of Dreams 5F",
+        "continent": "Rohendel",
+        "location": [
+          -126.1875,
+          39.5625
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-rohendel/"
+      },
+      {
+        "id": "11311",
+        "name": "Helm Harbor",
+        "continent": "Yorn",
+        "location": [
+          -186.4375,
+          8.4375
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-yorn/"
+      },
+      {
+        "id": "11301",
+        "name": "Isendelf",
+        "continent": "Yorn",
+        "location": [
+          -190.75,
+          2.875
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-yorn/"
+      },
+      {
+        "id": "11312",
+        "name": "Lower Dungeons",
+        "continent": "Yorn",
+        "location": [
+          -192.0625,
+          18
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-yorn/"
+      },
+      {
+        "id": "11312_2",
+        "name": "Lower Dungeons 2F",
+        "continent": "Yorn",
+        "location": [
+          -192.0625,
+          18
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-yorn/"
+      },
+      {
+        "id": "11313",
+        "name": "Mines of Fire",
+        "continent": "Yorn",
+        "location": [
+          -201.375,
+          4.625
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-yorn/"
+      },
+      {
+        "id": "11314",
+        "name": "Mines of Innumerable Riches",
+        "continent": "Yorn",
+        "location": [
+          -205.3125,
+          14.625
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-yorn/"
+      },
+      {
+        "id": "11315",
+        "name": "Primordial Lands",
+        "continent": "Yorn",
+        "location": [
+          -208.8125,
+          27.1875
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-yorn/"
+      },
+      {
+        "id": "11351",
+        "name": "Greyten Brewery",
+        "continent": "Yorn",
+        "location": [
+          -201.375,
+          4.625
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-yorn/"
+      },
+      {
+        "id": "11352",
+        "name": "Crucible of Souls",
+        "continent": "Yorn",
+        "location": [
+          -208.8125,
+          27.1875
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-yorn/"
+      },
+      {
+        "id": "11352_2",
+        "name": "Crucible of Souls 2F",
+        "continent": "Yorn",
+        "location": [
+          -208.8125,
+          27.1875
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-yorn/"
+      },
+      {
+        "id": "10911",
+        "name": "Nameless Plateau",
+        "continent": "Feiton",
+        "location": [
+          -93.6875,
+          27.1875
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-feiton/"
+      },
+      {
+        "id": "10901",
+        "name": "Kallazar",
+        "continent": "Feiton",
+        "location": [
+          -81.875,
+          25.25
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-feiton/"
+      },
+      {
+        "id": "10901_2",
+        "name": "Kallazar 2F",
+        "continent": "Feiton",
+        "location": [
+          -81.875,
+          25.25
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-feiton/"
+      },
+      {
+        "id": "10912",
+        "name": "Rot Water",
+        "continent": "Feiton",
+        "location": [
+          -78.15625,
+          28.78125
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-feiton/"
+      },
+      {
+        "id": "10913",
+        "name": "Siena Monastery",
+        "continent": "Feiton",
+        "location": [
+          -86.5,
+          16
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-feiton/"
+      },
+      {
+        "id": "10914",
+        "name": "Red Moon Wastes",
+        "continent": "Feiton",
+        "location": [
+          -77.25,
+          16.4375
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-feiton/"
+      },
+      {
+        "id": "10914_2",
+        "name": "Red Moon Wastes 2F",
+        "continent": "Feiton",
+        "location": [
+          -77.25,
+          16.4375
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-feiton/"
+      },
+      {
+        "id": "10961",
+        "name": "Black Rain Fortress",
+        "continent": "Feiton",
+        "location": [
+          -86.5,
+          16
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-feiton/"
+      },
+      {
+        "id": "10961_2",
+        "name": "Black Rain Fortress 2F",
+        "continent": "Feiton",
+        "location": [
+          -86.5,
+          16
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-feiton/"
+      },
+      {
+        "id": "10961_3",
+        "name": "Black Rain Fortress 3F",
+        "continent": "Feiton",
+        "location": [
+          -86.5,
+          16
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-feiton/"
+      },
+      {
+        "id": "10962",
+        "name": "Karst Abyss",
+        "continent": "Feiton",
+        "location": [
+          -77.25,
+          16.4375
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-feiton/"
+      },
+      {
+        "id": "11411",
+        "name": "Shallow Sea Road",
+        "continent": "Punika",
+        "location": [
+          -182,
+          59.4375
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-punika/"
+      },
+      {
+        "id": "11401",
+        "name": "Nia Village",
+        "continent": "Punika",
+        "location": [
+          -176.125,
+          57.5
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-punika/"
+      },
+      {
+        "id": "11412",
+        "name": "Star Sand Beach",
+        "continent": "Punika",
+        "location": [
+          -171.125,
+          60.8125
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-punika/"
+      },
+      {
+        "id": "11413",
+        "name": "Tikku Gardens",
+        "continent": "Punika",
+        "location": [
+          -180.5625,
+          52
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-punika/"
+      },
+      {
+        "id": "11414",
+        "name": "Mangrove Forest",
+        "continent": "Punika",
+        "location": [
+          -176.9375,
+          46.4375
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-punika/"
+      },
+      {
+        "id": "11451",
+        "name": "Waters of Naskha",
+        "continent": "Punika",
+        "location": [
+          -171.125,
+          60.8125
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-punika/"
+      },
+      {
+        "id": "11452",
+        "name": "Oreya's Heart",
+        "continent": "Punika",
+        "location": [
+          -176.9375,
+          46.4375
+        ],
+        "isDungeon": 1,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-punika/"
+      },
+      {
+        "id": "11611",
+        "name": "Kandaria",
+        "continent": "South Vern",
+        "location": [
+          -125,
+          114.8125
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-south-vern/"
+      },
+      {
+        "id": "11612",
+        "name": "Ruins of Bel-Illion",
+        "continent": "South Vern",
+        "location": [
+          -128,
+          97.875
+        ],
+        "isDungeon": 0,
+        "markerType": 1,
+        "guidePath": "https://papunika.com/tome-south-vern/"
+      },
+      {
+        "id": "50001",
+        "name": "Goblin Island",
+        "continent": "Open Seas",
+        "location": [
+          -133.28125,
+          78.4375
+        ],
+        "isDungeon": 0,
+        "markerType": 3,
+        "guidePath": "https://papunika.com/goblin-island/"
+      },
+      {
+        "id": "50002",
+        "name": "Giant Mushroom Island",
+        "continent": "Open Seas",
+        "location": [
+          -153.1875,
+          175.40625
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/mushroom-island/"
+      },
+      {
+        "id": "50003",
+        "name": "Toto Silver Island",
+        "continent": "Open Seas",
+        "location": [
+          -142.46875,
+          181.875
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/toto-silver-island/"
+      },
+      {
+        "id": "50004",
+        "name": "Totopia",
+        "continent": "Open Seas",
+        "location": [
+          -164.375, 179.34375
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/totopia/"
+      },
+      {
+        "id": "50005",
+        "name": "Illusion Isle",
+        "continent": "Open Seas",
+        "location": [
+          -82.59375, 140.4375
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/illusion-island/"
+      },
+      {
+        "id": "50006",
+        "name": "Lullaby Island",
+        "continent": "Open Seas",
+        "location": [
+          -160.78125, 190.96875
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/sleeping-song-island/"
+      },
+      {
+        "id": "50007",
+        "name": "Starlight Isle",
+        "continent": "Open Seas",
+        "location": [
+          -116.46875, 185.6875
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/starlight-lighthouse-island/"
+      },
+      {
+        "id": "50008",
+        "name": "Island of Time",
+        "continent": "Open Seas",
+        "location": [
+          -208.78125, 150.78125
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/island-of-time/"
+      },
+      {
+        "id": "50009",
+        "name": "Volare Island",
+        "continent": "Open Seas",
+        "location": [
+          -128.90625, 136.875
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/volare/"
+      },
+      {
+        "id": "50010",
+        "name": "Tooki Island (1/4)",
+        "continent": "Open Seas",
+        "location": [
+          -83.90625, 174.375
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/dooky-island/"
+      },
+      {
+        "id": "50010",
+        "name": "Tooki Island (2/4)",
+        "continent": "Open Seas",
+        "location": [
+          -125, 164.875
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/dooky-island/"
+      },
+      {
+        "id": "50010",
+        "name": "Tooki Island (3/4)",
+        "continent": "Open Seas",
+        "location": [
+          -192.5625, 173.34375
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/dooky-island/"
+      },
+      {
+        "id": "50010",
+        "name": "Tooki Island (4/4)",
+        "continent": "Open Seas",
+        "location": [
+          -145.0625, 123.15625
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/dooky-island/"
+      },
+      {
+        "id": "50011",
+        "name": "Isle of Yearning",
+        "continent": "Open Seas",
+        "location": [
+          -106.90625, 73.1875
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/island-of-longing/"
+      },
+      {
+        "id": "50012",
+        "name": "Facility X-301",
+        "continent": "Open Seas",
+        "location": [
+          -89.5625, 182.03125
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/secret-base-x-301/"
+      },
+      {
+        "id": "50013",
+        "name": "Alteisen",
+        "continent": "Open Seas",
+        "location": [
+          -103.8125, 203.0625
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/alteisen/"
+      },
+      {
+        "id": "50014",
+        "name": "Meteora",
+        "continent": "Open Seas",
+        "location": [
+          -88.125, 132.40625
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": ""
+      },
+      {
+        "id": "50015",
+        "name": "Kalthertz",
+        "continent": "Open Seas",
+        "location": [
+          -74, 156.5
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/kalthertz/"
+      },
+      {
+        "id": "50016",
+        "name": "Island of Mist",
+        "continent": "Open Seas",
+        "location": [
+          -112.65625, 82.34375
+        ],
+        "isDungeon": 0,
+        "markerType": 3,
+        "guidePath": "https://papunika.com/island-of-mist/"
+      },
+      {
+        "id": "50017",
+        "name": "Ice Maze",
+        "continent": "Open Seas",
+        "location": [
+          -50.53125, 169.65625
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/ice-maze/"
+      },
+      {
+        "id": "50018",
+        "name": "Argon",
+        "continent": "Open Seas",
+        "location": [
+          -60.71875, 170.1875
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/argon/"
+      },
+      {
+        "id": "50019",
+        "name": "Frostfire Island",
+        "continent": "Open Seas",
+        "location": [
+          -48.0625, 122.59375
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/island-of-ice-and-fire/"
+      },
+      {
+        "id": "50020",
+        "name": "Bikini Island",
+        "continent": "Open Seas",
+        "location": [
+          -158.8125, 149.75
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/bikini-island/"
+      },
+      {
+        "id": "50021",
+        "name": "Shadow Island",
+        "continent": "Open Seas",
+        "location": [
+          -99.875, 147.375
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/island-of-shadow/"
+      },
+      {
+        "id": "50022",
+        "name": "Fortuna",
+        "continent": "Open Seas",
+        "location": [
+          -116.6875, 160.5
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/fortuna-island/"
+      },
+      {
+        "id": "50023",
+        "name": "Vairgrys's Nest",
+        "continent": "Open Seas",
+        "location": [
+          -202.75, 193.28125
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/evergrace-nest/"
+      },
+      {
+        "id": "50024",
+        "name": "Spida Island",
+        "continent": "Open Seas",
+        "location": [
+          -98.96875, 114.03125
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/spider-island/"
+      },
+      {
+        "id": "50025",
+        "name": "Mercia",
+        "continent": "Open Seas",
+        "location": [
+          -168.15625, 188.1875
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": ""
+      },
+      {
+        "id": "50026",
+        "name": "Reminiscence Isle",
+        "continent": "Open Seas",
+        "location": [
+          -204.75, 162.78125
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/island-of-recall/"
+      },
+      {
+        "id": "50027",
+        "name": "Forpe",
+        "continent": "Open Seas",
+        "location": [
+          -137.21875, 195.3125
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/forpe/"
+      },
+      {
+        "id": "50028",
+        "name": "Peyto",
+        "continent": "Open Seas",
+        "location": [
+          -133.125, 173.96875
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/cruise-ship-paradise-peyto/"
+      },
+      {
+        "id": "50028_2",
+        "name": "Peyto 2F",
+        "continent": "Open Seas",
+        "location": [
+          -133.125, 173.96875
+        ],
+        "isDungeon": 1,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/cruise-ship-paradise-peyto/"
+      },
+      {
+        "id": "50028_3",
+        "name": "Peyto 3F",
+        "continent": "Open Seas",
+        "location": [
+          -133.125, 173.96875
+        ],
+        "isDungeon": 1,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/cruise-ship-paradise-peyto/"
+      },
+      {
+        "id": "50028_4",
+        "name": "Peyto 4F",
+        "continent": "Open Seas",
+        "location": [
+          -133.125, 173.96875
+        ],
+        "isDungeon": 1,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/cruise-ship-paradise-peyto/"
+      },
+      {
+        "id": "50028_5",
+        "name": "Peyto 5F",
+        "continent": "Open Seas",
+        "location": [
+          -133.125, 173.96875
+        ],
+        "isDungeon": 1,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/cruise-ship-paradise-peyto/"
+      },
+      {
+        "id": "50029",
+        "name": "Lost City",
+        "continent": "Open Seas",
+        "location": [
+          -194.59375, 187.90625
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/city-of-the-forgotten/"
+      },
+      {
+        "id": "50030",
+        "name": "Blackfang's Den",
+        "continent": "Open Seas",
+        "location": [
+          -175.90625, 202.46875
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/blacktooths-garrison/"
+      },
+      {
+        "id": "50031",
+        "name": "Resort Gravis",
+        "continent": "Open Seas",
+        "location": [
+          -149.875, 75.5625
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/resort-gravis/"
+      },
+      {
+        "id": "50032",
+        "name": "Opher, the Lonely Island",
+        "continent": "Open Seas",
+        "location": [
+          -111.75, 170.71875
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/lonely-island-opher/"
+      },
+      {
+        "id": "50033",
+        "name": "Sunflower Island",
+        "continent": "Open Seas",
+        "location": [
+          -120.125, 173.125
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/sunflower-island/"
+      },
+      {
+        "id": "50034",
+        "name": "Freedom Isle",
+        "continent": "Open Seas",
+        "location": [
+          -166.96875, 203.3125
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/island-of-freedom/"
+      },
+      {
+        "id": "50034_2",
+        "name": "Freedom Isle 2F",
+        "continent": "Open Seas",
+        "location": [
+          -166.96875, 203.3125
+        ],
+        "isDungeon": 1,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/island-of-freedom/"
+      },
+      {
+        "id": "50035",
+        "name": "Kharmine's Lair",
+        "continent": "Open Seas",
+        "location": [
+          -89.90625, 68.21875
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/carmines-garrison/"
+      },
+      {
+        "id": "50036",
+        "name": "Oblivion's Valley",
+        "continent": "Open Seas",
+        "location": [
+          -84.375, 210.21875
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/death-valley/"
+      },
+      {
+        "id": "50037",
+        "name": "Little Luck Island",
+        "continent": "Open Seas",
+        "location": [
+          -164.21875, 137.96875
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/little-fortune-island/"
+      },
+      {
+        "id": "50038",
+        "name": "Island of Disorted Dimensions",
+        "continent": "Open Seas",
+        "location": [
+          -153.40625, 105.625
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/island-of-disorted-dimensions/"
+      },
+      {
+        "id": "50039",
+        "name": "Erasmo's Island",
+        "continent": "Open Seas",
+        "location": [
+          -134.78125, 159.84375
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/erasmos-island/"
+      },
+      {
+        "id": "50040",
+        "name": "Pomona Island",
+        "continent": "Open Seas",
+        "location": [
+          -166.78125, 157.25
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/pomona-island/"
+      },
+      {
+        "id": "50041",
+        "name": "Runaways Island",
+        "continent": "Open Seas",
+        "location": [
+          -73.8125, 197.9375
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/village-of-fugitives/"
+      },
+      {
+        "id": "50042",
+        "name": "Medeia",
+        "continent": "Open Seas",
+        "location": [
+          -75.46875, 117.65625
+        ],
+        "isDungeon": 0,
+        "markerType": 3,
+        "guidePath": "https://papunika.com/medeia/"
+      },
+      {
+        "id": "50043",
+        "name": "Liebeheim",
+        "continent": "Open Seas",
+        "location": [
+          -152.65625, 143
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/liebeheim/"
+      },
+      {
+        "id": "50045",
+        "name": "Island of Lush Reeds",
+        "continent": "Open Seas",
+        "location": [
+          -110.625, 188.46875
+        ],
+        "isDungeon": 0,
+        "markerType": 3,
+        "guidePath": "https://papunika.com/island-of-lush-reeds/"
+      },
+      {
+        "id": "50046",
+        "name": "Metus Island",
+        "continent": "Open Seas",
+        "location": [
+          -115.75, 61.0625
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/metus-island/"
+      },
+      {
+        "id": "50047",
+        "name": "Atlas",
+        "continent": "Open Seas",
+        "location": [
+          -161.59375, 204
+        ],
+        "isDungeon": 0,
+        "markerType": 3,
+        "guidePath": "https://papunika.com/pirate-village-atlas/"
+      },
+      {
+        "id": "50048",
+        "name": "Wisdom Isle",
+        "continent": "Open Seas",
+        "location": [
+          -188.25,
+          168.1875
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/island-of-wisdom/"
+      },
+      {
+        "id": "50049",
+        "name": "Crescent Isle",
+        "continent": "Open Seas",
+        "location": [
+          -99.28125, 158.65625
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/crescent-island/"
+      },
+      {
+        "id": "50050",
+        "name": "Serenity Isle",
+        "continent": "Open Seas",
+        "location": [
+          -177.21875, 178.25
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/serene-island/"
+      },
+      {
+        "id": "50054",
+        "name": "White Wave Island",
+        "continent": "Open Seas",
+        "location": [
+          -81.90625, 166
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/white-wave-island/"
+      },
+      {
+        "id": "50055",
+        "name": "Outlaw Isle",
+        "continent": "Open Seas",
+        "location": [
+          -170.5625, 92.5
+        ],
+        "isDungeon": 0,
+        "markerType": 3,
+        "guidePath": "https://papunika.com/outlaw-island/"
+      },
+      {
+        "id": "50056",
+        "name": "Island of Torrent",
+        "continent": "Open Seas",
+        "location": [
+          -161.21875, 97.25
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/island-of-torrent/"
+      },
+      {
+        "id": "50060",
+        "name": "Naruni Island",
+        "continent": "Open Seas",
+        "location": [
+          -153.5, 90.125
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/naruni-island/"
+      },
+      {
+        "id": "50061",
+        "name": "Nihelthalope's Thoughts",
+        "continent": "Open Seas",
+        "location": [
+          -123.625, 83.46875
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": ""
+      },
+      {
+        "id": "50062",
+        "name": "Notos Island",
+        "continent": "Open Seas",
+        "location": [
+          -141.625, 188.6875
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/notos-island/"
+      },
+      {
+        "id": "50063",
+        "name": "Monte Island",
+        "continent": "Open Seas",
+        "location": [
+          -97.9375, 88.84375
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/monte-island/"
+      },
+      {
+        "id": "50064",
+        "name": "Panda Island",
+        "continent": "Open Seas",
+        "location": [
+          -115.21875, 203.65625
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/pandu-pupu-island/"
+      },
+      {
+        "id": "50065",
+        "name": "Island of Fantasy",
+        "continent": "Open Seas",
+        "location": [
+          -110.34375, 42.03125
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/island-of-fantasy/"
+      },
+      {
+        "id": "50066",
+        "name": "Harmony Island",
+        "continent": "Open Seas",
+        "location": [
+          -126.4375, 45.9375
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/harmony-island/"
+      },
+      {
+        "id": "50067",
+        "name": "Dreamgull Island",
+        "continent": "Open Seas",
+        "location": [
+          -102.21875, 164.59375
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/dreaming-seagull-island/"
+      },
+      {
+        "id": "50068",
+        "name": "Glacier Isle",
+        "continent": "Open Seas",
+        "location": [
+          -58.46875, 186.1875
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/broken-glaciers/"
+      },
+      {
+        "id": "50069",
+        "name": "Blue Hole Island",
+        "continent": "Open Seas",
+        "location": [
+          -140.75, 93.25
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/blue-hole-island/"
+      },
+      {
+        "id": "50070",
+        "name": "Turtle Island",
+        "continent": "Open Seas",
+        "location": [
+          -127.6875, 188.3125
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/tortoise-island/"
+      },
+      {
+        "id": "50071",
+        "name": "Hope Island",
+        "continent": "Open Seas",
+        "location": [
+          -135.03125, 67.40625
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/island-of-hope/"
+      },
+      {
+        "id": "50072",
+        "name": "Lopang Island",
+        "continent": "Open Seas",
+        "location": [
+          -139.375, 168.3125
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/lopang-island/"
+      },
+      {
+        "id": "50073",
+        "name": "Isolated Island of Eternity",
+        "continent": "Open Seas",
+        "location": [
+          -103.03125, 58.375
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/isolated-island-of-eternity/"
+      },
+      {
+        "id": "50074",
+        "name": "Eye of Hypnos",
+        "continent": "Open Seas",
+        "location": [
+          -163.5, 64.21875
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/eye-of-hypnos/"
+      },
+      {
+        "id": "50075",
+        "name": "Sublime Isle",
+        "continent": "Open Seas",
+        "location": [
+          -66.5625, 79.59375
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/supreme-island/"
+      },
+      {
+        "id": "50075_2",
+        "name": "Sublime Isle 2F",
+        "continent": "Open Seas",
+        "location": [
+          -66.5625, 79.59375
+        ],
+        "isDungeon": 1,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/supreme-island/"
+      },
+      {
+        "id": "50076",
+        "name": "Death's Hold Island",
+        "continent": "Open Seas",
+        "location": [
+          -112.28125, 150.96875
+        ],
+        "isDungeon": 0,
+        "markerType": 3,
+        "guidePath": "https://papunika.com/island-of-wrong-desire/"
+      },
+      {
+        "id": "50077",
+        "name": "Orbis Island",
+        "continent": "Open Seas",
+        "location": [
+          -198.09375, 171
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/orbis-island/"
+      },
+      {
+        "id": "50078",
+        "name": "Astella",
+        "continent": "Open Seas",
+        "location": [
+          -138.59375, 179.9375
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/estella/"
+      },
+      {
+        "id": "50079",
+        "name": "Slime Island",
+        "continent": "Open Seas",
+        "location": [
+          -93.4375, 177.4375
+        ],
+        "isDungeon": 0,
+        "markerType": 3,
+        "guidePath": "https://papunika.com/slime-island/"
+      },
+      {
+        "id": "50080",
+        "name": "Alaker",
+        "continent": "Open Seas",
+        "location": [
+          -91.53125, 157.53125
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/alacer/"
+      },
+      {
+        "id": "50081",
+        "name": "Island of Chance",
+        "continent": "Open Seas",
+        "location": [
+          -75.6875, 184.03125
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/island-of-chance/"
+      },
+      {
+        "id": "50083",
+        "name": "Golden Wave Island",
+        "continent": "Open Seas",
+        "location": [
+          -98.375, 184.875
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/golden-wave-island/"
+      },
+      {
+        "id": "50085",
+        "name": "Island of Serene Sabbath",
+        "continent": "Open Seas",
+        "location": [
+          -79.46875, 85.1875
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/island-of-serene-sabbath/"
+      },
+      {
+        "id": "50086",
+        "name": "Revelry Row",
+        "continent": "Open Seas",
+        "location": [
+          -142.09375, 131.21875
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/club-avenue/"
+      },
+      {
+        "id": "50087",
+        "name": "Asura Island",
+        "continent": "Open Seas",
+        "location": [
+          -78.34375, 98.84375
+        ],
+        "isDungeon": 0,
+        "markerType": 3,
+        "guidePath": "https://papunika.com/surado/"
+      },
+      {
+        "id": "50088",
+        "name": "Promise Isle",
+        "continent": "Open Seas",
+        "location": [
+          -122.90625, 69.75
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/island-of-promise/"
+      },
+      {
+        "id": "50089",
+        "name": "Twilight Isle",
+        "continent": "Open Seas",
+        "location": [
+          -161.90625, 87.0625
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/twilight-island/"
+      },
+      {
+        "id": "50090",
+        "name": "Frost Haven",
+        "continent": "Open Seas",
+        "location": [
+          -47.875, 184.40625
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": ""
+      },
+      {
+        "id": "50091",
+        "name": "Foggy Ridge",
+        "continent": "Open Seas",
+        "location": [
+          -112.21875, 112.625
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": ""
+      },
+      {
+        "id": "50092",
+        "name": "Phantomwing Island",
+        "continent": "Open Seas",
+        "location": [
+          -155, 54.75
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/phantom-butterfly-island/"
+      },
+      {
+        "id": "50092_2",
+        "name": "Phantomwing Island 2F",
+        "continent": "Open Seas",
+        "location": [
+          -155, 54.75
+        ],
+        "isDungeon": 1,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/phantom-butterfly-island/"
+      },
+      {
+        "id": "50093",
+        "name": "Blue Wind Island",
+        "continent": "Open Seas",
+        "location": [
+          -162, 27.90625
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/blue-wind-island/"
+      },
+      {
+        "id": "50094",
+        "name": "Shadow Moon Market",
+        "continent": "Open Seas",
+        "location": [
+          -112.6875, 93.3125
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/shadow-moon-market/"
+      },
+      {
+        "id": "50095",
+        "name": "Shangra (1/3)",
+        "continent": "Open Seas",
+        "location": [
+          -113, 221.75
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/peach-island/"
+      },
+      {
+        "id": "50095",
+        "name": "Shangra (2/3)",
+        "continent": "Open Seas",
+        "location": [
+          -143.53125, 161.46875
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/peach-island/"
+      },
+      {
+        "id": "50095",
+        "name": "Shangra (3/3)",
+        "continent": "Open Seas",
+        "location": [
+          -94.0625, 138.96875
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/peach-island/"
+      },
+      {
+        "id": "50096",
+        "name": "Atropos",
+        "continent": "Open Seas",
+        "location": [
+          -142.21875, 79.375
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/atropos/"
+      },
+      {
+        "id": "50097",
+        "name": "Walpurgis",
+        "continent": "Open Seas",
+        "location": [
+          -119.25, 52.875
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/walpurgis/"
+      },
+      {
+        "id": "50098",
+        "name": "Unknown Island",
+        "continent": "Open Seas",
+        "location": [
+          -76.25, 75.25
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "mapOverwrite": "50098-1",
+        "guidePath": "https://papunika.com/unknown-island/"
+      },
+      {
+        "id": "50101",
+        "name": "Cradle of the Sea Fermata",
+        "continent": "Open Seas",
+        "location": [
+          -93.3125, 90.4375
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/cradle-of-the-sea-permata/"
+      },
+      {
+        "id": "50101_2",
+        "name": "Cradle of the Sea Fermata 2F",
+        "continent": "Open Seas",
+        "location": [
+          -93.3125, 90.4375
+        ],
+        "isDungeon": 1,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/cradle-of-the-sea-permata/"
+      },
+      {
+        "id": "50101_3",
+        "name": "Cradle of the Sea Fermata 3F",
+        "continent": "Open Seas",
+        "location": [
+          -93.3125, 90.4375
+        ],
+        "isDungeon": 1,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/cradle-of-the-sea-permata/"
+      },
+      {
+        "id": "50101_4",
+        "name": "Cradle of the Sea Fermata 4F",
+        "continent": "Open Seas",
+        "location": [
+          -93.3125, 90.4375
+        ],
+        "isDungeon": 1,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/cradle-of-the-sea-permata/"
+      },
+      {
+        "id": "50101_5",
+        "name": "Cradle of the Sea Fermata 5F",
+        "continent": "Open Seas",
+        "location": [
+          -93.3125, 90.4375
+        ],
+        "isDungeon": 1,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/cradle-of-the-sea-permata/"
+      },
+      {
+        "id": "50102",
+        "name": "Gisbro",
+        "continent": "Open Seas",
+        "location": [
+          -174.8125, 27.21875
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/gisbro/"
+      },
+      {
+        "id": "50109",
+        "name": "Dooky Corporation",
+        "continent": "Open Seas",
+        "location": [
+          -93.84375, 47.84375
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/dooky-corporation/"
+      },
+      {
+        "id": "50114",
+        "name": "Little Whispering Island",
+        "continent": "Open Seas",
+        "location": [
+          -176.5625, 91.65625
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/little-whispering-island/"
+      },
+      {
+        "id": "50118",
+        "name": "Bamboo Island",
+        "continent": "Open Seas",
+        "location": [
+          -198.53125, 35.8125
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/little-whispering-island/"
+      },
+      {
+        "id": "50120",
+        "name": "Island of Grief",
+        "continent": "Open Seas",
+        "location": [
+          -190.25, 59.25
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/island-of-grief/"
+      },
+      {
+        "id": "50123",
+        "name": "Ister Island",
+        "continent": "Open Seas",
+        "location": [
+          -138.6875, 97.4375
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/ister-island/"
+      },
+      {
+        "id": "50126",
+        "name": "Drumbeat Island",
+        "continent": "Open Seas",
+        "location": [
+          -111.71875, 158.65625
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": ""
+      },
+      {
+        "id": "50127",
+        "name": "Winter Fairytale Island",
+        "continent": "Open Seas",
+        "location": [
+          -74.5625, 133.40625
+        ],
+        "isDungeon": 0,
+        "markerType": 2,
+        "guidePath": ""
+      },
+      {
+        "id": "59005",
+        "name": "Secret Laboratory",
+        "continent": "Open Seas",
+        "location": [
+          -103.03125, 58.375
+        ],
+        "isDungeon": 1,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/isolated-island-of-eternity/"
+      },
+      {
+        "id": "59009",
+        "name": "Santa Turmer Cathedral",
+        "continent": "Open Seas",
+        "location": [
+          -161.90625, 87.0625
+        ],
+        "isDungeon": 1,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/twilight-island/"
+      },
+      {
+        "id": "59011",
+        "name": "Night of Walpurgis",
+        "continent": "Open Seas",
+        "location": [
+          -119.25, 52.875
+        ],
+        "isDungeon": 1,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/walpurgis/"
+      },
+      {
+        "id": "59026",
+        "name": "Hidden valley",
+        "continent": "Open Seas",
+        "location": [
+          -190.25, 59.25
+        ],
+        "isDungeon": 1,
+        "markerType": 2,
+        "guidePath": "https://papunika.com/island-of-grief/"
+      }
+    ]
+  }

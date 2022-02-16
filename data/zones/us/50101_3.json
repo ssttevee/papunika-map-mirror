@@ -1,0 +1,79 @@
+{
+  "markers":[
+   {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -76, 82.625
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Merrymaker Jackpot",
+            "popupContent":"Sells Game Voucher, which is required to obtain the Island Token.",
+            "popupMedia":"",
+            "tooltip":"Merrymaker Jackpot",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -176.125, 127.375
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -64.125, 65
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"Portal",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_portal",
+      "data":[
+         {
+            "coordinates":[
+             -152.5, 159.5
+            ],
+            "id":"portal_0",
+            "destinationID":"50101",
+            "tooltip":"1F",
+            "tooltipDirection":"bottom"
+         },
+         {
+          "coordinates":[
+             -143.25, 200.75
+          ],
+          "id":"portal_1",
+          "destinationID":"50101_4",
+          "tooltip":"4F",
+          "tooltipDirection":"bottom"
+       }
+      ]
+   }
+  ]
+}

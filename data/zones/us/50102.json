@@ -1,0 +1,118 @@
+{
+  "markers":[
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -149.75, 132.25
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Requires 'Amazing' buff to obtain.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -136.25, 134.875
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Requires 'Amazing' buff to obtain.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -151.25, 95.875
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -162, 125.25
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Jump down for seeds. They require the 'Amazing' buff.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"Notice",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_notice",
+      "data":[
+         {
+            "coordinates":[
+               -51.25, 74.25
+            ],
+            "id":"notice_0",
+            "popupTitle":"Notice",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Check Island Token guide for more information about the buffs.",
+            "tooltipDirection":"left"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -167.25, 52
+              ],
+              "id":"portal_0",
+              "destinationID":"overworld",
+              "tooltip":"Open Seas",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -60.5, 129
+            ],
+            "id":"portal_1",
+            "destinationID":"50102_2",
+            "tooltip":"2F",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -125.75, 101.5
+            ],
+            "id":"portal_2",
+            "destinationID":"50102_2",
+            "tooltip":"2F",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

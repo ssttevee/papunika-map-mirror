@@ -1,0 +1,46 @@
+{
+  "name":"Kadan Cathedral Basement",
+  "continent":"East Luterra",
+  "zoneTiles":"public/tiles/zones/east_luterra/zone_18_2",
+  "floors":[
+      "10801","10801_2"
+   ],
+  "markers":[
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -77.5, 150.625
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -166.5, 63.5
+              ],
+              "id":"portal_0",
+              "destinationID":"10801",
+              "tooltip":"Luterra Castle",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name":"Foul Hollow",
+  "continent":"Anikka",
+  "zoneTiles":"public/tiles/zones/anikka/zone_47",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -107.25, 150.125
+            ],
+            "id":"hstory_0",
+            "popupTitle":"The Sidereal's Two Students (2/2",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10763&m=hstory_0"
+               },
+               {
+                  "link":"z=10764&m=hstory_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#6 The Sidereal's Two Students (2/2)",
+            "tooltipDirection":"right"
+         }
+      ]
+     },  
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -178, 126.5
+              ],
+              "id":"portal_0",
+              "destinationID":"10725",
+              "tooltip":"Twilight Mists",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

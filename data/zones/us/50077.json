@@ -1,0 +1,89 @@
+{
+  "markers":[
+   {
+      "markerType":"Boss",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_boss",
+      "data":[
+         {
+            "coordinates":[
+               -105.125, 106.75
+            ],
+            "id":"boss_0",
+            "popupTitle":"Field Boss",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Field Boss",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Resonance",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_resonance",
+      "data":[
+         {
+            "coordinates":[
+               -167.75, 168
+            ],
+            "id":"resonance_0",
+            "popupTitle":"Song of Resonance",
+            "popupContent":"Play Song of Resonance in front of statue.",
+            "popupMedia":"",
+            "tooltip":"Song of Resonance",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -168.125, 165.25
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -171, 163.875
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -176.5, 149.5
+              ],
+              "id":"portal_0",
+              "destinationID":"overworld",
+              "tooltip":"Open Seas",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

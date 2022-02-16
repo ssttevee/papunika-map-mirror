@@ -1,0 +1,69 @@
+{
+  "markers":[
+   {
+      "markerType":"Affinity",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_affinity",
+      "data":[
+         {
+            "coordinates":[
+               -96, 140.625
+            ],
+            "id":"affinity_0",
+            "popupTitle":"Henry",
+            "rapportId": "19324",
+            "tooltip":"Henry",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -158.75, 134.5
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -89.875, 123.25
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -178.5, 151.25
+              ],
+              "id":"portal_0",
+              "destinationID":"overworld",
+              "tooltip":"Open Seas",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name":"Dream Palace 4F",
+  "continent":"Rohendel",
+  "zoneTiles":"public/tiles/zones/rohendel/zone_85_4",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -97.25, 135.625
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -153.5, 85.5
+              ],
+              "id":"portal_0",
+              "destinationID":"10191_3",
+              "tooltip":"3F",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -124, 114.75
+            ],
+            "id":"portal_1",
+            "destinationID":"10191_5",
+            "tooltip":"5F",
+            "tooltipDirection":"bottom"
+         },
+         {
+          "coordinates":[
+            -107.75, 131.75
+          ],
+          "id":"portal_2",
+          "destinationID":"10191_5",
+          "tooltip":"5F",
+          "tooltipDirection":"bottom"
+       }
+        ]
+     }
+  ]
+}

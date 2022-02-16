@@ -1,0 +1,286 @@
+{
+  "markers":[
+   {
+      "markerType":"CDotR",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_cdotr",
+      "data":[
+         {
+            "coordinates":[
+               -130.991531, 100.58594
+            ],
+            "id":"cdotr_0",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -108.717668, 118.617163
+            ],
+            "id":"cdotr_1",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -99.878833, 139.300036
+            ],
+            "id":"cdotr_2",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -130.107648, 142.83557
+            ],
+            "id":"cdotr_3",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -136.294832, 142.482016
+            ],
+            "id":"cdotr_4",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -165.28621, 165.462987
+            ],
+            "id":"cdotr_5",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -168.998521, 168.468191
+            ],
+            "id":"cdotr_6",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"CDotB",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_cdotb",
+      "data":[
+         {
+            "coordinates":[
+               -122.152696, 94.221979
+            ],
+            "id":"cdotb_0",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -99.171726, 103.414367
+            ],
+            "id":"cdotb_1",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -96.873629, 117.379726
+            ],
+            "id":"cdotb_2",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -86.620581, 122.152696
+            ],
+            "id":"cdotb_3",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -154.502832, 166.523647
+            ],
+            "id":"cdotb_4",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -177.307025, 153.265395
+            ],
+            "id":"cdotb_5",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -165.109433, 139.653589
+            ],
+            "id":"cdotb_6",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -173.25, 132.625
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -178.75, 128.75
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"Notice",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_notice",
+      "data":[
+         {
+            "coordinates":[
+               -70, 80
+            ],
+            "id":"notice_0",
+            "popupTitle":"Attack Buff",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"🔴 Attack Buff",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -80, 80
+            ],
+            "id":"notice_1",
+            "popupTitle":"Movement Speed Buff",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"🔵 Movement Speed Buff",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -106.582688, 146.272475
+            ],
+            "id":"notice_2",
+            "popupTitle":"Mirror",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Mirror",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -140.029138, 159.502404
+            ],
+            "id":"notice_3",
+            "popupTitle":"Mirror",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Mirror",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -127.542463, 128.880321
+            ],
+            "id":"notice_4",
+            "popupTitle":"Mirror",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Mirror",
+            "tooltipDirection":"left"
+         }
+      ]
+     },
+     {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -169.25, 129.125
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     }
+  ]
+}

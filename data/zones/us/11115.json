@@ -1,0 +1,281 @@
+{
+  "name":"Balankar Mountains",
+  "continent":"North Vern",
+  "zoneTiles":"public/tiles/zones/north_vern/zone_67",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -138, 183.25
+            ],
+            "id":"monster_0",
+            "popupTitle":"Empowered Battle Necromancer",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#12 Empowered Battle Necromancer",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -131.125, 155.375
+          ],
+          "id":"monster_1",
+          "popupTitle":"Malignant Mutant Boss",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#13 Malignant Mutant Boss",
+          "tooltipDirection":"right"
+       },
+       {
+        "coordinates":[
+         -42.5, 158.5
+        ],
+        "id":"monster_2",
+        "popupTitle":"Mighty Morgue",
+        "popupContent":"",
+        "popupMedia":"",
+        "tooltip":"#14 Mighty Morgue",
+        "tooltipDirection":"right"
+     },
+     {
+      "coordinates":[
+         -85.875, 75.25
+      ],
+      "id":"monster_3",
+      "popupTitle":"Monsterized Tibeth",
+      "popupContent":"",
+      "popupMedia":"",
+      "tooltip":"#15 Monsterized Tibeth",
+      "tooltipDirection":"right"
+      }
+      ]
+   },   
+   {
+      "markerType":"FBoss",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_fboss",
+      "data":[
+         {
+            "coordinates":[
+               -106.625, 220
+            ],
+            "id":"fboss_0",
+            "popupTitle":"Casrick",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Casrick",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -121.75, 60.75
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Tyron Fortress",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#9 Tyron Fortress",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -112.125, 144.125
+            ],
+            "id":"viewpoint_1",
+            "popupTitle":"Necromancer's Sanctum",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#10 Necromancer's Sanctum",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -143.875, 121.75
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Peter",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Peter",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -107.75, 32.75
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -107.375, 31.75
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -79.25, 124.25
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -98, 157.125
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -86.25, 156.125
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -100.5, 37.5
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -101.875, 34.625
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -54.75, 148.25
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -27.25, 145
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -105.125, 38.625
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Climb down.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -130.25, 226.75
+              ],
+              "id":"portal_0",
+              "destinationID":"11101",
+              "tooltip":"Rania Village",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -13, 131.25
+            ],
+            "id":"portal_1",
+            "destinationID":"11152",
+            "tooltip":"Ancient Elveria",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

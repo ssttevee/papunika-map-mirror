@@ -1,0 +1,35 @@
+{
+  "name":"Dream Palace 3F",
+  "continent":"Rohendel",
+  "zoneTiles":"public/tiles/zones/rohendel/zone_85_3",
+  "additionalZones":[    
+  ],
+  "markers":[
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -215.25, 130.25
+              ],
+              "id":"portal_0",
+              "destinationID":"10191",
+              "tooltip":"1F",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -24, 171.25
+            ],
+            "id":"portal_1",
+            "destinationID":"10191_4",
+            "tooltip":"4F",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

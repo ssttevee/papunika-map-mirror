@@ -1,0 +1,412 @@
+{
+  "name":"Lake Eternity",
+  "continent":"Shushire",
+  "zoneTiles":"public/tiles/zones/shushire/zone_72",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"AStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_astory",
+      "data":[
+         {
+            "coordinates":[
+               -169.625, 212.5
+            ],
+            "id":"astory_0",
+            "popupTitle":"Inside the Cocoons",
+            "popupContent":"Complete world quest first.",
+            "popupMedia":"",
+            "tooltip":"#2 Inside the Cocoons",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -75, 135.75
+            ],
+            "id":"hstory_0",
+            "popupTitle":"Tarsila's Lullaby (1/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10324&m=hstory_0"
+               },
+               {
+                  "link":"z=10324&m=hstory_1"
+               },
+               {
+                  "link":"z=10324&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Tarsila's Lullaby (1/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -67.125, 109.875
+            ],
+            "id":"hstory_1",
+            "popupTitle":"Tarsila's Lullaby (2/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10324&m=hstory_0"
+               },
+               {
+                  "link":"z=10324&m=hstory_1"
+               },
+               {
+                  "link":"z=10324&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Tarsila's Lullaby (2/3)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -104.375, 178.25
+            ],
+            "id":"hstory_2",
+            "popupTitle":"Tarsila's Lullaby (3/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10324&m=hstory_0"
+               },
+               {
+                  "link":"z=10324&m=hstory_1"
+               },
+               {
+                  "link":"z=10324&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Tarsila's Lullaby (3/3)",
+            "tooltipDirection":"left"
+         }
+      ]
+     },  
+     {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -131.125, 178.875
+            ],
+            "id":"monster_0",
+            "popupTitle":"Coldsnap Spider",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#3 Coldsnap Spider",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -65.875, 137.625
+          ],
+          "id":"monster_1",
+          "popupTitle":"Old Frost Ice Bear",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#4 Old Frost Ice Bear",
+          "tooltipDirection":"right"
+       },
+       {
+        "coordinates":[
+         -49.625, 105.125
+        ],
+        "id":"monster_2",
+        "popupTitle":"Giant Frostmane Boar",
+        "popupContent":"",
+        "popupMedia":"",
+        "tooltip":"#10 Giant Frostmane Boar",
+        "tooltipDirection":"right"
+     }
+      ]
+   },   
+   {
+      "markerType":"FBoss",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_fboss",
+      "data":[
+         {
+            "coordinates":[
+               -104.625, 185.75
+            ],
+            "id":"fboss_0",
+            "popupTitle":"Tarsila",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Tarsila",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Food",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_food",
+      "data":[
+         {
+            "coordinates":[
+               -95.375, 149.25
+            ],
+            "id":"food_0",
+            "popupTitle":"Frost Spider Egg",
+            "popupContent":"Kill nearby spiders.",
+            "popupMedia":"",
+            "tooltip":"#4 Frost Spider Egg",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -165, 93.875
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Sapphire Sardine",
+            "popupContent":"Required ingredient for '#5 Grilled Sapphire Sardine'.<br>Buy at traveling merchant Jeffrey. Used at cook Helena.",
+            "popupMedia":"",
+            "tooltip":"#5 Sapphire Sardine (1/1)",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Minuet",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_minuet",
+      "data":[
+         {
+            "coordinates":[
+               -49.875, 157.375
+            ],
+            "id":"minuet_0",
+            "popupTitle":"Song of Minuet",
+            "popupContent":"Play Song of Minuet",
+            "popupMedia":"",
+            "tooltip":"Song of Minuet",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -107.25, 93.875
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Logging Camp and a Small Waterfall",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#4 Logging Camp and a Small Waterfall",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -159.375, 101.75
+            ],
+            "id":"viewpoint_1",
+            "popupTitle":"Frozen Guardian Beneath the Lake",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#5 Frozen Guardian Beneath the Lake",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -126.625, 150.25
+            ],
+            "id":"viewpoint_2",
+            "popupTitle":"Tarsila's Ice Cave",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#9 Tarsila's Ice Cave",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -162.5, 94
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Jeffrey",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Jeffrey",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -45, 159.875
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -46.125, 160.5
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -78.125, 130.375
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -55.25, 101.25
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -105.375, 193.625
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -60.5, 108.75
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -128.25, 80.75
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -149.375, 171.5
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -189.25, 69.125
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -135.25, 24.5
+              ],
+              "id":"portal_0",
+              "destinationID":"10322",
+              "tooltip":"Bitterwind Hill",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -159.75, 233.25
+            ],
+            "id":"portal_1",
+            "destinationID":"10362",
+            "tooltip":"Vrad's Hideout",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

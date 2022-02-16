@@ -1,0 +1,610 @@
+{
+  "name":"Tikku Gardens",
+  "continent":"Punika",
+  "zoneTiles":"public/tiles/zones/punika/zone_104",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"AStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_astory",
+      "data":[
+         {
+            "coordinates":[
+               -127.25, 110.625
+            ],
+            "id":"astory_0",
+            "popupTitle":"Purfication rite",
+            "popupContent":"<a href='https://lostarkcodex.com/us/quest/1204112/' target='_blank' style='text-decoration: none;'>Purfication rite</a> quest appears after doing the reputation quest 'Protection of the altars' for 21 days. (Tikku Gardens)",
+            "popupMedia":"",
+            "tooltip":"#2 Purfication rite",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -128.875, 32.125
+            ],
+            "id":"hstory_0",
+            "popupTitle":"The house that we will build... (2/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11411&m=hstory_2"
+               },
+               {
+                  "link":"z=11413&m=hstory_0"
+               },
+               {
+                  "link":"z=11451&m=hstory_0"
+               },
+               {
+                  "link":"z=11452&m=hstory_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#2 The house that we will build... (2/4)",
+            "tooltipDirection":"right"
+         }
+      ]
+     },  
+     {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -166.625, 177.125
+            ],
+            "id":"monster_0",
+            "popupTitle":"Golden-eared monkey",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#7 Golden-eared monkey",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -215.375, 134.625
+          ],
+          "id":"monster_1",
+          "popupTitle":"Golden-eared monkey",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#7",
+          "tooltipDirection":"right"
+         },
+         {
+        "coordinates":[
+         -207.625, 73.25
+            ],
+            "id":"monster_2",
+            "popupTitle":"Golden-eared monkey",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#7",
+            "tooltipDirection":"right"
+         },
+         {
+        "coordinates":[
+         -188.5, 87.5
+            ],
+            "id":"monster_3",
+            "popupTitle":"Golden-eared monkey",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#7",
+            "tooltipDirection":"right"
+         },
+         {
+        "coordinates":[
+         -94.5, 154.875
+            ],
+            "id":"monster_4",
+            "popupTitle":"Immortal Legionnaire",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#8 Immortal Legionnaire",
+            "tooltipDirection":"right"
+         },
+         {
+        "coordinates":[
+         -159.125, 167.625
+            ],
+            "id":"monster_5",
+            "popupTitle":"Immortal Legionnaire",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#8",
+            "tooltipDirection":"right"
+         },
+         {
+        "coordinates":[
+         -87.625, 153.5
+            ],
+            "id":"monster_6",
+            "popupTitle":"Disfigured thargh",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#9 Disfigured thargh",
+            "tooltipDirection":"right"
+         },
+         {
+        "coordinates":[
+         -139.125, 173.25
+            ],
+            "id":"monster_7",
+            "popupTitle":"Disfigured thargh",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#9",
+            "tooltipDirection":"right"
+         },
+         {
+        "coordinates":[
+         -48.875, 65.5
+            ],
+            "id":"monster_8",
+            "popupTitle":"First Harpy",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#10 First Harpy",
+            "tooltipDirection":"right"
+         },
+         {
+        "coordinates":[
+         -61.25, 81.25
+            ],
+            "id":"monster_9",
+            "popupTitle":"First Harpy",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#10",
+            "tooltipDirection":"right"
+         },
+         {
+        "coordinates":[
+         -104.875, 50.25
+            ],
+            "id":"monster_10",
+            "popupTitle":"Old Salt Rock Turtle",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#11 Resentful Spirit Knight",
+            "tooltipDirection":"right"
+         },
+         {
+        "coordinates":[
+         -70.375, 73.875
+            ],
+            "id":"monster_10",
+            "popupTitle":"Old Salt Rock Turtle",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#11",
+            "tooltipDirection":"right"
+         }
+      ]
+   },   
+   {
+      "markerType":"Boss",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_boss",
+      "data":[
+         {
+            "coordinates":[
+               -128.75, 161.125
+            ],
+            "id":"boss_0",
+            "popupTitle":"King Moak",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"King Moak",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Food",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_food",
+      "data":[
+         {
+            "coordinates":[
+               -168.5, 129.875
+            ],
+            "id":"food_0",
+            "popupTitle":"Dusty Rainbow Candy",
+            "popupContent":"Kill nearby enemies for ingredients.<br>(<b><a href='https://lostarkcodex.com/uo/item/930803/' target='_blank' style='text-decoration: none;'>Click me</a></b>)",
+            "popupMedia":"",
+            "tooltip":"#3 Flower salad",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -132.375, 207.875
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Gore-cleaver neck",
+            "popupContent":"Required ingredient for '#2 Kaloa Boar Barbecue'.<br>Buy at Traveling Merchant Laney for 200k silver.<br>Used at cook Ranghe.",
+            "parts": [
+               {
+                  "link":"z=11411&m=ingredient_6"
+               },
+               {
+                  "link":"z=11413&m=ingredient_1"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#2 Gore-cleaver neck (1/2)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -204, 133.25
+            ],
+            "id":"ingredient_1",
+            "popupTitle":"Palm leaf (2/2)",
+            "popupContent":"Required ingredient for '#2 Kaloa Boar Barbecue'.<br>Kill black and white monkeys (<b><a href='https://lostarkcodex.com/uo/npc/254210/' target='_blank' style='text-decoration: none;'>Click me for spawn location</a></b>)<br><br>Used at cook Ranghe.",
+            "parts": [
+               {
+                  "link":"z=11411&m=ingredient_6"
+               },
+               {
+                  "link":"z=11413&m=ingredient_1"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#2 Palm leaf (2/2)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -186, 181.75
+            ],
+            "id":"ingredient_2",
+            "popupTitle":"Banana (1/1)",
+            "popupContent":"Kill gorillas for 'Fresh bananas'.<br>Craft 'Banana flour' at cook Rhange.<br>Use it to turn it into the rare item 'Ripening dough'.<br>Wait 12h for it to turn into epic item 'Ripe dough'.<br>Use it to craft '#5 Banana cake'<br><br>Used at cook Ranghe.<br><br><b>More spawns located at other #5.</b>",
+            "popupMedia":"",
+            "tooltip":"#5 Banana (1/1)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -203.5, 170.625
+            ],
+            "id":"ingredient_3",
+            "popupTitle":"Banana (1/1)",
+            "popupContent":"Kill gorillas for 'Fresh bananas'.<br>Craft 'Banana flour' at cook Rhange.<br>Use it to turn it into the rare item 'Ripening dough'.<br>Wait 12h for it to turn into epic item 'Ripe dough'.<br>Use it to craft '#5 Banana cake'<br><br>Used at cook Ranghe.<br><br><b>More spawns located at other #5.</b>",
+            "popupMedia":"",
+            "tooltip":"#5",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -225.5, 118.875
+            ],
+            "id":"ingredient_3",
+            "popupTitle":"Banana (1/1)",
+            "popupContent":"Kill gorillas for 'Fresh bananas'.<br>Craft 'Banana flour' at cook Rhange.<br>Use it to turn it into the rare item 'Ripening dough'.<br>Wait 12h for it to turn into epic item 'Ripe dough'.<br>Use it to craft '#5 Banana cake'<br><br>Used at cook Ranghe.<br><br><b>More spawns located at other #5.</b>",
+            "popupMedia":"",
+            "tooltip":"#5",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -205.25, 88.125
+            ],
+            "id":"ingredient_4",
+            "popupTitle":"Banana (1/1)",
+            "popupContent":"Kill gorillas for 'Fresh bananas'.<br>Craft 'Banana flour' at cook Rhange.<br>Use it to turn it into the rare item 'Ripening dough'.<br>Wait 12h for it to turn into epic item 'Ripe dough'.<br>Use it to craft '#5 Banana cake'<br><br>Used at cook Ranghe.<br><br><b>More spawns located at other #5.</b>",
+            "popupMedia":"",
+            "tooltip":"#5",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -124.25, 155.75
+            ],
+            "id":"ingredient_5",
+            "popupTitle":"Live Papu Crab",
+            "popupContent":"Kill Boss 'King Moak' for it.<br><br>Used at cook Ranghe.",
+            "popupMedia":"",
+            "tooltip":"#6 Live Papu Crab (1/1)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -198.75, 82.75
+            ],
+            "id":"ingredient_6",
+            "popupTitle":"Juicy mango (3/4)",
+            "popupContent":"Required ingredient for '#7 Papunika Festival Cuisine'.<br>Kill mobs around this location. Used at cook Ranghe.",
+            "parts": [
+               {
+                  "link":"z=11411&m=ingredient_7"
+               },
+               {
+                  "link":"z=11412&m=ingredient_1"
+               },
+               {
+                  "link":"z=11413&m=ingredient_6"
+               },
+               {
+                  "link":"z=11414&m=ingredient_1"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Juicy mango (3/4)",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -144.75, 185.125
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Ancient well",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#7 Ancient well",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -118.875, 47.125
+            ],
+            "id":"viewpoint_1",
+            "popupTitle":"Stone colossus",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#8 Stone colossus",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -134.5, 210.625
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Laney",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Laney",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -84.625, 108.5
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -86.25, 49.125
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -73.5, 97.375
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Song of Peace', which you get from Punika's Adventure's Tome reward at 50%, at the stone dragon.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -131, 24.5
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -135.625, 58.25
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -196, 78.5
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -199.375, 72
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Song of Peace', which you get from Punika's Adventure's Tome reward at 50%.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -136.875, 142.75
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -236.125, 126.125
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -103.25, 117.75
+            ],
+            "id":"mokoko_9",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -82.625, 204.875
+            ],
+            "id":"mokoko_10",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -90.5, 167.625
+            ],
+            "id":"mokoko_11",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -232, 128.25
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Use Adventure's Tome Ingredient (1/2) '#1 Fruit syrup' at this location to obtain Mokoko Seed.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -93.875, 51.5
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Requires 350 Wisdom or higher to enter.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -119.25, 259.75
+              ],
+              "id":"portal_0",
+              "destinationID":"11401",
+              "tooltip":"Nia Village",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -94.75, 15.75
+            ],
+            "id":"portal_1",
+            "destinationID":"11414",
+            "tooltip":"Mangrove Forest",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

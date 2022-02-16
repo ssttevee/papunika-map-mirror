@@ -1,0 +1,133 @@
+{
+  "name":"Heart of Sceptrum",
+  "continent":"Arthetine",
+  "zoneTiles":"public/tiles/zones/arthetine/zone_59",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -166.75, 209.625
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Sceptrum Prescription",
+            "popupContent":"Required ingredient for '#4 Sceptrumpam 3mg'.<br>Used at cook Cooking Master.",
+            "popupMedia":"",
+            "tooltip":"#4 Sceptrum Prescription (1/1)",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -133.25, 224.125
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -135.625, 222.25
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -134.625, 221
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -129.5, 216.125
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"Notice",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_notice",
+      "data":[
+         {
+            "coordinates":[
+               -17.75, 55.75
+            ],
+            "id":"notice_0",
+            "popupTitle":"Notice",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Robot Factory Area: 4 Mokoko Seeds",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -231, 131.25
+              ],
+              "id":"portal_0",
+              "destinationID":"10423",
+              "tooltip":"Nebelhorn",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -46, 73.5
+            ],
+            "id":"portal_1",
+            "destinationID":"10491_2",
+            "tooltip":"Robot Factory Area",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

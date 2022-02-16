@@ -1,0 +1,194 @@
+{
+  "name":"Wavestrand Port",
+  "continent":"East Luterra",
+  "zoneTiles":"public/tiles/zones/east_luterra/zone_27",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Affinity",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_affinity",
+      "data":[
+         {
+            "coordinates":[
+               -122.5, 97.375
+            ],
+            "id":"affinity_0",
+            "popupTitle":"Carls",
+            "popupContent":"<p>Check Affinity page: <a href='https://papunika.com/affinity/' target='_blank' rel='noopener noreferrer'>click me</a></p>",
+            "popupMedia":"https://papunika.com/wp-content/uploads/lao-icons/affinity/affinity_npc_6.png",
+            "tooltip":"Carls",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -142.5, 91.25
+            ],
+            "id":"affinity_1",
+            "popupTitle":"Isabel",
+            "popupContent":"<p>Check Affinity page: <a href='https://papunika.com/affinity/' target='_blank' rel='noopener noreferrer'>click me</a></p>",
+            "popupMedia":"https://papunika.com/wp-content/uploads/lao-icons/affinity/affinity_npc_8.png",
+            "tooltip":"Isabel",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -93.125, 27.125
+            ],
+            "id":"hstory_0",
+            "popupTitle":"Noble Life",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#5 Noble Life",
+            "tooltipDirection":"right"
+         }
+      ]
+     },  
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -158.375, 127.625
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Gelato",
+            "popupContent":"Required ingredient for '#7 Melting Gelato'.<br>Buy at merchant Puego. Used at cook Hyde.<br>Wait 24h for Melting Gelato to turn into Fully-melted Gelato.",
+            "parts": [
+               {
+                  "link":"z=10804&m=ingredient_0"
+               },
+               {
+                  "link":"z=10821&m=ingredient_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Gelato (1/2)",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -138.75, 108
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -128.125, 144.375
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -155.625, 137.125
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -104.5, 84.125
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -86.625, 65.5
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -149, 85.5
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -159.5, 49.25
+              ],
+              "id":"portal_0",
+              "destinationID":"10821",
+              "tooltip":"Borea's Domain",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -205, 91.5
+            ],
+            "id":"portal_1",
+            "destinationID":"10823",
+            "tooltip":"Croconys Seashore",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -113, 228.5
+            ],
+            "id":"portal_2",
+            "destinationID":"overworld",
+            "tooltip":"Open Seas",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

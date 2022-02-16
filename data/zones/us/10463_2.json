@@ -1,0 +1,35 @@
+{
+  "name":"Verdantier Gear Unit",
+  "continent":"Arthetine",
+  "zoneTiles":"public/tiles/zones/arthetine/zone_54_2",
+  "additionalZones":[    
+  ],
+  "markers":[
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+         {
+            "coordinates":[
+             -172.5, 100.5
+            ],
+            "id":"portal_0",
+            "destinationID":"10463",
+            "tooltip":"Vertantier Entrance",
+            "tooltipDirection":"bottom"
+         },
+         {
+          "coordinates":[
+            -159.25, 163.25
+          ],
+          "id":"portal_1",
+          "destinationID":"10463_3",
+          "tooltip":"Vertantier",
+          "tooltipDirection":"bottom"
+       }
+        ]
+     }
+  ]
+}

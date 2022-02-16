@@ -1,0 +1,369 @@
+{
+  "name":"Wind Hill",
+  "continent":"Rohendel",
+  "zoneTiles":"public/tiles/zones/rohendel/zone_81",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -191.75, 69.25
+            ],
+            "id":"hstory_0",
+            "popupTitle":"Duty of a Healer (1/5)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10123&m=hstory_0"
+               },
+               {
+                  "link":"z=10124&m=hstory_2"
+               },
+               {
+                  "link":"z=10124&m=hstory_3"
+               },
+               {
+                  "link":"z=10124&m=hstory_4"
+               },
+               {
+                  "link":"z=10124&m=hstory_5"
+               }
+           ],
+           "popupMedia":"",
+            "tooltip":"#4 Duty of a Healer (1/5)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -89.5, 165
+            ],
+            "id":"hstory_1",
+            "popupTitle":"Everlasting memory (2/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10101&m=hstory_1"
+               },
+               {
+                  "link":"z=10123&m=hstory_1"
+               },
+               {
+                  "link":"z=10124&m=hstory_7"
+               },
+               {
+                  "link":"z=10124&m=hstory_8"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#6 Everlasting memory (2/4)",
+            "tooltipDirection":"right"
+         }
+      ]
+     },  
+   {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -151.375, 117.375
+            ],
+            "id":"monster_0",
+            "popupTitle":"Lightning petrel",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#6 Lightning petrel",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -133.625, 170.125
+          ],
+          "id":"monster_1",
+          "popupTitle":"Frantic spirit of fire",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#7 Frantic spirit of fire",
+          "tooltipDirection":"right"
+       }
+      ]
+   },   
+   {
+      "markerType":"Food",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_food",
+      "data":[
+         {
+            "coordinates":[
+               -103.375, 125.125
+            ],
+            "id":"food_0",
+            "popupTitle":"Cookies 'My Heart'",
+            "popupContent":"Buy at traveling merchant Arisier.",
+            "popupMedia":"",
+            "tooltip":"#2 Cookies 'My Heart'",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -61, 189
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Sniff tear",
+            "popupContent":"Required ingredient for '#5 Soup 'Tear of a sniff''.<br>Kill monster. Used at cook Elara.<br><br>Part 1: <a href='https://papunika.com/map/?c=zone_81&m=ingredient_0' style='text-decoration: none;'>Go to location</a><br><br>Part 2: <a href='https://papunika.com/map/?c=zone_81&m=notice_0' style='text-decoration: none;'>Go to location</a>",
+            "popupMedia":"",
+            "tooltip":"#5 Sniff tear (1/2)",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -173, 137
+          ],
+          "id":"ingredient_1",
+          "popupTitle":"Sniff tear",
+          "popupContent":"Required ingredient for '#5 Soup 'Tear of a sniff''.<br>Kill monster. Used at cook Elara.<br><br>Part 1: <a href='https://papunika.com/map/?c=zone_81&m=ingredient_1' style='text-decoration: none;'>Go to location</a><br><br>Part 2: <a href='https://papunika.com/map/?c=zone_81&m=notice_0' style='text-decoration: none;'>Go to location</a>",
+          "popupMedia":"",
+          "tooltip":"#5 Sniff tear (1/2)",
+          "tooltipDirection":"right"
+       }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -100.25, 149.125
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Fairy town",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#6 Fairy town",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -104, 127.75
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Arisier",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Arisier",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -207.125, 148.375
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -207.5, 126.75
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Music of Eternity', which you get from Rohendel's Adventure's Tome reward at 60%.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -199.125, 93.125
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -160.375, 182.75
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -108.25, 112
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -90, 128.25
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -83.375, 128.375
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -81.375, 145
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -80.75, 202.75
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Music of Eternity', which you get from Rohendel's Adventure's Tome reward at 60%.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -96, 125.5
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Climb vine.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -86, 128.875
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Use Adventure's Tome Food '#4 Honey and creamy beer' at this location to obtain Mokoko Seed.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"Notice",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_notice",
+      "data":[
+         {
+            "coordinates":[
+               -181.25, 139.75
+            ],
+            "id":"notice_0",
+            "popupTitle":"#5 Rohendel broth (2/2)",
+            "popupContent":"[Reputation] Lv.3 reward - <a href='https://lostarkcodex.com/us/quest/105601/' style='text-decoration: none;' target='_blank'>On the Long Spur</a> - Soaring Harbor (Una’s Tasks – Daily)<br><br>Part 1: <a href='https://papunika.com/map/?c=zone_81&m=ingredient_1' style='text-decoration: none;'>Go to location</a><br><br>Part 2: <a href='https://papunika.com/map/?c=zone_81&m=notice_0' style='text-decoration: none;'>Go to location</a>",
+            "popupMedia":"",
+            "tooltip":"#5 Rohendel broth (2/2)",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -4, 152
+              ],
+              "id":"portal_0",
+              "destinationID":"10122",
+              "tooltip":"Glass Lotus Lake",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -175.75, 55.25
+            ],
+            "id":"portal_1",
+            "destinationID":"10124",
+            "tooltip":"Ruins of Genail",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

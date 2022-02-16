@@ -1,0 +1,467 @@
+{
+  "name":"Mines of Innumerable Riches",
+  "continent":"Yorn",
+  "zoneTiles":"public/tiles/zones/yorn/zone_90",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -57.375, 98
+            ],
+            "id":"hstory_0",
+            "popupTitle":"In search of the beast of a mug (3/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11301&m=hstory_0"
+               },
+               {
+                  "link":"z=11313&m=hstory_0"
+               },
+               {
+                  "link":"z=11314&m=hstory_0"
+               }
+           ],
+           "popupMedia":"",
+            "tooltip":"#1 In search of the beast of a mug (3/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -18.75, 96.625
+            ],
+            "id":"hstory_1",
+            "popupTitle":"Folk song (2/2)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11313&m=hstory_1"
+               },
+               {
+                  "link":"z=11314&m=hstory_1"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#3 Folk song (2/2)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -193.125, 175.25
+            ],
+            "id":"hstory_2",
+            "popupTitle":"Umarova pride (4/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11315&m=hstory_2"
+               },
+               {
+                  "link":"z=11315&m=hstory_3"
+               },
+               {
+                  "link":"z=11313&m=hstory_5"
+               },
+               {
+                  "link":"z=11314&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Umarova pride (4/4)",
+            "tooltipDirection":"right"
+         }
+      ]
+     },  
+     {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -18.125, 114.625
+            ],
+            "id":"monster_0",
+            "popupTitle":"Furious crack creek",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#10 Furious crack creek",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -176.75, 206.25
+          ],
+          "id":"monster_1",
+          "popupTitle":"Gar Tupolob, the leader of the Khogrov",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#11 Gar Tupolob, the leader of the Khogrov",
+          "tooltipDirection":"right"
+       },
+       {
+        "coordinates":[
+         -140.375, 139.125
+        ],
+        "id":"monster_2",
+        "popupTitle":"Ferocious Stinging Worm",
+        "popupContent":"",
+        "popupMedia":"",
+        "tooltip":"#12 Ferocious Stinging Worm",
+        "tooltipDirection":"right"
+     }
+      ]
+   },   
+   {
+      "markerType":"Boss",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_boss",
+      "data":[
+         {
+            "coordinates":[
+               -60.375, 201.75
+            ],
+            "id":"boss_0",
+            "popupTitle":"Emerald",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Emerald",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -64.75, 199.75
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Manganese solution (2/2)",
+            "popupContent":"Required ingredient for '#5 Mushroom Meadow Salad'.<br>Kill Boss Emerald.<br> Used at cook Rinda.",
+            "parts": [
+               {
+                  "link":"z=11312&m=ingredient_0"
+               },
+               {
+                  "link":"z=11314&m=ingredient_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#5 Manganese solution (2/2)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -106.5, 107.75
+            ],
+            "id":"ingredient_1",
+            "popupTitle":"Stinging Worm Carcass (1/1)",
+            "popupContent":"Required ingredient for '#6 Gummy Worms'.<br>Kill Stinging worms (<b><a href='https://lostarkcodex.com/uo/npc/234060/' target='_blank' style='text-decoration: none;'>Click me for spawn location</a></b>)<br>Used at cook Rinda.<br><br>Craft 'Stinging Worm Gutting' at Rinda, you have a chance to get 'Stinging Worm Sting'",
+            "popupMedia":"",
+            "tooltip":"#6 Stinging Worm Carcass (1/1)",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Resonance",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_resonance",
+      "data":[
+         {
+            "coordinates":[
+               -114.875, 75.75
+            ],
+            "id":"resonance_0",
+            "popupTitle":"Song of Resonance",
+            "popupContent":"Play Song of Resonance in front of statue to move to Mokoko Seed location on the right side.",
+            "popupMedia":"",
+            "tooltip":"Song of Resonance",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -115.25, 137
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Lava fault",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#7 Lava fault",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -71.25, 61
+            ],
+            "id":"viewpoint_1",
+            "popupTitle":"Loading station",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#8 Loading station",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -201.75, 141.75
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Pierre",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Pierre",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -238.875, 139
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Romantic Weapon', which you get from Yorn's Adventure's Tome reward at 50%.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -177.625, 158.875
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -195.25, 140.5
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -105.375, 236.125
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play Song of Resonance marked on map to get to this location.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -91, 84.875
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -63.75, 38.125
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Romantic Weapon', which you get from Yorn's Adventure's Tome reward at 50%.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -58.25, 62.75
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -59.125, 103.75
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -44.875, 147.5
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -15.75, 95.5
+            ],
+            "id":"mokoko_9",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -27.125, 226.5
+            ],
+            "id":"mokoko_10",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -47.125, 151.25
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -60, 101.75
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Use Adventure's Tome Food '#1 Collectible Amber Ale' at this location to enter.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -63.5, 67.25
+            ],
+            "id":"spassage_2",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -99, 89.75
+            ],
+            "id":"spassage_3",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -182.5, 161.375
+            ],
+            "id":"spassage_4",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Requires 300 Wisdoms or higher to enter.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -80.25, 9.5
+              ],
+              "id":"portal_0",
+              "destinationID":"11313",
+              "tooltip":"Mines of Fire",
+              "tooltipDirection":"bottom"
+           },
+         {
+            "coordinates":[
+               -11.5, 253
+            ],
+            "id":"portal_1",
+            "destinationID":"11315",
+            "tooltip":"Primordial Lands",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

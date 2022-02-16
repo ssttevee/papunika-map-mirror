@@ -1,0 +1,63 @@
+{
+  "name":"Queen's Garden 2F",
+  "continent":"Rohendel",
+  "zoneTiles":"public/tiles/zones/rohendel/zone_79_3",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Affinity",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_affinity",
+      "data":[
+         {
+            "coordinates":[
+               -79.625, 86.5
+            ],
+            "id":"affinity_0",
+            "popupTitle":"Queen Azena",
+            "rapportId": "24101",
+            "tooltip":"Queen Azena",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -141.375, 55.875
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -183.5, 192.5
+              ],
+              "id":"portal_0",
+              "destinationID":"10101",
+              "tooltip":"1F",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

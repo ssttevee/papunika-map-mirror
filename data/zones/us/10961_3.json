@@ -1,0 +1,26 @@
+{
+  "name":"Black Rain Fortress 3F",
+  "continent":"Feiton",
+  "zoneTiles":"public/tiles/zones/feiton/zone_99_3",
+  "additionalZones":[    
+  ],
+  "markers":[
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -160.75, 142
+              ],
+              "id":"portal_0",
+              "destinationID":"10961_2",
+              "tooltip":"2F",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

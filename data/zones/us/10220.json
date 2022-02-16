@@ -1,0 +1,227 @@
+{
+    "markers": [
+      {
+        "markerType":"HStory",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_hstory",
+        "data":[
+           {
+              "coordinates":[
+                -152.125, 96.875
+              ],
+              "id":"hstory_0",
+              "popupTitle":"The Truth of a Drunk",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"#2 The Truth of a Drunk",
+              "tooltipDirection":"left"
+           },
+           {
+              "coordinates":[
+                -201.375, 122
+              ],
+              "id":"hstory_1",
+              "popupTitle":"A Knight in Shining Armor (2/3)",
+              "popupContent":"",
+              "parts": [
+                {
+                   "link":"z=10211&m=hstory_0"
+                },
+                {
+                   "link":"z=10220&m=hstory_1"
+                },
+                {
+                   "link":"z=10222&m=hstory_2"
+                }
+             ],
+              "popupMedia":"",
+              "tooltip":"#6 A Knight in Shining Armor (2/3)",
+              "tooltipDirection":"left"
+           }
+        ]
+       },
+      {
+        "markerType":"Monster",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_monster",
+        "data":[
+           {
+              "coordinates":[
+                -166, 118.875
+              ],
+              "id":"monster_0",
+              "popupTitle":"Alpha Moss Wolf",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"#4 Alpha Moss Wolf",
+              "tooltipDirection":"right"
+           },
+           {
+            "coordinates":[
+              -127.75, 206
+            ],
+            "id":"monster_1",
+            "popupTitle":"Stinking Bone Mucus Monster",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#5 Stinking Bone Mucus Monster",
+            "tooltipDirection":"right"
+         },
+          {
+            "coordinates":[
+              -138, 58.375
+            ],
+            "id":"monster_2",
+            "popupTitle":"Unrecognizably Entangled Mutant",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#14 Unrecognizably Entangled Mutant",
+            "tooltipDirection":"left"
+         },
+         {
+           "coordinates":[
+            -70.75, 182.375
+           ],
+           "id":"monster_3",
+           "popupTitle":"Boss Mystical Snake",
+           "popupContent":"",
+           "popupMedia":"",
+           "tooltip":"#15 Boss Mystical Snake",
+           "tooltipDirection":"right"
+        }
+        ]
+     },
+      {
+        "markerType":"Viewpoint",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_viewpoint",
+        "data":[
+           {
+              "coordinates":[
+                -82.125, 147.125
+              ],
+              "id":"viewpoint_0",
+              "popupTitle":"Valley of Falling Waters",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"#6 Valley of Falling Waters",
+              "tooltipDirection":"right"
+           }
+        ]
+     },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+              -158, 91.5
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Ben",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Ben",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+      {
+        "markerType":"Mokoko",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_mokoko",
+        "data":[
+           {
+              "coordinates":[
+                -87.5, 128.5
+              ],
+              "id":"mokoko_0",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -132.375, 188.75
+              ],
+              "id":"mokoko_1",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -118.625, 59.125
+              ],
+              "id":"mokoko_2",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -156, 106
+              ],
+              "id":"mokoko_3",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -47.875, 134.625
+              ],
+              "id":"mokoko_4",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           }
+        ]
+       },
+      {
+        "markerType": "Portal",
+        "enabled": true,
+        "allowSidebar": false,
+        "layerID": "layer_portal",
+        "data": [
+          {
+            "coordinates": [-218.75, 130.25],
+            "id": "portal_0",
+            "destinationID": "10211",
+            "tooltip": "Log Hill",
+            "tooltipDirection": "bottom"
+          },
+          {
+            "coordinates": [-30.25, 230.75],
+            "id": "portal_1",
+            "destinationID": "10251",
+            "tooltip": "Aquilok's Head",
+            "tooltipDirection": "bottom"
+          },
+          {
+            "coordinates": [-32, 109.25],
+            "id": "portal_2",
+            "tooltip": "Rethramis Border",
+            "destinationID": "10222",
+            "tooltipDirection": "bottom"
+          }
+        ]
+      }
+    ]
+ }

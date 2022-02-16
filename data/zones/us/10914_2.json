@@ -1,0 +1,153 @@
+{
+  "name":"Red Moon Wastes 2F",
+  "continent":"Feiton",
+  "zoneTiles":"public/tiles/zones/feiton/zone_98_2",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -112.375, 138.5
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -120.75, 179.125
+            ],
+            "id":"hstory_0",
+            "popupTitle":"The other side of the truth (1/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10914&m=hstory_0&f=2"
+               },
+               {
+                  "link":"z=10914&m=hstory_1&f=2"
+               },
+               {
+                  "link":"z=10914&m=hstory_2&f=2"
+               },
+               {
+                  "link":"z=10914&m=hstory_3&f=2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#2 The other side of the truth (1/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -111.375, 170.125
+            ],
+            "id":"hstory_1",
+            "popupTitle":"The other side of the truth (2/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10914&m=hstory_0&f=2"
+               },
+               {
+                  "link":"z=10914&m=hstory_1&f=2"
+               },
+               {
+                  "link":"z=10914&m=hstory_2&f=2"
+               },
+               {
+                  "link":"z=10914&m=hstory_3&f=2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#2 The other side of the truth (2/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -126.875, 171.75
+            ],
+            "id":"hstory_2",
+            "popupTitle":"The other side of the truth (3/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10914&m=hstory_0&f=2"
+               },
+               {
+                  "link":"z=10914&m=hstory_1&f=2"
+               },
+               {
+                  "link":"z=10914&m=hstory_2&f=2"
+               },
+               {
+                  "link":"z=10914&m=hstory_3&f=2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#2 The other side of the truth (3/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -121.25, 165.375
+            ],
+            "id":"hstory_3",
+            "popupTitle":"The other side of the truth (4/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10914&m=hstory_0&f=2"
+               },
+               {
+                  "link":"z=10914&m=hstory_1&f=2"
+               },
+               {
+                  "link":"z=10914&m=hstory_2&f=2"
+               },
+               {
+                  "link":"z=10914&m=hstory_3&f=2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#2 The other side of the truth (4/4)",
+            "tooltipDirection":"left"
+         }
+      ]
+     }, 
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -165.25, 128.5
+              ],
+              "id":"portal_0",
+              "destinationID":"10914",
+              "tooltip":"1F",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

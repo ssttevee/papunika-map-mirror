@@ -1,0 +1,300 @@
+{
+  "name":"Borea's Domain",
+  "continent":"East Luterra",
+  "zoneTiles":"public/tiles/zones/east_luterra/zone_26",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -127, 41.125
+            ],
+            "id":"monster_0",
+            "popupTitle":"Cruel Trill",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#11 Cruel Trill",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -61.625, 58.375
+          ],
+          "id":"monster_1",
+          "popupTitle":"Frenzied Imp Mage",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#12 Frenzied Imp Mage",
+          "tooltipDirection":"right"
+       },
+       {
+        "coordinates":[
+         -58, 159.75
+        ],
+        "id":"monster_2",
+        "popupTitle":"Lonesome Gerod",
+        "popupContent":"",
+        "popupMedia":"",
+        "tooltip":"#13 Lonesome Gerod",
+        "tooltipDirection":"right"
+     },
+     {
+      "coordinates":[
+         -59.75, 95.125
+      ],
+      "id":"monster_3",
+      "popupTitle":"Frenzied Agarus",
+      "popupContent":"",
+      "popupMedia":"",
+      "tooltip":"#14 Frenzied Agarus",
+      "tooltipDirection":"right"
+   }
+      ]
+   },
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -170.125, 145.75
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Hot Chocolate Coffee",
+            "popupContent":"Required ingredient for '#7 Melting Gelato'.<br>Buy at traveling merchant Burt. Used at cook Hyde.<br>Wait 24h for Melting Gelato to turn into Fully-melted Gelato.",
+            "parts": [
+               {
+                  "link":"z=10804&m=ingredient_0"
+               },
+               {
+                  "link":"z=10821&m=ingredient_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Hot Chocolate Coffee (2/2)",
+            "tooltipDirection":"right"
+         }
+      ]
+   },   
+   {
+      "markerType":"Minuet",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_minuet",
+      "data":[
+         {
+            "coordinates":[
+               -101.875, 144.25
+            ],
+            "id":"minuet_0",
+            "popupTitle":"Song of Minuet",
+            "popupContent":"Play Song of Minuet",
+            "popupMedia":"",
+            "tooltip":"Song of Minuet",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -75.5, 76.75
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Ruined Fortress",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#7 Ruined Fortress",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -166.875, 145.625
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Burt",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Burt",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -159.5, 50.625
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -78.375, 73.875
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -141.375, 176.125
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -49.25, 116.125
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -102.75, 141.125
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -109.375, 67.25
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -101.375, 116
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -181, 89.25
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -114.375, 81.375
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -151.5, 109.75
+            ],
+            "id":"mokoko_9",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -100.75, 141.125
+            ],
+            "id":"mokoko_10",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -224.5, 106.75
+              ],
+              "id":"portal_0",
+              "destinationID":"10820",
+              "tooltip":"Leyar Terrace",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -71.5, 214
+            ],
+            "id":"portal_1",
+            "destinationID":"10804",
+            "tooltip":"Wavestrand Port",
+            "tooltipDirection":"bottom"
+            }
+        ]
+     }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "name":"Twilight Mists",
+  "continent":"Anikka",
+  "zoneTiles":"public/tiles/zones/anikka/zone_45",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -72.5, 137.625
+            ],
+            "id":"monster_0",
+            "popupTitle":"Rugged Tombstone",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#6 Rugged Tombstone",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -146, 145.125
+          ],
+          "id":"monster_1",
+          "popupTitle":"Hardshelled Flying Bird",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#7 Hardshelled Flying Bird",
+          "tooltipDirection":"right"
+       },
+       {
+        "coordinates":[
+         -46.625, 172.5
+        ],
+        "id":"monster_2",
+        "popupTitle":"Lazy Crop Thief",
+        "popupContent":"",
+        "popupMedia":"",
+        "tooltip":"#8 Lazy Crop Thief",
+        "tooltipDirection":"right"
+     }
+      ]
+   },   
+   {
+      "markerType":"FBoss",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_fboss",
+      "data":[
+         {
+            "coordinates":[
+               -137, 144.75
+            ],
+            "id":"fboss_0",
+            "popupTitle":"Chuo",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Chuo",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -212.25, 178.875
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Hill",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#7 Hill",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -144.625, 93.875
+            ],
+            "id":"viewpoint_1",
+            "popupTitle":"Entrance to Bleak Edge",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#8 Entrance to Bleak Edge",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -106.75, 104.75
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Mac",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Mac",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -43, 141.5
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -112.125, 144.875
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -141.25, 44.875
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -58.5, 106.25
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -138.75, 135
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -127.75, 77.125
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -136.25, 66.25
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -183.625, 95.625
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -148.375, 92.875
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -180.125, 95.25
+            ],
+            "id":"mokoko_9",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -184.375, 93.25
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Go behind the sign.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -73.75, 48.75
+              ],
+              "id":"portal_0",
+              "destinationID":"10724",
+              "tooltip":"Prisma Valley",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -147.25, 75
+            ],
+            "id":"portal_1",
+            "destinationID":"10765",
+            "tooltip":"Bleack Edge",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -15.5, 143.25
+            ],
+            "id":"portal_2",
+            "destinationID":"10764",
+            "tooltip":"Foul Hollow",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -234.25, 174.5
+            ],
+            "id":"portal_3",
+            "destinationID":"10723",
+            "tooltip":"Melody Forest",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

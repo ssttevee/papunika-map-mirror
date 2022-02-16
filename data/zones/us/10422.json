@@ -1,0 +1,322 @@
+{
+  "name":"Scraplands",
+  "continent":"Arthetine",
+  "zoneTiles":"public/tiles/zones/arthetine/zone_56",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -75.25, 120.75
+            ],
+            "id":"hstory_0",
+            "popupTitle":"RGM Report",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#4 RGM Report",
+            "tooltipDirection":"left"
+         }
+      ]
+     },  
+     {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -145.5, 202.25
+            ],
+            "id":"monster_0",
+            "popupTitle":"DIS_MK-II Prototype",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#3 DIS_MK-II Prototype",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -114.375, 162.625
+          ],
+          "id":"monster_1",
+          "popupTitle":"Skilled Elite Smuggler",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#4 Skilled Elite Smuggler",
+          "tooltipDirection":"right"
+       }
+      ]
+   },   
+   {
+      "markerType":"FBoss",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_fboss",
+      "data":[
+         {
+            "coordinates":[
+               -74.125, 139.375
+            ],
+            "id":"fboss_0",
+            "popupTitle":"Signatus",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Signatus",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+        "markerType":"Ingredient",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_ingredient",
+        "data":[
+           {
+              "coordinates":[
+               -162.375, 109.75
+              ],
+              "id":"ingredient_0",
+              "popupTitle":"Vacuum-dried Powder X-1 (1/2)",
+              "popupContent":"Required ingredient for '#3 Cykin Combat Ration Type C'.<br>Used at cook Cooking Master.",
+              "parts": [
+               {
+                  "link":"z=10422&m=ingredient_0"
+               },
+               {
+                  "link":"z=10422&m=ingredient_1"
+               }
+            ],
+              "popupMedia":"",
+              "tooltip":"#3 Vacuum-dried Powder X-1 (1/2)",
+              "tooltipDirection":"left"
+           },
+           {
+            "coordinates":[
+               -149.875, 137.125
+            ],
+            "id":"ingredient_1",
+            "popupTitle":"Vacuum-dried Powder X-3 (2/2)",
+            "popupContent":"Required ingredient for '#3 Cykin Combat Ration Type C'.<br>Used at cook Cooking Master.",
+            "parts": [
+             {
+                "link":"z=10422&m=ingredient_0"
+             },
+             {
+                "link":"z=10422&m=ingredient_1"
+             }
+          ],
+            "popupMedia":"",
+            "tooltip":"#3 Vacuum-dried Powder X-3 (2/2)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -155.625, 114
+            ],
+            "id":"ingredient_2",
+            "popupTitle":"Adrenaline-boosting Fluid",
+            "popupContent":"Required ingredient for '#5 Boosting Fluid Soup'.<br>Buy at traveling merchant Nox. Used at cook Cooking Master.",
+            "popupMedia":"",
+            "tooltip":"#5 Adrenaline-boosting Fluid",
+            "tooltipDirection":"right"
+         }
+        ]
+     },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -132, 129.75
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Valley and the Robot Wastes",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#3 Valley and the Robot Wastes",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -159.5, 114.75
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Nox",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Nox",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -95.625, 79.625
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -137.625, 176
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -104.5, 110.25
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -130.875, 89.625
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -146.75, 198.5
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -138.75, 178.5
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -140.25, 175.875
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -184.625, 95
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -159.875, 155.875
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -235.5, 157.25
+              ],
+              "id":"portal_0",
+              "destinationID":"10401",
+              "tooltip":"Stern",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -16.5, 114.25
+            ],
+            "id":"portal_1",
+            "destinationID":"10461",
+            "tooltip":"Soldier Ant Nest",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -78.5, 43.5
+            ],
+            "id":"portal_2",
+            "destinationID":"10423",
+            "tooltip":"Nebelhorn",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

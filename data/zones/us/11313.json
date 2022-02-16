@@ -1,0 +1,601 @@
+{
+  "name":"Mines of Fire",
+  "continent":"Yorn",
+  "zoneTiles":"public/tiles/zones/yorn/zone_89",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -140.875, 14.5
+            ],
+            "id":"hstory_0",
+            "popupTitle":"In search of the beast of a mug (2/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11301&m=hstory_0"
+               },
+               {
+                  "link":"z=11313&m=hstory_0"
+               },
+               {
+                  "link":"z=11314&m=hstory_0"
+               }
+           ],
+           "popupMedia":"",
+            "tooltip":"#1 In search of the beast of a mug (2/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -128.625, 47.375
+            ],
+            "id":"hstory_1",
+            "popupTitle":"Folk song (1/2)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11313&m=hstory_1"
+               },
+               {
+                  "link":"z=11314&m=hstory_1"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#3 Folk song (1/2)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -153.25, 43.875
+            ],
+            "id":"hstory_2",
+            "popupTitle":"Pranksters (3/5)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11351&m=hstory_3"
+               },
+               {
+                  "link":"z=11351&m=hstory_4"
+               },
+               {
+                  "link":"z=11313&m=hstory_2"
+               },
+               {
+                  "link":"z=11313&m=hstory_3"
+               },
+               {
+                  "link":"z=11313&m=hstory_4"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#6 Pranksters (3/5)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -182.625, 76.75
+            ],
+            "id":"hstory_3",
+            "popupTitle":"Pranksters (4/5)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11351&m=hstory_3"
+               },
+               {
+                  "link":"z=11351&m=hstory_4"
+               },
+               {
+                  "link":"z=11313&m=hstory_2"
+               },
+               {
+                  "link":"z=11313&m=hstory_3"
+               },
+               {
+                  "link":"z=11313&m=hstory_4"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#6 Pranksters (4/5)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -158.5, 14.5
+            ],
+            "id":"hstory_4",
+            "popupTitle":"Pranksters (5/5)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11351&m=hstory_3"
+               },
+               {
+                  "link":"z=11351&m=hstory_4"
+               },
+               {
+                  "link":"z=11313&m=hstory_2"
+               },
+               {
+                  "link":"z=11313&m=hstory_3"
+               },
+               {
+                  "link":"z=11313&m=hstory_4"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#6 Pranksters (5/5)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -53.875, 138.75
+            ],
+            "id":"hstory_5",
+            "popupTitle":"Umarova pride (3/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11315&m=hstory_2"
+               },
+               {
+                  "link":"z=11315&m=hstory_3"
+               },
+               {
+                  "link":"z=11313&m=hstory_5"
+               },
+               {
+                  "link":"z=11314&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Umarova pride (3/4)",
+            "tooltipDirection":"right"
+         }
+      ]
+     }, 
+   {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -130.991, 220.794
+            ],
+            "id":"monster_0",
+            "popupTitle":"Three hundred year old geode turtle",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#9 Three hundred year old geode turtle",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -174.375, 54.375
+          ],
+          "id":"monster_1",
+          "popupTitle":"Telfs Foreman",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#7 Telfs Foreman",
+          "tooltipDirection":"right"
+       },
+       {
+        "coordinates":[
+         -38.625, 75.875
+        ],
+        "id":"monster_2",
+        "popupTitle":"Molybdenum, an ore giant",
+        "popupContent":"",
+        "popupMedia":"",
+        "tooltip":"#8 Molybdenum, an ore giant",
+        "tooltipDirection":"right"
+     }
+      ]
+   },
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -114, 117.75
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Yon ale (2/2)",
+            "popupContent":"Required ingredient for '#2 Miner ale'.<br>Quest reward from Quest '<a href='https://lostarkcodex.com/us/quest/1313110/' target='_blank' style='text-decoration: none;'>For health!</a><br>First Chain quest starts at Ori.<br>Used at cook Rinda.<br><b>Check notice below for (1/2)</b>",
+            "parts": [
+               {
+                  "link":"z=11313&m=notice_0"
+               },
+               {
+                  "link":"z=11313&m=ingredient_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#2 Yon ale (2/2)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -91.75, 127.625
+            ],
+            "id":"ingredient_1",
+            "popupTitle":"Thick Harvest Stew (2/3)",
+            "popupContent":"Required ingredient for '#7 Set 'Jonesky Revel''.<br>You have to complete [Reputation] in Isendelf for a <a href='https://lostarkcodex.com/us/item/920727/' target='_blank' style='text-decoration: none;'>'Food Chest for Trade'</a>.<br>With the food 'Quality Imported Produce', you can interact with the cooking pot and obtain the ingredient!<br>Used at cook Rinda.",
+            "parts": [
+               {
+                  "link":"z=11311&m=ingredient_1"
+               },
+               {
+                  "link":"z=11313&m=ingredient_1"
+               },
+               {
+                  "link":"z=11315&m=ingredient_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Thick Harvest Stew (2/3)",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Minuet",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_minuet",
+      "data":[
+         {
+            "coordinates":[
+               -134.25, 112.375
+            ],
+            "id":"minuet_0",
+            "popupTitle":"Song of Minuet",
+            "popupContent":"Play Song of Minuet",
+            "popupMedia":"",
+            "tooltip":"Song of Minuet",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -167.625, 205.75
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Stalactite lake",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#5 Stalactite lake",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -164, 87.125
+            ],
+            "id":"viewpoint_1",
+            "popupTitle":"Semiprecious Cave",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#6 Semiprecious Cave",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -144.5, 12.125
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Pierre",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Pierre",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -139, 6.25
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -156.5, 61.75
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -185.75, 35.625
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -133.125, 105.875
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -120.5, 86.25
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -119.375, 146.125
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -61, 102.375
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -57.625, 110.875
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -49.125, 85
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -58, 74.25
+            ],
+            "id":"mokoko_9",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -60.875, 51.5
+            ],
+            "id":"mokoko_10",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Romantic Weapon', which you get from Yorn's Adventure's Tome reward at 50%.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -59.375, 107.375
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Requires 300 Charisma or higher to enter.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -61.125, 84.125
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Use Adventure's Tome Food '#1 Collectible Amber Ale' at this location, then descend.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -112.875, 151.125
+            ],
+            "id":"spassage_2",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Descend.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -165.125, 54.75
+            ],
+            "id":"spassage_3",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -196.125, 36.5
+            ],
+            "id":"spassage_4",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -141.125, 9.25
+            ],
+            "id":"spassage_5",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Use Adventure's Tome Food '#1 Collectible Amber Ale' at this location.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -64.875, 79.75
+            ],
+            "id":"spassage_6",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"Notice",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_notice",
+      "data":[
+         {
+            "coordinates":[
+               -116.5, 117.5
+            ],
+            "id":"notice_0",
+            "popupTitle":"#2 Trampled Shoes (1/2)",
+            "popupContent":"Required ingredient for '#2 Miner ale'.<br>[Reputation] Lv.3 reward - '<a href='https://lostarkcodex.com/us/quest/1313601/' target='_blank' style='text-decoration: none;'>Help me</a> - Mines of Fire<br>First Chain quest starts at Ori.<br>Used at cook Rinda.",
+            "parts": [
+               {
+                  "link":"z=11313&m=notice_0"
+               },
+               {
+                  "link":"z=11313&m=ingredient_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#2 Trampled Shoes (1/2)",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -175.25, 2.5
+              ],
+              "id":"portal_0",
+              "destinationID":"11301",
+              "tooltip":"Isendelf",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -114.75, 281.75
+            ],
+            "id":"portal_1",
+            "destinationID":"11314",
+            "tooltip":"Mines of Innumerable Riches",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -92.75, 231.75
+            ],
+            "id":"portal_2",
+            "destinationID":"11351",
+            "tooltip":"Greyten Brewery",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

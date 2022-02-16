@@ -1,0 +1,357 @@
+{
+  "name":"Port City Changhun",
+  "continent":"Anikka",
+  "zoneTiles":"public/tiles/zones/anikka/zone_37",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Affinity",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_affinity",
+      "data":[
+         {
+            "coordinates":[
+               -126.5, 143
+            ],
+            "id":"affinity_0",
+            "popupTitle":"Yuul",
+            "rapportId": "20381",
+            "tooltip":"Yuul",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"AStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_astory",
+      "data":[
+         {
+            "coordinates":[
+               -129.875, 146.75
+            ],
+            "id":"astory_0",
+            "popupTitle":"Rain, Stats, Wind",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#2 Rain, Stats, Wind",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -209.625, 71.125
+            ],
+            "id":"hstory_0",
+            "popupTitle":"The Phantom Thief of Changhun (1/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10701&m=hstory_0"
+               },
+               {
+                  "link":"z=10701&m=hstory_1"
+               },
+               {
+                  "link":"z=10701&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#5 The Phantom Thief of Changhun (1/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -125.625, 59.625
+            ],
+            "id":"hstory_1",
+            "popupTitle":"The Phantom Thief of Changhun (2/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10701&m=hstory_0"
+               },
+               {
+                  "link":"z=10701&m=hstory_1"
+               },
+               {
+                  "link":"z=10701&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#5 The Phantom Thief of Changhun (2/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -111.875, 78.75
+            ],
+            "id":"hstory_2",
+            "popupTitle":"The Phantom Thief of Changhun (3/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10701&m=hstory_0"
+               },
+               {
+                  "link":"z=10701&m=hstory_1"
+               },
+               {
+                  "link":"z=10701&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#5 The Phantom Thief of Changhun (3/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -57.125, 94.625
+            ],
+            "id":"hstory_3",
+            "popupTitle":"Qualifications of the Grand Master (1/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10701&m=hstory_3"
+               },
+               {
+                  "link":"z=10701&m=hstory_4"
+               },
+               {
+                  "link":"z=10724&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Qualifications of the Grand Master (1/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -160.125, 53.125
+            ],
+            "id":"hstory_4",
+            "popupTitle":"Qualifications of the Grand Master (2/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10701&m=hstory_3"
+               },
+               {
+                  "link":"z=10701&m=hstory_4"
+               },
+               {
+                  "link":"z=10724&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Qualifications of the Grand Master (2/3)",
+            "tooltipDirection":"left"
+         }
+      ]
+     },  
+   {
+      "markerType":"Food",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_food",
+      "data":[
+         {
+            "coordinates":[
+               -174.625, 62
+            ],
+            "id":"food_0",
+            "popupTitle":"Lucky Fortune Cookie",
+            "popupContent":"Buy at merchant Chunling.",
+            "popupMedia":"",
+            "tooltip":"#1 Lucky Fortune Cookie",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -164, 101.125
+            ],
+            "id":"food_1",
+            "popupTitle":"Perfect Sugar Sculpture",
+            "popupContent":"Buy at merchant Kongbo.",
+            "popupMedia":"",
+            "tooltip":"#6 Perfect Sugar Sculpture",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -160.125, 100.875
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"100-year-old Centipede",
+            "popupContent":"Required ingredient for '#4 Manpo's Secret Meat Dumpling'.<br>Buy at merchant Kongbo. Used at cook Sobin.",
+            "parts": [
+               {
+                  "link":"z=10701&m=ingredient_0"
+               },
+               {
+                  "link":"z=10701&m=ingredient_1"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#4 100-year-old Centipede (1/2)",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -160.125, 97.625
+          ],
+          "id":"ingredient_1",
+          "popupTitle":"Old Dumpling",
+          "popupContent":"Required ingredient for '#4 Manpo's Secret Meat Dumpling'.<br>Buy at merchant Kongbo. Used at cook Sobin.",
+          "parts": [
+            {
+               "link":"z=10701&m=ingredient_0"
+            },
+            {
+               "link":"z=10701&m=ingredient_1"
+            }
+        ],
+         "popupMedia":"",
+          "tooltip":"#4 Old Dumpling (2/2)",
+          "tooltipDirection":"left"
+       }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -182.5, 156.25
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Canal",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 Canal",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -139.25, 149
+            ],
+            "id":"viewpoint_1",
+            "popupTitle":"Tournament Arena",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#2 Tournament Arena",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -74.875, 214.875
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -128.375, 143
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -121, 53.375
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -218.625, 70.125
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -205, 205.5
+              ],
+              "id":"portal_0",
+              "destinationID":"overworld",
+              "tooltip":"Open Seas",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -50.5, 238
+            ],
+            "id":"portal_1",
+            "destinationID":"10721",
+            "tooltip":"Delphi Township",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -196.25, 24.5
+            ],
+            "id":"portal_2",
+            "destinationID":"10722",
+            "tooltip":"Rattan Hill",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

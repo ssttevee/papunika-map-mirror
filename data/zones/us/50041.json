@@ -1,0 +1,443 @@
+{
+  "markers":[
+   {
+      "markerType":"Affinity",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_affinity",
+      "data":[
+         {
+            "coordinates":[
+               -94.25, 125.125
+            ],
+            "id":"affinity_0",
+            "popupTitle":"Florence",
+            "rapportId": "19312",
+            "tooltip":"Florence",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -98.464619, 135.764502
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Pirate Merchant Bad Hand",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Pirate Merchant Bad Hand",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Resonance",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_resonance",
+      "data":[
+         {
+            "coordinates":[
+               -74.5, 151.375
+            ],
+            "id":"resonance_0",
+            "popupTitle":"Song of Resonance",
+            "popupContent":"Play Song of Resonance in front of statue to get to three Mokoko Seeds.",
+            "popupMedia":"",
+            "tooltip":"Song of Resonance",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"CDotR",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_cdotr",
+      "data":[
+         {
+            "coordinates":[
+               -121.625, 59.125
+            ],
+            "id":"cdotr_0",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -117.125, 69.25
+            ],
+            "id":"cdotr_1",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -119.375, 97.5
+            ],
+            "id":"cdotr_2",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -157.125, 121.625
+            ],
+            "id":"cdotr_3",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -131.25, 160.125
+            ],
+            "id":"cdotr_4",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -168.625, 175.375
+            ],
+            "id":"cdotr_5",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -108.75, 190.25
+            ],
+            "id":"cdotr_6",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"CDotG",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_cdotg",
+      "data":[
+         {
+            "coordinates":[
+               -149.840096, 108.812451
+            ],
+            "id":"cdotg_0",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -115.650392, 74.920048
+            ],
+            "id":"cdotg_1",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -147.907635, 119.069362
+            ],
+            "id":"cdotg_2",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -156.529387, 162.624073
+            ],
+            "id":"cdotg_3",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -121.893729, 169.907967
+            ],
+            "id":"cdotg_4",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -117.582853, 194.138062
+            ],
+            "id":"cdotg_5",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"CDotB",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_cdotb",
+      "data":[
+         {
+            "coordinates":[
+               -99.878833, 89.272231
+            ],
+            "id":"cdotb_0",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -152.381511, 103.591143
+            ],
+            "id":"cdotb_1",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -140.714249, 116.672619
+            ],
+            "id":"cdotb_2",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -135.587725, 123.56691
+            ],
+            "id":"cdotb_3",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -102.530483, 163.871997
+            ],
+            "id":"cdotb_4",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -140.360696, 186.67619
+            ],
+            "id":"cdotb_5",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"Notice",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_notice",
+      "data":[
+         {
+            "coordinates":[
+               -70, 56
+            ],
+            "id":"notice_0",
+            "popupTitle":"Lockpicker",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"🔴 Lockpicker",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -80, 56
+            ],
+            "id":"notice_1",
+            "popupTitle":"Prisoner Ransomer",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"🟢 Prisoner Ransomer",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -90, 56
+            ],
+            "id":"notice_2",
+            "popupTitle":"Noble Impersonator",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"🔵 Noble Impersonator",
+            "tooltipDirection":"left"
+         }
+      ]
+     },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -97, 71.75
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -120.625, 177.875
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage. (Song of Resonance)",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -121.5, 181
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage. (Song of Resonance)",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -123, 177.625
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage. (Song of Resonance)",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -140.625, 103.875
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -142.75, 102.375
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -206, 130.75
+              ],
+              "id":"portal_0",
+              "destinationID":"overworld",
+              "tooltip":"Open Seas",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -188, 92.5
+            ],
+            "id":"portal_1",
+            "destinationID":"overworld",
+            "tooltip":"Open Seas",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -188, 164.75
+            ],
+            "id":"portal_2",
+            "destinationID":"overworld",
+            "tooltip":"Open Seas",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

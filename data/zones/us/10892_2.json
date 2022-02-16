@@ -1,0 +1,67 @@
+{
+  "name":"King's Tomb",
+  "continent":"East Luterra",
+  "zoneTiles":"public/tiles/zones/east_luterra/zone_21_2",
+  "additionalZones":[    
+],
+"markers":[
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -149, 123.125
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -122.25, 96.875
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -175.75, 45.125
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"L",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"Portal",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_portal",
+      "data":[
+         {
+            "coordinates":[
+               -194.75, 40.5
+            ],
+            "id":"portal_0",
+            "destinationID":"10892",
+            "tooltip":"Lastra Forest",
+            "tooltipDirection":"bottom"
+         }
+      ]
+   }
+]
+}

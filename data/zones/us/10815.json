@@ -1,0 +1,240 @@
+{
+  "name":"Battlebound Plains",
+  "continent":"West Luterra",
+  "zoneTiles":"public/tiles/zones/west_luterra/zone_17",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[             
+               -112.5, 150
+            ],
+            "id":"hstory_0",
+            "popupTitle":"What Makes a Hero",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10812&m=hstory_0"
+               },
+               {
+                  "link":"z=10813&m=hstory_0"
+               },
+               {
+                  "link":"z=10814&m=hstory_0"
+               },
+               {
+                  "link":"z=10815&m=hstory_0"
+               }
+            ],
+            "popupMedia":"",
+            "tooltip":"#1 What Makes a Hero (4/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -129.625, 187.125
+            ],
+            "id":"hstory_1",
+            "popupTitle":"Regent's Donkey Ears",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#5 Regent's Donkey Ears",
+            "tooltipDirection":"left"
+         }
+      ]
+     }, 
+   {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -131.25, 192.375
+            ],
+            "id":"monster_0",
+            "popupTitle":"Hellhound of Obscured Chaos",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#11 Hellhound of Obscured Chaos",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Food",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_food",
+      "data":[
+         {
+            "coordinates":[
+               -174.25, 128.375
+            ],
+            "id":"food_0",
+            "popupTitle":"Hairplant",
+            "popupContent":"Buy Hairplant at traveling merchant Malone.<br>Wait 10 minutes for it to turn into Ripening Anti Hair Loss Agent.",
+            "popupMedia":"",
+            "tooltip":"#7 Hairplant",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -112, 141.875
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Battlebound Plains",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#5 Battlebound Plains",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -176.75, 130.375
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Malone",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Malone",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -114, 242.125
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -94.75, 69.875
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -76.875, 179.25
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -127.75, 75.875
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -171.875, 159.125
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -163, 119
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -160.625, 63.125
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -130, 7.25
+              ],
+              "id":"portal_0",
+              "destinationID":"10814",
+              "tooltip":"Bilbrin Forest",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -56.75, 203.75
+            ],
+            "id":"portal_1",
+            "destinationID":"10801",
+            "tooltip":"Luterra Castle",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

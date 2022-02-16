@@ -1,0 +1,130 @@
+{
+  "markers":[
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -23.75, 116.625
+            ],
+            "id":"hstory_0",
+            "popupTitle":"Hidden Quest",
+            "popupContent":"The quest will reward you will extra tokens for the merchant on the island.",
+            "popupMedia":"",
+            "tooltip":"Hidden Quest",
+            "tooltipDirection":"left"
+         }
+      ]
+     },  
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -188.875, 163
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -139.875, 199
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -21, 125.375
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -37.875, 108.25
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"To get behind the secret passage you need to detonate 5 bomb clowns at the wall.<br>After the boss in the room has half life he will then spawn bomb clowns.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -176.75, 167.875
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"Notice",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_notice",
+      "data":[
+         {
+            "coordinates":[
+               -37.75, 149
+            ],
+            "id":"notice_0",
+            "popupTitle":"Notice",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Check secret message info,<br> if you want the hidden quest and Mokoko Seed.",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -228.25, 87.5
+              ],
+              "id":"portal_0",
+              "destinationID":"50120",
+              "tooltip":"Island of Grief",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

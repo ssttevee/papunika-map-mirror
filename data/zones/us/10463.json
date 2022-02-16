@@ -1,0 +1,73 @@
+{
+  "name":"Verdantier Entrance",
+  "continent":"Arthetine",
+  "zoneTiles":"public/tiles/zones/arthetine/zone_54",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -169, 75
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"Notice",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_notice",
+      "data":[
+         {
+            "coordinates":[
+               -52.75, 54
+            ],
+            "id":"notice_0",
+            "popupTitle":"Notice",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Verdantier: Hidden Story #6 End of His Obsession (2/2)",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+         {
+            "coordinates":[
+               -189.75, 71.75
+            ],
+            "id":"portal_0",
+            "destinationID":"10426",
+            "tooltip":"Riza Falls",
+            "tooltipDirection":"bottom"
+         },
+           {
+              "coordinates":[
+               -61.25, 189.25
+              ],
+              "id":"portal_1",
+              "destinationID":"10463_2",
+              "tooltip":"Verdantier Gear Unit",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

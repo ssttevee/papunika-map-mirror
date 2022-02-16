@@ -1,0 +1,24 @@
+{
+  "name":"Trixion",
+  "continent":"Trixion",
+  "markers":[
+   {
+      "markerType":"Affinity",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_affinity",
+      "data":[
+         {
+            "coordinates":[
+               -104.125, 105.625
+            ],
+            "id":"affinity_0",
+            "popupTitle":"Beatrice",
+            "rapportId": "10101",
+            "tooltip":"Beatrice",
+            "tooltipDirection":"right"
+         }
+      ]
+   }
+  ]
+}

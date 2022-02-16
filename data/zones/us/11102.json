@@ -1,0 +1,243 @@
+{
+  "name":"Vern Castle",
+  "continent":"North Vern",
+  "zoneTiles":"public/tiles/zones/north_vern/zone_61",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Affinity",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_affinity",
+      "data":[
+         {
+            "coordinates":[             
+               -44.75, 210.25
+            ],
+            "id":"affinity_0",
+            "popupTitle":"Ealyn",
+            "rapportId": "25001",
+            "tooltip":"Ealyn",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -52, 192
+            ],
+            "id":"affinity_1",
+            "popupTitle":"Avele",
+            "rapportId": "25002",
+            "tooltip":"Avele",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"AStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_astory",
+      "data":[
+         {
+            "coordinates":[
+               -49.75, 211.75
+            ],
+            "id":"astory_0",
+            "popupTitle":"To each according to his merits",
+            "popupContent":"<b>Refers to South Vern Another Story!</b><br>Talk to Eayln after completing South Vern story quests. Complete chain quests to unlock purple quest.<br><br>Chain Quest '<a href='https://lostarkcodex.com/us/quest/1109195/' target='_blank' style='text-decoration: none;'>To each according to his merits</a>'",
+            "popupMedia":"",
+            "tooltip":"#2 To each according to his merits",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -44.75, 207.25
+            ],
+            "id":"hstory_0",
+            "popupTitle":"Legendary Phels (3/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11111&m=hstory_0"
+               },
+               {
+                  "link":"z=11111&m=hstory_1"
+               },
+               {
+                  "link":"z=11102&m=hstory_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Legendary Phels (3/3)",
+            "tooltipDirection":"left"
+         }
+      ]
+     },  
+   {
+      "markerType":"Food",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_food",
+      "data":[
+         {
+            "coordinates":[
+               -83.625, 65.875
+            ],
+            "id":"food_0",
+            "popupTitle":"Long Live the Queen!",
+            "popupContent":"Requires 5 food items you probably already crafted.<br>1x #3 Proxima Course Meal<br>1x #2 Balankar Ranger's Salad<br>1x #4 Harmony<br>1x #5 Goblin Fish Soup<br>1x #1 Vern Anniversary Spirits<br>Craft at cook Stelia.",
+            "popupMedia":"",
+            "tooltip":"#7 Long Live the Queen!",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -113.125, 84.625
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Harmony",
+            "popupContent":"Buy 'Fresh Cocktail' for 'Harmony' food and use it until you get:<br>1x Questionable Cocktail<br>1x Pungent Cocktail<br>1x Palatable Cocktail<br>Used at cook Stelia.<br>Craft a second Harmony if you plan to craft the food 'Long Live the Queen!'.",
+            "popupMedia":"",
+            "tooltip":"#4 Harmony",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -88.625, 235.875
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Wait until npc appears at bookshelf. Then interact with it to get two mokoko seeds.",
+            "popupMedia":"public/comments/north_vern/vern_castle/mokoko.png",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -96.25, 128.875
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -104.875, 223.875
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -85.5, 172.625
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -87.625, 234.375
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Wait until npc appears at bookshelf. Then interact with it to get two mokoko seeds.",
+            "popupMedia":"public/comments/north_vern/vern_castle/mokoko.png",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -128.75, 69.875
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"Notice",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_notice",
+      "data":[
+         {
+            "coordinates":[
+               -63.325, 222.381
+            ],
+            "id":"notice_0",
+            "popupTitle":"Notice",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Another Story refers to South Vern Another Story",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -187.25, 79.25
+              ],
+              "id":"portal_0",
+              "destinationID":"11111",
+              "tooltip":"Port Krona",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -41.75, 35.75
+            ],
+            "id":"portal_1",
+            "destinationID":"11611",
+            "tooltip":"Kandaria",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

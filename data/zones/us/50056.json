@@ -1,0 +1,40 @@
+{
+  "markers":[
+   {
+      "markerType":"Boss",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_boss",
+      "data":[
+         {
+            "coordinates":[
+               -123.25, 130.75
+            ],
+            "id":"boss_0",
+            "popupTitle":"Field Boss",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Field Boss",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -153.25, 112
+              ],
+              "id":"portal_0",
+              "destinationID":"overworld",
+              "tooltip":"Open Seas",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

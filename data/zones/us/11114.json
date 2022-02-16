@@ -1,0 +1,367 @@
+{
+  "name":"Vernese Forest",
+  "continent":"North Vern",
+  "zoneTiles":"public/tiles/zones/north_vern/zone_64",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Affinity",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_affinity",
+      "data":[
+         {
+            "coordinates":[
+               -168.125, 169.5
+            ],
+            "id":"affinity_0",
+            "popupTitle":"Payla",
+            "rapportId": "22057",
+            "tooltip":"Payla",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -171.375, 199.875
+            ],
+            "id":"hstory_0",
+            "popupTitle":"The Last Mission",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 The Last Mission",
+            "tooltipDirection":"right"
+         }
+      ]
+     },  
+     {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -145.875, 42.625
+            ],
+            "id":"monster_0",
+            "popupTitle":"Alpha Forest Leopard",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#8 Alpha Forest Leopard",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -111, 189.125
+          ],
+          "id":"monster_1",
+          "popupTitle":"Alpha Forest Boar",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#9 Alpha Forest Boar",
+          "tooltipDirection":"left"
+       },
+       {
+        "coordinates":[
+         -91.875, 111.375
+        ],
+        "id":"monster_2",
+        "popupTitle":"Alpha Shield Horn Reindeer",
+        "popupContent":"",
+        "popupMedia":"",
+        "tooltip":"#10 Alpha Shield Horn Reindeer",
+        "tooltipDirection":"right"
+     },
+     {
+      "coordinates":[
+         -91, 52.625
+      ],
+      "id":"monster_3",
+      "popupTitle":"Adept Leopard Hunter",
+      "popupContent":"",
+      "popupMedia":"",
+      "tooltip":"#11 Adept Leopard Hunter",
+      "tooltipDirection":"right"
+   }
+      ]
+   },   
+   {
+      "markerType":"FBoss",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_fboss",
+      "data":[
+         {
+            "coordinates":[
+               -122.625, 94.125
+            ],
+            "id":"fboss_0",
+            "popupTitle":"Proxima",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Proxima",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -125.5, 94.125
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Proxima Course Meal",
+            "popupContent":"Natural Proxima Skin drops from the field boss Proxima.<br>Used at cook Stelia.<br>Kill Proxima again for the skin if you plan to craft the food 'Long Live the Queen!'.<br><br>Part 1: <a href='https://papunika.com/map/?c=zone_62&m=ingredient_0' style='text-decoration: none;'>Go to location</a><br><br>Part 2: <a href='https://papunika.com/map/?c=zone_64&m=ingredient_0' style='text-decoration: none;'>Go to location</a>",
+            "popupMedia":"",
+            "tooltip":"#3 Proxima Course Meal (2/2)",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Minuet",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_minuet",
+      "data":[
+         {
+            "coordinates":[
+               -111.375, 217.125
+            ],
+            "id":"minuet_0",
+            "popupTitle":"Song of Minuet",
+            "popupContent":"Play Song of Minuet",
+            "popupMedia":"",
+            "tooltip":"Song of Minuet",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -185.625, 181.75
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Ranger Headquarters",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#7 Ranger Headquarters",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -160.75, 118.5
+            ],
+            "id":"viewpoint_1",
+            "popupTitle":"Vernese Road",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#8 Vernese Road",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -183.25, 181.5
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Peter",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Peter",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -32.5, 119.625
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -107.375, 217.75
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -65.875, 135.75
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -107.625, 215.25
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -150.875, 196
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -129.625, 132.625
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -116.375, 104
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -148.5, 196.375
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -123.125, 243.375
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -123.875, 241.625
+            ],
+            "id":"mokoko_9",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -157.375, 190.375
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Kill all nearby enemies to unlock jump pad.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -214.5, 79.25
+              ],
+              "id":"portal_0",
+              "destinationID":"11101",
+              "tooltip":"Rania Village",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -64.75, 211.25
+            ],
+            "id":"portal_1",
+            "destinationID":"11151",
+            "tooltip":"Gorgon's Nest",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

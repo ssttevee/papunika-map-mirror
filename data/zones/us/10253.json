@@ -1,0 +1,183 @@
+{
+    "markers": [
+      {
+        "markerType":"Monster",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_monster",
+        "data":[
+           {
+              "coordinates":[
+                -129, 149.875
+              ],
+              "id":"monster_0",
+              "popupTitle":"Toxiclaw Explorer",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"#3 Toxiclaw Explorer",
+              "tooltipDirection":"right"
+           },
+           {
+            "coordinates":[
+              -135, 117
+            ],
+            "id":"monster_1",
+            "popupTitle":"Toxiclaw Elite Archer",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#10 Toxiclaw Elite Archer",
+            "tooltipDirection":"left"
+         }
+        ]
+     },
+      {
+        "markerType":"Mokoko",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_mokoko",
+        "data":[
+           {
+              "coordinates":[
+                -146.5, 101.125
+              ],
+              "id":"mokoko_0",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"Locked behind secret passage.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -146.375, 103
+              ],
+              "id":"mokoko_1",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"Locked behind secret passage.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -174.5, 109.875
+              ],
+              "id":"mokoko_2",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -136.375, 119.875
+              ],
+              "id":"mokoko_3",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"Locked behind secret passage.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -51.5, 116.5
+              ],
+              "id":"mokoko_4",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -169.5, 125.375
+              ],
+              "id":"mokoko_5",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           }
+        ]
+       },
+      {
+        "markerType":"SPassage",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_spassage",
+        "data":[
+           {
+              "coordinates":[
+                -123.5, 134
+              ],
+              "id":"spassage_0",
+              "popupTitle":"Secret Passage",
+              "popupContent":"Move to the star above to be able to destroy the barrier.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+            "coordinates":[
+              -151.75, 108.75
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -131.5, 121.5
+          ],
+          "id":"spassage_2",
+          "popupTitle":"Secret Passage",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"",
+          "tooltipDirection":"right"
+       }
+        ]
+       },
+      {
+        "markerType":"Notice",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_notice",
+        "data":[
+           {
+              "coordinates":[
+                -101.875, 130.25
+              ],
+              "id":"notice_0",
+              "popupTitle":"Notice",
+              "popupContent":"Reach this point to be able to destroy the barrier below.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           }
+        ]
+       },
+      {
+        "markerType": "Portal",
+        "enabled": true,
+        "allowSidebar": false,
+        "layerID": "layer_portal",
+        "data": [
+          {
+            "coordinates": [-227, 161],
+            "id": "portal_0",
+            "destinationID": "10211",
+            "tooltip": "Log Hill",
+            "tooltipDirection": "bottom"
+          }
+        ]
+      }
+    ]
+ }

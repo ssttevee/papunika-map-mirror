@@ -1,0 +1,54 @@
+{
+  "name":"Queen's Garden 1B",
+  "continent":"Rohendel",
+  "zoneTiles":"public/tiles/zones/rohendel/zone_79_2",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -180.125, 109.5
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -184.5, 99.25
+              ],
+              "id":"portal_0",
+              "destinationID":"10101",
+              "tooltip":"1F",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -136.5, 132
+            ],
+            "id":"portal_1",
+            "destinationID":"10125",
+            "tooltip":"Ancient Flower Garden",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

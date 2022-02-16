@@ -1,0 +1,277 @@
+{
+  "name":"Frozen Sea",
+  "continent":"Shushire",
+  "zoneTiles":"public/tiles/zones/shushire/zone_69",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Affinity",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_affinity",
+      "data":[
+         {
+            "coordinates":[
+               -110.875, 189.875
+            ],
+            "id":"affinity_0",
+            "popupTitle":"Rancher Jude",
+            "rapportId": "16013",
+            "tooltip":"Rancher Jude",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -132.25, 212.625
+            ],
+            "id":"monster_0",
+            "popupTitle":"Giant Ice Crystal Construct",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#7 Giant Ice Crystal Construct",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -184.25, 154.125
+          ],
+          "id":"monster_1",
+          "popupTitle":"Hoarfrost Robber Stray Dog",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#13 Hoarfrost Robber Stray Dog",
+          "tooltipDirection":"right"
+       },
+       {
+        "coordinates":[
+         -102.375, 117.25
+        ],
+        "id":"monster_2",
+        "popupTitle":"Giant Port Sawtooth Rat",
+        "popupContent":"",
+        "popupMedia":"",
+        "tooltip":"#14 Giant Port Sawtooth Rat",
+        "tooltipDirection":"right"
+     }
+      ]
+   },   
+   {
+      "markerType":"Food",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_food",
+      "data":[
+         {
+            "coordinates":[
+               -156.25, 75.75
+            ],
+            "id":"food_0",
+            "popupTitle":"Old Canned Food",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#3 Old Canned Food",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -90, 80
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Sapphire Sardine",
+            "popupContent":"Required ingredient for '#5 Grilled Sapphire Sardine'.<br>Buy at traveling merchant Jeffrey. Used at cook Helena.",
+            "popupMedia":"",
+            "tooltip":"#5 Sapphire Sardine (1/1)",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -116.625, 58.375
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Frozen Fountain",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 Frozen Fountain",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -92.375, 79.25
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Jeffrey",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Jeffrey",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -56.125, 124.125
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -96.5, 186.75
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -151.375, 83
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -83, 84.5
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -150.25, 161.375
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -151.75, 84.25
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -170.625, 148.75
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -150.125, 162.5
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -155.75, 165.125
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -170.75, 44
+              ],
+              "id":"portal_0",
+              "destinationID":"overworld",
+              "tooltip":"Open Seas",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -112, 235
+            ],
+            "id":"portal_1",
+            "destinationID":"10301",
+            "tooltip":"Rigens Village",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

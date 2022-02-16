@@ -1,0 +1,45 @@
+{
+  "name":"Tortoyk's Heart",
+  "continent":"Tortoyk",
+  "zoneTiles":"public/tiles/zones/tortoyk/zone_36",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -54.75, 118.75
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Egg of Creation Shell",
+            "popupContent":"Required ingredient for '#6 Crunch Crunch Fried Shell'.<br>Used at cook Supisu.",
+            "popupMedia":"",
+            "tooltip":"#6 Egg of Creation Shell (1/1)",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -212.25, 133.75
+              ],
+              "id":"portal_0",
+              "destinationID":"11014",
+              "tooltip":"Forest of Giants",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

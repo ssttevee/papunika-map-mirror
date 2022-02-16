@@ -1,0 +1,183 @@
+{
+  "name":"Dream Palace 2F",
+  "continent":"Rohendel",
+  "zoneTiles":"public/tiles/zones/rohendel/zone_85_2",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -91.625, 3.625
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -125.25, 132.375
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -101.375, 24.125
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Interact with mirror.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"Notice",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_notice",
+      "data":[
+         {
+            "coordinates":[
+               -115, 107.125
+            ],
+            "id":"notice_0",
+            "popupTitle":"Notice",
+            "popupContent":"Interact with hidden object to get a buff.<br>The object spawns randomly in one of three locations.<br>Required for Hidden Mokoko Seed.",
+            "popupMedia":"",
+            "tooltip":"Hidden Object",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -126.375, 109.875
+            ],
+            "id":"notice_1",
+            "popupTitle":"Notice",
+            "popupContent":"Interact with hidden object to get a buff.<br>The object spawns randomly in one of three locations.<br>Required for Hidden Mokoko Seed.",
+            "popupMedia":"",
+            "tooltip":"Hidden Object",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -109.625, 118.625
+            ],
+            "id":"notice_2",
+            "popupTitle":"Notice",
+            "popupContent":"Interact with hidden object to get a buff.<br>The object spawns randomly in one of three locations.<br>Required for Hidden Mokoko Seed.",
+            "popupMedia":"",
+            "tooltip":"Hidden Object",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -186, 138.5
+            ],
+            "id":"notice_3",
+            "popupTitle":"Notice",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Interact with Hidden Object for a buff required<br> for Hidden Mokoko Seed <b>within 1min</b> after<br> the start of the battle!",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -76, 37
+            ],
+            "id":"notice_4",
+            "popupTitle":"Notice",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Interact with Hidden Object in boss fight during<br> wave mechanic for a buff required for Hidden Mokoko Seed<br> <b>within 1min</b> after the start of the battle!",
+            "tooltipDirection":"left"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -198, 106.25
+              ],
+              "id":"portal_0",
+              "destinationID":"10191",
+              "tooltip":"1F - First Enter",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -103.25, 101.5
+            ],
+            "id":"portal_1",
+            "destinationID":"10191",
+            "tooltip":"1F",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -139.25, 262
+            ],
+            "id":"portal_2",
+            "destinationID":"10191",
+            "tooltip":"1F - Second Enter",
+            "tooltipDirection":"bottom"
+         },
+         {
+          "coordinates":[
+            -53.5, 166
+          ],
+          "id":"portal_3",
+          "destinationID":"10191",
+          "tooltip":"1F",
+          "tooltipDirection":"bottom"
+       },
+       {
+          "coordinates":[
+            -126, 6.25
+          ],
+          "id":"portal_4",
+          "destinationID":"10191",
+          "tooltip":"1F - Third Enter",
+          "tooltipDirection":"bottom"
+       },
+       {
+        "coordinates":[
+         -69, 64
+        ],
+        "id":"portal_3",
+        "destinationID":"10191",
+        "tooltip":"1F",
+        "tooltipDirection":"bottom"
+     }
+        ]
+     }
+  ]
+}

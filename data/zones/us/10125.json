@@ -1,0 +1,659 @@
+{
+  "name":"Ancient Flower Garden",
+  "continent":"Rohendel",
+  "zoneTiles":"public/tiles/zones/rohendel/zone_83",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Affinity",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_affinity",
+      "data":[
+         {
+            "coordinates":[
+               -32.75, 173.875
+            ],
+            "id":"affinity_0",
+            "popupTitle":"Aleina",
+            "rapportId": "24514",
+            "tooltip":"Aleina",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -65.875, 122.875
+            ],
+            "id":"hstory_0",
+            "popupTitle":"Secrets of the Enchanted Garden (1/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10125&m=hstory_0"
+               },
+               {
+                  "link":"z=10125&m=hstory_1"
+               },
+               {
+                  "link":"z=10125&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#3 Secrets of the Enchanted Garden (1/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -57.125, 128.75
+            ],
+            "id":"hstory_1",
+            "popupTitle":"Secrets of the Enchanted Garden (2/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10125&m=hstory_0"
+               },
+               {
+                  "link":"z=10125&m=hstory_1"
+               },
+               {
+                  "link":"z=10125&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#3 Secrets of the Enchanted Garden (2/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -49.625, 126.125
+            ],
+            "id":"hstory_2",
+            "popupTitle":"Secrets of the Enchanted Garden (3/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10125&m=hstory_0"
+               },
+               {
+                  "link":"z=10125&m=hstory_1"
+               },
+               {
+                  "link":"z=10125&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#3 Secrets of the Enchanted Garden (3/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -213.25, 135.5
+            ],
+            "id":"hstory_3",
+            "popupTitle":"Endlessly lasting century (3/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10101&m=hstory_0"
+               },
+               {
+                  "link":"z=10124&m=hstory_6"
+               },
+               {
+                  "link":"z=10125&m=hstory_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#5 Endlessly lasting century (3/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -211.75, 107.25
+            ],
+            "id":"hstory_4",
+            "popupTitle":"Birth of Rohendel (3/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10121&m=hstory_0"
+               },
+               {
+                  "link":"z=10121&m=hstory_1"
+               },
+               {
+                  "link":"z=10125&m=hstory_4"
+               },
+               {
+                  "link":"z=10121&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Birth of Rohendel (3/4)",
+            "tooltipDirection":"left"
+         }
+      ]
+     },  
+   {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -209.75, 134.875
+            ],
+            "id":"monster_0",
+            "popupTitle":"Aardvat, the crazed rock",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#12 Aardvat, the crazed rock",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -198.25, 140.25
+          ],
+          "id":"monster_1",
+          "popupTitle":"Blinded by the Illusion Dryad",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#13 Blinded by the Illusion Dryad",
+          "tooltipDirection":"right"
+       },
+       {
+        "coordinates":[
+         -130.25, 58.125
+        ],
+        "id":"monster_2",
+        "popupTitle":"Monstrous troglodyte",
+        "popupContent":"",
+        "popupMedia":"",
+        "tooltip":"#14 Monstrous troglodyte",
+        "tooltipDirection":"right"
+     },
+     {
+      "coordinates":[
+         -82.5, 122.25
+      ],
+      "id":"monster_3",
+      "popupTitle":"Leader of Twilight Frostwing",
+      "popupContent":"",
+      "popupMedia":"",
+      "tooltip":"#15 Leader of Twilight Frostwing",
+      "tooltipDirection":"right"
+   }
+      ]
+   },  
+   {
+      "markerType":"Food",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_food",
+      "data":[
+         {
+            "coordinates":[
+               -116.375, 160.125
+            ],
+            "id":"food_0",
+            "popupTitle":"Cookies 'My Heart'",
+            "popupContent":"Buy at traveling merchant Arisier.",
+            "popupMedia":"",
+            "tooltip":"#2 Cookies 'My Heart'",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -184.75, 123.75
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Shimmering snail (1+2/3)",
+            "popupContent":"Required ingredient for '#7 Roll 'Snail''.<br>Mob randomly spawns at 10 locations.<br>You will need 100 for 'Boiled Flickering Snail' and another 100 for final food 'Roll'Snail''<br>Used at cook Elara.<br><br><b>Check other ingredient markers with #7</b>",
+            "parts": [
+               {
+                  "link":"z=10125&m=ingredient_0"
+               },
+               {
+                  "link":"z=10125&m=ingredient_0"
+               },
+               {
+                  "link":"z=10122&m=ingredient_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Shimmering snail (1+2/3)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -159.5, 158.5
+            ],
+            "id":"ingredient_1",
+            "popupTitle":"Shimmering snail (1+2/3)",
+            "popupContent":"Required ingredient for '#7 Roll 'Snail''.<br>Mob randomly spawns at 10 locations.<br>You will need 100 for 'Boiled Flickering Snail' and another 100 for final food 'Roll'Snail''<br>Used at cook Elara.<br><br><b>Check other ingredient markers with #7</b>",
+            "parts": [
+               {
+                  "link":"z=10125&m=ingredient_0"
+               },
+               {
+                  "link":"z=10125&m=ingredient_0"
+               },
+               {
+                  "link":"z=10122&m=ingredient_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -141.75, 176.25
+            ],
+            "id":"ingredient_2",
+            "popupTitle":"Shimmering snail (1+2/3)",
+            "popupContent":"Required ingredient for '#7 Roll 'Snail''.<br>Mob randomly spawns at 10 locations.<br>You will need 100 for 'Boiled Flickering Snail' and another 100 for final food 'Roll'Snail''<br>Used at cook Elara.<br><br><b>Check other ingredient markers with #7</b>",
+            "parts": [
+               {
+                  "link":"z=10125&m=ingredient_0"
+               },
+               {
+                  "link":"z=10125&m=ingredient_0"
+               },
+               {
+                  "link":"z=10122&m=ingredient_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -121.125, 185.125
+            ],
+            "id":"ingredient_3",
+            "popupTitle":"Shimmering snail (1+2/3)",
+            "popupContent":"Required ingredient for '#7 Roll 'Snail''.<br>Mob randomly spawns at 10 locations.<br>You will need 100 for 'Boiled Flickering Snail' and another 100 for final food 'Roll'Snail''<br>Used at cook Elara.<br><br><b>Check other ingredient markers with #7</b>",
+            "parts": [
+               {
+                  "link":"z=10125&m=ingredient_0"
+               },
+               {
+                  "link":"z=10125&m=ingredient_0"
+               },
+               {
+                  "link":"z=10122&m=ingredient_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -215.625, 121.5
+            ],
+            "id":"ingredient_4",
+            "popupTitle":"Shimmering snail (1+2/3)",
+            "popupContent":"Required ingredient for '#7 Roll 'Snail''.<br>Mob randomly spawns at 10 locations.<br>You will need 100 for 'Boiled Flickering Snail' and another 100 for final food 'Roll'Snail''<br>Used at cook Elara.<br><br><b>Check other ingredient markers with #7</b>",
+            "parts": [
+               {
+                  "link":"z=10125&m=ingredient_0"
+               },
+               {
+                  "link":"z=10125&m=ingredient_0"
+               },
+               {
+                  "link":"z=10122&m=ingredient_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -72.125, 175.5
+            ],
+            "id":"ingredient_5",
+            "popupTitle":"Shimmering snail (1+2/3)",
+            "popupContent":"Required ingredient for '#7 Roll 'Snail''.<br>Mob randomly spawns at 10 locations.<br>You will need 100 for 'Boiled Flickering Snail' and another 100 for final food 'Roll'Snail''<br>Used at cook Elara.<br><br><b>Check other ingredient markers with #7</b>",
+            "parts": [
+               {
+                  "link":"z=10125&m=ingredient_0"
+               },
+               {
+                  "link":"z=10125&m=ingredient_0"
+               },
+               {
+                  "link":"z=10122&m=ingredient_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -44.625, 199.375
+            ],
+            "id":"ingredient_6",
+            "popupTitle":"Shimmering snail (1+2/3)",
+            "popupContent":"Required ingredient for '#7 Roll 'Snail''.<br>Mob randomly spawns at 10 locations.<br>You will need 100 for 'Boiled Flickering Snail' and another 100 for final food 'Roll'Snail''<br>Used at cook Elara.<br><br><b>Check other ingredient markers with #7</b>",
+            "parts": [
+               {
+                  "link":"z=10125&m=ingredient_0"
+               },
+               {
+                  "link":"z=10125&m=ingredient_0"
+               },
+               {
+                  "link":"z=10122&m=ingredient_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -166.875, 67.875
+            ],
+            "id":"ingredient_7",
+            "popupTitle":"Shimmering snail (1+2/3)",
+            "popupContent":"Required ingredient for '#7 Roll 'Snail''.<br>Mob randomly spawns at 10 locations.<br>You will need 100 for 'Boiled Flickering Snail' and another 100 for final food 'Roll'Snail''<br>Used at cook Elara.<br><br><b>Check other ingredient markers with #7</b>",
+            "parts": [
+               {
+                  "link":"z=10125&m=ingredient_0"
+               },
+               {
+                  "link":"z=10125&m=ingredient_0"
+               },
+               {
+                  "link":"z=10122&m=ingredient_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -145.125, 75
+            ],
+            "id":"ingredient_8",
+            "popupTitle":"Shimmering snail (1+2/3)",
+            "popupContent":"Required ingredient for '#7 Roll 'Snail''.<br>Mob randomly spawns at 10 locations.<br>You will need 100 for 'Boiled Flickering Snail' and another 100 for final food 'Roll'Snail''<br>Used at cook Elara.<br><br><b>Check other ingredient markers with #7</b>",
+            "parts": [
+               {
+                  "link":"z=10125&m=ingredient_0"
+               },
+               {
+                  "link":"z=10125&m=ingredient_0"
+               },
+               {
+                  "link":"z=10122&m=ingredient_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -145.75, 90
+            ],
+            "id":"ingredient_9",
+            "popupTitle":"Shimmering snail (1+2/3)",
+            "popupContent":"Required ingredient for '#7 Roll 'Snail''.<br>Mob randomly spawns at 10 locations.<br>You will need 100 for 'Boiled Flickering Snail' and another 100 for final food 'Roll'Snail''<br>Used at cook Elara.<br><br><b>Check other ingredient markers with #7</b>",
+            "parts": [
+               {
+                  "link":"z=10125&m=ingredient_0"
+               },
+               {
+                  "link":"z=10125&m=ingredient_0"
+               },
+               {
+                  "link":"z=10122&m=ingredient_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -133.75, 176.75
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Secret Garden Waterfalls",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#8 Secret Garden Waterfalls",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -60.375, 129.125
+            ],
+            "id":"viewpoint_1",
+            "popupTitle":"Shimmering lowland",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#9 Shimmering lowland",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -119.25, 160
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Arisier",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Arisier",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -56.875, 125
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -57.75, 122.875
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -50.5, 196.75
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -95.75, 107.125
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Music of Eternity', which you get from Rohendel's Adventure's Tome reward at 60%.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -139.75, 173.5
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -153.875, 61.375
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Music of Eternity', which you get from Rohendel's Adventure's Tome reward at 60%.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -124.625, 53.5
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -45.125, 16.125
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -37.875, 119.25
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -44.75, 121.25
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Use Adventure's Tome Food '#1 Elixir of Secret Vision' at this location to enter.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -64, 122.875
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Requires 250 Wisdom or higher to enter the waterfall.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -243.25, 113
+              ],
+              "id":"portal_0",
+              "destinationID":"10101_2",
+              "tooltip":"Queen's Garden 1B",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -32.5, 16
+            ],
+            "id":"portal_1",
+            "destinationID":"10191",
+            "tooltip":"Abode of Dreams",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

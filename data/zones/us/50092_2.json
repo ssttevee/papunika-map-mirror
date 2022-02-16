@@ -1,0 +1,97 @@
+{
+  "markers":[
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -170, 110.75
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -176.75, 118.75
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -153, 128.5
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -165, 91
+              ],
+              "id":"portal_0",
+              "destinationID":"50092",
+              "tooltip":"1F",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -111.25, 96
+            ],
+            "id":"portal_1",
+            "destinationID":"50092",
+            "tooltip":"1F",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -87.25, 108
+            ],
+            "id":"portal_2",
+            "destinationID":"50092",
+            "tooltip":"1F",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -146.5, 161.25
+            ],
+            "id":"portal_3",
+            "destinationID":"50092",
+            "tooltip":"1F",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

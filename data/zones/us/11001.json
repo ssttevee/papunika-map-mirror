@@ -1,0 +1,152 @@
+{
+  "name":"Mokoko Village",
+  "continent":"Tortoyk",
+  "zoneTiles":"public/tiles/zones/tortoyk/zone_31",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Affinity",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_affinity",
+      "data":[
+         {
+            "coordinates":[
+               -73.875, 89.875
+            ],
+            "id":"affinity_0",
+            "popupTitle":"Mokamoka",
+            "rapportId": "21161",
+            "tooltip":"Mokamoka",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -126.875, 98.25
+            ],
+            "id":"affinity_1",
+            "popupTitle":"Dakudaku",
+            "rapportId": "21133",
+            "tooltip":"Dakudaku",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -70.375, 90.125
+            ],
+            "id":"affinity_2",
+            "popupTitle":"Totoma",
+            "rapportId": "21162",
+            "tooltip":"Totoma",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -128.375, 94.75
+            ],
+            "id":"hstory_0",
+            "popupTitle":"Pirate King in Waiting (2/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11013&m=hstory_4"
+               },
+               {
+                  "link":"z=11001&m=hstory_0"
+               },
+               {
+                  "link":"z=11051&m=hstory_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#6 Pirate King in Waiting (2/3)",
+            "tooltipDirection":"left"
+         }
+      ]
+     },  
+   {
+      "markerType":"Food",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_food",
+      "data":[
+         {
+            "coordinates":[
+               -118.5, 134.125
+            ],
+            "id":"food_0",
+            "popupTitle":"Boiled Mokoko Egg",
+            "popupContent":"Buy Boiled Mokoko Egg at merchant Purpur. After 1 minute it turns into Soft Boiled Egg.<br>Use it within a minute, otherwise it turns into Yucky Yucky Hard Boiled Egg.",
+            "popupMedia":"",
+            "tooltip":"#4 Boiled Mokoko Egg",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -148.25, 143
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Sweet-o-sweet Honey",
+            "popupContent":"Required ingredient for '#1 Pow Pow Honey health Tonic'.<br>Buy at merchant Tellara. Used at cook Supisu.",
+            "popupMedia":"",
+            "tooltip":"#1 Sweet-o-sweet Honey (1/1)",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -121.75, 134.125
+          ],
+          "id":"ingredient_1",
+          "popupTitle":"Cashew Fruit",
+          "popupContent":"Required ingredient for '#3 Cashew Cashew Smoothie'.<br>Buy at merchant Purpur. Used at cook Hyde to craft Rough Cashew Powder. Has a chance to turn into Fine Cashew Powder.",
+          "popupMedia":"",
+          "tooltip":"#3 Cashew Fruit (1/2) + (2/2)",
+          "tooltipDirection":"right"
+       }
+      ]
+   },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -168.5, 79
+              ],
+              "id":"portal_0",
+              "destinationID":"11011",
+              "tooltip":"Seaswept Woods",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -113, 191.5
+            ],
+            "id":"portal_1",
+            "destinationID":"11012",
+            "tooltip":"Sweetwater Forest",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

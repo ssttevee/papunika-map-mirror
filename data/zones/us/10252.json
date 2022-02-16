@@ -1,0 +1,142 @@
+{
+    "markers": [
+      {
+        "markerType":"Monster",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_monster",
+        "data":[
+           {
+              "coordinates":[
+                -62.375, 121.375
+              ],
+              "id":"monster_0",
+              "popupTitle":"Decomposed Infected",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"#11 Decomposed Infected",
+              "tooltipDirection":"left"
+           }
+        ]
+     },
+      {
+        "markerType":"Mokoko",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_mokoko",
+        "data":[
+           {
+              "coordinates":[
+                -127, 110
+              ],
+              "id":"mokoko_0",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"Locked behind secret passage.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -110.25, 128.5
+              ],
+              "id":"mokoko_1",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -125.625, 109.5
+              ],
+              "id":"mokoko_2",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"Locked behind secret passage.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -125.75, 146.875
+              ],
+              "id":"mokoko_3",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -129.625, 89.125
+              ],
+              "id":"mokoko_4",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"Locked behind secret passage.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -127.375, 85
+              ],
+              "id":"mokoko_5",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"Locked behind secret passage.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           }
+        ]
+       },
+      {
+        "markerType":"SPassage",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_spassage",
+        "data":[
+           {
+              "coordinates":[
+                -122.875, 106.75
+              ],
+              "id":"spassage_0",
+              "popupTitle":"Secret Passage",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+            "coordinates":[
+              -122.125, 90.625
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+        ]
+       },
+      {
+        "markerType": "Portal",
+        "enabled": true,
+        "allowSidebar": false,
+        "layerID": "layer_portal",
+        "data": [
+          {
+            "coordinates": [-224, 124.75],
+            "id": "portal_0",
+            "destinationID": "10222",
+            "tooltip": "Rethramis Border",
+            "tooltipDirection": "bottom"
+          }
+        ]
+      }
+    ]
+ }

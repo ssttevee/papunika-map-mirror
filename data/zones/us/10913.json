@@ -1,0 +1,353 @@
+{
+  "name":"Siena Monastery",
+  "continent":"Feiton",
+  "zoneTiles":"public/tiles/zones/feiton/zone_97",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -49, 202.5
+            ],
+            "id":"hstory_0",
+            "popupTitle":"A song from another time (1/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10913&m=hstory_0"
+               },
+               {
+                  "link":"z=10961&m=hstory_0"
+               },
+               {
+                  "link":"z=10914&m=hstory_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#5 A song from another time (1/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -150.125, 181.875
+            ],
+            "id":"hstory_1",
+            "popupTitle":"A ray of light in the cursed lands (2/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10911&m=hstory_5"
+               },
+               {
+                  "link":"z=10913&m=hstory_1"
+               },
+               {
+                  "link":"z=10912&m=hstory_0"
+               },
+               {
+                  "link":"z=10914&m=hstory_1"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#6 A ray of light in the cursed lands (2/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -26.125, 123.875
+            ],
+            "id":"hstory_2",
+            "popupTitle":"Smiling man (1/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10913&m=hstory_2"
+               },
+               {
+                  "link":"z=10911&m=hstory_6"
+               },
+               {
+                  "link":"z=10901&m=hstory_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Smiling man (1/3)",
+            "tooltipDirection":"right"
+         }
+      ]
+     },  
+   {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -115.5, 43.25
+            ],
+            "id":"monster_0",
+            "popupTitle":"Harbinger Raven",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#10 Harbinger Raven",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -29.5, 203.5
+          ],
+          "id":"monster_1",
+          "popupTitle":"Lecrotta with a gray mane",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#11 Lecrotta with a gray mane",
+          "tooltipDirection":"left"
+       }
+      ]
+   },   
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -197.25, 137.875
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Siena Monasterye",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#7 Siena Monasterye",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -31.75, 208
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -24.5, 212
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -70.875, 104.25
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Song of Harmony', which you get from Feiton's Adventure's Tome reward at 60%.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -84, 195.375
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -108.375, 227.5
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Song of Harmony', which you get from Feiton's Adventure's Tome reward at 60%.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -156.125, 150.875
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -177.75, 189
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Song of Harmony', which you get from Feiton's Adventure's Tome reward at 60%.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -197.75, 162.75
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -160.375, 90.125
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -100.25, 40
+            ],
+            "id":"mokoko_9",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -95.75, 42.625
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Jump.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -155.75, 84.25
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -157.75, 149.625
+            ],
+            "id":"spassage_2",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Use Adventure's Tome Food '#6 Bloody Fist' at this location to obtain Mokoko Seed.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -80.375, 205.375
+            ],
+            "id":"spassage_3",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Go upstairs",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -26.375, 177.625
+            ],
+            "id":"spassage_4",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -26.625, 208.75
+            ],
+            "id":"spassage_5",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Requires 300 Courage or higher to enter.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -241, 65.25
+              ],
+              "id":"portal_0",
+              "destinationID":"10901",
+              "tooltip":"Kallazar",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -14.5, 115.5
+            ],
+            "id":"portal_0",
+            "destinationID":"10961",
+            "tooltip":"Black Rain Fortress",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "name":"Bitterwind Hill",
+  "continent":"Shushire",
+  "zoneTiles":"public/tiles/zones/shushire/zone_71",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -148, 207.125
+            ],
+            "id":"hstory_0",
+            "popupTitle":"Love So Sincere",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#2 Love So Sincere",
+            "tooltipDirection":"right"
+         }
+      ]
+     },  
+     {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -69.125, 101.375
+            ],
+            "id":"monster_0",
+            "popupTitle":"Alpha Coldsnap Wolf",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 Alpha Coldsnap Wolf",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -131, 190.125
+          ],
+          "id":"monster_1",
+          "popupTitle":"Corrupt Enforcer",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#8 Corrupt Enforcer",
+          "tooltipDirection":"right"
+       },
+       {
+        "coordinates":[
+         -83.25, 65.25
+        ],
+        "id":"monster_2",
+        "popupTitle":"Shiny Fur Frost Wolf",
+        "popupContent":"",
+        "popupMedia":"",
+        "tooltip":"#9 Shiny Fur Frost Wolf",
+        "tooltipDirection":"right"
+     }
+      ]
+   },   
+   {
+      "markerType":"Food",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_food",
+      "data":[
+         {
+            "coordinates":[
+               -104.125, 126
+            ],
+            "id":"food_0",
+            "popupTitle":"Wolfs Meat",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#2 Wolfs Meat",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -146.125, 72.375
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Sapphire Sardine",
+            "popupContent":"Required ingredient for '#5 Grilled Sapphire Sardine'.<br>Buy at traveling merchant Jeffrey. Used at cook Helena.",
+            "popupMedia":"",
+            "tooltip":"#5 Sapphire Sardine (1/1)",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -91.875, 34.125
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Blizzard Temple",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#3 Blizzard Temple",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -143.375, 72.875
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Jeffrey",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Jeffrey",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -54.25, 106.25
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -99.25, 74.75
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -94.375, 30.625
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -129.25, 103.25
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -164.125, 221.125
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -128.625, 128.25
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -130.375, 129
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -161.625, 223
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -188.875, 134.5
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -50.25, 53.75
+              ],
+              "id":"portal_0",
+              "destinationID":"10301",
+              "tooltip":"Rigens Village",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -228.5, 148.5
+            ],
+            "id":"portal_1",
+            "destinationID":"10324",
+            "tooltip":"Lake Eternity",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -19.25, 77.25
+            ],
+            "id":"portal_2",
+            "destinationID":"10323",
+            "tooltip":"Iceblood Plateau",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

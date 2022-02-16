@@ -1,0 +1,226 @@
+{
+  "name":"Black Rain Fortress",
+  "continent":"Feiton",
+  "zoneTiles":"public/tiles/zones/feiton/zone_99",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -105.125, 64.5
+            ],
+            "id":"hstory_0",
+            "popupTitle":"A song from another time (2/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10913&m=hstory_0"
+               },
+               {
+                  "link":"z=10961&m=hstory_0"
+               },
+               {
+                  "link":"z=10914&m=hstory_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#5 A song from another time (2/3)",
+            "tooltipDirection":"right"
+         }
+      ]
+     },  
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -172.875, 171.875
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -83.261823, 209.126831
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -63.63961, 189.504617
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -50.381358, 211.424928
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"CDotR",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_cdotr",
+      "data":[
+         {
+            "coordinates":[
+               -138.875, 200.125
+            ],
+            "id":"cdotr_0",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"CDotB",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_cdotb",
+      "data":[
+         {
+            "coordinates":[
+               -170, 172.375
+            ],
+            "id":"cdotb_0",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"CDotG",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_cdotg",
+      "data":[
+         {
+            "coordinates":[
+               -66.5, 227.25
+            ],
+            "id":"cdotg_0",
+            "popupTitle":"",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"Notice",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_notice",
+      "data":[
+         {
+            "coordinates":[
+               -98.25, 194
+            ],
+            "id":"notice_0",
+            "popupTitle":"Notice",
+            "popupContent":"<b>Step 1:</b><br>Proceed dungeon up to the piano at the blue point.<br><b>Step 2:</b><br>Track back to the red point and pull lever. Use nearby raft to get teleported to green point.<br><b>Step 3:</b><br>Collect Mokoko Seeds from North -> West -> South, kill boss in the middle and pull lever (marked with star).",
+            "popupMedia":"",
+            "tooltip":"Click me for Mokoko Seed acquisition",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -42.25, -4.5
+            ],
+            "id":"notice_1",
+            "popupTitle":"Notice",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"<b>Read instructions for Mokoko Seeds before proceeding with the dungeon!</b>",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -51, -4.5
+            ],
+            "id":"notice_2",
+            "popupTitle":"Notice",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"6 Mokoko Seeds at 2F",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -66.25, 207
+            ],
+            "id":"notice_3",
+            "popupTitle":"Notice",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Lever",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -164.5, 216
+              ],
+              "id":"portal_0",
+              "destinationID":"10913",
+              "tooltip":"Siena Monastery",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -93.5, 50
+            ],
+            "id":"portal_1",
+            "destinationID":"10961_2",
+            "tooltip":"2F",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

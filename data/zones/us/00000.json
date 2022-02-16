@@ -1,0 +1,337 @@
+{
+   "name":"Overworld",
+   "continent":"Arkesia",
+   "mapTiles":"public/tiles/overworld",
+   "additionalZones":[    
+   ],
+   "markers":[
+    {
+       "markerType":"OGate",
+       "enabled":true,
+       "allowSidebar":true,
+       "layerID":"layer_ogate",
+       "data":[
+          {
+             "coordinates":[
+               -95.75, 163.5
+             ],
+             "id":"ogate_0",
+             "popupTitle":"Gate of Harmony",
+             "popupContent":"Item Level: 302",
+             "popupMedia":"",
+             "tooltip":"Gate of Harmony",
+             "tooltipDirection":"bottom"
+          },
+           {
+             "coordinates":[
+               -135.875, 63.625
+             ],
+             "id":"ogate_1",
+             "popupTitle":"Gate of Wisdom",
+             "popupContent":"Item Level: 415",
+             "popupMedia":"",
+             "tooltip":"Gate of Wisdom",
+             "tooltipDirection":"bottom"
+             },
+             {
+               "coordinates":[
+                 -175.625, 11.875
+               ],
+               "id":"ogate_2",
+               "popupTitle":"Gate of Earth",
+               "popupContent":"Item Level: 802",
+               "popupMedia":"",
+               "tooltip":"Gate of Earth",
+               "tooltipDirection":"bottom"
+           },
+               {
+                 "coordinates":[
+                   -106.125, 43.5
+                 ],
+                 "id":"ogate_3",
+                 "popupTitle":"Gate of Humility",
+                 "popupContent":"Item Level: 915",
+                 "popupMedia":"",
+                 "tooltip":"Gate of Humility",
+                 "tooltipDirection":"bottom"
+             },
+           {
+             "coordinates":[
+               -169.25, 76
+             ],
+             "id":"ogate_4",
+             "popupTitle":"Gate of Life",
+             "popupContent":"Item Level: 1302",
+             "popupMedia":"",
+             "tooltip":"Gate of Life",
+             "tooltipDirection":"bottom"
+         }
+       ]
+      }, 
+    {
+       "markerType":"Ghostship",
+       "enabled":true,
+       "allowSidebar":true,
+       "layerID":"layer_ghostship",
+       "data":[
+          {
+             "coordinates":[
+               -116, 76
+             ],
+             "id":"ghostship_0",
+             "popupTitle":"Nightmare Ghost Ship",
+             "popupContent":"Item Level: 415",
+             "popupMedia":"",
+             "tooltip":"Nightmare Ghost Ship",
+             "tooltipDirection":"bottom"
+          },
+          {
+           "coordinates":[
+             -88.625, 39
+           ],
+           "id":"ghostship_1",
+           "popupTitle":"Shadow Ghost Ship",
+           "popupContent":"Item Level: 915",
+           "popupMedia":"",
+           "tooltip":"Shadow Ghost Ship",
+           "tooltipDirection":"bottom"
+        },
+        {
+         "coordinates":[
+           -190.5, 76.5
+         ],
+         "id":"ghostship_2",
+         "popupTitle":"Tempest Ghost Ship",
+         "popupContent":"Item Level: 1370",
+         "popupMedia":"",
+         "tooltip":"Tempest Ghost Ship",
+         "tooltipDirection":"bottom"
+      }
+       ]
+    },
+      {
+       "markerType":"EMarine",
+       "enabled":true,
+       "allowSidebar":true,
+       "layerID":"layer_emarine",
+       "data":[
+          {
+             "coordinates":[
+               -121.65625, 197.21875
+             ],
+             "id":"emarine_0",
+             "popupTitle":"Navigation Co-op: Anikka",
+             "popupContent":"Item Level: 302<br><br>Start location",
+             "popupMedia":"",
+             "tooltip":"Start",
+             "tooltipDirection":"bottom"
+          },
+          {
+           "coordinates":[
+             -82.0625, 189.34375
+           ],
+           "id":"emarine_1",
+           "popupTitle":"Navigation Co-op: Arthetine",
+           "popupContent":"Item Level: 302<br><br>Start location",
+           "popupMedia":"",
+           "tooltip":"Start",
+           "tooltipDirection":"bottom"
+        },
+        {
+         "coordinates":[
+           -92.125, 150.0625
+         ],
+         "id":"emarine_2",
+         "popupTitle":"Navigation Co-op: Vern",
+         "popupContent":"Item Level: 302<br><br>Start location",
+         "popupMedia":"",
+         "tooltip":"Start",
+         "tooltipDirection":"bottom"
+      },
+      {
+       "coordinates":[
+         -103.4375, 65.375
+       ],
+       "id":"emarine_3",
+       "popupTitle":"Navigation Co-op: Rohendel",
+       "popupContent":"Item Level: 415<br><br>Start location",
+       "popupMedia":"",
+       "tooltip":"Start",
+       "tooltipDirection":"bottom"
+    },           {
+     "coordinates":[
+       -179.125, 14.1875
+     ],
+     "id":"emarine_4",
+     "popupTitle":"Navigation Co-op: Yorn",
+     "popupContent":"Item Level: 802<br><br>Start location",
+     "popupMedia":"",
+     "tooltip":"Start",
+     "tooltipDirection":"bottom"
+     },
+     {
+       "coordinates":[
+         -95.9375, 43.125
+       ],
+       "id":"emarine_5",
+       "popupTitle":"Navigation Co-op: Feiton",
+       "popupContent":"Item Level: 915<br><br>Start location",
+       "popupMedia":"",
+       "tooltip":"Start",
+       "tooltipDirection":"bottom"
+   },
+   {
+     "coordinates":[
+       -184.1875, 65.1875
+     ],
+     "id":"emarine_6",
+     "popupTitle":"Navigation Co-op: Punika",
+     "popupContent":"Item Level: 1302<br><br>Start location",
+     "popupMedia":"",
+     "tooltip":"Start",
+     "tooltipDirection":"bottom"
+ }
+       ]
+    },
+    {
+       "markerType":"SMerchant",
+       "enabled":true,
+       "allowSidebar":true,
+       "layerID":"layer_smerchant",
+       "data":[
+           {
+             "coordinates":[
+               -163.21875, 65.15625
+             ],
+             "id":"smerchant_0",
+             "popupTitle":"Merchant Ship",
+             "popupContent":"",
+             "popupMedia":"",
+             "tooltip":"",
+             "tooltipDirection":"bottom"
+           },
+           {
+           "coordinates":[
+             -149.625, 74.75
+           ],
+           "id":"smerchant_1",
+           "popupTitle":"Merchant Ship",
+           "popupContent":"",
+           "popupMedia":"",
+           "tooltip":"",
+           "tooltipDirection":"bottom"
+           },
+           {
+           "coordinates":[
+             -132.84375, 77.4375
+           ],
+           "id":"smerchant_2",
+           "popupTitle":"Merchant Ship",
+           "popupContent":"",
+           "popupMedia":"",
+           "tooltip":"",
+           "tooltipDirection":"bottom"
+           },
+           {
+           "coordinates":[
+             -123.46875, 84.4375
+           ],
+           "id":"smerchant_3",
+           "popupTitle":"Merchant Ship",
+           "popupContent":"",
+           "popupMedia":"",
+           "tooltip":"",
+           "tooltipDirection":"bottom"
+           },
+           {
+           "coordinates":[
+             -102.53125, 59.15625
+           ],
+           "id":"smerchant_4",
+           "popupTitle":"Merchant Ship",
+           "popupContent":"",
+           "popupMedia":"",
+           "tooltip":"",
+           "tooltipDirection":"bottom"
+           },
+           {
+           "coordinates":[
+             -66.21875, 80.40625
+           ],
+           "id":"smerchant_5",
+           "popupTitle":"Merchant Ship",
+           "popupContent":"",
+           "popupMedia":"",
+           "tooltip":"",
+           "tooltipDirection":"bottom"
+           },
+           {
+           "coordinates":[
+             -81.78125, 166.96875
+           ],
+           "id":"smerchant_6",
+           "popupTitle":"Merchant Ship",
+           "popupContent":"",
+           "popupMedia":"",
+           "tooltip":"",
+           "tooltipDirection":"bottom"
+           },
+           {
+           "coordinates":[
+             -102, 165.40625
+           ],
+           "id":"smerchant_7",
+           "popupTitle":"Merchant Ship",
+           "popupContent":"",
+           "popupMedia":"",
+           "tooltip":"",
+           "tooltipDirection":"bottom"
+           },
+           {
+           "coordinates":[
+             -119.625, 172.34375
+           ],
+           "id":"smerchant_8",
+           "popupTitle":"Merchant Ship",
+           "popupContent":"",
+           "popupMedia":"",
+           "tooltip":"",
+           "tooltipDirection":"bottom"
+           },
+           {
+           "coordinates":[
+             -116.125, 186.375
+           ],
+           "id":"smerchant_9",
+           "popupTitle":"Merchant Ship",
+           "popupContent":"",
+           "popupMedia":"",
+           "tooltip":"",
+           "tooltipDirection":"bottom"
+           },
+           {
+           "coordinates":[
+             -139.03125, 167.625
+           ],
+           "id":"smerchant_10",
+           "popupTitle":"Merchant Ship",
+           "popupContent":"",
+           "popupMedia":"",
+           "tooltip":"",
+           "tooltipDirection":"bottom"
+           },
+           {
+           "coordinates":[
+             -142.09375, 181.21875
+           ],
+           "id":"smerchant_11",
+           "popupTitle":"Merchant Ship",
+           "popupContent":"",
+           "popupMedia":"",
+           "tooltip":"",
+           "tooltipDirection":"bottom"
+           }
+       ]
+      }
+   ]
+}

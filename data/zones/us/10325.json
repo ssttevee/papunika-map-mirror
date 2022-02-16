@@ -1,0 +1,375 @@
+{
+  "name":"Icewing Heights",
+  "continent":"Shushire",
+  "zoneTiles":"public/tiles/zones/shushire/zone_76",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Affinity",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_affinity",
+      "data":[
+         {
+            "coordinates":[
+               -50.125, 124.375
+            ],
+            "id":"affinity_0",
+            "popupTitle":"Poppy",
+            "rapportId": "16514",
+            "tooltip":"Poppy",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"AStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_astory",
+      "data":[
+         {
+            "coordinates":[
+               -219.625, 146.75
+            ],
+            "id":"astory_0",
+            "popupTitle":"Wandering Memories",
+            "popupContent":"Last quest from chain quest in this zone. Requires quest starter item which drops from named monster marked at this location.",
+            "popupMedia":"",
+            "tooltip":"#1 Wandering Memories",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -183.5, 128.5
+            ],
+            "id":"hstory_0",
+            "popupTitle":"The Day a Hunter Died (3/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10323&m=hstory_1"
+               },
+               {
+                  "link":"z=10323&m=hstory_2"
+               },
+               {
+                  "link":"z=10325&m=hstory_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#5 The Day a Hunter Died (3/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -74, 147.125
+            ],
+            "id":"hstory_1",
+            "popupTitle":"A Letter to My Friend (1/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10325&m=hstory_1"
+               },
+               {
+                  "link":"z=10363&m=hstory_0"
+               },
+               {
+                  "link":"z=10363&m=hstory_1"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#6 A Letter to My Friend (1/3)",
+            "tooltipDirection":"right"
+         }
+      ]
+     },  
+     {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -132.125, 62.875
+            ],
+            "id":"monster_0",
+            "popupTitle":"Beautiful Frozen Butterfly",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#5 Beautiful Frozen Butterfly",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -168.875, 131.625
+          ],
+          "id":"monster_1",
+          "popupTitle":"Vengeful Specter",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#6 Vengeful Specter",
+          "tooltipDirection":"right"
+       },
+       {
+        "coordinates":[
+         -71.875, 104
+        ],
+        "id":"monster_2",
+        "popupTitle":"Plague Legion Elite Demon Priest",
+        "popupContent":"",
+        "popupMedia":"",
+        "tooltip":"#11 Plague Legion Elite Demon Priest",
+        "tooltipDirection":"right"
+     },
+     {
+      "coordinates":[
+         -203.875, 171.875
+      ],
+      "id":"monster_3",
+      "popupTitle":"Elite Frozen Cliff Living Armor",
+      "popupContent":"",
+      "popupMedia":"",
+      "tooltip":"#12 Elite Frozen Cliff Living Armor",
+      "tooltipDirection":"right"
+   }
+      ]
+   },   
+   {
+      "markerType":"FBoss",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_fboss",
+      "data":[
+         {
+            "coordinates":[
+               -148.625, 185.25
+            ],
+            "id":"fboss_0",
+            "popupTitle":"Maneth",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Maneth",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Food",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_food",
+      "data":[
+         {
+            "coordinates":[
+               -133.625, 42.5
+            ],
+            "id":"food_0",
+            "popupTitle":"Icewing Larva",
+            "popupContent":"Kill nearby faries.",
+            "popupMedia":"",
+            "tooltip":"#1 Icewing Larva",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -159.75, 98.875
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Sapphire Sardine",
+            "popupContent":"Required ingredient for '#5 Grilled Sapphire Sardine'.<br>Buy at traveling merchant Jeffrey. Used at cook Helena.",
+            "popupMedia":"",
+            "tooltip":"#5 Sapphire Sardine (1/1)",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -122, 129.25
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Cliff",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#7 Cliff",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -176.5, 119.5
+            ],
+            "id":"viewpoint_1",
+            "popupTitle":"Great Frozen Waterfall",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#8 Great Frozen Waterfall",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -156.875, 98
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Jeffrey",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Jeffrey",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -110.25, 146.625
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -202.5, 99.25
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -152.75, 154.5
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -220.875, 139.25
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -172.75, 94.625
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -201, 100.375
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -193.625, 101.25
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -124.25, 29.25
+              ],
+              "id":"portal_0",
+              "destinationID":"10323",
+              "tooltip":"Iceblood Plateau",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -118.5, 215.5
+            ],
+            "id":"portal_0",
+            "destinationID":"10363",
+            "tooltip":"Maze of Mirrors",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

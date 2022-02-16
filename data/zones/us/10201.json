@@ -1,0 +1,358 @@
+{
+    "markers":[
+       {
+          "markerType":"Affinity",
+          "enabled":true,
+          "allowSidebar":true,
+          "layerID":"layer_affinity",
+          "data":[
+             {
+                "coordinates":[
+                   -90.5,
+                   141.25
+                ],
+                "id":"affinity_0",
+                "popupTitle":"Neria",
+                "rapportId": "11264",
+                "tooltip":"Neria",
+                "tooltipDirection":"right"
+             },
+             {
+                "coordinates":[
+                   -162.25,
+                   120.125
+                ],
+                "id":"affinity_1",
+                "popupTitle":"Siera",
+                "rapportId": "11353",
+                "tooltip":"Siera",
+                "tooltipDirection":"right"
+             }
+          ]
+       },
+       {
+          "markerType":"AStory",
+          "enabled":true,
+          "allowSidebar":true,
+          "layerID":"layer_astory",
+          "data":[
+             {
+                "coordinates":[
+                   -160.375,
+                   117.125
+                ],
+                "id":"astory_0",
+                "popupTitle":"Song for a Hero",
+                "popupContent":"Receive quest from Siera after completing world quest.",
+                "popupMedia":"",
+                "tooltip":"#2 Song for a Hero",
+                "tooltipDirection":"left"
+             }
+          ]
+       },
+       {
+        "markerType":"HStory",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_hstory",
+        "data":[
+           {
+              "coordinates":[
+                 -101.125,
+                 64
+              ],
+              "id":"hstory_0",
+              "popupTitle":"The Hidden Past of Varut",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"#1 The Hidden Past of Varut",
+              "tooltipDirection":"left"
+           },
+           {
+              "coordinates":[
+                 -181.75,
+                 169.875
+              ],
+              "id":"hstory_1",
+              "popupTitle":"Korumba's Cat",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"#5 Korumba's Cat",
+              "tooltipDirection":"left"
+           },
+           {
+              "coordinates":[
+                 -146.125,
+                 174.75
+              ],
+              "id":"hstory_2",
+              "popupTitle":"Sunflowers for My Love (1/3)",
+              "popupContent":"",
+              "parts": [
+                  {
+                     "link":"z=10201&m=hstory_2"
+                  },
+                  {
+                     "link":"z=10211&m=hstory_1"
+                  },
+                  {
+                     "link":"z=10201&m=hstory_3"
+                  }
+              ],
+              "popupMedia":"",
+              "tooltip":"#7 Sunflowers for My Love (1/3)",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                 -149.125,
+                 176.75
+              ],
+              "id":"hstory_3",
+              "popupTitle":"Sunflowers for My Love (3/3)",
+              "popupContent":"",
+              "parts": [
+                  {
+                     "link":"z=10201&m=hstory_2"
+                  },
+                  {
+                     "link":"z=10211&m=hstory_1"
+                  },
+                  {
+                     "link":"z=10201&m=hstory_3"
+                  }
+              ],
+              "popupMedia":"",
+              "tooltip":"#7 Sunflowers for My Love (3/3)",
+              "tooltipDirection":"right"
+           }
+        ]
+       },     
+       {
+          "markerType":"Food",
+          "enabled":true,
+          "allowSidebar":true,
+          "layerID":"layer_food",
+          "data":[
+             {
+                "coordinates":[
+                   -91.875,
+                   128.5
+                ],
+                "id":"food_0",
+                "popupTitle":"Veda's Prideholme-style",
+                "popupContent":"Buy food at merchant Veda.",
+                "popupMedia":"",
+                "tooltip":"#1 Veda's Prideholme-style",
+                "tooltipDirection":"left"
+             },
+             {
+                "coordinates":[
+                   -164,
+                   117.25
+                ],
+                "id":"food_1",
+                "popupTitle":"Holy Potato with Teeth Marks",
+                "popupContent":"Rapport Siera<br>Achieve trust level.",
+                "popupMedia":"",
+                "tooltip":"#7 Holy Potato with Teeth Marks",
+                "tooltipDirection":"left"
+             }
+          ]
+       },
+       {
+          "markerType":"Ingredient",
+          "enabled":true,
+          "allowSidebar":true,
+          "layerID":"layer_ingredient",
+          "data":[
+             {
+                "coordinates":[
+                   -187.875,
+                   183.125
+                ],
+                "id":"ingredient_0",
+                "popupTitle":"A giant wheat sack",
+                "popupContent":"Required ingredient for '#4 Regria Wheat Bread'.<br>Used at cook Hely.",
+                "popupMedia":"",
+                "tooltip":"#4 Giant wheat sack (1/1)",
+                "tooltipDirection":"right"
+             }
+          ]
+       },
+       {
+          "markerType":"Viewpoint",
+          "enabled":true,
+          "allowSidebar":true,
+          "layerID":"layer_viewpoint",
+          "data":[
+             {
+                "coordinates":[
+                   -108.25,
+                   102.5
+                ],
+                "id":"viewpoint_0",
+                "popupTitle":"Chain War Memorial Tree",
+                "popupContent":"",
+                "popupMedia":"",
+                "tooltip":"#1 Chain War Memorial Tree",
+                "tooltipDirection":"right"
+             }
+          ]
+       },
+       {
+        "markerType":"Mokoko",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_mokoko",
+        "data":[
+           {
+              "coordinates":[
+                 -186.5,
+                 172.625
+              ],
+              "id":"mokoko_0",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                 -163.875,
+                 196.125
+              ],
+              "id":"mokoko_1",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                 -127.75,
+                 154.625
+              ],
+              "id":"mokoko_2",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                 -128.375,
+                 114.75
+              ],
+              "id":"mokoko_3",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                 -109,
+                 131.625
+              ],
+              "id":"mokoko_4",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                 -97.25,
+                 139.5
+              ],
+              "id":"mokoko_5",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                 -106.375,
+                 99.25
+              ],
+              "id":"mokoko_6",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                 -123.5,
+                 49.125
+              ],
+              "id":"mokoko_7",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"Locked behind secret passage.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                 -127.5,
+                 49.625
+              ],
+              "id":"mokoko_8",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"Locked behind secret passage.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           }
+        ]
+       },
+       {
+        "markerType":"SPassage",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_spassage",
+        "data":[
+           {
+              "coordinates":[
+                 -113.375,
+                 60.625
+              ],
+              "id":"spassage_0",
+              "popupTitle":"Secret Passage",
+              "popupContent":"",
+              "popupMedia":"public/comments/rethramis/prideholme/mokoko.jpg",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           }
+        ]
+       },
+       {
+          "markerType":"Portal",
+          "enabled":true,
+          "allowSidebar":false,
+          "layerID":"layer_portal",
+          "data":[
+             {
+                "coordinates":[
+                   -106.242794,
+                   193.570481
+                ],
+                "id":"portal_0",
+                "destinationID": "10211",
+                "tooltip":"Log Hill",
+                "tooltipDirection":"bottom"
+             }
+          ]
+       }
+    ]
+  }

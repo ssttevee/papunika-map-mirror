@@ -1,0 +1,101 @@
+{
+  "markers":[
+   {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -62.75, 93
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Blackfang",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Blackfang",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -120.5, 177.75
+            ],
+            "id":"tmerchant_1",
+            "popupTitle":"Enigmatic Rosa",
+            "popupContent":"Has a random spawn chance.",
+            "popupMedia":"",
+            "tooltip":"Enigmatic Rosa",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -110.125, 199.75
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -140.75, 70
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -101.75, 105.375
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -169.5, 72.75
+              ],
+              "id":"portal_0",
+              "destinationID":"overworld",
+              "tooltip":"Open Seas",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -107.75, 131.5
+            ],
+            "id":"portal_1",
+            "destinationID":"50034_2",
+            "tooltip":"2F",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

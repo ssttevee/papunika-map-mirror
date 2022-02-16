@@ -1,0 +1,248 @@
+{
+  "name":"Windbringer Hills",
+  "continent":"Arthetine",
+  "zoneTiles":"public/tiles/zones/arthetine/zone_50",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -113.125, 42
+            ],
+            "id":"monster_0",
+            "popupTitle":"Machine Legionnaire Prototype",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#9 Machine Legionnaire Prototype",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -37.375, 89.75
+          ],
+          "id":"monster_1",
+          "popupTitle":"Sharptooth Crocodile",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#10 Sharptooth Crocodile",
+          "tooltipDirection":"right"
+       }
+      ]
+   }, 
+   {
+      "markerType":"Resonance",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_resonance",
+      "data":[
+         {
+            "coordinates":[
+               -37.375, 148.875
+            ],
+            "id":"resonance_0",
+            "popupTitle":"Song of Resonance",
+            "popupContent":"Play Song of Resonance in front of statue.<br>You will be teleported to a location where there are 2 mokoko seeds.",
+            "popupMedia":"",
+            "tooltip":"Song of Resonance",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -84.25, 134.375
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Adrenaline-boosting Fluid",
+            "popupContent":"Required ingredient for '#5 Boosting Fluid Soup'.<br>Buy at traveling merchant Nox. Used at cook Cooking Master.",
+            "popupMedia":"",
+            "tooltip":"#5 Adrenaline-boosting Fluid",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -104.125, 89.375
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Junkyard",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#5 Junkyard",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -86.875, 135.75
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Nox",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Nox",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -69.375, 88.875
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -76.25, 135.25
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage. Go to Song of Resonance location.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -92.125, 163.5
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -76.375, 136.625
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage. Go to Song of Resonance location.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -112.75, 205.75
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -131.125, 66.25
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -135.125, 104.375
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -201, 148.75
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -174, 141
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -69, 32
+              ],
+              "id":"portal_0",
+              "destinationID":"10401",
+              "tooltip":"Stern",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -77.5, 196.75
+            ],
+            "id":"portal_1",
+            "destinationID":"10425",
+            "tooltip":"Totrich",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

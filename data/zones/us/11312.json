@@ -1,0 +1,449 @@
+{
+  "name":"Lower Dungeons",
+  "continent":"Yorn",
+  "zoneTiles":"public/tiles/zones/yorn/zone_88",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -156.125, 132.75
+            ],
+            "id":"monster_0",
+            "popupTitle":"Strong Shell Armored",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#4 Strong Shell Armored",
+            "tooltipDirection":"left"
+         },
+         {
+          "coordinates":[
+            -166, 220.75
+          ],
+          "id":"monster_1",
+          "popupTitle":"Queen of the Fetranian Molyonids",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#5 Queen of the Fetranian Molyonids",
+          "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -90.25, 122.875
+            ],
+            "id":"monster_2",
+            "popupTitle":"Moody fly agaric",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#6 Moody fly agaric",
+            "tooltipDirection":"right"
+         }
+      ]
+   }, 
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -179.625, 42.375
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Mushroom Meadow Salad (1/2)",
+            "popupContent":"Collect 20x 'Mold mushrooms',  10x 'Fresh champignons' and 5x 'Speckled fly agaric' for '#5 Mushroom Meadow Salad' at locations marked with #5<br>Used at cook Rinda.",
+            "parts": [
+               {
+                  "link":"z=11312&m=ingredient_0"
+               },
+               {
+                  "link":"z=11314&m=ingredient_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#5 Mushroom Meadow Salad (1/2)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -183.375, 99
+            ],
+            "id":"ingredient_1",
+            "popupTitle":"Mushroom Meadow Salad (1/2)",
+            "popupContent":"Collect 20x 'Mold mushrooms',  10x 'Fresh champignons' and 5x 'Speckled fly agaric' for '#5 Mushroom Meadow Salad' at locations marked with #5<br>Used at cook Rinda.",
+            "parts": [
+               {
+                  "link":"z=11312&m=ingredient_0"
+               },
+               {
+                  "link":"z=11314&m=ingredient_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#5",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -116.375, 37.375
+            ],
+            "id":"ingredient_2",
+            "popupTitle":"Mushroom Meadow Salad (1/2)",
+            "popupContent":"Collect 20x 'Mold mushrooms',  10x 'Fresh champignons' and 5x 'Speckled fly agaric' for '#5 Mushroom Meadow Salad' at locations marked with #5<br>Used at cook Rinda.",
+            "parts": [
+               {
+                  "link":"z=11312&m=ingredient_0"
+               },
+               {
+                  "link":"z=11314&m=ingredient_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#5",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -154.5, 176.75
+            ],
+            "id":"ingredient_3",
+            "popupTitle":"Mushroom Meadow Salad (1/2)",
+            "popupContent":"Collect 20x 'Mold mushrooms',  10x 'Fresh champignons' and 5x 'Speckled fly agaric' for '#5 Mushroom Meadow Salad' at locations marked with #5<br>Used at cook Rinda.",
+            "parts": [
+               {
+                  "link":"z=11312&m=ingredient_0"
+               },
+               {
+                  "link":"z=11314&m=ingredient_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#5",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -123, 217.625
+            ],
+            "id":"ingredient_4",
+            "popupTitle":"Mushroom Meadow Salad (1/2)",
+            "popupContent":"Collect 20x 'Mold mushrooms',  10x 'Fresh champignons' and 5x 'Speckled fly agaric' for '#5 Mushroom Meadow Salad' at locations marked with #5<br>Used at cook Rinda.",
+            "parts": [
+               {
+                  "link":"z=11312&m=ingredient_0"
+               },
+               {
+                  "link":"z=11314&m=ingredient_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#5",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -83, 192.5
+            ],
+            "id":"ingredient_5",
+            "popupTitle":"Mushroom Meadow Salad (1/2)",
+            "popupContent":"Collect 20x 'Mold mushrooms',  10x 'Fresh champignons' and 5x 'Speckled fly agaric' for '#5 Mushroom Meadow Salad' at locations marked with #5<br>Used at cook Rinda.",
+            "parts": [
+               {
+                  "link":"z=11312&m=ingredient_0"
+               },
+               {
+                  "link":"z=11314&m=ingredient_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#5",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -55.25, 147.875
+            ],
+            "id":"ingredient_6",
+            "popupTitle":"Mushroom Meadow Salad (1/2)",
+            "popupContent":"Collect 20x 'Mold mushrooms',  10x 'Fresh champignons' and 5x 'Speckled fly agaric' for '#5 Mushroom Meadow Salad' at locations marked with #5<br>Used at cook Rinda.",
+            "parts": [
+               {
+                  "link":"z=11312&m=ingredient_0"
+               },
+               {
+                  "link":"z=11314&m=ingredient_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#5",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -70.625, 112.75
+            ],
+            "id":"ingredient_7",
+            "popupTitle":"Mushroom Meadow Salad (1/2)",
+            "popupContent":"Collect 20x 'Mold mushrooms',  10x 'Fresh champignons' and 5x 'Speckled fly agaric' for '#5 Mushroom Meadow Salad' at locations marked with #5<br>Used at cook Rinda.",
+            "parts": [
+               {
+                  "link":"z=11312&m=ingredient_0"
+               },
+               {
+                  "link":"z=11314&m=ingredient_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#5",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -59.875, 81.875
+            ],
+            "id":"ingredient_8",
+            "popupTitle":"Mushroom Meadow Salad (1/2)",
+            "popupContent":"Collect 20x 'Mold mushrooms',  10x 'Fresh champignons' and 5x 'Speckled fly agaric' for '#5 Mushroom Meadow Salad' at locations marked with #5<br>Used at cook Rinda.",
+            "parts": [
+               {
+                  "link":"z=11312&m=ingredient_0"
+               },
+               {
+                  "link":"z=11314&m=ingredient_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#5",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -37, 85
+            ],
+            "id":"ingredient_9",
+            "popupTitle":"Mushroom Meadow Salad (1/2)",
+            "popupContent":"Collect 20x 'Mold mushrooms',  10x 'Fresh champignons' and 5x 'Speckled fly agaric' for '#5 Mushroom Meadow Salad' at locations marked with #5<br>Used at cook Rinda.",
+            "parts": [
+               {
+                  "link":"z=11312&m=ingredient_0"
+               },
+               {
+                  "link":"z=11314&m=ingredient_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#5",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -126.875, 132.375
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Rail road",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#4 Rail road",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -81, 28.125
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Pierre",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Pierre",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -26.875, 121.25
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Romantic Weapon', which you get from Yorn's Adventure's Tome reward at 50%.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -9.625, 106.375
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -29, 136.125
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -52.125, 193.125
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Romantic Weapon', which you get from Yorn's Adventure's Tome reward at 50%.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -73.75, 130.5
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -112.875, 220.25
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -174.5, 203
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Romantic Weapon', which you get from Yorn's Adventure's Tome reward at 50%.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -170.75, 67.75
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -173.5, 56.625
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -114.75, 218.75
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Destroy barrier.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -31.125, 133.875
+            ],
+            "id":"spassage_2",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Use Adventure's Tome Food '#1 Collectible Amber Ale' at this location to enter.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -257.75, 93.75
+              ],
+              "id":"portal_0",
+              "destinationID":"11301",
+              "tooltip":"Isendelf",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -190.25, 167.75
+            ],
+            "id":"portal_1",
+            "destinationID":"11312_2",
+            "tooltip":"2F",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

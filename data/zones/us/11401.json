@@ -1,0 +1,699 @@
+{
+  "name":"Nia Village",
+  "continent":"Punika",
+  "zoneTiles":"public/tiles/zones/punika/zone_102",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Affinity",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_affinity",
+      "data":[
+         {
+            "coordinates":[
+               -86.875, 24.125
+            ],
+            "id":"affinity_0",
+            "popupTitle":"Nia",
+            "rapportId": "28100",
+            "tooltip":"Nia",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -77.125, 48
+            ],
+            "id":"affinity_1",
+            "popupTitle":"Shana",
+            "rapportId": "28122",
+            "tooltip":"Shana",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -151.375, 76.875
+            ],
+            "id":"affinity_2",
+            "popupTitle":"Jahara",
+            "rapportId": "28099",
+            "tooltip":"Jahara",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -171.5, 125
+            ],
+            "id":"affinity_3",
+            "popupTitle":"Mei",
+            "rapportId": "28123",
+            "tooltip":"Mei",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -190.867742, 73.58219
+            ],
+            "id":"affinity_4",
+            "popupTitle":"Liru",
+            "rapportId": "28124",
+            "tooltip":"Liru",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -216.125, 72.875
+            ],
+            "id":"affinity_5",
+            "popupTitle":"Yun",
+            "rapportId": "28031",
+            "tooltip":"Yun",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -193.246156, 64.514486
+            ],
+            "id":"affinity_6",
+            "popupTitle":"Berbero",
+            "rapportId": "28140",
+            "tooltip":"Berbero",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -129, 11.125
+            ],
+            "id":"affinity_7",
+            "popupTitle":"Albion",
+            "rapportId": "28141",
+            "tooltip":"Albion",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -88, 21.875
+            ],
+            "id":"affinity_8",
+            "popupTitle":"Halia",
+            "rapportId": "28050",
+            "tooltip":"Halia",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -212.125, 73.625
+            ],
+            "id":"affinity_9",
+            "popupTitle":"Lisien",
+            "rapportId": "28131",
+            "tooltip":"Lisien",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -216.5, 76.5
+            ],
+            "id":"hstory_0",
+            "popupTitle":"Dream duo (3/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11411&m=hstory_0"
+               },
+               {
+                  "link":"z=11411&m=hstory_1"
+               },
+               {
+                  "link":"z=11401&m=hstory_0"
+               },
+               {
+                  "link":"z=11412&m=hstory_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#1 Dream duo (3/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -196.75, 72.125
+            ],
+            "id":"hstory_1",
+            "popupTitle":"Chain of riddles (1/5)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11401&m=hstory_1"
+               },
+               {
+                  "link":"z=11401&m=hstory_2"
+               },
+               {
+                  "link":"z=11401&m=hstory_3"
+               },
+               {
+                  "link":"z=11401&m=hstory_4"
+               },
+               {
+                  "link":"z=11401&m=hstory_5"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#3 Chain of riddles (1/5)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -205, 69.375
+            ],
+            "id":"hstory_2",
+            "popupTitle":"Chain of riddles (2/5)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11401&m=hstory_1"
+               },
+               {
+                  "link":"z=11401&m=hstory_2"
+               },
+               {
+                  "link":"z=11401&m=hstory_3"
+               },
+               {
+                  "link":"z=11401&m=hstory_4"
+               },
+               {
+                  "link":"z=11401&m=hstory_5"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#3 Chain of riddles (2/5)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -177.875, 63.875
+            ],
+            "id":"hstory_3",
+            "popupTitle":"Chain of riddles (3/5)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11401&m=hstory_1"
+               },
+               {
+                  "link":"z=11401&m=hstory_2"
+               },
+               {
+                  "link":"z=11401&m=hstory_3"
+               },
+               {
+                  "link":"z=11401&m=hstory_4"
+               },
+               {
+                  "link":"z=11401&m=hstory_5"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#3 Chain of riddles (3/5)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -172.75, 175.125
+            ],
+            "id":"hstory_4",
+            "popupTitle":"Chain of riddles (4/5)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11401&m=hstory_1"
+               },
+               {
+                  "link":"z=11401&m=hstory_2"
+               },
+               {
+                  "link":"z=11401&m=hstory_3"
+               },
+               {
+                  "link":"z=11401&m=hstory_4"
+               },
+               {
+                  "link":"z=11401&m=hstory_5"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#3 Chain of riddles (4/5)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -131, 12.375
+            ],
+            "id":"hstory_5",
+            "popupTitle":"Chain of riddles (5/5)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11401&m=hstory_1"
+               },
+               {
+                  "link":"z=11401&m=hstory_2"
+               },
+               {
+                  "link":"z=11401&m=hstory_3"
+               },
+               {
+                  "link":"z=11401&m=hstory_4"
+               },
+               {
+                  "link":"z=11401&m=hstory_5"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#3 Chain of riddles (5/5)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -174.75, 122
+            ],
+            "id":"hstory_6",
+            "popupTitle":"Missing package (1/6)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11401&m=hstory_6"
+               },
+               {
+                  "link":"z=11401&m=hstory_7"
+               },
+               {
+                  "link":"z=11401&m=hstory_8"
+               },
+               {
+                  "link":"z=11401&m=hstory_9"
+               },
+               {
+                  "link":"z=11412&m=hstory_1"
+               },
+               {
+                  "link":"z=11401&m=hstory_10"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#4 Missing package (1/6)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -192.875, 74.5
+            ],
+            "id":"hstory_7",
+            "popupTitle":"Missing package (2/6)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11401&m=hstory_6"
+               },
+               {
+                  "link":"z=11401&m=hstory_7"
+               },
+               {
+                  "link":"z=11401&m=hstory_8"
+               },
+               {
+                  "link":"z=11401&m=hstory_9"
+               },
+               {
+                  "link":"z=11412&m=hstory_1"
+               },
+               {
+                  "link":"z=11401&m=hstory_10"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#4 Missing package (2/6)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -84.75, 22.375
+            ],
+            "id":"hstory_8",
+            "popupTitle":"Missing package (3/6)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11401&m=hstory_6"
+               },
+               {
+                  "link":"z=11401&m=hstory_7"
+               },
+               {
+                  "link":"z=11401&m=hstory_8"
+               },
+               {
+                  "link":"z=11401&m=hstory_9"
+               },
+               {
+                  "link":"z=11412&m=hstory_1"
+               },
+               {
+                  "link":"z=11401&m=hstory_10"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#4 Missing package (3/6)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -75.25, 46.625
+            ],
+            "id":"hstory_9",
+            "popupTitle":"Missing package (4/6)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11401&m=hstory_6"
+               },
+               {
+                  "link":"z=11401&m=hstory_7"
+               },
+               {
+                  "link":"z=11401&m=hstory_8"
+               },
+               {
+                  "link":"z=11401&m=hstory_9"
+               },
+               {
+                  "link":"z=11412&m=hstory_1"
+               },
+               {
+                  "link":"z=11401&m=hstory_10"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#4 Missing package (4/6)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -153.375, 79.875
+            ],
+            "id":"hstory_10",
+            "popupTitle":"Missing package (6/6)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11401&m=hstory_6"
+               },
+               {
+                  "link":"z=11401&m=hstory_7"
+               },
+               {
+                  "link":"z=11401&m=hstory_8"
+               },
+               {
+                  "link":"z=11401&m=hstory_9"
+               },
+               {
+                  "link":"z=11412&m=hstory_1"
+               },
+               {
+                  "link":"z=11401&m=hstory_10"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#4 Missing package (6/6)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -112.5, 188.875
+            ],
+            "id":"hstory_11",
+            "popupTitle":"Letters to the goddess (2/2)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11412&m=hstory_3"
+               },
+               {
+                  "link":"z=11401&m=hstory_11"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#6 Letters to the goddess (2/2)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -180.625, 102
+            ],
+            "id":"hstory_12",
+            "popupTitle":"Poor Argen (3/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11411&m=hstory_5"
+               },
+               {
+                  "link":"z=11412&m=hstory_4"
+               },
+               {
+                  "link":"z=11401&m=hstory_12"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Poor Argen (3/3)",
+            "tooltipDirection":"right"
+         }
+      ]
+     }, 
+     {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -144.375, 33
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Mosaic panel",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#3 Mosaic panel",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -196.375, 104
+            ],
+            "id":"viewpoint_1",
+            "popupTitle":"Coastal line",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#4 Coastal line",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -222.25, 41.125
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -188.875, 136.875
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -169.75, 165.75
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -118.625, 207.875
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -81.5, 115.125
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Song of Peace', which you get from Punika's Adventure's Tome reward at 50%.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -77.125, 63
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -85, 26.5
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -126.25, 17
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -12.75, 71.75
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -123.875, 202.125
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Use Adventure's Tome Ingredient (2/2) '#1 Hot liquor' at this location to obtain Mokoko Seed.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -86.5, 89.125
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Get off the boat when you are at the Mokoko Seed.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -25.375, 73.5
+            ],
+            "id":"spassage_2",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Requires 350 Wisdom or higher to enter.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -227.75, 89.5
+              ],
+              "id":"portal_0",
+              "destinationID":"11411",
+              "tooltip":"Shallow Sea Road",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -105.5, 3.75
+            ],
+            "id":"portal_1",
+            "destinationID":"11412",
+            "tooltip":"Star Sand Beach",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -173.25, 14.75
+            ],
+            "id":"portal_2",
+            "destinationID":"11413",
+            "tooltip":"Tikku Gardens",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

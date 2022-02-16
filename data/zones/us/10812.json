@@ -1,0 +1,379 @@
+{
+  "name":"Lakebar",
+  "continent":"West Luterra",
+  "zoneTiles":"public/tiles/zones/west_luterra/zone_12",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Affinity",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_affinity",
+      "data":[
+         {
+            "coordinates":[
+               -114.875, 148.5
+            ],
+            "id":"affinity_0",
+            "popupTitle":"Artisan Urr",
+            "rapportId": "12026",
+            "tooltip":"Artisan Urr",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"AStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_astory",
+      "data":[
+         {
+            "coordinates":[
+               -175.25, 118.5
+            ],
+            "id":"astory_0",
+            "popupTitle":"The Peddler of Luterra",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#2 The Peddler of Luterra",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+    "markerType":"HStory",
+    "enabled":true,
+    "allowSidebar":true,
+    "layerID":"layer_hstory",
+    "data":[
+       {
+          "coordinates":[
+            -120.875, 153.375
+          ],
+          "id":"hstory_0",
+          "popupTitle":"What Makes a Hero",
+          "popupContent":"",
+          "parts": [
+            {
+               "link":"z=10812&m=hstory_0"
+            },
+            {
+               "link":"z=10813&m=hstory_0"
+            },
+            {
+               "link":"z=10814&m=hstory_0"
+            },
+            {
+               "link":"z=10815&m=hstory_0"
+            }
+        ],
+          "popupMedia":"",
+          "tooltip":"#1 What Makes a Hero (1/4)",
+          "tooltipDirection":"left"
+       }
+    ]
+   },  
+   {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -207.5, 158
+            ],
+            "id":"monster_0",
+            "popupTitle":"Elite Raid Group Supplier",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#9 Elite Raid Group Supplier",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -126, 18.625
+          ],
+          "id":"monster_1",
+          "popupTitle":"Ferocious Red Kran",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#10 Ferocious Red Kran",
+          "tooltipDirection":"left"
+       }
+      ]
+   },
+   {
+      "markerType":"Food",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_food",
+      "data":[
+         {
+            "coordinates":[
+               -122.5, 156.25
+            ],
+            "id":"food_0",
+            "popupTitle":"Lakebar Freshwater Fish Stew",
+            "popupContent":"Buy food at merchant Heron.",
+            "popupMedia":"",
+            "tooltip":"#2 Lakebar Freshwater Fish Stew",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -103.5, 170.375
+            ],
+            "id":"food_1",
+            "popupTitle":"Hairplant",
+            "popupContent":"Buy Hairplant at traveling merchant Malone.<br>Wait 10 minutes for it to turn into Ripening Anti Hair Loss Agent.",
+            "popupMedia":"",
+            "tooltip":"#7 Hairplant",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Minuet",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_minuet",
+      "data":[
+         {
+            "coordinates":[
+               -168.375, 81.75
+            ],
+            "id":"minuet_0",
+            "popupTitle":"Song of Minuet",
+            "popupContent":"Play Song of Minuet",
+            "popupMedia":"",
+            "tooltip":"Song of Minuet",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -96.75, 195.25
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Old Lakebar Tree",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"#2 Old Lakebar Tree",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -100.625, 171.625
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Malone",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Malone",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -155.125, 216.75
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -216.5, 130.875
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -199.875, 90.125
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -221.375, 155.625
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -124.875, 105.375
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -174.75, 115
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -171.5, 85
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -87.125, 194
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -86.375, 196
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -173.5, 85.375
+            ],
+            "id":"mokoko_9",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },         
+         {
+            "coordinates":[
+               -60.375, 117.125
+            ],
+            "id":"mokoko_10",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -66.5, 160.25
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -110.25, 251.75
+              ],
+              "id":"portal_0",
+              "destinationID":"10811",
+              "tooltip":"Mount Zagoras",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -144.75, -0.25
+            ],
+            "id":"portal_1",
+            "destinationID":"10851",
+            "tooltip":"Brilliant Ridge",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               0.5, 137.5
+            ],
+            "id":"portal_2",
+            "destinationID":"10813",
+            "tooltip":"Medrick Monastery",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

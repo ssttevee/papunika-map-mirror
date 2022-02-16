@@ -1,0 +1,111 @@
+{
+  "markers":[
+   {
+      "markerType":"Boss",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_boss",
+      "data":[
+         {
+            "coordinates":[
+               -123.25, 130.125
+            ],
+            "id":"boss_0",
+            "popupTitle":"Brealeos",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Brealeos",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Notice",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_notice",
+      "data":[
+         {
+            "coordinates":[
+               -71.75, 113.5
+            ],
+            "id":"notice_0",
+            "popupTitle":"Fire altar",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Fire altar",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -185, 147.75
+            ],
+            "id":"notice_1",
+            "popupTitle":"Ice altar",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Ice altar",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -168.625, 142
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -92.25, 152
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -190.625, 150
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -128.125, 67.375
+              ],
+              "id":"portal_0",
+              "destinationID":"overworld",
+              "tooltip":"Open Seas",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

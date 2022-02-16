@@ -1,0 +1,416 @@
+{
+  "name":"Leyar Terrace",
+  "continent":"East Luterra",
+  "zoneTiles":"public/tiles/zones/east_luterra/zone_25",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"AStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_astory",
+      "data":[
+         {
+            "coordinates":[
+               -187.25, 115.875
+            ],
+            "id":"astory_0",
+            "popupTitle":"Lesson Engraved on the Bone",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 Lesson Engraved on the Bone",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -67.25, 80.375
+            ],
+            "id":"hstory_0",
+            "popupTitle":"Origin of the Puruus (1/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10820&m=hstory_0"
+               },
+               {
+                  "link":"z=10820&m=hstory_1"
+               },
+               {
+                  "link":"z=10820&m=hstory_2"
+               },
+               {
+                  "link":"z=10820&m=hstory_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Origin of the Puruus (1/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -84, 100.25
+            ],
+            "id":"hstory_1",
+            "popupTitle":"Origin of the Puruus (2/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10820&m=hstory_0"
+               },
+               {
+                  "link":"z=10820&m=hstory_1"
+               },
+               {
+                  "link":"z=10820&m=hstory_2"
+               },
+               {
+                  "link":"z=10820&m=hstory_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Origin of the Puruus (2/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -64.5, 95.875
+            ],
+            "id":"hstory_2",
+            "popupTitle":"Origin of the Puruus (3/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10820&m=hstory_0"
+               },
+               {
+                  "link":"z=10820&m=hstory_1"
+               },
+               {
+                  "link":"z=10820&m=hstory_2"
+               },
+               {
+                  "link":"z=10820&m=hstory_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Origin of the Puruus (3/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -40.5, 101.5
+            ],
+            "id":"hstory_3",
+            "popupTitle":"Origin of the Puruus (4/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10820&m=hstory_0"
+               },
+               {
+                  "link":"z=10820&m=hstory_1"
+               },
+               {
+                  "link":"z=10820&m=hstory_2"
+               },
+               {
+                  "link":"z=10820&m=hstory_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Origin of the Puruus (4/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -131.75, 70.875
+            ],
+            "id":"hstory_4",
+            "popupTitle":"Pathos of a Genius",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#4 Pathos of a Genius",
+            "tooltipDirection":"right"
+         }
+      ]
+     },  
+     {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -169.375, 159.625
+            ],
+            "id":"monster_0",
+            "popupTitle":"Evil Legion Giant Commander",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#7 Evil Legion Giant Commander",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -94, 96.25
+          ],
+          "id":"monster_1",
+          "popupTitle":"Whirlpool Elemental",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#8 Whirlpool Elemental",
+          "tooltipDirection":"left"
+       },
+       {
+        "coordinates":[
+         -64, 139.5
+        ],
+        "id":"monster_2",
+        "popupTitle":"Controlled Giant Puruu Warrior",
+        "popupContent":"",
+        "popupMedia":"",
+        "tooltip":"#9 Controlled Giant Puruu Warrior",
+        "tooltipDirection":"right"
+     },
+     {
+      "coordinates":[
+         -127.75, 123.375
+      ],
+      "id":"monster_3",
+      "popupTitle":"Mad Alpha Flamingo",
+      "popupContent":"",
+      "popupMedia":"",
+      "tooltip":"#10 Mad Alpha Flamingo",
+      "tooltipDirection":"right"
+   }
+      ]
+   }, 
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -191.25, 100.75
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Hot Chocolate Coffee",
+            "popupContent":"Required ingredient for '#7 Melting Gelato'.<br>Buy at traveling merchant Burt. Used at cook Hyde.<br>Wait 24h for Melting Gelato to turn into Fully-melted Gelato.",
+            "parts": [
+               {
+                  "link":"z=10804&m=ingredient_0"
+               },
+               {
+                  "link":"z=10821&m=ingredient_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Hot Chocolate Coffee (2/2)",
+            "tooltipDirection":"right"
+         }
+      ]
+   }, 
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -139.625, 64
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Azenaporium",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#5 Azenaporium",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -77.625, 60.875
+            ],
+            "id":"viewpoint_1",
+            "popupTitle":"The Waterfall in the Land of Puruus",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"#6 The Waterfall in the Land of Puruus",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -193.75, 100.75
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Burt",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Burt",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -217.5, 100.375
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -94.5, 122.75
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -71.75, 60.5
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -57.125, 80
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -165.625, 47.5
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -121.5, 167.75
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -98.375, 97.625
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -164.75, 140.5
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -65, 72.125
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -156.25, 40.75
+              ],
+              "id":"portal_0",
+              "destinationID":"10819",
+              "tooltip":"Blackrose Chapel",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -79.25, 210.25
+            ],
+            "id":"portal_1",
+            "destinationID":"10821",
+            "tooltip":"Borea's Domain",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

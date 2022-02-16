@@ -1,0 +1,26 @@
+{
+  "name":"Crucible of Souls 2F",
+  "continent":"Yorn",
+  "zoneTiles":"public/tiles/zones/yorn/zone_93_2",
+  "additionalZones":[    
+  ],
+  "markers":[
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -170, 123.25
+              ],
+              "id":"portal_0",
+              "destinationID":"11352",
+              "tooltip":"1F",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

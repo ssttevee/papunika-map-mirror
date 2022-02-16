@@ -1,0 +1,45 @@
+{
+  "name":"Eye of Sceptrum",
+  "continent":"Arthetine",
+  "zoneTiles":"public/tiles/zones/arthetine/zone_49_3",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -118.25, 97.75
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -181.75, 126.75
+              ],
+              "id":"portal_0",
+              "destinationID":"10401",
+              "tooltip":"Stern",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

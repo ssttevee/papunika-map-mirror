@@ -1,0 +1,226 @@
+{
+  "name":"Seaswept Woods",
+  "continent":"Tortoyk",
+  "zoneTiles":"public/tiles/zones/tortoyk/zone_30",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"AStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_astory",
+      "data":[
+         {
+            "coordinates":[
+               -115, 176.5
+            ],
+            "id":"astory_0",
+            "popupTitle":"This Is Nothing, But...",
+            "popupContent":"Prerequisite yellow quest",
+            "popupMedia":"",
+            "tooltip":"#1 This Is Nothing, But...",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -74.875, 66.375
+            ],
+            "id":"astory_1",
+            "popupTitle":"Their Relationship",
+            "popupContent":"Prerequisite yellow quest",
+            "popupMedia":"",
+            "tooltip":"#2 Their Relationship",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -30.875, 150.25
+            ],
+            "id":"hstory_0",
+            "popupTitle":"Cowl's Moving Locarok (1/2)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11011&m=hstory_0"
+               },
+               {
+                  "link":"z=11013&m=hstory_1"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#3 Cowl's Moving Locarok (1/2)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -188.125, 106.625
+            ],
+            "id":"hstory_1",
+            "popupTitle":"Road to Becoming a Naruni Expert (1/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11011&m=hstory_1"
+               },
+               {
+                  "link":"z=11012&m=hstory_1"
+               },
+               {
+                  "link":"z=11013&m=hstory_2"
+               },
+               {
+                  "link":"z=11014&m=hstory_0"
+               }
+            ],
+            "popupMedia":"",
+            "tooltip":"#4 Road to Becoming a Naruni Expert (1/4)",
+            "tooltipDirection":"left"
+         }
+      ]
+     }, 
+   {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -149.375, 180.5
+            ],
+            "id":"monster_0",
+            "popupTitle":"Hardshelled Forest Locarok",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 Hardshelled Forest Locarok",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -77.625, 147.875
+          ],
+          "id":"monster_1",
+          "popupTitle":"Violent Monkey Boss",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#2 Violent Monkey Boss",
+          "tooltipDirection":"right"
+       },
+       {
+        "coordinates":[
+         -98.375, 46.375
+        ],
+        "id":"monster_2",
+        "popupTitle":"Righteous Hybee Recon",
+        "popupContent":"",
+        "popupMedia":"",
+        "tooltip":"#12 Righteous Hybee Recon",
+        "tooltipDirection":"left"
+     }
+      ]
+   },   
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -101.375, 61
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Honeycomb",
+            "popupContent":"Required ingredient for '#5 Sweet Sweet Royal Jelly'.<br>Used at cook Supisu.",
+            "popupMedia":"",
+            "tooltip":"#5 Honeycomb (1/1)",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -85.125, 205.625
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Cashew Tree Forest",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 Cashew Tree Forest",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -72.25, 50.5
+            ],
+            "id":"viewpoint_1",
+            "popupTitle":"Giant Cashew Tree",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#2 Giant Cashew Tree",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -128.5, 139.625
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Oliver",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Oliver",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -198.75, 97
+              ],
+              "id":"portal_0",
+              "destinationID":"overworld",
+              "tooltip":"Open Seas",
+              "tooltipDirection":"bottom"
+           },           
+           {
+            "coordinates":[
+               -61.5, 45
+            ],
+            "id":"portal_1",
+            "destinationID":"11001",
+            "tooltip":"Mokoko Village",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "markers":[
+   {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -121.5, 120
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Erin",
+            "popupContent":"Spawns every 2h after it despawns. Stays for 10 minutes.",
+            "popupMedia":"",
+            "tooltip":"Erin",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -159.5, 118.25
+              ],
+              "id":"portal_0",
+              "destinationID":"overworld",
+              "tooltip":"Open Seas",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

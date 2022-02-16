@@ -1,0 +1,522 @@
+{
+  "name":"Stern",
+  "continent":"Arthetine",
+  "zoneTiles":"public/tiles/zones/arthetine/zone_49",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Affinity",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_affinity",
+      "data":[
+         {
+            "coordinates":[
+               -25.75, 138.75
+            ],
+            "id":"affinity_0",
+            "popupTitle":"Sasha",
+            "rapportId": "18031",
+            "tooltip":"Sasha",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -26.125, 136.25
+            ],
+            "id":"affinity_1",
+            "popupTitle":"Bastian",
+            "rapportId": "18030",
+            "tooltip":"Bastian",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -175.875, 155.375
+            ],
+            "id":"affinity_2",
+            "popupTitle":"Neria",
+            "rapportId": "18142",
+            "tooltip":"Neria",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -174.25, 56.25
+            ],
+            "id":"affinity_3",
+            "popupTitle":"Mercenary Zeira",
+            "rapportId": "18156",
+            "tooltip":"Mercenary Zeira",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -151, 53.625
+            ],
+            "id":"hstory_0",
+            "popupTitle":"The Answer to the Agony (1/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10401&m=hstory_0"
+               },
+               {
+                  "link":"z=10401&m=hstory_1"
+               },
+               {
+                  "link":"z=10401&m=hstory_2"
+               },
+               {
+                  "link":"z=10401&m=hstory_0&f=2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#2 The Answer to the Agony (1/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -194.125, 164.25
+            ],
+            "id":"hstory_1",
+            "popupTitle":"The Answer to the Agony (2/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10401&m=hstory_0"
+               },
+               {
+                  "link":"z=10401&m=hstory_1"
+               },
+               {
+                  "link":"z=10401&m=hstory_2"
+               },
+               {
+                  "link":"z=10401&m=hstory_0&f=2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#2 The Answer to the Agony (2/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -128.75, 218.875
+            ],
+            "id":"hstory_2",
+            "popupTitle":"The Answer to the Agony (3/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10401&m=hstory_0"
+               },
+               {
+                  "link":"z=10401&m=hstory_1"
+               },
+               {
+                  "link":"z=10401&m=hstory_2"
+               },
+               {
+                  "link":"z=10401&m=hstory_0&f=2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#2 The Answer to the Agony (3/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -96.5, 197.375
+            ],
+            "id":"hstory_3",
+            "popupTitle":"The Greatest Evolution Form in Arthetine (1/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10401&m=hstory_3"
+               },
+               {
+                  "link":"z=10401&m=hstory_4"
+               },
+               {
+                  "link":"z=10401&m=hstory_5"
+               }
+           ],
+            "popupMedia":"public/comments/arthetine/stern/hs_7-1.png",
+            "tooltip":"#7 The Greatest Evolution Form in Arthetine (1/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -105.625, 207.5
+            ],
+            "id":"hstory_4",
+            "popupTitle":"The Greatest Evolution Form in Arthetine (2/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10401&m=hstory_3"
+               },
+               {
+                  "link":"z=10401&m=hstory_4"
+               },
+               {
+                  "link":"z=10401&m=hstory_5"
+               }
+           ],
+           "popupMedia":"public/comments/arthetine/stern/hs_7-2.png",
+            "tooltip":"#7 The Greatest Evolution Form in Arthetine (2/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -101.75, 212
+            ],
+            "id":"hstory_5",
+            "popupTitle":"The Greatest Evolution Form in Arthetine (3/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10401&m=hstory_3"
+               },
+               {
+                  "link":"z=10401&m=hstory_4"
+               },
+               {
+                  "link":"z=10401&m=hstory_5"
+               }
+           ],
+           "popupMedia":"public/comments/arthetine/stern/hs_7-3.png",
+            "tooltip":"#7 The Greatest Evolution Form in Arthetine (3/3)",
+            "tooltipDirection":"right"
+         }
+      ]
+     }, 
+   {
+      "markerType":"Food",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_food",
+      "data":[
+         {
+            "coordinates":[
+               -179.125, 149.125
+            ],
+            "id":"food_0",
+            "popupTitle":"Cykin Combat Ration Type A",
+            "popupContent":"Buy at merchant Malina.",
+            "popupMedia":"",
+            "tooltip":"#2 Cykin Combat Ration Type A",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -182.625, 152.125
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Unknown Liquid XD-6353",
+            "popupContent":"1. Buy 22 Unknown Crystals from Deberry.<br>2. Check Cooking Master for 'Boiling Liquid' ingredients.<br>3. Craft Boiling Liquid.<br>4. Wait 5 minutes for it to turn into Unknown Liquid XD-6353.",
+            "popupMedia":"",
+            "tooltip":"#6 Unknown Liquid XD-6353",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -194.625, 88.625
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Zagoras Fortress Entrance",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 Zagoras Fortress Entrance",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -30.375, 146.875
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -97.875, 204
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"public/comments/arthetine/stern/mokoko.png",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -27.375, 137.125
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -28.875, 132.375
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -21, 141.25
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -134.375, 34.375
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -149.375, 221
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -174.125, 154
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -189.5, 116.625
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -146.75, 72
+            ],
+            "id":"mokoko_9",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -78.875, 97.625
+            ],
+            "id":"mokoko_10",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -19.875, 146.875
+            ],
+            "id":"mokoko_11",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"Notice",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_notice",
+      "data":[
+         {
+            "coordinates":[
+               -6.25, -24.875
+            ],
+            "id":"notice_0",
+            "popupTitle":"Notice",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Stern Underground: 1 Mokoko + #2 Hidden Story (4/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -18.5, -24.875
+            ],
+            "id":"notice_1",
+            "popupTitle":"Notice",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Eye of Sceptrum: 1 Mokoko Seed",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -208.25, 70.5
+              ],
+              "id":"portal_0",
+              "destinationID":"10421",
+              "tooltip":"Arid Path",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -204.75, 196.5
+            ],
+            "id":"portal_1",
+            "destinationID":"10424",
+            "tooltip":"Windbringer Hills",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -68.75, 209
+            ],
+            "id":"portal_2",
+            "destinationID":"10426",
+            "tooltip":"Riza Falls",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -67.75, 59.25
+            ],
+            "id":"portal_3",
+            "destinationID":"10422",
+            "tooltip":"Scraplands",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -156.75, 135.25
+            ],
+            "id":"portal_4",
+            "destinationID":"10401_3",
+            "tooltip":"Eye of Sceptrun",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -180.25, 47.25
+            ],
+            "id":"portal_5",
+            "destinationID":"10401_2",
+            "tooltip":"Stern Underground",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -165.5, 246.25
+            ],
+            "id":"portal_6",
+            "destinationID":"10401_2",
+            "tooltip":"Stern Underground",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -105, 115
+            ],
+            "id":"portal_7",
+            "destinationID":"10401_2",
+            "tooltip":"Stern Underground",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -185.75, 178.5
+            ],
+            "id":"portal_8",
+            "destinationID":"10401_2",
+            "tooltip":"Stern Underground",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "markers":[
+   {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -103, 119.5
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Yulia",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Yulia",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -188.75, 167
+            ],
+            "id":"monster_0",
+            "popupTitle":"Golden Bell Slime",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Golden Bell Slime",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -161.75, 187.25
+            ],
+            "id":"monster_1",
+            "popupTitle":"Golden Bell Slime",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Golden Bell Slime",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -110.5, 202.75
+            ],
+            "id":"monster_2",
+            "popupTitle":"Golden Bell Slime",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Golden Bell Slime",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -94.75, 176.75
+            ],
+            "id":"monster_3",
+            "popupTitle":"Golden Bell Slime",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Golden Bell Slime",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -107, 164.5
+            ],
+            "id":"monster_4",
+            "popupTitle":"Golden Bell Slime",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Golden Bell Slime",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -80, 154.5
+            ],
+            "id":"monster_5",
+            "popupTitle":"Golden Bell Slime",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Golden Bell Slime",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -75.25, 115.25
+            ],
+            "id":"monster_6",
+            "popupTitle":"Golden Bell Slime",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Golden Bell Slime",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -43, 101.75
+            ],
+            "id":"monster_7",
+            "popupTitle":"Golden Bell Slime",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Golden Bell Slime",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -72.25, 70.75
+            ],
+            "id":"monster_8",
+            "popupTitle":"Golden Bell Slime",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Golden Bell Slime",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -89.75, 49
+            ],
+            "id":"monster_9",
+            "popupTitle":"Golden Bell Slime",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Golden Bell Slime",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -171.5, 63.5
+            ],
+            "id":"monster_10",
+            "popupTitle":"Golden Bell Slime",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Golden Bell Slime",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -121.25, 59.75
+            ],
+            "id":"monster_11",
+            "popupTitle":"Golden Bell Slime",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Golden Bell Slime",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -133.25, 53.25
+            ],
+            "id":"monster_12",
+            "popupTitle":"Golden Bell Slime",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Golden Bell Slime",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -173.5, 85.25
+            ],
+            "id":"monster_13",
+            "popupTitle":"Golden Bell Slime",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Golden Bell Slime",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -180, 105.75
+            ],
+            "id":"monster_14",
+            "popupTitle":"Golden Bell Slime",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Golden Bell Slime",
+            "tooltipDirection":"right"
+         }
+      ]
+   },   
+   {
+      "markerType":"Resonance",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_resonance",
+      "data":[
+         {
+            "coordinates":[
+               -162, 54.5
+            ],
+            "id":"resonance_0",
+            "popupTitle":"Song of Resonance",
+            "popupContent":"Play Song of Resonance in front of statue.",
+            "popupMedia":"",
+            "tooltip":"Song of Resonance",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -139.5, 199
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -157.375, 43.125
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -154.375, 49.125
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -138.875, 189.625
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -210, 139
+              ],
+              "id":"portal_0",
+              "destinationID":"overworld",
+              "tooltip":"Open Seas",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

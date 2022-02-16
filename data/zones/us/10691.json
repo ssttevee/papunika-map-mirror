@@ -1,0 +1,263 @@
+{
+    "markers": [
+      {
+        "markerType":"Monster",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_monster",
+        "data":[
+           {
+              "coordinates":[
+                -108.5, 162.125
+              ],
+              "id":"monster_0",
+              "popupTitle":"Lonely Morai Clay Soldier",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"#14 Lonely Morai Clay Soldier",
+              "tooltipDirection":"right"
+           },
+           {
+            "coordinates":[
+              -147.75, 93.875
+            ],
+            "id":"monster_1",
+            "popupTitle":"Morai Clay Shaman Chief",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#15 Morai Clay Shaman Chief",
+            "tooltipDirection":"left"
+         }
+        ]
+     },
+      {
+        "markerType":"Mokoko",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_mokoko",
+        "data":[
+           {
+              "coordinates":[
+                -122.875, 110.125
+              ],
+              "id":"mokoko_0",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"Locked behind secret passage.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -110.75, 153.5
+              ],
+              "id":"mokoko_1",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"Locked behind secret passage.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -153.875, 91.25
+              ],
+              "id":"mokoko_2",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"Locked behind secret passage.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -187.125, 114
+              ],
+              "id":"mokoko_3",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"Locked behind secret passage.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -99.75, 126
+              ],
+              "id":"mokoko_4",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"Locked behind secret passage.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -92.75, 133.25
+              ],
+              "id":"mokoko_5",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"Locked behind secret passage.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -99.625, 124.5
+              ],
+              "id":"mokoko_6",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"Locked behind secret passage.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -72.5, 140.625
+              ],
+              "id":"mokoko_7",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"Locked behind secret passage.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -71.5, 142
+              ],
+              "id":"mokoko_8",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"Locked behind secret passage.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+            "coordinates":[
+              -91.125, 133.625
+            ],
+            "id":"mokoko_9",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -120.75, 111.375
+          ],
+          "id":"mokoko_10",
+          "popupTitle":"Mokoko Seed",
+          "popupContent":"Locked behind secret passage.",
+          "popupMedia":"",
+          "tooltip":"",
+          "tooltipDirection":"right"
+       }
+        ]
+       },
+      {
+        "markerType":"SPassage",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_spassage",
+        "data":[
+           {
+              "coordinates":[
+                -187.375, 117.625
+              ],
+              "id":"spassage_0",
+              "popupTitle":"Secret Passage",
+              "popupContent":"Kill nearby enemies. Hidden jump will appear.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+            "coordinates":[
+              -150.5, 93
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Kill nearby enemies. Hidden jump will appear.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+            },
+            {
+              "coordinates":[
+                -131.75, 118.625
+              ],
+              "id":"spassage_2",
+              "popupTitle":"Secret Passage",
+              "popupContent":"Kill nearby enemies. Walk down the path.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+          },
+          {
+            "coordinates":[
+              -113.5, 154.75
+            ],
+            "id":"spassage_3",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Destroy wall.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+        },
+        {
+          "coordinates":[
+            -74, 143.5
+          ],
+          "id":"spassage_4",
+          "popupTitle":"Secret Passage",
+          "popupContent":"Destroy wall.",
+          "popupMedia":"",
+          "tooltip":"",
+          "tooltipDirection":"right"
+      },
+      {
+        "coordinates":[
+          -104.375, 130.25
+        ],
+        "id":"spassage_5",
+        "popupTitle":"Secret Passage",
+        "popupContent":"Kill nearby enemies.",
+        "popupMedia":"",
+        "tooltip":"",
+        "tooltipDirection":"right"
+    },
+    {
+      "coordinates":[
+        -96.625, 134.875
+      ],
+      "id":"spassage_6",
+      "popupTitle":"Secret Passage",
+      "popupContent":"Kill nearby enemies. Move trough right entrance.",
+      "popupMedia":"",
+      "tooltip":"",
+      "tooltipDirection":"right"
+    }
+        ]
+       },
+      {
+        "markerType": "Portal",
+        "enabled": true,
+        "allowSidebar": false,
+        "layerID": "layer_portal",
+        "data": [
+          {
+            "coordinates": [-238.5, 114.5],
+            "id": "portal_0",
+            "destinationID": "10611",
+            "tooltip": "Saland Hill",
+            "tooltipDirection": "bottom"
+          }
+        ]
+      }
+    ]
+ }

@@ -1,0 +1,21 @@
+{
+  "markers":[
+   {
+      "markerType":"Portal",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_portal",
+      "data":[
+         {
+            "coordinates":[
+             -169.25, 95
+            ],
+            "id":"portal_0",
+            "destinationID":"50101_4",
+            "tooltip":"4F",
+            "tooltipDirection":"bottom"
+         }
+      ]
+   }
+  ]
+}

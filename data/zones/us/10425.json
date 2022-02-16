@@ -1,0 +1,293 @@
+{
+  "name":"Totrich",
+  "continent":"Arthetine",
+  "zoneTiles":"public/tiles/zones/arthetine/zone_51",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Affinity",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_affinity",
+      "data":[
+         {
+            "coordinates":[
+               -113, 107
+            ],
+            "id":"affinity_0",
+            "popupTitle":"Orne",
+            "rapportId": "18266",
+            "tooltip":"Orne",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"AStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_astory",
+      "data":[
+         {
+            "coordinates":[
+               -132.375, 73
+            ],
+            "id":"astory_0",
+            "popupTitle":"Help the Orphans",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#2 Help the Orphans",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -129.625, 73
+            ],
+            "id":"hstory_0",
+            "popupTitle":"Welcome to Arthetine",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 Welcome to Arthetine",
+            "tooltipDirection":"left"
+         }
+      ]
+     },  
+     {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -120.75, 147.75
+            ],
+            "id":"monster_0",
+            "popupTitle":"Royal Guard Quartermaster",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#11 Royal Guard Quartermaster",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -63.75, 150.875
+          ],
+          "id":"monster_1",
+          "popupTitle":"Bolchi Boss",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#12 Bolchi Boss",
+          "tooltipDirection":"left"
+       }
+      ]
+   },   
+   {
+      "markerType":"FBoss",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_fboss",
+      "data":[
+         {
+            "coordinates":[
+               -67.875, 163
+            ],
+            "id":"fboss_0",
+            "popupTitle":"Velkan",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Velkan",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Food",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_food",
+      "data":[
+         {
+            "coordinates":[
+               -130.75, 93.25
+            ],
+            "id":"food_0",
+            "popupTitle":"X-090892",
+            "popupContent":"Buy at merchant Jane.",
+            "popupMedia":"",
+            "tooltip":"#1 X-090892",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -112.875, 130.125
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Clockwork Square",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#6 Clockwork Square",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -155.625, 82.875
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Nox",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Nox",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -101, 179
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -87.25, 175.25
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -41, 159.875
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -160.125, 119.625
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -124.875, 140.25
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -118, 145.375
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -110.625, 129.625
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -169.5, 68.75
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -129, 46.5
+              ],
+              "id":"portal_0",
+              "destinationID":"10424",
+              "tooltip":"Windbringer Hills",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -187.5, 99.75
+            ],
+            "id":"portal_1",
+            "destinationID":"10462",
+            "tooltip":"Dr. Bergstrom's Laboratory",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

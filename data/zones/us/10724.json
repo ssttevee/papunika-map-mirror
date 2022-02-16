@@ -1,0 +1,330 @@
+{
+  "name":"Prisma Valley",
+  "continent":"Anikka",
+  "zoneTiles":"public/tiles/zones/anikka/zone_40",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Affinity",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_affinity",
+      "data":[
+         {
+            "coordinates":[
+               -125.25, 75.5
+            ],
+            "id":"affinity_0",
+            "popupTitle":"Sorang",
+            "popupContent":"<p>Check Affinity page: <a href='https://papunika.com/affinity/' target='_blank' rel='noopener noreferrer'>click me</a></p>",
+            "popupMedia":"https://papunika.com/wp-content/uploads/lao-icons/affinity/affinity_npc_17.png",
+            "tooltip":"Sorang",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"AStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_astory",
+      "data":[
+         {
+            "coordinates":[
+               -98.125, 106.375
+            ],
+            "id":"astory_0",
+            "popupTitle":"The Keeper Lives On",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 The Keeper Lives On",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -185.125, 199.5
+            ],
+            "id":"hstory_0",
+            "popupTitle":"The Surging Yearning (3/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10722&m=hstory_0"
+               },
+               {
+                  "link":"z=10723&m=hstory_0"
+               },
+               {
+                  "link":"z=10724&m=hstory_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#2 The Surging Yearning (3/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -203.25, 144.875
+            ],
+            "id":"hstory_1",
+            "popupTitle":"Sir Druden's Past",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#4 Sir Druden's Past",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -116.625, 35.75
+            ],
+            "id":"hstory_2",
+            "popupTitle":"Qualifications of the Grand Master (3/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10701&m=hstory_3"
+               },
+               {
+                  "link":"z=10701&m=hstory_4"
+               },
+               {
+                  "link":"z=10724&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Qualifications of the Grand Master (3/3)",
+            "tooltipDirection":"right"
+         }
+      ]
+     },  
+     {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -138.875, 207.125
+            ],
+            "id":"monster_0",
+            "popupTitle":"Alpha Wind Fox",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#5 Alpha Wind Fox",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -183.5, 121
+          ],
+          "id":"monster_1",
+          "popupTitle":"Giant Fire Dokkaebi",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#12 Giant Fire Dokkaebi",
+          "tooltipDirection":"right"
+       },
+       {
+        "coordinates":[
+         -161, 77.25
+        ],
+        "id":"monster_2",
+        "popupTitle":"Giant Red Lion Mask",
+        "popupContent":"",
+        "popupMedia":"",
+        "tooltip":"#13 Giant Red Lion Mask",
+        "tooltipDirection":"right"
+     }
+      ]
+   },   
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -106.375, 130.625
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Cloud Cliff",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#9 Cloud Cliff",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -126.625, 202
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Mac",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Mac",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -50.25, 118.625
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -98.25, 146.75
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -103.375, 125.5
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -86.75, 141.375
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -78.5, 88.25
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -127, 96.125
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -120.125, 53.25
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -102.75, 138
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -91.5, 138.5
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -239.25, 149.5
+              ],
+              "id":"portal_0",
+              "destinationID":"10721",
+              "tooltip":"Delphi Township",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -84.5, 171.75
+            ],
+            "id":"portal_1",
+            "destinationID":"10725",
+            "tooltip":"Twilight Mists",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

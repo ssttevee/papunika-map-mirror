@@ -1,0 +1,308 @@
+{
+  "name":"Nebelhorn",
+  "continent":"Arthetine",
+  "zoneTiles":"public/tiles/zones/arthetine/zone_58",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -131.75, 133
+            ],
+            "id":"hstory_0",
+            "popupTitle":"To Be a Human",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#3 To Be a Human",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -94.25, 131.75
+            ],
+            "id":"hstory_1",
+            "popupTitle":"End of His Obsession (1/2)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10423&m=hstory_1"
+               },
+               {
+                  "link":"z=10463&m=hstory_0&f=3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#6 End of His Obsession (1/2)",
+            "tooltipDirection":"right"
+         }
+      ]
+     }, 
+   {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -172.5, 149.75
+            ],
+            "id":"monster_0",
+            "popupTitle":"Sappy Wallou Cactus",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#5 Sappy Wallou Cactus",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -201.75, 111.5
+          ],
+          "id":"monster_1",
+          "popupTitle":"Solitary Goraon",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#6 Solitary Goraon",
+          "tooltipDirection":"right"
+       },
+       {
+        "coordinates":[
+         -109.875, 66
+        ],
+        "id":"monster_2",
+        "popupTitle":"Wanted Smuggler",
+        "popupContent":"",
+        "popupMedia":"",
+        "tooltip":"#7 Wanted Smuggler",
+        "tooltipDirection":"right"
+     },
+     {
+      "coordinates":[
+         -96.625, 161.375
+      ],
+      "id":"monster_3",
+      "popupTitle":"Deadly Virulent Scorpion",
+      "popupContent":"",
+      "popupMedia":"",
+      "tooltip":"#8 Deadly Virulent Scorpion",
+      "tooltipDirection":"right"
+   }
+      ]
+   }, 
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -133, 120
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Adrenaline-boosting Fluid",
+            "popupContent":"Required ingredient for '#5 Boosting Fluid Soup'.<br>Buy at traveling merchant Nox. Used at cook Cooking Master.",
+            "popupMedia":"",
+            "tooltip":"#5 Adrenaline-boosting Fluid",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -164, 128
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Lab",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#4 Lab",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -130.875, 118
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Nox",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Nox",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -29.875, 125.75
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -84.625, 122.25
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -62.375, 104.875
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -82.875, 121.375
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -162.75, 161.75
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -126.25, 201.375
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -118.875, 63
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -163.625, 163.625
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -75.625, 124.5
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -155.5, 154.125
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -195.25, 192.5
+              ],
+              "id":"portal_0",
+              "destinationID":"10422",
+              "tooltip":"Scraplands",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -113.5, 137.75
+            ],
+            "id":"portal_1",
+            "destinationID":"10491",
+            "tooltip":"Heart of Sceptrum",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "name":"Dr. Bergstrom's Laboratory",
+  "continent":"Arthetine",
+  "zoneTiles":"public/tiles/zones/arthetine/zone_52",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -208.625, 177.25
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Bergstrom's Invisibility Potion (1/2)",
+            "popupContent":"Required ingredient for '#7 Bergstrom Drink'.<br>Used at cook Cooking Master.",
+            "parts": [
+               {
+                  "link":"z=10462&m=ingredient_0"
+               },
+               {
+                  "link":"z=10462&m=ingredient_1"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Bergstrom's Invisibility Potion (1/2)",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -54.125, 176.875
+          ],
+          "id":"ingredient_1",
+          "popupTitle":"Bergstrom's Yellow Potion (2/2)",
+          "popupContent":"Required ingredient for '#7 Bergstrom Drink'.<br>Used at cook Cooking Master.",
+          "parts": [
+            {
+               "link":"z=10462&m=ingredient_0"
+            },
+            {
+               "link":"z=10462&m=ingredient_1"
+            }
+        ],
+         "popupMedia":"",
+          "tooltip":"#7 Bergstrom's Yellow Potion (2/2)",
+          "tooltipDirection":"right"
+       }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -75.375, 19.5
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -65.375, 175.5
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -227.875, 147.5
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -222.875, 144.75
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -215.25, 175.625
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -211.375, 166.625
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"You have to finish the dungeon to unlock the passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -223.75, 174.5
+              ],
+              "id":"portal_0",
+              "destinationID":"10425",
+              "tooltip":"Totrich",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

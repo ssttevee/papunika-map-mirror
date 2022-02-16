@@ -1,0 +1,252 @@
+{
+  "name":"Rigens Village",
+  "continent":"Shushire",
+  "zoneTiles":"public/tiles/zones/shushire/zone_70",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Affinity",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_affinity",
+      "data":[
+         {
+            "coordinates":[
+               -90.125, 127.625
+            ],
+            "id":"affinity_0",
+            "popupTitle":"Daybreaker Javern",
+            "rapportId": "16105",
+            "tooltip":"Daybreaker Javern",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -95.25, 108.25
+            ],
+            "id":"hstory_0",
+            "popupTitle":"Shushire Boys (1/2)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10301&m=hstory_0"
+               },
+               {
+                  "link":"z=10301&m=hstory_1"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#3 Shushire Boys (1/2)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -179.5, 98.625
+            ],
+            "id":"hstory_1",
+            "popupTitle":"Shushire Boys (2/2)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10301&m=hstory_0"
+               },
+               {
+                  "link":"z=10301&m=hstory_1"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#3 Shushire Boys (2/2)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -105.125, 155.25
+            ],
+            "id":"hstory_2",
+            "popupTitle":"Foul-mouthed Baker",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#4 Foul-mouthed Baker",
+            "tooltipDirection":"right"
+         }
+      ]
+     },  
+   {
+      "markerType":"Food",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_food",
+      "data":[
+         {
+            "coordinates":[
+               -150.5, 169.875
+            ],
+            "id":"food_0",
+            "popupTitle":"Sirius's Tears",
+            "popupContent":"Buy at merchant Isabel.",
+            "popupMedia":"",
+            "tooltip":"#7 Sirius's Tears",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -153.25, 169.25
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Snowflake Shaved Ice",
+            "popupContent":"Buy at least 53 'Giant Ice Pieces' from Isabelle.<br>Craft 50 'Broken Ice Pieces' at cook Helena.<br>With a chance you also obtain a rare proc with 5 'Chopped Ice Pieces'.<br>Now craft 'Snowflake Shave Ice' at Helena.",
+            "popupMedia":"",
+            "tooltip":"#6 Snowflake Shaved Ice",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -84.375, 121.5
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Bell Tower",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#2 Bell Tower",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -34.5, 155.75
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -36.25, 156.5
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -119.75, 195
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -89.125, 108.625
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -135.25, 177.25
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -161.125, 134
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -175.875, 80.625
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -165.25, 40
+              ],
+              "id":"portal_0",
+              "destinationID":"10321",
+              "tooltip":"Frozen Sea",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -218.5, 188.5
+            ],
+            "id":"portal_1",
+            "destinationID":"10322",
+            "tooltip":"Bitterwind Hill",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

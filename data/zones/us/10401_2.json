@@ -1,0 +1,105 @@
+{
+  "name":"Stern Underground",
+  "continent":"Arthetine",
+  "zoneTiles":"public/tiles/zones/arthetine/zone_49_2",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -186.75, 121.5
+            ],
+            "id":"hstory_0",
+            "popupTitle":"The Answer to the Agony (4/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10401&m=hstory_0"
+               },
+               {
+                  "link":"z=10401&m=hstory_1"
+               },
+               {
+                  "link":"z=10401&m=hstory_2"
+               },
+               {
+                  "link":"z=10401&m=hstory_0&f=2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#2 The Answer to the Agony (4/4)",
+            "tooltipDirection":"right"
+         }
+      ]
+     }, 
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -112, 75.375
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -52.25, 136
+              ],
+              "id":"portal_0",
+              "destinationID":"10401",
+              "tooltip":"Stern",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -135, 79.5
+            ],
+            "id":"portal_1",
+            "destinationID":"10401",
+            "tooltip":"Stern",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -152.5, 107.25
+            ],
+            "id":"portal_2",
+            "destinationID":"10401",
+            "tooltip":"Stern",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -112.25, 167.25
+            ],
+            "id":"portal_3",
+            "destinationID":"10401",
+            "tooltip":"Stern",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

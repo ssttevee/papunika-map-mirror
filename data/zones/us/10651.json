@@ -1,0 +1,235 @@
+{
+    "markers": [
+      {
+        "markerType":"Monster",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_monster",
+        "data":[
+           {
+              "coordinates":[
+                -176.25, 185.375
+              ],
+              "id":"monster_0",
+              "popupTitle":"Dirty Mucus Lump",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"#12 Dirty Mucus Lump",
+              "tooltipDirection":"right"
+           },
+           {
+            "coordinates":[
+              -83.375, 195.625
+            ],
+            "id":"monster_1",
+            "popupTitle":"Corrupt Red-eyed Rock Demon",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#13 Corrupt Red-eyed Rock Demon",
+            "tooltipDirection":"right"
+         }
+        ]
+     },
+      {
+        "markerType":"Ingredient",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_ingredient",
+        "data":[
+           {
+              "coordinates":[
+                -164.25, 188.125
+              ],
+              "id":"ingredient_0",
+              "popupTitle":"Hidden Cavatian Liquor Bottle",
+              "popupContent":"Required ingredient for '#4 Age-old Cavatian Wine'.<br>Used at cook Hella.",
+              "popupMedia":"",
+              "tooltip":"#4 Hidden Cavatian Liquor Bottle (1/1)",
+              "tooltipDirection":"right"
+           }
+        ]
+     },
+      {
+        "markerType":"Mokoko",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_mokoko",
+        "data":[
+           {
+              "coordinates":[
+                -94.5, 110.75
+              ],
+              "id":"mokoko_0",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"Locked behind secret passage.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -65, 167.125
+              ],
+              "id":"mokoko_1",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -37.875, 106.625
+              ],
+              "id":"mokoko_2",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"Locked behind secret passage.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -187.25, 172.75
+              ],
+              "id":"mokoko_3",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -96, 105.5
+              ],
+              "id":"mokoko_4",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"Locked behind secret passage.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -152.75, 132.75
+              ],
+              "id":"mokoko_5",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -93.25, 89.75
+              ],
+              "id":"mokoko_6",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -64.125, 187.625
+              ],
+              "id":"mokoko_7",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+            "coordinates":[
+              -36.625, 109.875
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+        ]
+       },
+      {
+        "markerType":"SPassage",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_spassage",
+        "data":[
+           {
+              "coordinates":[
+                -101.125, 114.875
+              ],
+              "id":"spassage_0",
+              "popupTitle":"Secret Passage",
+              "popupContent":"Requires to pull 2 levers. Look at the stars below and above.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+            "coordinates":[
+              -45.625, 115.375
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+        ]
+       },
+       {
+        "markerType":"Notice",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_notice",
+        "data":[
+           {
+              "coordinates":[
+                -97.5, 118.75
+              ],
+              "id":"notice_0",
+              "popupTitle":"Notice",
+              "popupContent":"Pull lever to unlock secret passage.",
+              "popupMedia":"",
+              "tooltip":"Lever (1/2)",
+              "tooltipDirection":"right"
+           },
+           {
+            "coordinates":[
+              -118.125, 105.625
+            ],
+            "id":"notice_1",
+            "popupTitle":"Notice",
+            "popupContent":"Pull lever to unlock secret passage.",
+            "popupMedia":"",
+            "tooltip":"Lever (2/2)",
+            "tooltipDirection":"right"
+         }
+        ]
+       },
+      {
+        "markerType": "Portal",
+        "enabled": true,
+        "allowSidebar": false,
+        "layerID": "layer_portal",
+        "data": [
+          {
+            "coordinates": [-117.75, 43.5],
+            "id": "portal_0",
+            "destinationID": "10619",
+            "tooltip": "Ozhorn Hill",
+            "tooltipDirection": "bottom"
+          }
+        ]
+      }
+    ]
+ }

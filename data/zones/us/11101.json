@@ -1,0 +1,462 @@
+{
+  "name":"Rania Village",
+  "continent":"North Vern",
+  "zoneTiles":"public/tiles/zones/north_vern/zone_62",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Affinity",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_affinity",
+      "data":[
+         {
+            "coordinates":[
+               -108.375, 92.625
+            ],
+            "id":"affinity_0",
+            "popupTitle":"Gideon",
+            "rapportId": "22025",
+            "tooltip":"Gideon",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -103.875, 98.125
+            ],
+            "id":"affinity_1",
+            "popupTitle":"Anabel",
+            "rapportId": "22026",
+            "tooltip":"Anabel",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"AStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_astory",
+      "data":[
+         {
+            "coordinates":[
+               -110.125, 113.25
+            ],
+            "id":"astory_0",
+            "popupTitle":"Solo (1/6)",
+            "popupContent":"<b>Refers to South Vern Another Story!</b><br>Chain Quest '<a href='https://lostarkcodex.com/us/quest/1102116/' target='_blank' style='text-decoration: none;'>Abandoned weapon</a>'",
+            "parts": [
+               {
+                  "link":"z=11101&m=astory_0"
+               },
+               {
+                  "link":"z=11101&m=astory_1"
+               },
+               {
+                  "link":"z=11101&m=astory_2"
+               },
+               {
+                  "link":"z=11611&m=astory_0"
+               },
+               {
+                  "link":"z=11611&m=astory_1"
+               },
+               {
+                  "link":"z=11101&m=astory_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#1 Solo (1/6)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -139.375, 97.25
+            ],
+            "id":"astory_1",
+            "popupTitle":"Solo (2/6)",
+            "popupContent":"<b>Refers to South Vern Another Story!</b><br>Chain Quest '<a href='https://lostarkcodex.com/us/quest/1102117/' target='_blank' style='text-decoration: none;'>Slumdog Pathfinder</a>'",
+            "parts": [
+               {
+                  "link":"z=11101&m=astory_0"
+               },
+               {
+                  "link":"z=11101&m=astory_1"
+               },
+               {
+                  "link":"z=11101&m=astory_2"
+               },
+               {
+                  "link":"z=11611&m=astory_0"
+               },
+               {
+                  "link":"z=11611&m=astory_1"
+               },
+               {
+                  "link":"z=11101&m=astory_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#1 Solo (2/6)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -144.125, 104.625
+            ],
+            "id":"astory_2",
+            "popupTitle":"Solo (3/6)",
+            "popupContent":"<b>Refers to South Vern Another Story!</b><br>Chain Quest '<a href='https://lostarkcodex.com/us/quest/1102118/' target='_blank' style='text-decoration: none;'>Stopped time</a>'",
+            "parts": [
+               {
+                  "link":"z=11101&m=astory_0"
+               },
+               {
+                  "link":"z=11101&m=astory_1"
+               },
+               {
+                  "link":"z=11101&m=astory_2"
+               },
+               {
+                  "link":"z=11611&m=astory_0"
+               },
+               {
+                  "link":"z=11611&m=astory_1"
+               },
+               {
+                  "link":"z=11101&m=astory_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#1 Solo (3/6)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -144.125, 106.375
+            ],
+            "id":"astory_3",
+            "popupTitle":"Solo (6/6)",
+            "popupContent":"<b>Refers to South Vern Another Story!</b><br>Chain Quest '<a href='https://lostarkcodex.com/us/quest/1102121/' target='_blank' style='text-decoration: none;'>Farewell letter</a>'",
+            "parts": [
+               {
+                  "link":"z=11101&m=astory_0"
+               },
+               {
+                  "link":"z=11101&m=astory_1"
+               },
+               {
+                  "link":"z=11101&m=astory_2"
+               },
+               {
+                  "link":"z=11611&m=astory_0"
+               },
+               {
+                  "link":"z=11611&m=astory_1"
+               },
+               {
+                  "link":"z=11101&m=astory_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#1 Solo (6/6)",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -98.375, 164.25
+            ],
+            "id":"hstory_0",
+            "popupTitle":"Head Maid's Secret",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#2 Head Maid's Secret",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -105.75, 92.375
+            ],
+            "id":"hstory_1",
+            "popupTitle":"Head Maid's Secret",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#5 Head Maid's Secret",
+            "tooltipDirection":"left"
+         }
+      ]
+     },  
+   {
+      "markerType":"Food",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_food",
+      "data":[
+         {
+            "coordinates":[
+               -95.75, 165.375
+            ],
+            "id":"food_0",
+            "popupTitle":"Vern Anniversary Spirits",
+            "popupContent":"Buy at merchant Roy.<br>Buy a second 'Vern Anniversary Spirits' if you plan to craft the food 'Long Live the Queen!'.",
+            "popupMedia":"",
+            "tooltip":"#1 Vern Anniversary Spirits",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -115.625, 180.375
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Proxima Course Meal",
+            "popupContent":"Buy 'Proxima Sterm' and 'Proxima Root' from merchant Luigia.<br>Craft 'Proxima Salad' and 'Proxima Root Nugget' from it at cook Stelia.<br>Repeat the steps if you plan to craft the food 'Long Live the Queen!'.",
+            "parts": [
+               {
+                  "link":"z=11101&m=ingredient_0"
+               },
+               {
+                  "link":"z=11114&m=ingredient_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#3 Proxima Course Meal (1/2)",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Resonance",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_resonance",
+      "data":[
+         {
+            "coordinates":[
+               -197.375, 134.25
+            ],
+            "id":"resonance_0",
+            "popupTitle":"Song of Resonance",
+            "popupContent":"Play Song of Resonance in front of statue.",
+            "popupMedia":"",
+            "tooltip":"Song of Resonance",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -195.25, 97.125
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Living Quarters",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 Living Quarters",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -141.375, 112.125
+            ],
+            "id":"viewpoint_1",
+            "popupTitle":"Alley",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#2 Alley",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -100.375, 160.875
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -149.375, 83.5
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -139.25, 142.5
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"public/comments/north_vern/zone_62/mokoko_62.jpg",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -111.125, 103.375
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -209.625, 137.5
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -153.625, 96.75
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -147.375, 83.375
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -205.5, 132.25
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"Notice",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_notice",
+      "data":[
+         {
+            "coordinates":[
+               -59, 84.25
+            ],
+            "id":"notice_0",
+            "popupTitle":"Notice",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Another Story refers to South Vern Another Story",
+            "tooltipDirection":"left"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -224, 95.5
+              ],
+              "id":"portal_0",
+              "destinationID":"11111",
+              "tooltip":"Port Krona",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -17, 125.75
+            ],
+            "id":"portal_1",
+            "destinationID":"11113",
+            "tooltip":"Fesnar Highland",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -22.75, 173.75
+            ],
+            "id":"portal_2",
+            "destinationID":"11114",
+            "tooltip":"Vernese Forest",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -48, 193.5
+            ],
+            "id":"portal_3",
+            "destinationID":"11112",
+            "tooltip":"Parna Forest",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -118.75, 42.25
+            ],
+            "id":"portal_4",
+            "destinationID":"11115",
+            "tooltip":"Balankar Mountains",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

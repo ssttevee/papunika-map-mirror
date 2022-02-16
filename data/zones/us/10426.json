@@ -1,0 +1,331 @@
+{
+  "name":"Riza Falls",
+  "continent":"Arthetine",
+  "zoneTiles":"public/tiles/zones/arthetine/zone_53",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"AStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_astory",
+      "data":[
+         {
+            "coordinates":[
+               -127.25, 139.5
+            ],
+            "id":"astory_0",
+            "popupTitle":"The Sandy Path",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 The Sandy Path",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -194.625, 99.625
+            ],
+            "id":"monster_0",
+            "popupTitle":"Dark Red Claw Scorpion",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#13 Dark Red Claw Scorpion",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -163, 164.25
+          ],
+          "id":"monster_1",
+          "popupTitle":"Vicious Illegal Mercenary Swordfighter",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#14 Vicious Illegal Mercenary Swordfighter",
+          "tooltipDirection":"right"
+       },
+       {
+        "coordinates":[
+         -114.5, 46.375
+        ],
+        "id":"monster_2",
+        "popupTitle":"Greedy Royal Guard Commander",
+        "popupContent":"",
+        "popupMedia":"",
+        "tooltip":"#15 Greedy Royal Guard Commander",
+        "tooltipDirection":"right"
+     }
+      ]
+   },
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -114.125, 126.625
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Adrenaline-boosting Fluid",
+            "popupContent":"Required ingredient for '#5 Boosting Fluid Soup'.<br>Buy at traveling merchant Nox. Used at cook Cooking Master.",
+            "popupMedia":"",
+            "tooltip":"#5 Adrenaline-boosting Fluid",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -99.375, 135.875
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Whirlpool observatory",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#7 Whirlpool observatory",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -111.75, 128.75
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Nox",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Nox",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -63.875, 178.875
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -124.375, 184.875
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -90.5, 196
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -92, 120.5
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -200.375, 150.75
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -158.375, 111.875
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -150, 81.875
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -195.875, 128.125
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -168.125, 162.75
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -201.375, 148
+            ],
+            "id":"mokoko_9",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -126, 138.375
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Use this sand portal to randomly get to the viewpoint in this zone.<br>To unlock the portals you have to finish the Another Story: #1 The Sandy Path.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -112.75, 162.75
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Use this sand portal to randomly get to the viewpoint in this zone.<br>To unlock the portals you have to finish the Another Story: #1 The Sandy Path.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -193.375, 148.125
+            ],
+            "id":"spassage_2",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -96.5, 202.75
+            ],
+            "id":"spassage_3",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -212.25, 71
+              ],
+              "id":"portal_0",
+              "destinationID":"10401",
+              "tooltip":"Stern",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -38.25, 154.5
+            ],
+            "id":"portal_1",
+            "destinationID":"10463",
+            "tooltip":"Verdantier",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -117.5, 237.5
+            ],
+            "id":"portal_2",
+            "destinationID":"10428",
+            "tooltip":"Red Sand Desert",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

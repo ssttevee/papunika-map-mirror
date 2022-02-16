@@ -1,0 +1,531 @@
+{
+  "name":"Soaring Harbor",
+  "continent":"Rohendel",
+  "zoneTiles":"public/tiles/zones/rohendel/zone_78",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"AStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_astory",
+      "data":[
+         {
+            "coordinates":[
+               -145.875, 93.875
+            ],
+            "id":"astory_0",
+            "popupTitle":"A happy ending",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#2 A happy ending",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -140.5, 157.25
+            ],
+            "id":"hstory_0",
+            "popupTitle":"Birth of Rohendel (1/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10121&m=hstory_0"
+               },
+               {
+                  "link":"z=10121&m=hstory_1"
+               },
+               {
+                  "link":"z=10125&m=hstory_4"
+               },
+               {
+                  "link":"z=10121&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Birth of Rohendel (1/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -142.125, 146.125
+            ],
+            "id":"hstory_1",
+            "popupTitle":"Birth of Rohendel (2/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10121&m=hstory_0"
+               },
+               {
+                  "link":"z=10121&m=hstory_1"
+               },
+               {
+                  "link":"z=10125&m=hstory_4"
+               },
+               {
+                  "link":"z=10121&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Birth of Rohendel (2/4)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -101.625, 68.625
+            ],
+            "id":"hstory_2",
+            "popupTitle":"Birth of Rohendel (4/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10121&m=hstory_0"
+               },
+               {
+                  "link":"z=10121&m=hstory_1"
+               },
+               {
+                  "link":"z=10125&m=hstory_4"
+               },
+               {
+                  "link":"z=10121&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Birth of Rohendel (4/4)",
+            "tooltipDirection":"right"
+         }
+      ]
+     },  
+     {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -61.375, 106
+            ],
+            "id":"monster_0",
+            "popupTitle":"Ferocious Basilesk",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 Ferocious Basilesk",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -50.125, 90.625
+          ],
+          "id":"monster_1",
+          "popupTitle":"Queen of the Caddis",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#2 Queen of the Caddis",
+          "tooltipDirection":"left"
+       }
+      ]
+   },  
+   {
+      "markerType":"Food",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_food",
+      "data":[
+         {
+            "coordinates":[
+               -42.375, 110.625
+            ],
+            "id":"food_0",
+            "popupTitle":"Cookies 'My Heart'",
+            "popupContent":"Buy at traveling merchant Arisier.",
+            "popupMedia":"",
+            "tooltip":"#2 Cookies 'My Heart'",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -184.875, 178.25
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Chew Jelly",
+            "popupContent":"Required ingredient for '#3 Jelly Chew'.<br>Used at cook Elara.",
+            "parts": [
+               {
+                  "link":"z=10121&m=ingredient_0"
+               },
+               {
+                  "link":"z=10121&m=ingredient_1"
+               },
+               {
+                  "link":"z=10121&m=ingredient_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#3 Chew Jelly (1/3)",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -46.75, 114.625
+          ],
+          "id":"ingredient_1",
+          "popupTitle":"Chew Chew Jelly",
+          "popupContent":"Required ingredient for '#3 Jelly Chew'.<br>Used at cook Elara.",
+          "parts": [
+             {
+                "link":"z=10121&m=ingredient_0"
+             },
+             {
+                "link":"z=10121&m=ingredient_1"
+             },
+             {
+                "link":"z=10121&m=ingredient_2"
+             }
+         ],
+          "popupMedia":"",
+          "tooltip":"#3 Chew Chew Jelly (2/3)",
+          "tooltipDirection":"right"
+       },
+       {
+        "coordinates":[
+         -66.625, 166.125
+        ],
+        "id":"ingredient_2",
+        "popupTitle":"Chew Chew Chew Jelly",
+        "popupContent":"Required ingredient for '#3 Jelly Chew'.<br>Used at cook Elara.",
+        "parts": [
+           {
+              "link":"z=10121&m=ingredient_0"
+           },
+           {
+              "link":"z=10121&m=ingredient_1"
+           },
+           {
+              "link":"z=10121&m=ingredient_2"
+           }
+       ],
+        "popupMedia":"",
+        "tooltip":"#3 Chew Chew Chew Jelly (3/3)",
+        "tooltipDirection":"left"
+     }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -186.75, 175.25
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Crystal Bridge",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#2 Crystal Bridge",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -69.125, 168.375
+            ],
+            "id":"viewpoint_1",
+            "popupTitle":"Old City",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#3 Old City",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -44.75, 113
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Arisier",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Arisier",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -99.125, 62.5
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -42.375, 113.125
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -30.375, 125.875
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -81.75, 215.5
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -118.75, 156.5
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -137, 138.375
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -184.625, 139.75
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -188.25, 124.25
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -183.75, 85.75
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -147.875, 96.125
+            ],
+            "id":"mokoko_9",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -177.625, 186.875
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Use portal to get to vista and ingredient.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -138.875, 142.875
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Climb down vines.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -121.5, 156.5
+            ],
+            "id":"spassage_2",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Requires 250 charm or higher to enter.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -84.25, 214.25
+            ],
+            "id":"spassage_3",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Play the song you get from 60% Rohendel Adventure's Tome completion to get the Mokoko Seed.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -44.125, 123.5
+            ],
+            "id":"spassage_4",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Requires 250 bravery or higher to be able to interact at the given position.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -97.625, 62.875
+            ],
+            "id":"spassage_5",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Play the song you get from 60% Rohendel Adventure's Tome completion to get the Mokoko Seed.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -187.5, 123
+            ],
+            "id":"spassage_6",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Play the song you get from 60% Rohendel Adventure's Tome completion to get the Mokoko Seed.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"Notice",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_notice",
+      "data":[
+         {
+            "coordinates":[
+               -6.5, 93.25
+            ],
+            "id":"notice_0",
+            "popupTitle":"Notice",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"You require 250 charm or higher for all Mokoko Seeds",
+            "tooltipDirection":"left"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -214.75, 229.5
+              ],
+              "id":"portal_0",
+              "destinationID":"overworld",
+              "tooltip":"Open Seas",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -37.5, 61.25
+            ],
+            "id":"portal_1",
+            "destinationID":"10101",
+            "tooltip":"Queen's Garden",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

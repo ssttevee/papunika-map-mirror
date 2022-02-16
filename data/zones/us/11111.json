@@ -1,0 +1,304 @@
+{
+  "name":"Port Krona",
+  "continent":"North Vern",
+  "zoneTiles":"public/tiles/zones/north_vern/zone_60",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -175.875, 116.875
+            ],
+            "id":"hstory_0",
+            "popupTitle":"Legendary Phels (1/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11111&m=hstory_0"
+               },
+               {
+                  "link":"z=11111&m=hstory_1"
+               },
+               {
+                  "link":"z=11102&m=hstory_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Legendary Phels (1/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -142.5, 227
+            ],
+            "id":"hstory_1",
+            "popupTitle":"Legendary Phels (2/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11111&m=hstory_0"
+               },
+               {
+                  "link":"z=11111&m=hstory_1"
+               },
+               {
+                  "link":"z=11102&m=hstory_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Legendary Phels (2/3)",
+            "tooltipDirection":"right"
+         }
+      ]
+     }, 
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -200.75, 131.25
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Port",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#3 Port",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -157.875, 176
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Peter",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Peter",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -111.875, 206.5
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -83.25, 99.25
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -83.375, 154.5
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -45.375, 102.875
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -185.75, 97.375
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -142.25, 73
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -175.125, 210.125
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -235, 105.5
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -164.625, 155.25
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -185.5, 99.75
+            ],
+            "id":"mokoko_9",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -166.5, 155.5
+            ],
+            "id":"mokoko_10",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -153.75, 131.75
+            ],
+            "id":"mokoko_11",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -161.875, 155.125
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"You can kump aover after the kid comes near the wall",
+            "popupMedia":"public/comments/north_vern/port_krona/mokoko.png",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -188.625, 102.5
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"You can climb the ladder after a lady appears.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -157.75, 109.5
+              ],
+              "id":"portal_0",
+              "destinationID":"overworld",
+              "tooltip":"Open Seas",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -79.5, 38.5
+            ],
+            "id":"portal_1",
+            "destinationID":"11102",
+            "tooltip":"Vern Castle",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -13.5, 111.75
+            ],
+            "id":"portal_2",
+            "destinationID":"11101",
+            "tooltip":"Rania Village",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

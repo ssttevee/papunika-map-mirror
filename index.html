@@ -1,0 +1,119 @@
+<!DOCTYPE html><html lang="en-US" prefix="og: https://ogp.me/ns#"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<link rel="profile" href="//gmpg.org/xfn/11">
+<title>World Map - Lost Ark (Papunika)</title>
+<link rel="icon" type="image/png" href="papunika.ico">
+<meta name="description" content="Interactive world map for the game Lost Ark. Search for continents, Mokoko Seeds, Adventure&apos;s Tome and more.">
+<meta name="robots" content="max-image-preview:large">
+<meta name="keywords" content="lost ark map,lost ark world map,lost ark interactive map,lost ark interactive world map,lost ark mokoko seeds,lost ark mokoko seeds map,lost ark adventures tome map,lost ark adventures tome,lost ark voyage,lost ark ghost ships,lost ark islands,lost ark island guide,lost ark island map">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Papunika - Lost Ark (Non-Official) Fansite">
+<meta property="og:type" content="article">
+<meta property="og:title" content="World Map - Lost Ark (Papunika)">
+<meta property="og:description" content="Interactive world map for the game Lost Ark. Search for continents, Mokoko Seeds, Adventure&apos;s Tome and more.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:domain" content="papunika.com">
+<meta name="twitter:title" content="World Map - Lost Ark (Papunika)">
+<meta name="twitter:description" content="Interactive world map for the game Lost Ark. Search for continents, Mokoko Seeds, Adventure&apos;s Tome and more.">
+<link rel="icon" type="image/png" href="papunika.ico">
+<link rel="stylesheet" href="static/css/leaflet-e1b9e347d363724991db79c1d1ecf71b.css">
+<link rel="stylesheet" href="static/css/map-152ebc4772ea228fcf77fb27ac92b5c3.css">
+<link rel="stylesheet" href="static/css/map-modal-026734693beedfe1caeeecec4b3b8e87.css">
+<link rel="stylesheet" href="static/css/search-bar-05c8a5cc45a2809b41442bcd6073e6d5.css">
+<script src="static/js/fuse-a9b84ece54b1853525a2c76fd12aa23c.js"></script>
+<script src="static/js/jquery-b61aa6e2d68d21b3546b5b418bf0e9c3.js"></script>
+<script src="static/js/leaflet-52b64ee36b8befa41ce42622b91178d1.js"></script>
+<script src="static/js/map-9dab79872b4a393d3456096187a1054d.js"></script>
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans">
+<link rel="stylesheet" href="static/css/leaflet-geoman-e04050ddbbb7902fc7e12268800a2e88.css">
+<script src="static/js/leaflet-geoman-b8d115f24bbdd0150fdbb9a36415a97c.js"></script>
+<script type="text/javascript">
+      function initMap() {
+        $(document).ready(function () {
+			initMapData();
+        });
+      }
+      function toggleSidebar(ref){
+          document.getElementById("sidebar").classList.toggle('active');
+      }
+    </script>
+<script>
+		function toggleSidebar(ref){
+			document.getElementById("sidebar").classList.toggle('active');
+		}
+	</script>
+</head>
+<body onload="initMap()">
+
+<div class="map-wrapper">
+<div id="myModal" class="modal">
+
+<div class="modal-content">
+<span class="close">&#xD7;</span>
+<h3>How to use this map?</h3>
+<hr class="solid" style="border-top: 1px solid #d1ab84;">
+<div><span>Enter zone: </span><span style="color: #fff">Left Click on zone/island icon</span></div>
+<div><span>Leave zone: </span><span style="color: #fff">Right Click</span></div>
+<div><span>Move to another zone: </span><span style="color: #fff">Click on the blue text near a portal to switch zones</span></div>
+<br>
+<div><span>Markers:<br></span><span style="color: #fff">You can click on certain markers to get more information about it.</span></div>
+<br>
+<div><span>Hidden Stories:<br></span><span style="color: #fff">If a hidden story has multiple parts, click on the marker to show the other locations. Example: #1 Hidden Story (1/3).</span></div>
+<br>
+<div><span>Cooking/Ingredients:<br></span><span style="color: #fff">If cooking/ingredient items have multiple parts, click on the marker to show the other locations. Then craft at cook. Example: #1 Ingredient (1/2).</span></div>
+<br>
+<div><span>If there are any missing or wrong information, then please contact me: </span><br><span style="color: #dd163b"><a target="_blank" href="https://papunika.com/contact/" style="text-decoration: none;">Click me</a></span></div>
+</div>
+</div>
+<div id="map" style="background: #13171a;"></div>
+<div class="control-container"></div>
+<div class="active" id="sidebar">
+<div class="toggle-btn" onclick="toggleSidebar(this)"></div>
+<div class="sidebar-content">
+<div class="region-name-first"></div>
+<div class="region-name-second"></div>
+<div id="coordinatesTest"></div>
+<div class="sidebar-list" id="sidebar-list"></div>
+<div class="sidebarExtraButton" id="sidebarExtraButton" style="display:none">
+<button></button>
+</div>
+<div style="margin: 0 auto 10px; color: rgba(255, 255, 255, 0.3);text-align: center; font-size: 14px;"><button id="myBtn">How to use the map</button></div>
+</div>
+</div>
+<div class="search-container">
+<div class="search-bar">
+<input ref="input" type="text" name="search" placeholder="Search..." class="search-input">
+</div>
+<div ref="results" class="search-results"></div>
+</div>
+<script>
+			// Get the modal
+			var modal = document.getElementById("myModal");
+			
+			// Get the button that opens the modal
+			var btn = document.getElementById("myBtn");
+			
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+			
+			// When the user clicks the button, open the modal 
+			btn.onclick = function() {
+			modal.style.display = "block";
+			}
+			
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() {
+			modal.style.display = "none";
+			}
+			
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+			}
+		</script>
+</div>
+
+</body></html>

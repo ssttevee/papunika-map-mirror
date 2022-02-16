@@ -1,0 +1,194 @@
+{
+  "name":"Delphi Township",
+  "continent":"Anikka",
+  "zoneTiles":"public/tiles/zones/anikka/zone_38",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -124.75, 213.375
+            ],
+            "id":"hstory_0",
+            "popupTitle":"World in My Eyes",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 World in My Eyes",
+            "tooltipDirection":"right"
+         }
+      ]
+     },  
+     {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -135.875, 208.375
+            ],
+            "id":"monster_0",
+            "popupTitle":"Lazy Crop Thief",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#9 Lazy Crop Thief",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -105.75, 127.125
+          ],
+          "id":"monster_1",
+          "popupTitle":"Giant Ollac",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#10 Giant Ollac",
+          "tooltipDirection":"right"
+       },
+       {
+        "coordinates":[
+         -122.5, 48.875
+        ],
+        "id":"monster_2",
+        "popupTitle":"Giant White Lion Mask",
+        "popupContent":"",
+        "popupMedia":"",
+        "tooltip":"#11 Giant White Lion Mask",
+        "tooltipDirection":"right"
+     }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -171.25, 117.625
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Gate",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#10 Gate",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -192.875, 131.625
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Mac",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Mac",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -150.5, 35.75
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -172.5, 123.75
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -172.5, 51.125
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -158.5, 134.625
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -243.5, 107.5
+              ],
+              "id":"portal_0",
+              "destinationID":"10701",
+              "tooltip":"Port City Changhun",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -160, 56.25
+            ],
+            "id":"portal_1",
+            "destinationID":"10761",
+            "tooltip":"Moonmist Manor",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -14.25, 123
+            ],
+            "id":"portal_2",
+            "destinationID":"10724",
+            "tooltip":"Prisma Valley",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

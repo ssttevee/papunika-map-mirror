@@ -1,0 +1,163 @@
+{
+  "name":"Dream Palace",
+  "continent":"Rohendel",
+  "zoneTiles":"public/tiles/zones/rohendel/zone_85",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -106.625, 143.75
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -26.5, 142.25
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -47.875, 180.875
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -34.625, 175.25
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Break Seal Stone near the wall to destroy it.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"Notice",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_notice",
+      "data":[
+         {
+            "coordinates":[
+               -40, 120
+            ],
+            "id":"notice_0",
+            "popupTitle":"Notice",
+            "popupContent":"2F: <a href='https://papunika.com/map/?c=zone_85_2' style='text-decoration: none;'>Go to location</a>",
+            "popupMedia":"",
+            "tooltip":"Mokoko Seeds on 2F",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -55, 120
+            ],
+            "id":"notice_1",
+            "popupTitle":"Notice",
+            "popupContent":"4F: <a href='https://papunika.com/map/?c=zone_85_4' style='text-decoration: none;'>Go to location</a>",
+            "popupMedia":"",
+            "tooltip":"Mokoko Seed on 4F",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -70, 120
+            ],
+            "id":"notice_2",
+            "popupTitle":"Read steps first",
+            "popupContent":"You need to do the <b>Hard Mode</b> in order to obtain the Mokoko Seed!<br><br><b>Step 1:</b><br>Interact with hidden object on <a href='https://papunika.com/map/?c=zone_85_2' style='text-decoration: none;'>2F</a> <b>within 1min</b> after the start of the battle! It takes <b>15s</b> to get the object!<br><br><b>Step 2:</b><br>Interact with hidden object on <a href='https://papunika.com/map/?c=zone_85_2' style='text-decoration: none;'>2F</a> when fighting with boss on the third enter. It spawns behind the boss <b>during</b> the wave mechanic.<br><br><b>Step 3:</b><br>Interact with 2 object after acquiring the 2 buffs at the staircase above the chessboard. A new chess board spawns to solve. Successfully completing the chess board to move to secret area.<br><br><b>Step 4:</b><br>Kill boss in secret level an go through hidden passage seen in image below for the Mokoko Seed.",
+            "popupMedia":"public/comments/rohendel/zone_85/mokoko_85_1.jpg",
+            "tooltip":"Click me for hidden Mokoko Seed Guide",
+            "tooltipDirection":"left"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -233.5, 132.5
+              ],
+              "id":"portal_0",
+              "destinationID":"10125",
+              "tooltip":"Ancient Flower Garden",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               0.25, 160
+            ],
+            "id":"portal_1",
+            "destinationID":"10191_3",
+            "tooltip":"3F",
+            "tooltipDirection":"bottom"
+         },
+         {
+          "coordinates":[
+            -17.25, 165.625
+          ],
+          "id":"portal_2",
+          "destinationID":"10191_2",
+          "tooltip":"2F",
+          "tooltipDirection":"bottom"
+         },
+         {
+          "coordinates":[
+            -17.5, 151.75
+          ],
+          "id":"portal_3",
+          "destinationID":"10191_2",
+          "tooltip":"2F",
+          "tooltipDirection":"bottom"
+       },
+       {
+        "coordinates":[
+         -15, 175.875
+        ],
+        "id":"portal_4",
+        "destinationID":"10191_2",
+        "tooltip":"2F",
+        "tooltipDirection":"bottom"
+     }
+        ]
+     }
+  ]
+}

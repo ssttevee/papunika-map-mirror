@@ -1,0 +1,56 @@
+{
+  "name":"Pirate Den",
+  "continent":"Tortoyk",
+  "zoneTiles":"public/tiles/zones/tortoyk/zone_33",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -43.75, 152.25
+            ],
+            "id":"hstory_0",
+            "popupTitle":"Pirate King in Waiting (3/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11013&m=hstory_4"
+               },
+               {
+                  "link":"z=11001&m=hstory_0"
+               },
+               {
+                  "link":"z=11051&m=hstory_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#6 Pirate King in Waiting (3/3)",
+            "tooltipDirection":"right"
+         }
+      ]
+     },  
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -185.75, 28.5
+              ],
+              "id":"portal_0",
+              "destinationID":"11012",
+              "tooltip":"Sweetwater Forest",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

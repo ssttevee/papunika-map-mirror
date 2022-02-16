@@ -1,0 +1,459 @@
+{
+  "name":"Nameless Plateau",
+  "continent":"Feiton",
+  "zoneTiles":"public/tiles/zones/feiton/zone_94",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Affinity",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_affinity",
+      "data":[
+         {
+            "coordinates":[
+               -103.75, 27.375
+            ],
+            "id":"affinity_0",
+            "popupTitle":"Jederico",
+            "rapportId": "40157",
+            "tooltip":"Jederico",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -215.25, 146.625
+            ],
+            "id":"hstory_0",
+            "popupTitle":"Name in the sand (1/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10911&m=hstory_0"
+               },
+               {
+                  "link":"z=10911&m=hstory_1"
+               },
+               {
+                  "link":"z=10901&m=hstory_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#1 Name in the sand (1/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -184.25, 116.125
+            ],
+            "id":"hstory_1",
+            "popupTitle":"Name in the sand (2/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10911&m=hstory_0"
+               },
+               {
+                  "link":"z=10911&m=hstory_1"
+               },
+               {
+                  "link":"z=10901&m=hstory_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#1 Name in the sand (2/3)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -101.125, 40.125
+            ],
+            "id":"hstory_2",
+            "popupTitle":"Daron research (1/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10911&m=hstory_2"
+               },
+               {
+                  "link":"z=10911&m=hstory_3"
+               },
+               {
+                  "link":"z=10911&m=hstory_4"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#3 Daron research (1/3)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -100.75, 56.125
+            ],
+            "id":"hstory_3",
+            "popupTitle":"Daron research (2/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10911&m=hstory_2"
+               },
+               {
+                  "link":"z=10911&m=hstory_3"
+               },
+               {
+                  "link":"z=10911&m=hstory_4"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#3 Daron research (2/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -106.625, 25
+            ],
+            "id":"hstory_4",
+            "popupTitle":"Daron research (3/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10911&m=hstory_2"
+               },
+               {
+                  "link":"z=10911&m=hstory_3"
+               },
+               {
+                  "link":"z=10911&m=hstory_4"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#3 Daron research (3/3)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -154.125, 144.875
+            ],
+            "id":"hstory_5",
+            "popupTitle":"A ray of light in the cursed lands (1/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10911&m=hstory_5"
+               },
+               {
+                  "link":"z=10913&m=hstory_1"
+               },
+               {
+                  "link":"z=10912&m=hstory_0"
+               },
+               {
+                  "link":"z=10914&m=hstory_1"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#6 A ray of light in the cursed lands (1/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -171.875, 147.625
+            ],
+            "id":"hstory_6",
+            "popupTitle":"Smiling man (2/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10913&m=hstory_2"
+               },
+               {
+                  "link":"z=10911&m=hstory_6"
+               },
+               {
+                  "link":"z=10901&m=hstory_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Smiling man (2/3)",
+            "tooltipDirection":"right"
+         }
+      ]
+     },  
+   {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -128.875, 230.75
+            ],
+            "id":"monster_0",
+            "popupTitle":"Broken Fang Ulbrot",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 Broken Fang Ulbrot",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -64.625, 180.5
+          ],
+          "id":"monster_1",
+          "popupTitle":"Vengeful Dryad",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#2 Vengeful Dryad",
+          "tooltipDirection":"right"
+       },
+       {
+        "coordinates":[
+         -84.875, 61.375
+        ],
+        "id":"monster_2",
+        "popupTitle":"Rotten Claw Barjest",
+        "popupContent":"",
+        "popupMedia":"",
+        "tooltip":"#3 Rotten Claw Barjest",
+        "tooltipDirection":"right"
+     },
+     {
+      "coordinates":[
+         -132.875, 206.625
+      ],
+      "id":"monster_3",
+      "popupTitle":"Pointed bough",
+      "popupContent":"",
+      "popupMedia":"",
+      "tooltip":"#4 Pointed bough",
+      "tooltipDirection":"right"
+   }
+      ]
+   },   
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -188.625, 133.125
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Daron Settlement",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 Daron Settlement",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -81.625, 145.875
+            ],
+            "id":"viewpoint_1",
+            "popupTitle":"Poisoned earth",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#2 Poisoned earth",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -128.875, 176.625
+            ],
+            "id":"viewpoint_2",
+            "popupTitle":"Windbreak forest",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#3 Windbreak forest",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -243.375, 124
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Song of Harmony', which you get from Feiton's Adventure's Tome reward at 60%.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -186.375, 124.125
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -158.5, 70.5
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -128.25, 57.625
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Song of Harmony', which you get from Feiton's Adventure's Tome reward at 60%.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -107, 169.5
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -104.375, 132.75
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -117.375, 168
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -118.375, 229
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -70.5, 56.375
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Song of Harmony', which you get from Feiton's Adventure's Tome reward at 60%.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -33.25, 158.875
+            ],
+            "id":"mokoko_9",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -119.5, 167.875
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Requires 300 Kindness or higher to enter.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -188.375, 123.75
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Use Adventure's Tome Ingredient '#6 Failed liquor' at this location to obtain Mokoko Seed.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -228.25, 143.5
+              ],
+              "id":"portal_0",
+              "destinationID":"overworld",
+              "tooltip":"Open Seas",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -90.75, 242.75
+            ],
+            "id":"portal_1",
+            "destinationID":"10901",
+            "tooltip":"Kallazar",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

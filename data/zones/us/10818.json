@@ -1,0 +1,303 @@
+{
+  "name":"Flowering Orchard",
+  "continent":"East Luterra",
+  "zoneTiles":"public/tiles/zones/east_luterra/zone_22",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -184, 96.875
+            ],
+            "id":"hstory_0",
+            "popupTitle":"Pear Trees and Him",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10818&m=hstory_0"
+               },
+               {
+                  "link":"z=10818&m=hstory_1"
+               },
+               {
+                  "link":"z=10818&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#6 Pear Trees and Him (1/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -169, 100.625
+            ],
+            "id":"hstory_1",
+            "popupTitle":"Pear Trees and Him",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10818&m=hstory_0"
+               },
+               {
+                  "link":"z=10818&m=hstory_1"
+               },
+               {
+                  "link":"z=10818&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#6 Pear Trees and Him (2/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -185.625, 72.625
+            ],
+            "id":"hstory_2",
+            "popupTitle":"Pear Trees and Him",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10818&m=hstory_0"
+               },
+               {
+                  "link":"z=10818&m=hstory_1"
+               },
+               {
+                  "link":"z=10818&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#6 Pear Trees and Him (3/3)",
+            "tooltipDirection":"left"
+         }
+      ]
+     },  
+     {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -192.875, 68.625
+            ],
+            "id":"monster_0",
+            "popupTitle":"Creepy Orchard Weevil",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#4 Creepy Orchard Weevil",
+            "tooltipDirection":"right"
+         }
+      ]
+   },  
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -76.625, 184.25
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Dry-aged Meat",
+            "popupContent":"Required ingredient for '#5 Thirain T-Bone Steak'.<br>Buy at traveling merchant Morris. Used at cook Hyde.",
+            "popupMedia":"",
+            "tooltip":"#5 Dry-aged Meat (1/1)",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -64.75, 85.375
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Ruined Village",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#3 Ruined Village",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -73.75, 184.125
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Morris",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Morris",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -41.5, 127.125
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -109.25, 70
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -130.875, 226.5
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -63.25, 115.25
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -178.625, 91.625
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -134.75, 31.375
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -130.5, 84
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -214, 118.375
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -158.875, 138
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -152.625, 206.875
+            ],
+            "id":"mokoko_9",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -238, 132.25
+              ],
+              "id":"portal_0",
+              "destinationID":"10817",
+              "tooltip":"Sunbright Hill",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -11, 111.25
+            ],
+            "id":"portal_1",
+            "destinationID":"10819",
+            "tooltip":"Blackrose Chapel",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

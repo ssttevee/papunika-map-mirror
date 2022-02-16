@@ -1,0 +1,116 @@
+{
+  "markers":[
+   {
+      "markerType":"Boss",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_boss",
+      "data":[
+         {
+            "coordinates":[
+               -105.25, 123.25
+            ],
+            "id":"boss_0",
+            "popupTitle":"Adrinne",
+            "popupContent":"Calendar boss",
+            "popupMedia":"",
+            "tooltip":"Adrinne",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -113.875, 187.375
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -75.875, 131.875
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"Notice",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_notice",
+      "data":[
+         {
+            "coordinates":[
+               -77, 81.75
+            ],
+            "id":"notice_0",
+            "popupTitle":"Notice",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Go down for two Mokoko Seed",
+            "tooltipDirection":"left"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -186.75, 99.75
+              ],
+              "id":"portal_0",
+              "destinationID":"overworld",
+              "tooltip":"Open Seas",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -104.5, 162.75
+            ],
+            "id":"portal_1",
+            "destinationID":"50092_2",
+            "tooltip":"2F",
+            "tooltipDirection":"bottom"
+            },
+            {
+               "coordinates":[
+                  -65.25, 124
+               ],
+               "id":"portal_2",
+               "destinationID":"50092_2",
+               "tooltip":"2F",
+               "tooltipDirection":"bottom"
+            },
+            {
+               "coordinates":[
+                  -98.25, 85.75
+               ],
+               "id":"portal_3",
+               "destinationID":"50092_2",
+               "tooltip":"2F",
+               "tooltipDirection":"bottom"
+               }
+        ]
+     }
+  ]
+}

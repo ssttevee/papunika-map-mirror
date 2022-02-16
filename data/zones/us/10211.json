@@ -1,0 +1,361 @@
+{
+    "markers": [
+      {
+        "markerType":"HStory",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_hstory",
+        "data":[
+           {
+              "coordinates":[
+                -77.625, 161.25
+              ],
+              "id":"hstory_0",
+              "popupTitle":"A Knight in Shining Armor (1/3)",
+              "popupContent":"",
+              "parts": [
+                  {
+                     "link":"z=10211&m=hstory_0"
+                  },
+                  {
+                     "link":"z=10220&m=hstory_1"
+                  },
+                  {
+                     "link":"z=10222&m=hstory_2"
+                  }
+               ],
+              "popupMedia":"",
+              "tooltip":"#6 A Knight in Shining Armor (1/3)",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -173.25, 92.25
+              ],
+              "id":"hstory_1",
+              "popupTitle":"Sunflowers for My Love (2/3)",
+              "popupContent":"",
+              "parts": [
+                  {
+                     "link":"z=10201&m=hstory_2"
+                  },
+                  {
+                     "link":"z=10211&m=hstory_1"
+                  },
+                  {
+                     "link":"z=10201&m=hstory_3"
+                  }
+               ],
+              "popupMedia":"",
+              "tooltip":"#7 Sunflowers for My Love (2/3)",
+              "tooltipDirection":"left"
+           }
+        ]
+       },
+       {
+        "markerType":"Monster",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_monster",
+        "data":[
+           {
+              "coordinates":[
+                -144.75, 142.25
+              ],
+              "id":"monster_0",
+              "popupTitle":"Alpha White Readbeak",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"#1 Alpha White Readbeak",
+              "tooltipDirection":"right"
+           },
+           {
+            "coordinates":[
+              -66.625, 154.625
+            ],
+            "id":"monster_1",
+            "popupTitle":"Alpha Coclaw",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#2 Alpha Coclaw",
+            "tooltipDirection":"right"
+         }
+        ]
+     },
+       {
+        "markerType":"Ingredient",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_ingredient",
+        "data":[
+           {
+              "coordinates":[
+                 -170.875, 145.25
+              ],
+              "id":"ingredient_0",
+              "popupTitle":"Disgorged Lump",
+              "popupContent":"Required ingredient for '#5 Protein Packed White Bird Stew'.<br>Used at cook Hely.",
+              "popupMedia":"",
+              "tooltip":"#5 Disgorged Lump (1/1)",
+              "tooltipDirection":"right"
+           }
+        ]
+     },
+     {
+      "markerType":"Minuet",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_minuet",
+      "data":[
+         {
+            "coordinates":[
+              -64.625, 90.875
+            ],
+            "id":"minuet_0",
+            "popupTitle":"Song of Minuet",
+            "popupContent":"Play Song of Minuet",
+            "popupMedia":"",
+            "tooltip":"Song of Minuet",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+     {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+              -184.75, 99.125
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Old Fishing Spot",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#2 Old Fishing Spot",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -149.375, 150.875
+          ],
+          "id":"viewpoint_1",
+          "popupTitle":"Church Ruins",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#3 Church Ruins",
+          "tooltipDirection":"right"
+       },
+       {
+        "coordinates":[
+          -118.375, 163.875
+        ],
+        "id":"viewpoint_2",
+        "popupTitle":"Collapsed Bridge",
+        "popupContent":"",
+        "popupMedia":"",
+        "tooltip":"#5 Collapsed Bridge",
+        "tooltipDirection":"right"
+     },
+     {
+      "coordinates":[
+        -122.125, 146
+      ],
+      "id":"viewpoint_3",
+      "popupTitle":"Waterfall Bridge",
+      "popupContent":"",
+      "popupMedia":"",
+      "tooltip":"#4 Waterfall Bridge",
+      "tooltipDirection":"right"
+   }
+      ]
+   },
+   {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -136.875, 135.625
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Ben",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Ben",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -78.25, 156.875
+            ],
+            "id":"tmerchant_1",
+            "popupTitle":"Ben",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Ben",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+    "markerType":"Mokoko",
+    "enabled":true,
+    "allowSidebar":true,
+    "layerID":"layer_mokoko",
+    "data":[
+       {
+          "coordinates":[
+            -139.625, 93.75
+          ],
+          "id":"mokoko_0",
+          "popupTitle":"Mokoko Seed",
+          "popupContent":"Locked behind secret passage.",
+          "popupMedia":"",
+          "tooltip":"",
+          "tooltipDirection":"right"
+       },
+       {
+          "coordinates":[
+            -139.125, 95.375
+          ],
+          "id":"mokoko_1",
+          "popupTitle":"Mokoko Seed",
+          "popupContent":"Locked behind secret passage.",
+          "popupMedia":"",
+          "tooltip":"",
+          "tooltipDirection":"right"
+       },
+       {
+          "coordinates":[
+            -74.125, 192.375
+          ],
+          "id":"mokoko_2",
+          "popupTitle":"Mokoko Seed",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"",
+          "tooltipDirection":"right"
+       },
+       {
+          "coordinates":[
+            -164.5, 138.375
+          ],
+          "id":"mokoko_3",
+          "popupTitle":"Mokoko Seed",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"",
+          "tooltipDirection":"right"
+       },
+       {
+          "coordinates":[
+            -57.875, 90
+          ],
+          "id":"mokoko_4",
+          "popupTitle":"Mokoko Seed",
+          "popupContent":"Locked behind secret passage.",
+          "popupMedia":"",
+          "tooltip":"",
+          "tooltipDirection":"right"
+       },
+       {
+          "coordinates":[
+            -57.875, 91.375
+          ],
+          "id":"mokoko_5",
+          "popupTitle":"Mokoko Seed",
+          "popupContent":"Locked behind secret passage.",
+          "popupMedia":"",
+          "tooltip":"",
+          "tooltipDirection":"right"
+       },
+       {
+          "coordinates":[
+            -188.125, 114.5
+          ],
+          "id":"mokoko_6",
+          "popupTitle":"Mokoko Seed",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"",
+          "tooltipDirection":"right"
+       },
+       {
+          "coordinates":[
+            -118.875, 143.375
+          ],
+          "id":"mokoko_7",
+          "popupTitle":"Mokoko Seed",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"",
+          "tooltipDirection":"right"
+       },
+       {
+          "coordinates":[
+            -172.75, 105.75
+          ],
+          "id":"mokoko_8",
+          "popupTitle":"Mokoko Seed",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"",
+          "tooltipDirection":"right"
+       }
+    ]
+   },
+   {
+    "markerType":"SPassage",
+    "enabled":true,
+    "allowSidebar":true,
+    "layerID":"layer_spassage",
+    "data":[
+       {
+          "coordinates":[
+            -141.625, 95.375
+          ],
+          "id":"spassage_0",
+          "popupTitle":"Secret Passage",
+          "popupContent":"Kill nearby enemies. Hidden jump will appear.",
+          "popupMedia":"",
+          "tooltip":"",
+          "tooltipDirection":"right"
+       }
+    ]
+   },
+      {
+        "markerType": "Portal",
+        "enabled": true,
+        "allowSidebar": false,
+        "layerID": "layer_portal",
+        "data": [
+          {
+            "coordinates": [-225.21351, 105.712464],
+            "id": "portal_0",
+            "destinationID": "10201",
+            "tooltip": "Prideholme",
+            "tooltipDirection": "bottom"
+          },
+          {
+            "coordinates": [-28.25, 150.75],
+            "id": "portal_1",
+            "destinationID": "10220",
+            "tooltip": "Ankumo Mountain",
+            "tooltipDirection": "bottom"
+          },
+          {
+            "coordinates": [-92.125, 187.75],
+            "id": "portal_2",
+            "tooltip": "Toxiclaw Cavern",
+            "destinationID": "10253",
+            "tooltipDirection": "bottom"
+          }
+        ]
+      }
+    ]
+ }

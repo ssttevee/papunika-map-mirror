@@ -1,0 +1,26 @@
+{
+  "name":"Maze of Mirrors",
+  "continent":"Yorn",
+  "zoneTiles":"public/tiles/zones/yorn/zone_88_2",
+  "additionalZones":[    
+  ],
+  "markers":[
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -106, 177.25
+              ],
+              "id":"portal_0",
+              "destinationID":"11312",
+              "tooltip":"1F",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

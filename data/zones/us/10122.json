@@ -1,0 +1,442 @@
+{
+  "name":"Glass Lotus Lake",
+  "continent":"Rohendel",
+  "zoneTiles":"public/tiles/zones/rohendel/zone_80",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Affinity",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_affinity",
+      "data":[
+         {
+            "coordinates":[
+               -182.625, 116.125
+            ],
+            "id":"affinity_0",
+            "popupTitle":"Orelda",
+            "rapportId": "24207",
+            "tooltip":"Orelda",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"AStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_astory",
+      "data":[
+         {
+            "coordinates":[
+               -123.875, 113
+            ],
+            "id":"astory_0",
+            "popupTitle":"The Miraculous Moths",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 The Miraculous Moths",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -113.75, 85.125
+            ],
+            "id":"hstory_0",
+            "popupTitle":"Strange mainland!",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#2 Strange mainland!",
+            "tooltipDirection":"right"
+         }
+      ]
+     },  
+   {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -98.375, 100.875
+            ],
+            "id":"monster_0",
+            "popupTitle":"Vengeful spirit of water",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#3 Vengeful spirit of water",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -187.125, 98.875
+          ],
+          "id":"monster_1",
+          "popupTitle":"Water Lily Guard",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#4 Water Lily Guard",
+          "tooltipDirection":"right"
+       },
+       {
+        "coordinates":[
+         -31.75, 131.625
+        ],
+        "id":"monster_2",
+        "popupTitle":"Hro-um, angry spriggan",
+        "popupContent":"",
+        "popupMedia":"",
+        "tooltip":"#5 Hro-um, angry spriggan",
+        "tooltipDirection":"right"
+     }
+      ]
+   },   
+   {
+      "markerType":"Food",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_food",
+      "data":[
+         {
+            "coordinates":[
+               -71.75, 119.75
+            ],
+            "id":"food_0",
+            "popupTitle":"Cookies 'My Heart'",
+            "popupContent":"Buy at traveling merchant Arisier.",
+            "popupMedia":"",
+            "tooltip":"#2 Cookies 'My Heart'",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -210, 117.625
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Lake Lotus Dew (1/4)",
+            "popupContent":"Required ingredient for '#6 Jenail feast'.<br>Used at cook Elara.<br>After crafting epic food, use it to have a chance to obtain the legendary food.",
+            "parts": [
+               {
+                  "link":"z=10201&m=ingredient_1"
+               },
+               {
+                  "link":"z=10211&m=ingredient_0"
+               },
+               {
+                  "text": "Any Elite Monster"
+               },
+               {
+                  "link":"z=10201&m=ingredient_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#6 Lake Lotus Dew (1/4)",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -207.875, 102.25
+          ],
+          "id":"ingredient_1",
+          "popupTitle":"Lake Lotus Dew (1/4)",
+          "popupContent":"Required ingredient for '#6 Jenail feast'.<br>Used at cook Elara.<br>After crafting epic food, use it to have a chance to obtain the legendary food.",
+          "parts": [
+             {
+                "link":"z=10201&m=ingredient_1"
+             },
+             {
+                "link":"z=10211&m=ingredient_0"
+             },
+             {
+                "text": "Any Elite Monster"
+             },
+             {
+                "link":"z=10201&m=ingredient_3"
+             }
+         ],
+          "popupMedia":"",
+          "tooltip":"#6 Lake Lotus Dew (1/4)",
+          "tooltipDirection":"left"
+       },
+       {
+        "coordinates":[
+         -221, 96.5
+        ],
+        "id":"ingredient_2",
+        "popupTitle":"Lake Lotus Dew (1/4)",
+        "popupContent":"Required ingredient for '#6 Jenail feast'.<br>Used at cook Elara.<br>After crafting epic food, use it to have a chance to obtain the legendary food.",
+        "parts": [
+           {
+              "link":"z=10201&m=ingredient_1"
+           },
+           {
+              "link":"z=10124&m=ingredient_0"
+           },
+           {
+              "text": "Any Elite Monster"
+           },
+           {
+              "link":"z=10124&m=ingredient_3"
+           }
+       ],
+        "popupMedia":"",
+        "tooltip":"#6 Lake Lotus Dew (1/4)",
+        "tooltipDirection":"left"
+     },
+     {
+      "coordinates":[
+         -183.125, 118.375
+      ],
+      "id":"ingredient_3",
+      "popupTitle":"Rohendel cookbook (3/3)",
+      "popupContent":"Required ingredient for '#7 Roll 'Snail''.<br>Rapport Orelda - Achieve trust level.<br>Used at cook Elara.",
+      "parts": [
+         {
+            "link":"z=10125&m=ingredient_0"
+         },
+         {
+            "link":"z=10125&m=ingredient_0"
+         },
+         {
+            "link":"z=10122&m=ingredient_3"
+         }
+     ],
+      "popupMedia":"",
+      "tooltip":"#7 Rohendel cookbook (3/3)",
+      "tooltipDirection":"right"
+   }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -172.125, 119.75
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"A water village",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#4 A water village",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -95.875, 86.75
+            ],
+            "id":"viewpoint_1",
+            "popupTitle":"Sanctuary of water",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#5 Sanctuary of water",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -72.125, 117.5
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Arisier",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Arisier",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -210.375, 92.125
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Music of Eternity', which you get from Rohendel's Adventure's Tome reward at 60%.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -172.875, 68.375
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Music of Eternity', which you get from Rohendel's Adventure's Tome reward at 60%.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -87.875, 96.5
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -101.75, 155.875
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -74.375, 199.5
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -84.25, 160.25
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -42.875, 83.25
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -34.625, 77.5
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -15.125, 118.25
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -36.875, 78.75
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Requires 250 Courage or higher to enter the cave.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -103.625, 158.125
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Use Adventure's Tome Food '#1 Elixir of Secret Vision' at this location to enter.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -194.5, 184.25
+              ],
+              "id":"portal_0",
+              "destinationID":"10101",
+              "tooltip":"Queen's Garden",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -236.25, 77
+            ],
+            "id":"portal_1",
+            "destinationID":"10123",
+            "tooltip":"Wind Hill",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

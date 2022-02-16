@@ -1,0 +1,445 @@
+{
+  "name":"Croconys Seashore",
+  "continent":"East Luterra",
+  "zoneTiles":"public/tiles/zones/east_luterra/zone_28",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -143, 84.75
+            ],
+            "id":"monster_0",
+            "popupTitle":"Predator Croc",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#15 Predator Croc",
+            "tooltipDirection":"right"
+         }
+      ]
+   },  
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -118.125, 140.25
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Rock Cave Shellfish",
+            "popupContent":"Required ingredient for '#4 Gourmet Seafood Stew'.<br>Used at cook Hyde.",
+            "parts": [
+               {
+                  "link":"z=10823&m=ingredient_0"
+               },
+               {
+                  "link":"z=10823&m=ingredient_1"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#4 Rock Cave Shellfish (1/2)",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -107.375, 144.25
+          ],
+          "id":"ingredient_1",
+          "popupTitle":"Rock Cave Shrimp",
+          "popupContent":"Required ingredient for '#4 Gourmet Seafood Stew'.<br>Used at cook Hyde.",
+          "parts": [
+            {
+               "link":"z=10823&m=ingredient_0"
+            },
+            {
+               "link":"z=10823&m=ingredient_1"
+            }
+        ],
+         "popupMedia":"",
+          "tooltip":"#4 Rock Cave Shrimp (2/2)",
+          "tooltipDirection":"right"
+       },
+       {
+         "coordinates":[
+            -156.5, 49.875
+         ],
+         "id":"ingredient_2",
+         "popupTitle":"Hot Chocolate Coffee",
+         "popupContent":"Required ingredient for '#7 Melting Gelato'.<br>Buy at traveling merchant Burt. Used at cook Hyde.<br>Wait 24h for Melting Gelato to turn into Fully-melted Gelato.",
+         "parts": [
+            {
+               "link":"z=10804&m=ingredient_0"
+            },
+            {
+               "link":"z=10821&m=ingredient_0"
+            }
+        ],
+         "popupMedia":"",
+         "tooltip":"#7 Hot Chocolate Coffee (2/2)",
+         "tooltipDirection":"right"
+      },
+      {
+         "coordinates":[
+            -80.75, 172
+         ],
+         "id":"ingredient_3",
+         "popupTitle":"Hot Chocolate Coffee",
+         "popupContent":"Required ingredient for '#7 Melting Gelato'.<br>Buy at traveling merchant Burt. Used at cook Hyde.<br>Wait 24h for Melting Gelato to turn into Fully-melted Gelato.",
+         "parts": [
+            {
+               "link":"z=10804&m=ingredient_0"
+            },
+            {
+               "link":"z=10821&m=ingredient_0"
+            }
+        ],
+         "popupMedia":"",
+         "tooltip":"#7 Hot Chocolate Coffee (2/2)",
+         "tooltipDirection":"right"
+      }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -81.5, 130.5
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Shipwrecke",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#8 Shipwreck",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -97.5, 167
+            ],
+            "id":"viewpoint_1",
+            "popupTitle":"Unattended Bandit's Encampment",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#9 Unattended Bandit's Encampment",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -139, 63.625
+            ],
+            "id":"viewpoint_2",
+            "popupTitle":"Beatiful Shore",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#10 Beatiful Shore",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -154.125, 49.75
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Burt",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Burt",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -83.375, 172.25
+            ],
+            "id":"tmerchant_1",
+            "popupTitle":"Burt",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Burt",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -70.625, 128.875
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -96.375, 88.625
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -122.125, 162.875
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -93.625, 85.875
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -119.875, 128.125
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -60.5, 132.625
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -192.75, 62.25
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -181.75, 91.5
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -69.375, 169.375
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -39.375, 169.625
+            ],
+            "id":"mokoko_9",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -109.625, 110
+            ],
+            "id":"mokoko_10",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -145.875, 159.625
+            ],
+            "id":"mokoko_11",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -113.75, 89.5
+            ],
+            "id":"mokoko_12",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -113.625, 88.25
+            ],
+            "id":"mokoko_13",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -151.25, 83.75
+            ],
+            "id":"mokoko_14",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -145.5, 56.375
+            ],
+            "id":"mokoko_15",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -164.5, 50.375
+            ],
+            "id":"mokoko_16",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -177.75, 78
+            ],
+            "id":"mokoko_17",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -117.5, 87
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Climb roots.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -107.875, 96.75
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Destroy barrier.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -144.25, 25.5
+              ],
+              "id":"portal_0",
+              "destinationID":"10804",
+              "tooltip":"Wavestrand Port",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -16, 199.5
+            ],
+            "id":"portal_1",
+            "destinationID":"10854",
+            "tooltip":"Stormcry Grotto",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

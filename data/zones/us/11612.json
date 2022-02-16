@@ -1,0 +1,866 @@
+{
+   "name": "Ruins of Bellions",
+   "continent": "South Vern",
+   "zoneTiles": "public/tiles/zones/south_vern/zone_109",
+   "additionalZones": [],
+   "markers": [
+     {
+       "markerType": "Affinity",
+       "enabled": true,
+       "allowSidebar": true,
+       "layerID": "layer_affinity",
+       "data": [
+         {
+           "coordinates": [
+            -195.625, 152.375
+           ],
+           "id": "affinity_0",
+           "popupTitle": "Ludwig",
+           "rapportId": "43051",
+           "tooltip": "Ludwig",
+           "tooltipDirection": "right"
+         },
+         {
+          "coordinates": [
+            -161.25, 46.375
+          ],
+          "id": "affinity_1",
+          "popupTitle": "Larhalt",
+          "rapportId": "43049",
+          "tooltip": "Larhalt",
+          "tooltipDirection": "right"
+        }
+       ]
+     },
+     {
+       "markerType": "HStory",
+       "enabled": true,
+       "allowSidebar": true,
+       "layerID": "layer_hstory",
+       "data": [
+         {
+           "coordinates": [
+            -138.125, 215.25
+           ],
+           "id": "hstory_0",
+           "popupTitle": "Carrot at the crime scene (2/4)",
+           "popupContent":"",
+           "parts": [
+              {
+                 "link":"z=11611&m=hstory_0"
+              },
+              {
+                 "link":"z=11612&m=hstory_0"
+              },
+              {
+                 "link":"z=11612&m=hstory_1"
+              },
+              {
+                 "link":"z=11611&m=hstory_1"
+              }
+          ],
+           "popupMedia":"",
+           "tooltip": "#1 Carrot at the crime scene (2/4)",
+           "tooltipDirection": "right"
+         },
+         {
+           "coordinates": [
+            -108.375, 34.875
+           ],
+           "id": "hstory_1",
+           "popupTitle": "Carrot at the crime scene (3/4)",
+           "popupContent":"",
+           "parts": [
+              {
+                 "link":"z=11611&m=hstory_0"
+              },
+              {
+                 "link":"z=11612&m=hstory_0"
+              },
+              {
+                 "link":"z=11612&m=hstory_1"
+              },
+              {
+                 "link":"z=11611&m=hstory_1"
+              }
+          ],
+           "popupMedia":"",
+           "tooltip": "#1 Carrot at the crime scene (3/4)",
+           "tooltipDirection": "right"
+         },
+         {
+           "coordinates": [
+            -143, 90.875
+           ],
+           "id": "hstory_2",
+           "popupTitle": "The true essence of magic (2/3)",
+           "popupContent":"",
+           "parts": [
+              {
+                 "link":"z=11611&m=hstory_12"
+              },
+              {
+                 "link":"z=11612&m=hstory_2"
+              },
+              {
+                 "link":"z=11611&m=hstory_13"
+              }
+          ],
+           "popupMedia":"",
+           "tooltip": "#5 The true essence of magic (2/3)",
+           "tooltipDirection": "left"
+         },
+         {
+           "coordinates": [
+            -148.625, 82
+           ],
+           "id": "hstory_3",
+           "popupTitle": "If you want peace, prepare for war (1/5)",
+           "popupContent":"",
+           "parts": [
+            {
+               "link":"z=11612&m=hstory_3"
+            },
+            {
+               "link":"z=11612&m=hstory_4"
+            },
+            {
+               "link":"z=11612&m=hstory_5"
+            },
+            {
+               "link":"z=11612&m=hstory_6"
+            },
+            {
+               "link":"z=11612&m=hstory_7"
+            }
+        ],
+           "popupMedia": "",
+           "tooltip": "#7 If you want peace, prepare for war (1/5)",
+           "tooltipDirection": "right"
+         },
+         {
+           "coordinates": [
+            -162.125, 35.375
+           ],
+           "id": "hstory_4",
+           "popupTitle": "If you want peace, prepare for war (2/5)",
+           "popupContent":"",
+           "parts": [
+            {
+               "link":"z=11612&m=hstory_3"
+            },
+            {
+               "link":"z=11612&m=hstory_4"
+            },
+            {
+               "link":"z=11612&m=hstory_5"
+            },
+            {
+               "link":"z=11612&m=hstory_6"
+            },
+            {
+               "link":"z=11612&m=hstory_7"
+            }
+        ],
+           "popupMedia": "",
+           "tooltip": "#7 If you want peace, prepare for war (2/5)",
+           "tooltipDirection": "left"
+         },
+         {
+           "coordinates": [
+            -76.75, 80.125
+           ],
+           "id": "hstory_5",
+           "popupTitle": "If you want peace, prepare for war (3/5)",
+           "popupContent":"",
+           "parts": [
+            {
+               "link":"z=11612&m=hstory_3"
+            },
+            {
+               "link":"z=11612&m=hstory_4"
+            },
+            {
+               "link":"z=11612&m=hstory_5"
+            },
+            {
+               "link":"z=11612&m=hstory_6"
+            },
+            {
+               "link":"z=11612&m=hstory_7"
+            }
+        ],
+           "popupMedia": "",
+           "tooltip": "#7 If you want peace, prepare for war (3/5)",
+           "tooltipDirection": "right"
+         },
+         {
+           "coordinates": [
+            -142.125, 130.375
+           ],
+           "id": "hstory_6",
+           "popupTitle": "If you want peace, prepare for war (4/5)",
+           "popupContent":"",
+           "parts": [
+            {
+               "link":"z=11612&m=hstory_3"
+            },
+            {
+               "link":"z=11612&m=hstory_4"
+            },
+            {
+               "link":"z=11612&m=hstory_5"
+            },
+            {
+               "link":"z=11612&m=hstory_6"
+            },
+            {
+               "link":"z=11612&m=hstory_7"
+            }
+        ],
+           "popupMedia": "",
+           "tooltip": "#7 If you want peace, prepare for war (4/5)",
+           "tooltipDirection": "right"
+         },
+         {
+           "coordinates": [
+            -110.25, 101.125
+           ],
+           "id": "hstory_7",
+           "popupTitle": "If you want peace, prepare for war (5/5)",
+           "popupContent":"",
+           "parts": [
+            {
+               "link":"z=11612&m=hstory_3"
+            },
+            {
+               "link":"z=11612&m=hstory_4"
+            },
+            {
+               "link":"z=11612&m=hstory_5"
+            },
+            {
+               "link":"z=11612&m=hstory_6"
+            },
+            {
+               "link":"z=11612&m=hstory_7"
+            }
+        ],
+           "popupMedia": "",
+           "tooltip": "#7 If you want peace, prepare for war (5/5)",
+           "tooltipDirection": "right"
+         }
+       ]
+     },
+     {
+       "markerType": "Monster",
+       "enabled": true,
+       "allowSidebar": true,
+       "layerID": "layer_monster",
+       "data": [
+         {
+           "coordinates": [
+            -128, 24.25
+           ],
+           "id": "monster_0",
+           "popupTitle": "Artillery master",
+           "popupContent": "",
+           "popupMedia": "",
+           "tooltip": "#9 Artillery master",
+           "tooltipDirection": "right"
+         },
+         {
+           "coordinates": [
+            -122.875, 108.375
+           ],
+           "id": "monster_1",
+           "popupTitle": "Reaper of death",
+           "popupContent": "",
+           "popupMedia": "",
+           "tooltip": "#10 Reaper of death #1",
+           "tooltipDirection": "right"
+         },
+         {
+           "coordinates": [
+            -36.75, 192.375
+           ],
+           "id": "monster_2",
+           "popupTitle": "Obsidian Spearman",
+           "popupContent": "",
+           "popupMedia": "",
+           "tooltip": "#11 Obsidian Spearman",
+           "tooltipDirection": "right"
+         },
+         {
+           "coordinates": [
+            -149.75, 28
+           ],
+           "id": "monster_3",
+           "popupTitle": "Obsidian Knight",
+           "popupContent": "",
+           "popupMedia": "",
+           "tooltip": "#12 Obsidian Knight",
+           "tooltipDirection": "right"
+         },
+         {
+           "coordinates": [
+            -13, 154.75
+           ],
+           "id": "monster_4",
+           "popupTitle": "Ludwig's Golem",
+           "popupContent": "",
+           "popupMedia": "",
+           "tooltip": "#13 Ludwig's Golem",
+           "tooltipDirection": "right"
+         },
+         {
+           "coordinates": [
+            -98.5, 192.375
+           ],
+           "id": "monster_5",
+           "popupTitle": "Walking bastion",
+           "popupContent": "",
+           "popupMedia": "",
+           "tooltip": "#14 Walking bastion",
+           "tooltipDirection": "right"
+         },
+         {
+           "coordinates": [
+            -123.5, 150.375
+           ],
+           "id": "monster_6",
+           "popupTitle": "Rylbar Titan",
+           "popupContent": "",
+           "popupMedia": "",
+           "tooltip": "#15 Rylbar Titan",
+           "tooltipDirection": "right"
+         },
+         {
+           "coordinates": [
+            -159.875, 86.375
+           ],
+           "id": "monster_7",
+           "popupTitle": "Reaper of death",
+           "popupContent": "",
+           "popupMedia": "",
+           "tooltip": "#10 Reaper of death #2",
+           "tooltipDirection": "right"
+         }
+       ]
+     },
+     {
+       "markerType": "Ingredient",
+       "enabled": true,
+       "allowSidebar": true,
+       "layerID": "layer_ingredient",
+       "data": [
+         {
+           "coordinates": [
+            -160.625, 142.5
+           ],
+           "id": "ingredient_0",
+           "popupTitle": "Fresh Oyster",
+           "popupContent": "Required ingredient for '#1 Steamed oysters in white wine'.<br>Mob randomly spawns at 10 locations.<br>You will need 30 for 'Steamed oysters in white wine'.<br>Used at cook Snorri.<br><br><b>Check other ingredient markers with #1</b>",
+           "popupMedia": "",
+           "tooltip": "#1 Fresh Oyster (1/1)",
+           "tooltipDirection": "right"
+         },
+         {
+          "coordinates": [
+            -182.75, 124.5
+          ],
+          "id": "ingredient_1",
+          "popupTitle": "Fresh Oyster",
+          "popupContent": "Required ingredient for '#1 Steamed oysters in white wine'.<br>Mob randomly spawns at 10 locations.<br>You will need 30 for 'Steamed oysters in white wine'.<br>Used at cook Snorri.<br><br><b>Check other ingredient markers with #1</b>",
+          "popupMedia": "",
+          "tooltip": "#1",
+          "tooltipDirection": "left"
+        },
+        {
+         "coordinates": [
+          -184, 116.375
+         ],
+         "id": "ingredient_2",
+         "popupTitle": "Fresh Oyster",
+         "popupContent": "Required ingredient for '#1 Steamed oysters in white wine'.<br>Mob randomly spawns at 10 locations.<br>You will need 30 for 'Steamed oysters in white wine'.<br>Used at cook Snorri.<br><br><b>Check other ingredient markers with #1</b>",
+         "popupMedia": "",
+         "tooltip": "#1",
+         "tooltipDirection": "right"
+       },
+       {
+        "coordinates": [
+          -188.375, 115
+        ],
+        "id": "ingredient_3",
+        "popupTitle": "Fresh Oyster",
+        "popupContent": "Required ingredient for '#1 Steamed oysters in white wine'.<br>Mob randomly spawns at 10 locations.<br>You will need 30 for 'Steamed oysters in white wine'.<br>Used at cook Snorri.<br><br><b>Check other ingredient markers with #1</b>",
+        "popupMedia": "",
+        "tooltip": "#1",
+        "tooltipDirection": "right"
+      },
+      {
+       "coordinates": [
+        -202.5, 191.125
+       ],
+       "id": "ingredient_4",
+       "popupTitle": "Fresh Oyster",
+       "popupContent": "Required ingredient for '#1 Steamed oysters in white wine'.<br>Mob randomly spawns at 10 locations.<br>You will need 30 for 'Steamed oysters in white wine'.<br>Used at cook Snorri.<br><br><b>Check other ingredient markers with #1</b>",
+       "popupMedia": "",
+       "tooltip": "#1",
+       "tooltipDirection": "right"
+     },
+     {
+      "coordinates": [
+        -184.25, 44.5
+      ],
+      "id": "ingredient_5",
+      "popupTitle": "Fresh Oyster",
+      "popupContent": "Required ingredient for '#1 Steamed oysters in white wine'.<br>Mob randomly spawns at 10 locations.<br>You will need 30 for 'Steamed oysters in white wine'.<br>Used at cook Snorri.<br><br><b>Check other ingredient markers with #1</b>",
+      "popupMedia": "",
+      "tooltip": "#1",
+      "tooltipDirection": "right"
+    },
+    {
+     "coordinates": [
+      -181.875, 37.875
+     ],
+     "id": "ingredient_6",
+     "popupTitle": "Fresh Oyster",
+     "popupContent": "Required ingredient for '#1 Steamed oysters in white wine'.<br>Mob randomly spawns at 10 locations.<br>You will need 30 for 'Steamed oysters in white wine'.<br>Used at cook Snorri.<br><br><b>Check other ingredient markers with #1</b>",
+     "popupMedia": "",
+     "tooltip": "#1",
+     "tooltipDirection": "right"
+   },
+   {
+    "coordinates": [
+      -153.25, 19.875
+    ],
+    "id": "ingredient_7",
+    "popupTitle": "Fresh Oyster",
+    "popupContent": "Required ingredient for '#1 Steamed oysters in white wine'.<br>Mob randomly spawns at 10 locations.<br>You will need 30 for 'Steamed oysters in white wine'.<br>Used at cook Snorri.<br><br><b>Check other ingredient markers with #1</b>",
+    "popupMedia": "",
+    "tooltip": "#1",
+    "tooltipDirection": "right"
+  },
+  {
+   "coordinates": [
+    -70.625, 153.625
+   ],
+   "id": "ingredient_8",
+   "popupTitle": "Fresh Oyster",
+   "popupContent": "Required ingredient for '#1 Steamed oysters in white wine'.<br>Mob randomly spawns at 10 locations.<br>You will need 30 for 'Steamed oysters in white wine'.<br>Used at cook Snorri.<br><br><b>Check other ingredient markers with #1</b>",
+   "popupMedia": "",
+   "tooltip": "#1",
+   "tooltipDirection": "right"
+ },
+ {
+  "coordinates": [
+    -75.625, 149.75
+  ],
+  "id": "ingredient_9",
+  "popupTitle": "Fresh Oyster",
+  "popupContent": "Required ingredient for '#1 Steamed oysters in white wine'.<br>Mob randomly spawns at 10 locations.<br>You will need 30 for 'Steamed oysters in white wine'.<br>Used at cook Snorri.<br><br><b>Check other ingredient markers with #1</b>",
+  "popupMedia": "",
+  "tooltip": "#1",
+  "tooltipDirection": "right"
+},
+        {
+        "coordinates": [
+          -228.5, 142
+        ],
+        "id": "ingredient_10",
+        "popupTitle": "The History of Brewing in Vern, Part 1 (1/6)",
+        "popupContent": "Required ingredient for '#2 Kandarsky lager'.<br>Buy at merchant Haldis for 200k silver.<br>Used at cook Snorri.",
+        "parts": [
+          {
+             "link":"z=11612&m=ingredient_10"
+          },
+          {
+             "link":"z=11611&m=ingredient_0"
+          },
+          {
+             "link":"z=11611&m=ingredient_1"
+          },
+          {
+             "link":"z=11612&m=ingredient_11"
+          },
+          {
+             "link":"z=11612&m=ingredient_12"
+          },
+          {
+             "link":"z=11612&m=ingredient_13"
+          }
+      ],
+       "popupMedia":"",
+        "tooltip": "#2 The History of Brewing in Vern, Part 1 (1/6)",
+        "tooltipDirection": "right"
+        },
+        {
+          "coordinates": [
+            -230, 140
+          ],
+          "id": "ingredient_11",
+          "popupTitle": "The History of Brewing in Vern, Part 4 (4/6)",
+          "popupContent": "Required ingredient for '#2 Kandarsky lager'.<br>Buy at merchant Haldis for 450k silver.<br>Used at cook Snorri.",
+          "parts": [
+            {
+               "link":"z=11612&m=ingredient_10"
+            },
+            {
+               "link":"z=11611&m=ingredient_0"
+            },
+            {
+               "link":"z=11611&m=ingredient_1"
+            },
+            {
+               "link":"z=11612&m=ingredient_11"
+            },
+            {
+               "link":"z=11612&m=ingredient_12"
+            },
+            {
+               "link":"z=11612&m=ingredient_13"
+            }
+        ],
+         "popupMedia":"",
+          "tooltip": "#2 The History of Brewing in Vern, Part 4 (4/6)",
+          "tooltipDirection": "left"
+          },
+          {
+            "coordinates": [
+              -187.25, 63.375
+            ],
+            "id": "ingredient_12",
+            "popupTitle": "The History of Brewing in Vern, Part 5 (5/6)",
+            "popupContent": "Required ingredient for '#2 Kandarsky lager'.<br>Used at cook Snorri.",
+            "parts": [
+              {
+                 "link":"z=11612&m=ingredient_10"
+              },
+              {
+                 "link":"z=11611&m=ingredient_0"
+              },
+              {
+                 "link":"z=11611&m=ingredient_1"
+              },
+              {
+                 "link":"z=11612&m=ingredient_11"
+              },
+              {
+                 "link":"z=11612&m=ingredient_12"
+              },
+              {
+                 "link":"z=11612&m=ingredient_13"
+              }
+          ],
+           "popupMedia":"",
+            "tooltip": "#2 The History of Brewing in Vern, Part 5 (5/6)",
+            "tooltipDirection": "left"
+            },
+            {
+              "coordinates": [
+                -146.125, 128.5
+              ],
+              "id": "ingredient_13",
+              "popupTitle": "The History of Brewing in Vern, Part 6 (6/6)",
+              "popupContent": "Required ingredient for '#2 Kandarsky lager'.<br>Kill 'Black Knights'.<br>Used at cook Snorri.",
+              "parts": [
+                {
+                   "link":"z=11612&m=ingredient_10"
+                },
+                {
+                   "link":"z=11611&m=ingredient_0"
+                },
+                {
+                   "link":"z=11611&m=ingredient_1"
+                },
+                {
+                   "link":"z=11612&m=ingredient_11"
+                },
+                {
+                   "link":"z=11612&m=ingredient_12"
+                },
+                {
+                   "link":"z=11612&m=ingredient_13"
+                }
+            ],
+             "popupMedia":"",
+              "tooltip": "#2 The History of Brewing in Vern, Part 6 (6/6)",
+              "tooltipDirection": "right"
+              },
+              {
+                "coordinates": [
+                  -227, 140
+                ],
+                "id": "ingredient_14",
+                "popupTitle": "Chicken carcass (1/1)",
+                "popupContent": "Required ingredient for '#3 Illian Wings'.<br>Buy at merchant Haldis for 1mio silver.<br>Used at cook Snorri.",
+                "popupMedia": "",
+                "tooltip": "#3 Chicken carcass (1/1)",
+                "tooltipDirection": "left"
+                },
+                {
+                  "coordinates": [
+                    -181, 128.25
+                  ],
+                  "id": "ingredient_15",
+                  "popupTitle": "Seafood for stew (2/2)",
+                  "popupContent": "Required ingredient for '#4 Royal seafood stew'.<br>Located inside the sewer.<br>Used at cook Snorri.",
+                  "parts": [
+                    {
+                       "link":"z=11611&m=ingredient_2"
+                    },
+                    {
+                       "link":"z=11612&m=ingredient_15"
+                    }
+                ],
+                   "popupMedia": "",
+                  "tooltip": "#4 Seafood for stew (2/2)",
+                  "tooltipDirection": "right"
+                  },
+                  {
+                    "coordinates": [
+                      -225.5, 142
+                    ],
+                    "id": "ingredient_16",
+                    "popupTitle": "River crayfish (1/2)",
+                    "popupContent": "Required ingredient for '#5 Smoked Crayfish'.<br><br>Step1: <br>Buy 5x 'White rice' at Haldis for 100k silver each.<br>Buy 1x 'Red rice' at Haldis for 150k silver each.<br>Buy 2x 'Brown rice' at Haldis for 200k silver each.<br><br>Step 2:<br>Go to Kandaria <a href='https://papunika.com/map/?c=zone_108&m=ingredient_3' style='text-decoration: none;'>this location</a> and use all rice dishes in the order you bought them (5x white -> 1x red -> 2x brown).<br>After ~1s you can collect the crayfish.",
+                    "parts": [
+                      {
+                         "link":"z=11612&m=ingredient_16"
+                      },
+                      {
+                         "link":"z=11611&m=ingredient_3"
+                      }
+                  ],
+                    "popupMedia": "",
+                    "tooltip": "#5 River crayfish (1/2)",
+                    "tooltipDirection": "right"
+                    },
+                    {
+                      "coordinates": [
+                        -224, 140
+                      ],
+                      "id": "ingredient_17",
+                      "popupTitle": "Bernese brisket marinated (1/1)",
+                      "popupContent": "Required ingredient for '#6 Bernese brisket marinated'.<br><br>Step1: <br>Buy 1x 'Selected beef' at Haldis for 10k silver.<br>Buy 1x 'Signature marinade' at Haldis for 50k silver.<br>Craft 'Half-baked brisket' at cook Snorri.<br><br>Step 2:<br>After 2h the uncommon item turns into usable item. You have <b>10min</b> to use it, otherwise you <b>fail</b> the process!<br>Do this 3 times (uncommon -> wait 2h -> rare -> wait 2h -> epic -> wait 2h -> legendary -> wait 2h -> relic, final item).",
+                      "popupMedia": "",
+                      "tooltip": "#6 Bernese brisket marinated (1/1)",
+                      "tooltipDirection": "left"
+                      }
+       ]
+     },
+     {
+       "markerType": "Viewpoint",
+       "enabled": true,
+       "allowSidebar": true,
+       "layerID": "layer_viewpoint",
+       "data": [
+         {
+           "coordinates": [
+            -140, 97.375
+           ],
+           "id": "viewpoint_0",
+           "popupTitle": "Sillin ruins",
+           "popupContent": "",
+           "popupMedia": "",
+           "tooltip": "#3 Sillin ruins",
+           "tooltipDirection": "right"
+         },
+         {
+           "coordinates": [
+            -218.5, 174.875
+           ],
+           "id": "viewpoint_1",
+           "popupTitle": "Last rest",
+           "popupContent": "",
+           "popupMedia": "",
+           "tooltip": "#4 Last rest",
+           "tooltipDirection": "left"
+         }
+       ]
+     },
+     {
+       "markerType": "TMerchant",
+       "enabled": true,
+       "allowSidebar": true,
+       "layerID": "layer_tmerchant",
+       "data": [
+         {
+           "coordinates": [
+            -214.75, 113.875
+           ],
+           "id": "tmerchant_0",
+           "popupTitle": "Evan",
+           "popupContent": "",
+           "popupMedia": "",
+           "tooltip": "Evan",
+           "tooltipDirection": "left"
+         }
+       ]
+     },
+     {
+       "markerType": "Mokoko",
+       "enabled": true,
+       "allowSidebar": true,
+       "layerID": "layer_mokoko",
+       "data": [
+         {
+           "coordinates": [
+            -215.875, 125.875
+           ],
+           "id": "mokoko_0",
+           "popupTitle": "Mokoko Seed",
+           "popupContent": "",
+           "popupMedia": "",
+           "tooltip": "",
+           "tooltipDirection": "right"
+         },
+         {
+           "coordinates": [
+            -178.75, 128.375
+           ],
+           "id": "mokoko_1",
+           "popupTitle": "Mokoko Seed",
+           "popupContent": "",
+           "popupMedia": "",
+           "tooltip": "",
+           "tooltipDirection": "right"
+         },
+         {
+           "coordinates": [
+            -205.75, 92.25
+           ],
+           "id": "mokoko_2",
+           "popupTitle": "Mokoko Seed",
+           "popupContent": "",
+           "popupMedia": "",
+           "tooltip": "",
+           "tooltipDirection": "right"
+         },
+         {
+           "coordinates": [
+            -153.75, 179.25
+           ],
+           "id": "mokoko_3",
+           "popupTitle": "Mokoko Seed",
+           "popupContent":"Play 'Hymn of the sun' at the location for the Mokoko Seed.",
+           "popupMedia": "",
+           "tooltip": "",
+           "tooltipDirection": "right"
+         },
+         {
+           "coordinates": [
+            -10.125, 152.375
+           ],
+           "id": "mokoko_4",
+           "popupTitle": "Mokoko Seed",
+           "popupContent": "",
+           "popupMedia": "",
+           "tooltip": "",
+           "tooltipDirection": "right"
+         },
+         {
+           "coordinates": [
+            -28, 183.125
+           ],
+           "id": "mokoko_5",
+           "popupTitle": "Mokoko Seed",
+           "popupContent":"Obtainable with 350 Courage or higher.",
+           "popupMedia": "",
+           "tooltip": "",
+           "tooltipDirection": "right"
+         },
+         {
+           "coordinates": [
+            -57.625, 209.75
+           ],
+           "id": "mokoko_6",
+           "popupTitle": "Mokoko Seed",
+           "popupContent":"Play 'Hymn of the sun' at the location for the Mokoko Seed.",
+           "popupMedia": "",
+           "tooltip": "",
+           "tooltipDirection": "right"
+         },
+         {
+           "coordinates": [
+            -88.625, 68.625
+           ],
+           "id": "mokoko_7",
+           "popupTitle": "Mokoko Seed",
+           "popupContent":"Play 'Hymn of the sun' at the location for the Mokoko Seed.",
+           "popupMedia": "",
+           "tooltip": "",
+           "tooltipDirection": "right"
+         },
+         {
+           "coordinates": [
+            -103.875, 41
+           ],
+           "id": "mokoko_8",
+           "popupTitle": "Mokoko Seed",
+           "popupContent": "",
+           "popupMedia": "",
+           "tooltip": "",
+           "tooltipDirection": "right"
+         },
+         {
+           "coordinates": [
+            -98.625, 100
+           ],
+           "id": "mokoko_9",
+           "popupTitle": "Mokoko Seed",
+           "popupContent": "",
+           "popupMedia": "",
+           "tooltip": "",
+           "tooltipDirection": "right"
+         }
+       ]
+     },
+     {
+       "markerType": "SPassage",
+       "enabled": true,
+       "allowSidebar": true,
+       "layerID": "layer_spassage",
+       "data": [
+         {
+           "coordinates": [
+            -179.75, 125.75
+           ],
+           "id": "spassage_0",
+           "popupTitle": "Secret Passage",
+           "popupContent":"Requires 350 Kindness or higher to enter the sewerage for Mokoko Seed and Ingredient.",
+           "popupMedia": "",
+           "tooltip": "",
+           "tooltipDirection": "right"
+         }
+       ]
+     },
+     {
+       "markerType": "Portal",
+       "enabled": true,
+       "allowSidebar": false,
+       "layerID": "layer_portal",
+       "data": [
+         {
+           "coordinates": [
+            -115, 242.25
+           ],
+           "id": "portal_0",
+           "destinationID": "11611",
+           "tooltip": "Kandaria",
+           "tooltipDirection": "bottom"
+         },
+         {
+           "coordinates": [
+            -220, 195.25
+           ],
+           "id": "portal_1",
+           "destinationID": "overworld",
+           "tooltip": "Open Seas",
+           "tooltipDirection": "bottom"
+         }
+       ]
+     }
+   ]
+ }

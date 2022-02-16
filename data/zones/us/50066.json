@@ -1,0 +1,133 @@
+{
+  "markers":[
+   {
+      "markerType":"Notice",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_notice",
+      "data":[
+         {
+            "coordinates":[
+               -135.75, 63.5
+            ],
+            "id":"notice_0",
+            "popupTitle":"1st coop quest",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"1st coop quest",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -41.25, 150.75
+            ],
+            "id":"notice_1",
+            "popupTitle":"2nd coop quest",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"2nd coop quest",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -211.75, 129.5
+            ],
+            "id":"notice_2",
+            "popupTitle":"3rd coop quest",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"3rd coop quest",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -113.75, 162.75
+            ],
+            "id":"notice_3",
+            "popupTitle":"4th coop quest",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"4th coop quest",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"Minuet",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_minuet",
+      "data":[
+         {
+            "coordinates":[
+               -66.625, 117.25
+            ],
+            "id":"minuet_0",
+            "popupTitle":"Song of Minuet",
+            "popupContent":"Play Song of Minuet",
+            "popupMedia":"",
+            "tooltip":"Song of Minuet",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -89.625, 95.75
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -84.5, 102.625
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -39.625, 179.25
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -179, 172.5
+              ],
+              "id":"portal_0",
+              "destinationID":"overworld",
+              "tooltip":"Open Seas",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

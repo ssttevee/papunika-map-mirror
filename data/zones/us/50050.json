@@ -1,0 +1,119 @@
+{
+  "markers":[
+   {
+      "markerType":"Boss",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_boss",
+      "data":[
+         {
+            "coordinates":[
+               -110.447611, 101.528557
+            ],
+            "id":"boss_0",
+            "popupTitle":"Metomus",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Metomus",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Notice",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_notice",
+      "data":[
+         {
+            "coordinates":[
+               -118.326108, 179.570274
+            ],
+            "id":"notice_0",
+            "popupTitle":"Legendary Blacksmith",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Legendary Blacksmith",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -133.25, 82.25
+            ],
+            "id":"notice_1",
+            "popupTitle":"Quest Starter Item",
+            "popupContent":"This quest starter item may lay somewhere else.",
+            "popupMedia":"",
+            "tooltip":"Quest Starter Item",
+            "tooltipDirection":"left"
+         }
+      ]
+     },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -105.625, 99.75
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -120.25, 122
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -124.625, 129
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -146.25, 62.75
+              ],
+              "id":"portal_0",
+              "destinationID":"overworld",
+              "tooltip":"Open Seas",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

@@ -1,0 +1,443 @@
+{
+  "name":"Mangrove Forest",
+  "continent":"Punika",
+  "zoneTiles":"public/tiles/zones/punika/zone_105",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -28.125, 75.75
+            ],
+            "id":"hstory_0",
+            "popupTitle":"Beasts and beasts (4/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11411&m=hstory_3"
+               },
+               {
+                  "link":"z=11411&m=hstory_4"
+               },
+               {
+                  "link":"z=11412&m=hstory_2"
+               },
+               {
+                  "link":"z=11414&m=hstory_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#5 Beasts and beasts (4/4)",
+            "tooltipDirection":"right"
+         }
+      ]
+     },  
+   {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -122.625, 186.25
+            ],
+            "id":"monster_0",
+            "popupTitle":"Carnivorous chirr",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#12 Carnivorous chirr",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -149.625, 145.25
+          ],
+          "id":"monster_1",
+          "popupTitle":"Carnivorous chirr",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#12",
+          "tooltipDirection":"right"
+       },
+       {
+        "coordinates":[
+         -136.25, 85.125
+        ],
+        "id":"monster_2",
+        "popupTitle":"Swamp Keeper",
+        "popupContent":"",
+        "popupMedia":"",
+        "tooltip":"#13 Swamp Keeper",
+        "tooltipDirection":"right"
+     },
+     {
+      "coordinates":[
+         -153, 63.5
+      ],
+      "id":"monster_3",
+      "popupTitle":"Swamp Keeper",
+      "popupContent":"",
+      "popupMedia":"",
+      "tooltip":"#13",
+      "tooltipDirection":"right"
+   }
+      ]
+   }, 
+   {
+      "markerType":"Food",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_food",
+      "data":[
+         {
+            "coordinates":[
+               -166.875, 128.625
+            ],
+            "id":"food_0",
+            "popupTitle":"Barbel beetle larvae",
+            "popupContent":"Has a low chance to drop. Check other spawn locations with #4",
+            "popupMedia":"",
+            "tooltip":"#4 Barbel beetle larvae",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -159.625, 143.625
+            ],
+            "id":"food_1",
+            "popupTitle":"Barbel beetle larvae",
+            "popupContent":"Has a low chance to drop. Check other spawn locations with #4",
+            "popupMedia":"",
+            "tooltip":"#4",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -161.125, 83.25
+            ],
+            "id":"food_2",
+            "popupTitle":"Barbel beetle larvae",
+            "popupContent":"Has a low chance to drop. Check other spawn locations with #4",
+            "popupMedia":"",
+            "tooltip":"#4",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -154.75, 69.625
+            ],
+            "id":"food_3",
+            "popupTitle":"Barbel beetle larvae",
+            "popupContent":"Has a low chance to drop. Check other spawn locations with #4",
+            "popupMedia":"",
+            "tooltip":"#4",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -136.625, 66.25
+            ],
+            "id":"food_4",
+            "popupTitle":"Barbel beetle larvae",
+            "popupContent":"Has a low chance to drop. Check other spawn locations with #4",
+            "popupMedia":"",
+            "tooltip":"#4",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -155, 185.75
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Gore-cleaver neck",
+            "popupContent":"Required ingredient for '#2 Kaloa Boar Barbecue'.<br>Buy at Traveling Merchant Laney for 200k silver.<br>Used at cook Ranghe.",
+            "parts": [
+               {
+                  "link":"z=11411&m=ingredient_6"
+               },
+               {
+                  "link":"z=11413&m=ingredient_1"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#2 Gore-cleaver neck (1/2)",
+            "tooltipDirection":"left"
+         },
+         {
+          "coordinates":[
+            -142.75, 156.25
+          ],
+          "id":"ingredient_1",
+          "popupTitle":"Fresh meat (4/4)",
+          "popupContent":"Required ingredient for '#7 Papunika Festival Cuisine'.<br>Kill mobs around this location. Used at cook Ranghe.",
+          "parts": [
+            {
+               "link":"z=11411&m=ingredient_7"
+            },
+            {
+               "link":"z=11412&m=ingredient_1"
+            },
+            {
+               "link":"z=11413&m=ingredient_6"
+            },
+            {
+               "link":"z=11414&m=ingredient_1"
+            }
+        ],
+         "popupMedia":"",
+          "tooltip":"#7 Fresh meat (4/4)",
+          "tooltipDirection":"right"
+       }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -179.625, 184.125
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Swale",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#9 Swale",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -85.625, 80.625
+            ],
+            "id":"viewpoint_1",
+            "popupTitle":"Cromlech Hal",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#10 Cromlech Hal",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -155.375, 190.125
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Laney",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Laney",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -223.125, 161.125
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -154.5, 227.375
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -149, 142.125
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -135.625, 60.5
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -99.125, 36.75
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -86.875, 88.875
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Song of Peace', which you get from Punika's Adventure's Tome reward at 50%.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -80, 114.5
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind left secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -79, 114.125
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind left secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -26.125, 68.625
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -28.25, 152.75
+            ],
+            "id":"mokoko_9",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -170.75, 201.25
+            ],
+            "id":"mokoko_10",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -223.875, 157.625
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Use Adventure's Tome Ingredient (2/2) '#1 Hot liquor' at this location to obtain Mokoko Seed.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -111.875, 34.375
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Requires 350 Charisma or higher to enter. It will lead you to the 2 hidden Mokoko Seeds on the right.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -253.5, 137.5
+              ],
+              "id":"portal_0",
+              "destinationID":"11413",
+              "tooltip":"Tikku Gardens",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -11.25, 71.5
+            ],
+            "id":"portal_1",
+            "destinationID":"11452",
+            "tooltip":"Oreya's Heart",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

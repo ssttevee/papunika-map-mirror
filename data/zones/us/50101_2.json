@@ -1,0 +1,30 @@
+{
+  "markers":[
+   {
+      "markerType":"Portal",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_portal",
+      "data":[
+         {
+            "coordinates":[
+             -170.5, 89.5
+            ],
+            "id":"portal_0",
+            "destinationID":"50101",
+            "tooltip":"1F",
+            "tooltipDirection":"bottom"
+         },
+         {
+          "coordinates":[
+             -87, 173.5
+          ],
+          "id":"portal_1",
+          "destinationID":"50101",
+          "tooltip":"1F",
+          "tooltipDirection":"bottom"
+       }
+      ]
+   }
+  ]
+}

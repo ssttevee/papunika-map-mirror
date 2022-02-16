@@ -1,0 +1,460 @@
+{
+  "name":"Greyten Brewery",
+  "continent":"Yorn",
+  "zoneTiles":"public/tiles/zones/yorn/zone_92",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -210.875, 102.875
+            ],
+            "id":"hstory_0",
+            "popupTitle":"All facets of telfs (1/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11351&m=hstory_0"
+               },
+               {
+                  "link":"z=11351&m=hstory_1"
+               },
+               {
+                  "link":"z=11313&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#4 All facets of telfs (1/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -118.75, 31.5
+            ],
+            "id":"hstory_1",
+            "popupTitle":"All facets of telfs (2/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11351&m=hstory_0"
+               },
+               {
+                  "link":"z=11351&m=hstory_1"
+               },
+               {
+                  "link":"z=11313&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#4 All facets of telfs (2/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -58.375, 237
+            ],
+            "id":"hstory_2",
+            "popupTitle":"All facets of telfs (3/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11351&m=hstory_0"
+               },
+               {
+                  "link":"z=11351&m=hstory_1"
+               },
+               {
+                  "link":"z=11313&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#4 All facets of telfs (3/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -165.375, 105.25
+            ],
+            "id":"hstory_3",
+            "popupTitle":"Pranksters (1/5)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11351&m=hstory_3"
+               },
+               {
+                  "link":"z=11351&m=hstory_4"
+               },
+               {
+                  "link":"z=11313&m=hstory_2"
+               },
+               {
+                  "link":"z=11313&m=hstory_3"
+               },
+               {
+                  "link":"z=11313&m=hstory_4"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#6 Pranksters (1/5)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -182.75, 84.75
+            ],
+            "id":"hstory_4",
+            "popupTitle":"Pranksters (2/5)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11351&m=hstory_3"
+               },
+               {
+                  "link":"z=11351&m=hstory_4"
+               },
+               {
+                  "link":"z=11313&m=hstory_2"
+               },
+               {
+                  "link":"z=11313&m=hstory_3"
+               },
+               {
+                  "link":"z=11313&m=hstory_4"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#6 Pranksters (2/5)",
+            "tooltipDirection":"right"
+         }
+      ]
+     }, 
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -227.375, 137.875
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Check notice.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -227.875, 138.875
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Check notice.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -167, 101.625
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -136.5, 43.75
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Check notice.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -91, 196.625
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -28.25, 174.625
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Check notice.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -27.625, 176.125
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Check notice.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"CDotR",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_cdotr",
+      "data":[
+         {
+            "coordinates":[
+               -166.375, 99.75
+            ],
+            "id":"cdotr_0",
+            "popupTitle":"Succubus 1",
+            "popupContent":"Kill succubus. If not visible destroy objects in area.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -160.625, 51.375
+            ],
+            "id":"cdotr_1",
+            "popupTitle":"Succubus 2",
+            "popupContent":"Kill succubus. If not visible destroy objects in area.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -105.25, 72.625
+            ],
+            "id":"cdotr_2",
+            "popupTitle":"Succubus 3",
+            "popupContent":"Kill succubus. If not visible destroy objects in area.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"CDotB",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_cdotr",
+      "data":[
+         {
+            "coordinates":[
+               -96, 104.875
+            ],
+            "id":"cdotb_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"After destroying all objects and killing all succubus, you can enter to obtain 2 Mokoko Seeds.",
+            "popupMedia":"",
+            "tooltip":"Wall",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -235.625, 120.625
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -103.125, 75.875
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -143.875, 44.875
+            ],
+            "id":"spassage_2",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -92, 210.625
+            ],
+            "id":"spassage_3",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Destroy nearby objects.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"Notice",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_notice",
+      "data":[
+         {
+            "coordinates":[
+               -220, 131.625
+            ],
+            "id":"notice_0",
+            "popupTitle":"Notice",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Step 1: Follow Quest and interact with beer at the table",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -217.75, 109.375
+            ],
+            "id":"notice_1",
+            "popupTitle":"Notice",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Step 2: Destroy barrels and kill enemies.",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -235, 131
+            ],
+            "id":"notice_2",
+            "popupTitle":"Notice",
+            "popupContent":"Follow step 1 and 2, then descend from secret passage.",
+            "popupMedia":"",
+            "tooltip":"Click me for Mokoko Seed acquisition",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -37.476659, 88.741901
+            ],
+            "id":"notice_3",
+            "popupTitle":"Notice",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"<b>Read instructions for Mokoko Seeds before proceeding with the dungeon!</b>",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -130, 48.5
+            ],
+            "id":"notice_4",
+            "popupTitle":"Notice",
+            "popupContent":"Interact with levers marked with star in the area, then go to secret passage.",
+            "popupMedia":"",
+            "tooltip":"Click me for Mokoko Seed acquisition",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -133.625, 58
+            ],
+            "id":"notice_5",
+            "popupTitle":"Notice",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -142.75, 50.25
+            ],
+            "id":"notice_6",
+            "popupTitle":"Notice",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -150.25, 58.75
+            ],
+            "id":"notice_7",
+            "popupTitle":"Notice",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -17, 178.25
+            ],
+            "id":"notice_8",
+            "popupTitle":"Notice",
+            "popupContent":"Destroy all barrels and objects in the dungeon.<br>You also have to kill 3 succubus (marked with red dot) in the dungeon.<br>After that enter through blue dot.",
+            "popupMedia":"",
+            "tooltip":"Click me for Mokoko Seed acquisition",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -257, 101.25
+              ],
+              "id":"portal_0",
+              "destinationID":"11313",
+              "tooltip":"Mines of Fire",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

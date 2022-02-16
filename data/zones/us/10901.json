@@ -1,0 +1,434 @@
+{
+  "name":"Kallazar",
+  "continent":"Feiton",
+  "zoneTiles":"public/tiles/zones/feiton/zone_95",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Affinity",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_affinity",
+      "data":[
+         {
+            "coordinates":[
+               -113.75, 83
+            ],
+            "id":"affinity_0",
+            "popupTitle":"Levi",
+            "rapportId": "41130",
+            "tooltip":"Levi",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -114, 169.75
+            ],
+            "id":"affinity_1",
+            "popupTitle":"Butterfly",
+            "rapportId": "41034",
+            "tooltip":"Butterfly",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"AStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_astory",
+      "data":[
+         {
+            "coordinates":[
+               -93.625, 33.375
+            ],
+            "id":"astory_0",
+            "popupTitle":"Last requiem",
+            "popupContent":"Complete all chain quests after the story quests and the quest 'Last requiem' will appear after 4 days.",
+            "popupMedia":"",
+            "tooltip":"#2 Last requiem",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -188.875, 82.625
+            ],
+            "id":"hstory_0",
+            "popupTitle":"Name in the sand (3/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10911&m=hstory_0"
+               },
+               {
+                  "link":"z=10911&m=hstory_1"
+               },
+               {
+                  "link":"z=10901&m=hstory_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#1 Name in the sand (3/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -127.375, 60.875
+            ],
+            "id":"hstory_1",
+            "popupTitle":"Mystery of the Catacombs (1/2)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10901&m=hstory_1"
+               },
+               {
+                  "link":"z=10901&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#4 Mystery of the Catacombs (1/2)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -115.75, 37.875
+            ],
+            "id":"hstory_2",
+            "popupTitle":"Mystery of the Catacombs (2/2)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10901&m=hstory_1"
+               },
+               {
+                  "link":"z=10901&m=hstory_2"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#4 Mystery of the Catacombs (2/2)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -67.125, 69.625
+            ],
+            "id":"hstory_3",
+            "popupTitle":"Smiling man (3/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10913&m=hstory_2"
+               },
+               {
+                  "link":"z=10911&m=hstory_6"
+               },
+               {
+                  "link":"z=10901&m=hstory_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Smiling man (3/3)",
+            "tooltipDirection":"right"
+         }
+      ]
+     },  
+     {
+      "markerType":"Food",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_food",
+      "data":[
+         {
+          "coordinates":[
+            -102.875, 169.125
+          ],
+          "id":"food_0",
+          "popupTitle":"Bloody Fist",
+          "popupContent":"1. Buy 'Forest Blood' at merchant Lodin.<br>2. Use item to randomly receive 'Cocktail base'.<br>3. Use 'Cocktail base' to randomly receive 'Almost complete cocktail'.<br>4. Use 'Almost complete cocktail' to randomly receive 'Bloody Fist'.<br><br>The 'Failed liquor' is used for some Mokoko Seeds!",
+          "popupMedia":"",
+          "tooltip":"#6 Bloody Fist (matryoshka item)",
+          "tooltipDirection":"left"
+       }
+      ]
+   },
+     {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -133.75, 146
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Blood clot",
+            "popupContent":"Required ingredient for '#2 Feighton blood sausage'.<br>Buy at traveling merchant Torella for 200k silver. Used at cook Janet.",
+            "popupMedia":"",
+            "tooltip":"#2 Blood clot (1/1)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -100, 170
+            ],
+            "id":"ingredient_1",
+            "popupTitle":"Stock of herbs",
+            "popupContent":"Buy 'Stock of herbs' at Lodin and open it to randomly obtain ingredients for '#7 Salad with eel caviar'. Used at cook Janet.", 
+            "parts": [
+               {
+                  "link":"z=10914&m=ingredient_2"
+               },
+               {
+                  "link":"z=10901&m=ingredient_1"
+               },
+               {
+                  "link":"z=10901&m=ingredient_1"
+               },
+               {
+                  "link":"z=10901&m=ingredient_1"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Stock of herbs (2-4/4)",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -136.5, 135.125
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Gorge at Kallazar",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#4 Gorge at Kallazar",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -136.375, 145.75
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Torella",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Torella",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -183.375, 158.125
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Song of Harmony', which you get from Feiton's Adventure's Tome reward at 60%.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -172.875, 199.75
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -122.125, 26.625
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -104.25, 172.5
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"At right side of the altar at the ramp.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -100.25, 194
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Song of Harmony', which you get from Feiton's Adventure's Tome reward at 60%.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -47.25, 120.125
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -86.625, 167.375
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -49.25, 122
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Use Adventure's Tome Ingredient '#6 Failed liquor' at this location to obtain Mokoko Seed.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -128.625, 27.625
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Requires 300 Wisdom or higher to go down stairs.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"Notice",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_notice",
+      "data":[
+         {
+            "coordinates":[
+               -65.5, 45.75
+            ],
+            "id":"notice_0",
+            "popupTitle":"Notice",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Go down for 3 Mokoko Seeds and Rapport NPC",
+            "tooltipDirection":"left"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -245.25, 138.25
+              ],
+              "id":"portal_0",
+              "destinationID":"10911",
+              "tooltip":"Nameless Plateau",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -97.5, 82.5
+            ],
+            "id":"portal_1",
+            "destinationID":"10901_2",
+            "tooltip":"2F",
+            "tooltipDirection":"bottom"
+            },
+            {
+             "coordinates":[
+               -126, 162
+             ],
+             "id":"portal_2",
+             "destinationID":"10901_2",
+             "tooltip":"2F",
+             "tooltipDirection":"bottom"
+             },
+             {
+              "coordinates":[
+               -90, 179.75
+              ],
+              "id":"portal_3",
+              "destinationID":"10901_2",
+              "tooltip":"2F",
+              "tooltipDirection":"bottom"
+              },
+              {
+               "coordinates":[
+                  -10.5, 138.75
+               ],
+               "id":"portal_4",
+               "destinationID":"10913",
+               "tooltip":"Siena Monastery",
+               "tooltipDirection":"bottom"
+               }
+        ]
+     }
+  ]
+}

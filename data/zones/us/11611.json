@@ -1,0 +1,1024 @@
+{
+  "name":"Kandaria",
+  "continent":"South Vern",
+  "zoneTiles":"public/tiles/zones/south_vern/zone_108",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"Affinity",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_affinity",
+      "data":[
+         {
+            "coordinates":[
+               -38.75, 147.625
+            ],
+            "id":"affinity_0",
+            "popupTitle":"Santia",
+            "rapportId": "43052",
+            "tooltip":"Santia",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -75.875, 67.125
+            ],
+            "id":"affinity_1",
+            "popupTitle":"Zillock",
+            "rapportId": "43032",
+            "tooltip":"Zillock",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -33.875, 116.125
+            ],
+            "id":"affinity_2",
+            "popupTitle":"Marnie",
+            "rapportId": "43050",
+            "tooltip":"Marnie",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"AStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_astory",
+      "data":[
+         {
+            "coordinates":[
+               -45.875, 82.375
+            ],
+            "id":"astory_0",
+            "popupTitle":"Solo (4/6)",
+            "popupContent":"Chain Quest '<a href='https://lostarkcodex.com/us/quest/1102119/' target='_blank' style='text-decoration: none;'>The disappearance of Balvi</a>'",
+            "parts": [
+               {
+                  "link":"z=11101&m=astory_0"
+               },
+               {
+                  "link":"z=11101&m=astory_1"
+               },
+               {
+                  "link":"z=11101&m=astory_2"
+               },
+               {
+                  "link":"z=11611&m=astory_0"
+               },
+               {
+                  "link":"z=11611&m=astory_1"
+               },
+               {
+                  "link":"z=11101&m=astory_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#1 Solo (4/6)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -78, 66.25
+            ],
+            "id":"astory_1",
+            "popupTitle":"Solo (5/6)",
+            "popupContent":"Chain Quest '<a href='https://lostarkcodex.com/us/quest/1102120/' target='_blank' style='text-decoration: none;'>Lies for good</a>'.<br>Starts at Jilrok.'",
+            "parts": [
+               {
+                  "link":"z=11101&m=astory_0"
+               },
+               {
+                  "link":"z=11101&m=astory_1"
+               },
+               {
+                  "link":"z=11101&m=astory_2"
+               },
+               {
+                  "link":"z=11611&m=astory_0"
+               },
+               {
+                  "link":"z=11611&m=astory_1"
+               },
+               {
+                  "link":"z=11101&m=astory_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#1 Solo (5/6)",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -25, 135.625
+            ],
+            "id":"hstory_0",
+            "popupTitle":"Carrot at the crime scene (1/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11611&m=hstory_0"
+               },
+               {
+                  "link":"z=11612&m=hstory_0"
+               },
+               {
+                  "link":"z=11612&m=hstory_1"
+               },
+               {
+                  "link":"z=11611&m=hstory_1"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip": "#1 Carrot at the crime scene (1/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -91.5, 194.875
+            ],
+            "id":"hstory_1",
+            "popupTitle":"Carrot at the crime scene (4/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11611&m=hstory_0"
+               },
+               {
+                  "link":"z=11612&m=hstory_0"
+               },
+               {
+                  "link":"z=11612&m=hstory_1"
+               },
+               {
+                  "link":"z=11611&m=hstory_1"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip": "#1 Carrot at the crime scene (4/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -218.625, 119.75
+            ],
+            "id":"hstory_2",
+            "popupTitle":"Beauty Mary (1/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11611&m=hstory_2"
+               },
+               {
+                  "link":"z=11611&m=hstory_3"
+               },
+               {
+                  "link":"z=11611&m=hstory_4"
+               },
+               {
+                  "link":"z=11611&m=hstory_5"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#2 Beauty Mary (1/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -95.75, 211
+            ],
+            "id":"hstory_3",
+            "popupTitle":"Beauty Mary (2/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11611&m=hstory_2"
+               },
+               {
+                  "link":"z=11611&m=hstory_3"
+               },
+               {
+                  "link":"z=11611&m=hstory_4"
+               },
+               {
+                  "link":"z=11611&m=hstory_5"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#2 Beauty Mary (2/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -120.25, 130.75
+            ],
+            "id":"hstory_4",
+            "popupTitle":"Beauty Mary (3/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11611&m=hstory_2"
+               },
+               {
+                  "link":"z=11611&m=hstory_3"
+               },
+               {
+                  "link":"z=11611&m=hstory_4"
+               },
+               {
+                  "link":"z=11611&m=hstory_5"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#2 Beauty Mary (3/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -232.875, 128.125
+            ],
+            "id":"hstory_5",
+            "popupTitle":"Beauty Mary (4/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11611&m=hstory_2"
+               },
+               {
+                  "link":"z=11611&m=hstory_3"
+               },
+               {
+                  "link":"z=11611&m=hstory_4"
+               },
+               {
+                  "link":"z=11611&m=hstory_5"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#2 Beauty Mary (4/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -22.25, 121.25
+            ],
+            "id":"hstory_6",
+            "popupTitle":"A firm promise (1/2)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11611&m=hstory_6"
+               },
+               {
+                  "link":"z=11611&m=hstory_7"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#3 A firm promise (1/2)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -138.375, 201.125
+            ],
+            "id":"hstory_7",
+            "popupTitle":"A firm promise (2/2)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11611&m=hstory_6"
+               },
+               {
+                  "link":"z=11611&m=hstory_7"
+               }
+           ],
+           "popupMedia":"",
+            "tooltip":"#3 A firm promise (2/2)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -217.625, 107.25
+            ],
+            "id":"hstory_8",
+            "popupTitle":"Black envy (1/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11611&m=hstory_8"
+               },
+               {
+                  "link":"z=11611&m=hstory_9"
+               },
+               {
+                  "link":"z=11611&m=hstory_10"
+               },
+               {
+                  "link":"z=11611&m=hstory_11"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#4 Black envy (1/4)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -166.75, 55.875
+            ],
+            "id":"hstory_9",
+            "popupTitle":"Black envy (2/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11611&m=hstory_8"
+               },
+               {
+                  "link":"z=11611&m=hstory_9"
+               },
+               {
+                  "link":"z=11611&m=hstory_10"
+               },
+               {
+                  "link":"z=11611&m=hstory_11"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#4 Black envy (2/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -113.875, 99.875
+            ],
+            "id":"hstory_10",
+            "popupTitle":"Black envy (3/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11611&m=hstory_8"
+               },
+               {
+                  "link":"z=11611&m=hstory_9"
+               },
+               {
+                  "link":"z=11611&m=hstory_10"
+               },
+               {
+                  "link":"z=11611&m=hstory_11"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#4 Black envy (3/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -113.125, 26.75
+            ],
+            "id":"hstory_11",
+            "popupTitle":"Black envy (4/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11611&m=hstory_8"
+               },
+               {
+                  "link":"z=11611&m=hstory_9"
+               },
+               {
+                  "link":"z=11611&m=hstory_10"
+               },
+               {
+                  "link":"z=11611&m=hstory_11"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#4 Black envy (4/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -46, 104.375
+            ],
+            "id":"hstory_12",
+            "popupTitle":"The true essence of magic (1/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11611&m=hstory_12"
+               },
+               {
+                  "link":"z=11612&m=hstory_2"
+               },
+               {
+                  "link":"z=11611&m=hstory_13"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip": "#5 The true essence of magic (1/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -48.875, 139
+            ],
+            "id":"hstory_13",
+            "popupTitle":"The true essence of magic (3/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11611&m=hstory_12"
+               },
+               {
+                  "link":"z=11612&m=hstory_2"
+               },
+               {
+                  "link":"z=11611&m=hstory_13"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip": "#5 The true essence of magic (3/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -198, 165.25
+            ],
+            "id":"hstory_14",
+            "popupTitle":"Survive at all costs (1/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11611&m=hstory_14"
+               },
+               {
+                  "link":"z=11611&m=hstory_15"
+               },
+               {
+                  "link":"z=11611&m=hstory_16"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#6 Survive at all costs (1/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -148.375, 177.25
+            ],
+            "id":"hstory_15",
+            "popupTitle":"Survive at all costs (2/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11611&m=hstory_14"
+               },
+               {
+                  "link":"z=11611&m=hstory_15"
+               },
+               {
+                  "link":"z=11611&m=hstory_16"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#6 Survive at all costs (2/3)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -137.5, 157.75
+            ],
+            "id":"hstory_16",
+            "popupTitle":"Survive at all costs (3/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11611&m=hstory_14"
+               },
+               {
+                  "link":"z=11611&m=hstory_15"
+               },
+               {
+                  "link":"z=11611&m=hstory_16"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#6 Survive at all costs (3/3)",
+            "tooltipDirection":"right"
+         }
+      ]
+     },  
+   {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -129.5, 234
+            ],
+            "id":"monster_0",
+            "popupTitle":"Worgen Nine-Fingered",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 Worgen Nine-Fingered",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -150.5, 42.25
+          ],
+          "id":"monster_1",
+          "popupTitle":"Dryad Matron",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#2 Dryad Matron",
+          "tooltipDirection":"right"
+       },
+       {
+        "coordinates":[
+         -188.625, 155.625
+        ],
+        "id":"monster_2",
+        "popupTitle":"Leader of the Blackhorns",
+        "popupContent":"",
+        "popupMedia":"",
+        "tooltip":"#3 Leader of the Blackhorns",
+        "tooltipDirection":"right"
+     },
+     {
+      "coordinates":[
+         -117.75, 87.25
+      ],
+      "id":"monster_3",
+      "popupTitle":"Grac Big Tapor",
+      "popupContent":"",
+      "popupMedia":"",
+      "tooltip":"#4 Grac Big Tapor",
+      "tooltipDirection":"right"
+   },
+   {
+    "coordinates":[
+      -108.125, 63
+    ],
+    "id":"monster_4",
+    "popupTitle":"Ironhead",
+    "popupContent":"",
+    "popupMedia":"",
+    "tooltip":"#5 Ironhead",
+    "tooltipDirection":"right"
+ },
+ {
+  "coordinates":[
+   -94.5, 69.625
+  ],
+  "id":"monster_5",
+  "popupTitle":"Man-eating troll",
+  "popupContent":"",
+  "popupMedia":"",
+  "tooltip":"#6 Man-eating troll",
+  "tooltipDirection":"left"
+},
+{
+ "coordinates":[
+   -95.625, 106.125
+ ],
+ "id":"monster_6",
+ "popupTitle":"Fanged troll",
+ "popupContent":"",
+ "popupMedia":"",
+ "tooltip":"#7 Fanged troll",
+ "tooltipDirection":"right"
+},
+{
+ "coordinates":[
+   -96.125, 83.25
+ ],
+ "id":"monster_7",
+ "popupTitle":"Goblin Eater",
+ "popupContent":"",
+ "popupMedia":"",
+ "tooltip":"#8 Goblin Eater",
+ "tooltipDirection":"right"
+}
+      ]
+   }, 
+   {
+      "markerType":"Boss",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_boss",
+      "data":[
+         {
+            "coordinates":[
+               -121.625, 34.875
+            ],
+            "id":"boss_0",
+            "popupTitle":"Chimerion",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Chimerion",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -39, 102.75
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"The History of Brewing in Vern, Part 2 (2/6)",
+            "popupContent": "Required ingredient for '#2 Kandarsky lager'.<br>Collectible<br>Used at cook Snorri.",
+            "parts": [
+               {
+                  "link":"z=11612&m=ingredient_10"
+               },
+               {
+                  "link":"z=11611&m=ingredient_0"
+               },
+               {
+                  "link":"z=11611&m=ingredient_1"
+               },
+               {
+                  "link":"z=11612&m=ingredient_11"
+               },
+               {
+                  "link":"z=11612&m=ingredient_12"
+               },
+               {
+                  "link":"z=11612&m=ingredient_13"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#2 The History of Brewing in Vern, Part 2 (2/6)",
+            "tooltipDirection":"left"
+         },
+         {
+          "coordinates":[
+            -107.480231, 230.163257
+          ],
+          "id":"ingredient_1",
+          "popupTitle":"The History of Brewing in Vern, Part 3 (3/6)",
+          "popupContent": "Required ingredient for '#2 Kandarsky lager'.<br>Kill Monster<br>Used at cook Snorri.",
+          "parts": [
+            {
+               "link":"z=11612&m=ingredient_10"
+            },
+            {
+               "link":"z=11611&m=ingredient_0"
+            },
+            {
+               "link":"z=11611&m=ingredient_1"
+            },
+            {
+               "link":"z=11612&m=ingredient_11"
+            },
+            {
+               "link":"z=11612&m=ingredient_12"
+            },
+            {
+               "link":"z=11612&m=ingredient_13"
+            }
+        ],
+         "popupMedia":"",
+          "tooltip":"#2 The History of Brewing in Vern, Part 3 (3/6)",
+          "tooltipDirection":"right"
+       },
+       {
+        "coordinates":[
+         -141, 147.625
+        ],
+        "id":"ingredient_2",
+        "popupTitle": "Stew meat (1/2)",
+        "popupContent": "Required ingredient for '#4 Royal seafood stew'.<br>Located inside the cave.<br>Used at cook Snorri.",
+        "parts": [
+         {
+            "link":"z=11611&m=ingredient_2"
+         },
+         {
+            "link":"z=11612&m=ingredient_15"
+         }
+     ],
+        "popupMedia": "",
+        "tooltip": "#4 Stew meat (1/2)",
+        "tooltipDirection":"left"
+     },
+     {
+      "coordinates":[
+         -130.375, 64.75
+      ],
+      "id":"ingredient_3",
+      "popupTitle": "River crayfish (2/2)",
+      "popupContent": "Required ingredient for '#5 Smoked Crayfish'.<br><br>Step1: <br>Buy 5x 'White rice' at Haldis for 100k silver each.<br>Buy 1x 'Red rice' at Haldis for 150k silver each.<br>Buy 2x 'Brown rice' at Haldis for 200k silver each.<br><br>Step 2:<br>Go to Kandaria <a href='https://papunika.com/map/?c=zone_108&m=ingredient_3' style='text-decoration: none;'>this location</a> (on water) and use all rice dishes in the order you bought them (5x white -> 1x red -> 2x brown).<br>After ~1s you can collect the crayfish.",
+      "parts": [
+         {
+            "link":"z=11612&m=ingredient_16"
+         },
+         {
+            "link":"z=11611&m=ingredient_3"
+         }
+     ],
+        "popupMedia": "",
+      "tooltip": "#5 River crayfish (2/2)",
+      "tooltipDirection":"right"
+   }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -122.625, 130
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Golden Move",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 Golden Move",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -166.75, 143.5
+            ],
+            "id":"viewpoint_1",
+            "popupTitle":"Rumbling waterfall",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#2 Rumbling waterfall",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -146.5, 109.25
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Evan",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Evan",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -178, 138.375
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Hymn of the sun' at the location for the Mokoko Seed.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -152.875, 153.375
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Hymn of the sun' at the location for the Mokoko Seed.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -142.875, 149.625
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -154.125, 214.25
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -110.875, 147.125
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -94.25, 205.5
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -94.375, 220.875
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -117, 76.75
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Hymn of the sun' at the location for the Mokoko Seed.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -73.375, 44.75
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -58.25, 176.875
+            ],
+            "id":"mokoko_9",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -41.125, 84.25
+            ],
+            "id":"mokoko_10",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Play 'Hymn of the sun' at the location for the Mokoko Seed.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -23.25, 99.875
+            ],
+            "id":"mokoko_11",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -16.875, 117.125
+            ],
+            "id":"mokoko_12",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -148.375, 152
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Requires 350 Charisma or higher to enter waterfall.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -97.75, 206.125
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Use Adventure's Tome Food 'Kandarsky lager' at this location to enter.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -21, 121.25
+            ],
+            "id":"spassage_2",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Requires 350 Wisdom or higher to enter the building.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -76.5, 49.875
+            ],
+            "id":"spassage_3",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Use Adventure's Tome Food 'Kandarsky lager' at this location to enter.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -6, 165
+              ],
+              "id":"portal_0",
+              "destinationID":"11102",
+              "tooltip":"Vern Castle",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -202, 48.5
+            ],
+            "id":"portal_1",
+            "destinationID":"11612",
+            "tooltip":"Ruins of Bel-Illion",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

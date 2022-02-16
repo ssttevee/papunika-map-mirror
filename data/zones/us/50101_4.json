@@ -1,0 +1,49 @@
+{
+  "markers":[
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -130.25, 181.25
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"Portal",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_portal",
+      "data":[
+         {
+            "coordinates":[
+             -96.25, 170.5
+            ],
+            "id":"portal_0",
+            "destinationID":"50101_3",
+            "tooltip":"3F",
+            "tooltipDirection":"bottom"
+         },
+         {
+          "coordinates":[
+             -138.25, 75
+          ],
+          "id":"portal_1",
+          "destinationID":"50101_5",
+          "tooltip":"5F",
+          "tooltipDirection":"bottom"
+       }
+      ]
+   }
+  ]
+}

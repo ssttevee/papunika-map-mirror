@@ -1,0 +1,188 @@
+{
+  "markers":[
+   {
+      "markerType":"Notice",
+      "enabled":true,
+      "allowSidebar":false,
+      "layerID":"layer_notice",
+      "data":[
+         {
+            "coordinates":[
+               -112.5, 178
+            ],
+            "id":"notice_0",
+            "popupTitle":"Slave 1",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Slave 1",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -109, 180.5
+            ],
+            "id":"notice_1",
+            "popupTitle":"Slave 2",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Slave 2",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -104.25, 186.5
+            ],
+            "id":"notice_2",
+            "popupTitle":"Slave 3",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Slave 3",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -108.5, 192.25
+            ],
+            "id":"notice_3",
+            "popupTitle":"Slave 4",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Slave 4",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -147.5, 194.5
+            ],
+            "id":"notice_4",
+            "popupTitle":"Slave 5",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Slave 5",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -149.75, 197.5
+            ],
+            "id":"notice_5",
+            "popupTitle":"Slave 6",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Slave 6",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -152.5, 200.25
+            ],
+            "id":"notice_6",
+            "popupTitle":"Slave 7",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Slave 7",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -117, 139
+            ],
+            "id":"notice_7",
+            "popupTitle":"Slave 8",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Slave 8",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -112.75, 148.75
+            ],
+            "id":"notice_8",
+            "popupTitle":"Slave 9",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Slave 9",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -118.5, 178
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -121.5, 137.375
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -109.875, 143.5
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -139.25, 191.5
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -159.75, 67.5
+              ],
+              "id":"portal_0",
+              "destinationID":"overworld",
+              "tooltip":"Open Seas",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+    "markers": [
+      {
+        "markerType":"Monster",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_monster",
+        "data":[
+           {
+              "coordinates":[
+                -152.375, 86.875
+              ],
+              "id":"monster_0",
+              "popupTitle":"Old Mera Snake",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"#7 Old Mera Snake",
+              "tooltipDirection":"right"
+           },
+           {
+            "coordinates":[
+              -141.5, 168.625
+            ],
+            "id":"monster_1",
+            "popupTitle":"Plague Pest Swarm Boss",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#12 Plague Pest Swarm Boss",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -75.625, 78.625
+          ],
+          "id":"monster_2",
+          "popupTitle":"Stinking Plague Keeper",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#13 Stinking Plague Keeper",
+          "tooltipDirection":"right"
+       }
+        ]
+     },
+     {
+      "markerType":"Food",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_food",
+      "data":[
+         {
+            "coordinates":[
+              -205.25, 85.375
+            ],
+            "id":"food_0",
+            "popupTitle":"499-year-old Mera Wine",
+            "popupContent":"Wait 2h for it to turn into 500-year-old Mera Snake Wine.",
+            "popupMedia":"",
+            "tooltip":"#6 499-year-old Mera Wine (Wait 2h)",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+      {
+        "markerType":"Mokoko",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_mokoko",
+        "data":[
+           {
+              "coordinates":[
+                -148.125, 86.5
+              ],
+              "id":"mokoko_0",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -137.625, 104.625
+              ],
+              "id":"mokoko_1",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"Locked behind secret passage.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -80.375, 133.125
+              ],
+              "id":"mokoko_2",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -153.875, 171.5
+              ],
+              "id":"mokoko_3",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"Locked behind secret passage.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+              "coordinates":[
+                -154, 174.625
+              ],
+              "id":"mokoko_4",
+              "popupTitle":"Mokoko Seed",
+              "popupContent":"Locked behind secret passage.",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+            "coordinates":[
+              -217.5, 85.75
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+        ]
+       },
+      {
+        "markerType":"SPassage",
+        "enabled":true,
+        "allowSidebar":true,
+        "layerID":"layer_spassage",
+        "data":[
+           {
+              "coordinates":[
+                -145.375, 171
+              ],
+              "id":"spassage_0",
+              "popupTitle":"Secret Passage",
+              "popupContent":"",
+              "popupMedia":"",
+              "tooltip":"",
+              "tooltipDirection":"right"
+           },
+           {
+            "coordinates":[
+              -207.875, 84.125
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -149.625, 94.75
+          ],
+          "id":"spassage_2",
+          "popupTitle":"Secret Passage",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"",
+          "tooltipDirection":"right"
+       }
+        ]
+       },
+      {
+        "markerType": "Portal",
+        "enabled": true,
+        "allowSidebar": false,
+        "layerID": "layer_portal",
+        "data": [
+          {
+            "coordinates": [-127.125, 240.875],
+            "id": "portal_0",
+            "destinationID": "10220",
+            "tooltip": "Ankumo Mountain",
+            "tooltipDirection": "bottom"
+          }
+        ]
+      }
+    ]
+ }

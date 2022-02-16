@@ -1,0 +1,276 @@
+{
+  "name":"Sunbright Hill",
+  "continent":"East Luterra",
+  "zoneTiles":"public/tiles/zones/east_luterra/zone_20",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -138.25, 34.625
+            ],
+            "id":"hstory_0",
+            "popupTitle":"Sacred Rituals of the Harvesters",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 Sacred Rituals of the Harvesters",
+            "tooltipDirection":"right"
+         }
+      ]
+     },  
+     {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -200.5, 98.5
+            ],
+            "id":"monster_0",
+            "popupTitle":"Scherrit Army Gladiator",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#2 Scherrit Army Gladiator",
+            "tooltipDirection":"right"
+         }
+      ]
+   },   
+   {
+      "markerType":"Boss",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_boss",
+      "data":[
+         {
+            "coordinates":[
+               -52.125, 134.75
+            ],
+            "id":"boss_0",
+            "popupTitle":"Wili-Wili",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Wili-Wili",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -126.125, 129.25
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Dry-aged Meat",
+            "popupContent":"Required ingredient for '#5 Thirain T-Bone Steak'.<br>Buy at traveling merchant Morris. Used at cook Hyde.",
+            "popupMedia":"",
+            "tooltip":"#5 Dry-aged Meat (1/1)",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -104.5, 132
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Sunflower Bed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#2 Sunflower Bed",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -123.5, 130.5
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Morris",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Morris",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -88.875, 161
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -132.875, 90.375
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -117.25, 122.125
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -145.375, 111
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -157.375, 142.875
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -193.25, 89.5
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -157.75, 36.875
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -209.875, 175.875
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -171, 131.75
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -178, 213.75
+            ],
+            "id":"mokoko_9",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -249, 140.75
+              ],
+              "id":"portal_0",
+              "destinationID":"10816",
+              "tooltip":"Dyorika Plain",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -67, 200
+            ],
+            "id":"portal_1",
+            "destinationID":"10892",
+            "tooltip":"Lastra Forest",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -107, 215.25
+            ],
+            "id":"portal_2",
+            "destinationID":"10818",
+            "tooltip":"Flowering Orchard",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name":"Verdantier",
+  "continent":"Arthetine",
+  "zoneTiles":"public/tiles/zones/arthetine/zone_54_3",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -85.25, 123
+            ],
+            "id":"hstory_0",
+            "popupTitle":"#6 End of His Obsession (2/2)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10423&m=hstory_1"
+               },
+               {
+                  "link":"z=10463&m=hstory_0&f=3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#6 End of His Obsession (2/2)",
+            "tooltipDirection":"right"
+         }
+      ]
+     }, 
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -187.5, 107.75
+              ],
+              "id":"portal_0",
+              "destinationID":"10463_2",
+              "tooltip":"Verdantier Gear Unit",
+              "tooltipDirection":"bottom"
+           }
+        ]
+     }
+  ]
+}

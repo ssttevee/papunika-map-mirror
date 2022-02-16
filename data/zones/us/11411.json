@@ -1,0 +1,583 @@
+{
+  "name":"Shallow Sea Road",
+  "continent":"Punika",
+  "zoneTiles":"public/tiles/zones/punika/zone_101",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -124.5, 233.25
+            ],
+            "id":"hstory_0",
+            "popupTitle":"Dream duo (1/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11411&m=hstory_0"
+               },
+               {
+                  "link":"z=11411&m=hstory_1"
+               },
+               {
+                  "link":"z=11401&m=hstory_0"
+               },
+               {
+                  "link":"z=11412&m=hstory_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#1 Dream duo (1/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -209.875, 50.875
+            ],
+            "id":"hstory_1",
+            "popupTitle":"Dream duo (2/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11411&m=hstory_0"
+               },
+               {
+                  "link":"z=11411&m=hstory_1"
+               },
+               {
+                  "link":"z=11401&m=hstory_0"
+               },
+               {
+                  "link":"z=11412&m=hstory_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#1 Dream duo (2/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -135.875, 125.25
+            ],
+            "id":"hstory_2",
+            "popupTitle":"The house that we will build... (1/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11411&m=hstory_2"
+               },
+               {
+                  "link":"z=11413&m=hstory_0"
+               },
+               {
+                  "link":"z=11451&m=hstory_0"
+               },
+               {
+                  "link":"z=11452&m=hstory_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#2 The house that we will build... (1/4)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -177.75, 199.625
+            ],
+            "id":"hstory_3",
+            "popupTitle":"Beasts and beasts (1/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11411&m=hstory_3"
+               },
+               {
+                  "link":"z=11411&m=hstory_4"
+               },
+               {
+                  "link":"z=11412&m=hstory_2"
+               },
+               {
+                  "link":"z=11414&m=hstory_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#5 Beasts and beasts (1/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -198.25, 40.125
+            ],
+            "id":"hstory_4",
+            "popupTitle":"Beasts and beasts (2/4)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11411&m=hstory_3"
+               },
+               {
+                  "link":"z=11411&m=hstory_4"
+               },
+               {
+                  "link":"z=11412&m=hstory_2"
+               },
+               {
+                  "link":"z=11414&m=hstory_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#5 Beasts and beasts (2/4)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -87.25, 11.875
+            ],
+            "id":"hstory_5",
+            "popupTitle":"Poor Argen (1/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=11411&m=hstory_5"
+               },
+               {
+                  "link":"z=11412&m=hstory_4"
+               },
+               {
+                  "link":"z=11401&m=hstory_12"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Poor Argen (1/3)",
+            "tooltipDirection":"right"
+         }
+      ]
+     },  
+   {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -171.125, 62.375
+            ],
+            "id":"monster_0",
+            "popupTitle":"Flame-bearer female",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 Flame-bearer female",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -201, 85.25
+          ],
+          "id":"monster_1",
+          "popupTitle":"Flame-bearer female",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#1",
+          "tooltipDirection":"right"
+       },
+       {
+        "coordinates":[
+         -134.125, 18.875
+        ],
+        "id":"monster_2",
+        "popupTitle":"Giant burning lily",
+        "popupContent":"",
+        "popupMedia":"",
+        "tooltip":"#2 Giant burning lily",
+        "tooltipDirection":"left"
+     },
+     {
+      "coordinates":[
+         -93.5, 7.875
+      ],
+      "id":"monster_3",
+      "popupTitle":"Giant burning lily",
+      "popupContent":"",
+      "popupMedia":"",
+      "tooltip":"#2",
+      "tooltipDirection":"right"
+   }
+      ]
+   },   
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -86.625, 122.125
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Fruit syrup",
+            "popupContent":"Required ingredient for '#1 Star Sand Cocktail'.<br>Collect all 3.<br>Used at cook Ranghe.",
+            "parts": [
+               {
+                  "link":"z=11411&m=ingredient_0"
+               },
+               {
+                  "link":"z=11411&m=ingredient_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#1 Fruit syrup (1/2)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -98.5, 111.875
+            ],
+            "id":"ingredient_1",
+            "popupTitle":"Fruit syrup",
+            "popupContent":"Required ingredient for '#1 Star Sand Cocktail'.<br>Collect all 3.<br>Used at cook Ranghe.",
+            "parts": [
+               {
+                  "link":"z=11411&m=ingredient_0"
+               },
+               {
+                  "link":"z=11411&m=ingredient_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#1 Fruit syrup (1/2)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -98.5, 121.75
+            ],
+            "id":"ingredient_2",
+            "popupTitle":"Fruit syrup",
+            "popupContent":"Required ingredient for '#1 Star Sand Cocktail'.<br>Collect all 3.<br>Used at cook Ranghe.",
+            "parts": [
+               {
+                  "link":"z=11411&m=ingredient_0"
+               },
+               {
+                  "link":"z=11411&m=ingredient_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#1 Fruit syrup (1/2)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -118.875, 195
+            ],
+            "id":"ingredient_3",
+            "popupTitle":"Hot liquor",
+            "popupContent":"Required ingredient for '#1 Star Sand Cocktail'.<br>Collect all 3.<br>Used at cook Ranghe.",
+            "parts": [
+               {
+                  "link":"z=11411&m=ingredient_0"
+               },
+               {
+                  "link":"z=11411&m=ingredient_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#1 Hot liquor (2/2)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -128.75, 140.125
+            ],
+            "id":"ingredient_4",
+            "popupTitle":"Hot liquor",
+            "popupContent":"Required ingredient for '#1 Star Sand Cocktail'.<br>Collect all 3.<br>Used at cook Ranghe.",
+            "parts": [
+               {
+                  "link":"z=11411&m=ingredient_0"
+               },
+               {
+                  "link":"z=11411&m=ingredient_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#1 Hot liquor (2/2)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -138.125, 144.625
+            ],
+            "id":"ingredient_5",
+            "popupTitle":"Hot liquor",
+            "popupContent":"Required ingredient for '#1 Star Sand Cocktail'.<br>Collect all 3.<br>Used at cook Ranghe.",
+            "parts": [
+               {
+                  "link":"z=11411&m=ingredient_0"
+               },
+               {
+                  "link":"z=11411&m=ingredient_3"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#1 Hot liquor (2/2)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -85.25, 102.875
+            ],
+            "id":"ingredient_6",
+            "popupTitle":"Gore-cleaver neck",
+            "popupContent":"Required ingredient for '#2 Kaloa Boar Barbecue'.<br>Buy at Traveling Merchant Laney for 200k silver.<br>Used at cook Ranghe.",
+            "parts": [
+               {
+                  "link":"z=11411&m=ingredient_6"
+               },
+               {
+                  "link":"z=11413&m=ingredient_1"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#2 Gore-cleaver neck (1/2)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -96.5, 19
+            ],
+            "id":"ingredient_7",
+            "popupTitle":"Scented herbs (1/4)",
+            "popupContent":"Required ingredient for '#7 Papunika Festival Cuisine'.<br>Kill mobs around this location. Used at cook Ranghe.",
+            "parts": [
+               {
+                  "link":"z=11411&m=ingredient_7"
+               },
+               {
+                  "link":"z=11412&m=ingredient_1"
+               },
+               {
+                  "link":"z=11413&m=ingredient_6"
+               },
+               {
+                  "link":"z=11414&m=ingredient_1"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Scented herbs (1/4)",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -205.625, 171.125
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Seaside",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 Seaside",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -111.375, 163.5
+            ],
+            "id":"viewpoint_1",
+            "popupTitle":"Sandbank",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#2 Sandbank",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -84.75, 106.125
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Laney",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Laney",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -88.375, 103.375
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -79.625, 117.25
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -95.625, 167.25
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -127, 218.625
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -204.375, 172.875
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -195.375, 48.375
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -125.375, 9.75
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -98.875, 3.375
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+   {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -81.125, 115
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Requires 350 Courage or higher to enter.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -128.25, 12.5
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"Use Adventure's Tome Ingredient '#1 Fruit syrup (1/2)' at this location to obtain Mokoko Seed.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -108.25, 262.75
+              ],
+              "id":"portal_0",
+              "destinationID":"overworld",
+              "tooltip":"Open Seas",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -71.25, 12
+            ],
+            "id":"portal_1",
+            "destinationID":"11401",
+            "tooltip":"Nia Village",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

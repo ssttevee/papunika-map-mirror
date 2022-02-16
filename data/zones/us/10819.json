@@ -1,0 +1,358 @@
+{
+  "name":"Blackrose Chapel",
+  "continent":"East Luterra",
+  "zoneTiles":"public/tiles/zones/east_luterra/zone_23",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"AStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_astory",
+      "data":[
+         {
+            "coordinates":[
+               -173.75, 166
+            ],
+            "id":"astory_0",
+            "popupTitle":"Your Savior",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#2 Your Savior",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -130.75, 103.625
+            ],
+            "id":"hstory_0",
+            "popupTitle":"The Name of the Black Rose",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#3 The Name of the Black Rose",
+            "tooltipDirection":"right"
+         }
+      ]
+     },  
+     {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -132.25, 199.125
+            ],
+            "id":"monster_0",
+            "popupTitle":"Giant Black Rose Spider",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#5 Giant Black Rose Spider",
+            "tooltipDirection":"right"
+         },
+         {
+          "coordinates":[
+            -76.625, 47.625
+          ],
+          "id":"monster_1",
+          "popupTitle":"Wicked Heretic Preacher",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#6 Wicked Heretic Preacher",
+          "tooltipDirection":"right"
+       }
+      ]
+   },  
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -181, 163.875
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Hot Chocolate Coffee",
+            "popupContent":"Required ingredient for '#7 Melting Gelato'.<br>Buy at traveling merchant Burt. Used at cook Hyde.<br>Wait 24h for Melting Gelato to turn into Fully-melted Gelato.",
+            "parts": [
+               {
+                  "link":"z=10804&m=ingredient_0"
+               },
+               {
+                  "link":"z=10821&m=ingredient_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#7 Hot Chocolate Coffee (2/2)",
+            "tooltipDirection":"right"
+         }
+      ]
+   }, 
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -33.375, 143
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Cliffside Graveyard",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#4 Cliffside Graveyard",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -183.5, 164.125
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Burt",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Burt",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -184.5, 79.625
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -67.25, 38.375
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -106.875, 78
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -91, 106.375
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -157.75, 79.375
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -153.875, 75.125
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -41.375, 144
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -147.375, 179.75
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -131.625, 36.5
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -147.625, 50
+            ],
+            "id":"mokoko_9",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -129.375, 92.75
+            ],
+            "id":"mokoko_10",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -144.625, 43.625
+            ],
+            "id":"mokoko_11",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -156, 84.875
+            ],
+            "id":"mokoko_12",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -159, 81.125
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -158.75, 58
+            ],
+            "id":"spassage_1",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -228.25, 119.25
+              ],
+              "id":"portal_0",
+              "destinationID":"10818",
+              "tooltip":"Flowering Orchard",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -98.5, 24
+            ],
+            "id":"portal_1",
+            "destinationID":"10852",
+            "tooltip":"Blackrose Basement",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -126, 235
+            ],
+            "id":"portal_2",
+            "destinationID":"10820",
+            "tooltip":"Leyar Terrace",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

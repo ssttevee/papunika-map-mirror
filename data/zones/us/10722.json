@@ -1,0 +1,350 @@
+{
+  "name":"Rattan Hill",
+  "continent":"Anikka",
+  "zoneTiles":"public/tiles/zones/anikka/zone_41",
+  "additionalZones":[    
+  ],
+  "markers":[
+   {
+      "markerType":"HStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_hstory",
+      "data":[
+         {
+            "coordinates":[
+               -114.875, 121.75
+            ],
+            "id":"hstory_0",
+            "popupTitle":"The Surging Yearning (1/3)",
+            "popupContent":"",
+            "parts": [
+               {
+                  "link":"z=10722&m=hstory_0"
+               },
+               {
+                  "link":"z=10723&m=hstory_0"
+               },
+               {
+                  "link":"z=10724&m=hstory_0"
+               }
+           ],
+            "popupMedia":"",
+            "tooltip":"#2 The Surging Yearning (1/3)",
+            "tooltipDirection":"left"
+         },
+         {
+            "coordinates":[
+               -123.875, 121.5
+            ],
+            "id":"hstory_1",
+            "popupTitle":"Letter to You 10 Years from Now",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#3 Letter to You 10 Years from Now",
+            "tooltipDirection":"left"
+         }
+      ]
+     },  
+     {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -149.5, 81.875
+            ],
+            "id":"monster_0",
+            "popupTitle":"Twisted Sorcerer's Ghost",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 Twisted Sorcerer's Ghost",
+            "tooltipDirection":"left"
+         },
+         {
+          "coordinates":[
+            -69.125, 104.375
+          ],
+          "id":"monster_1",
+          "popupTitle":"Brigand Veteran",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#2 Brigand Veteran",
+          "tooltipDirection":"right"
+       },
+       {
+        "coordinates":[
+         -104.375, 182.125
+        ],
+        "id":"monster_2",
+        "popupTitle":"Strange Marionette",
+        "popupContent":"",
+        "popupMedia":"",
+        "tooltip":"#3 Strange Marionette",
+        "tooltipDirection":"right"
+     }
+      ]
+   }, 
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -187, 151.875
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Deer Hind Hoof",
+            "popupContent":"Required ingredient for '#5 Deer Hind Hooves Stew'.<br>Used at cook Sobin.",
+            "popupMedia":"",
+            "tooltip":"#5 Deer Hind Hoof (1/1)",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Minuet",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_minuet",
+      "data":[
+         {
+            "coordinates":[
+               -28.125, 150.125
+            ],
+            "id":"minuet_0",
+            "popupTitle":"Song of Minuet",
+            "popupContent":"Play Song of Minuet",
+            "popupMedia":"",
+            "tooltip":"Song of Minuet",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -151.375, 158.875
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Wisteria",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#3 Wisteria",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -148.25, 100.5
+            ],
+            "id":"viewpoint_1",
+            "popupTitle":"Abandoned House",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#4 Abandoned House",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+     {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -142.75, 96.125
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Mac",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Mac",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -27, 134.625
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -118, 143
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -27.25, 144
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -71.75, 101.375
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -243.5, 121
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -141.375, 67.375
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -234.875, 119.5
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -235.625, 118.125
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"Locked behind secret passage.",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -166.875, 141.625
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -179.5, 169
+            ],
+            "id":"mokoko_9",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+      "markerType":"SPassage",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_spassage",
+      "data":[
+         {
+            "coordinates":[
+               -228, 121.75
+            ],
+            "id":"spassage_0",
+            "popupTitle":"Secret Passage",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -40, 202.5
+              ],
+              "id":"portal_0",
+              "destinationID":"10723",
+              "tooltip":"Melody Forest",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -107.5, 221.25
+            ],
+            "id":"portal_1",
+            "destinationID":"10762",
+            "tooltip":"Yeon's Barrier",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -241.75, 144
+            ],
+            "id":"portal_2",
+            "destinationID":"10701",
+            "tooltip":"Port City Changhun",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}

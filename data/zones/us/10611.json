@@ -1,0 +1,658 @@
+{ 
+  "markers":[
+   {
+      "markerType":"Affinity",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_affinity",
+      "data":[
+         {
+            "coordinates":[
+               -64.625, 125.125
+            ],
+            "id":"affinity_0",
+            "popupTitle":"Thunder",
+            "rapportId": "11624",
+            "tooltip":"Thunder",
+            "tooltipDirection":"left"
+         }
+      ]
+   },
+   {
+      "markerType":"AStory",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_astory",
+      "data":[
+         {
+            "coordinates":[
+               -102, 142.5
+            ],
+            "id":"astory_0",
+            "popupTitle":"To Eliminate the Bandits",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 To Eliminate the Bandits",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+    "markerType":"HStory",
+    "enabled":true,
+    "allowSidebar":true,
+    "layerID":"layer_hstory",
+    "data":[
+       {
+          "coordinates":[
+            -171.375, 98.375
+          ],
+          "id":"hstory_0",
+          "popupTitle":"The Ominous Prediction",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#2 The Ominous Prediction",
+          "tooltipDirection":"left"
+       },
+       {
+          "coordinates":[
+            -75.5, 121.125
+          ],
+          "id":"hstory_1",
+          "popupTitle":"Spending an Eternity Together (1/3)",
+          "popupContent":"",
+          "parts": [
+            {
+               "link":"z=10611&m=hstory_1"
+            },
+            {
+               "link":"z=10611&m=hstory_2"
+            },
+            {
+               "link":"z=10611&m=hstory_3"
+            }
+         ],      
+          "popupMedia":"",
+          "tooltip":"#3 Spending an Eternity Together (1/3)",
+          "tooltipDirection":"right"
+       },
+       {
+          "coordinates":[
+            -120.875, 115.375
+          ],
+          "id":"hstory_2",
+          "popupTitle":"Spending an Eternity Together (2/3)",
+          "popupContent":"",
+          "parts": [
+            {
+               "link":"z=10611&m=hstory_1"
+            },
+            {
+               "link":"z=10611&m=hstory_2"
+            },
+            {
+               "link":"z=10611&m=hstory_3"
+            }
+         ],      
+          "popupMedia":"",
+          "tooltip":"#3 Spending an Eternity Together (2/3)",
+          "tooltipDirection":"right"
+       },
+       {
+          "coordinates":[
+            -226.5, 91
+          ],
+          "id":"hstory_3",
+          "popupTitle":"Spending an Eternity Together (3/3)",
+          "popupContent":"",
+          "parts": [
+            {
+               "link":"z=10611&m=hstory_1"
+            },
+            {
+               "link":"z=10611&m=hstory_2"
+            },
+            {
+               "link":"z=10611&m=hstory_3"
+            }
+         ],      
+          "popupMedia":"",
+          "tooltip":"#3 Spending an Eternity Together (3/3)",
+          "tooltipDirection":"right"
+       },
+       {
+         "coordinates":[
+            -73.625, 128.5
+         ],
+         "id":"hstory_4",
+         "popupTitle":"The Origin of the Name",
+         "popupContent":"",
+         "popupMedia":"",
+         "tooltip":"#5 The Origin of the Name",
+         "tooltipDirection":"right"
+      },
+      {
+         "coordinates":[
+            -54.25, 112.75
+         ],
+         "id":"hstory_5",
+         "popupTitle":"Tododo Song (1/4)",
+         "popupContent":"You only have 30 seconds to interact with each.",
+         "parts": [
+            {
+               "link":"z=10611&m=hstory_5"
+            },
+            {
+               "link":"z=10611&m=hstory_6"
+            },
+            {
+               "link":"z=10611&m=hstory_7"
+            },
+            {
+               "link":"z=10611&m=hstory_8"
+            }
+         ],    
+         "popupMedia":"",
+         "tooltip":"#6 Tododo Song (1/4)",
+         "tooltipDirection":"right"
+      },
+      {
+         "coordinates":[
+            -55.125, 93.875
+         ],
+         "id":"hstory_6",
+         "popupTitle":"Tododo Song (2/4)",
+         "popupContent":"You only have 30 seconds to interact with each.",
+         "parts": [
+            {
+               "link":"z=10611&m=hstory_5"
+            },
+            {
+               "link":"z=10611&m=hstory_6"
+            },
+            {
+               "link":"z=10611&m=hstory_7"
+            },
+            {
+               "link":"z=10611&m=hstory_8"
+            }
+         ],    
+         "popupMedia":"",
+         "tooltip":"#6 Tododo Song (2/4)",
+         "tooltipDirection":"left"
+      },
+      {
+         "coordinates":[
+            -75, 89.125
+         ],
+         "id":"hstory_7",
+         "popupTitle":"Tododo Song (3/4)",
+         "popupContent":"You only have 30 seconds to interact with each.",
+         "parts": [
+            {
+               "link":"z=10611&m=hstory_5"
+            },
+            {
+               "link":"z=10611&m=hstory_6"
+            },
+            {
+               "link":"z=10611&m=hstory_7"
+            },
+            {
+               "link":"z=10611&m=hstory_8"
+            }
+         ],    
+         "popupMedia":"",
+         "tooltip":"#6 Tododo Song (3/4)",
+         "tooltipDirection":"left"
+      },
+      {
+         "coordinates":[
+            -82.875, 105.25
+         ],
+         "id":"hstory_8",
+         "popupTitle":"Tododo Song (4/4)",
+         "popupContent":"You only have 30 seconds to interact with each.",
+         "parts": [
+            {
+               "link":"z=10611&m=hstory_5"
+            },
+            {
+               "link":"z=10611&m=hstory_6"
+            },
+            {
+               "link":"z=10611&m=hstory_7"
+            },
+            {
+               "link":"z=10611&m=hstory_8"
+            }
+         ],    
+         "popupMedia":"",
+         "tooltip":"#6 Tododo Song (4/4)",
+         "tooltipDirection":"right"
+      },
+      {
+         "coordinates":[
+            -67.125, 103.75
+         ],
+         "id":"hstory_9",
+         "popupTitle":"Solar Salt Candy (1/3)",
+         "popupContent":"",
+         "parts": [
+            {
+               "link":"z=10611&m=hstory_9"
+            },
+            {
+               "link":"z=10611&m=hstory_10"
+            },
+            {
+               "link":"z=10611&m=hstory_11"
+            }
+         ],    
+         "popupMedia":"",
+         "tooltip":"#7 Solar Salt Candy (1/3)",
+         "tooltipDirection":"left"
+      },
+      {
+         "coordinates":[
+            -64.125, 128.125
+         ],
+         "id":"hstory_10",
+         "popupTitle":"Solar Salt Candy (2/3)",
+         "popupContent":"",
+         "parts": [
+            {
+               "link":"z=10611&m=hstory_9"
+            },
+            {
+               "link":"z=10611&m=hstory_10"
+            },
+            {
+               "link":"z=10611&m=hstory_11"
+            }
+         ],    
+         "popupMedia":"",
+         "tooltip":"#7 Solar Salt Candy (2/3)",
+         "tooltipDirection":"right"
+      },
+      {
+         "coordinates":[
+            -71.125, 127
+         ],
+         "id":"hstory_11",
+         "popupTitle":"Solar Salt Candy (3/3)",
+         "popupContent":"",
+         "parts": [
+            {
+               "link":"z=10611&m=hstory_9"
+            },
+            {
+               "link":"z=10611&m=hstory_10"
+            },
+            {
+               "link":"z=10611&m=hstory_11"
+            }
+         ],    
+         "popupMedia":"",
+         "tooltip":"#7 Solar Salt Candy (3/3)",
+         "tooltipDirection":"right"
+      },
+      {
+         "coordinates":[
+            -78.75, 153.125
+         ],
+         "id":"hstory_12",
+         "popupTitle":"Flawless Marksmanship",
+         "popupContent":"",
+         "popupMedia":"",
+         "tooltip":"#4 Flawless Marksmanship",
+         "tooltipDirection":"right"
+      }
+    ]
+   },  
+   {
+      "markerType":"Monster",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_monster",
+      "data":[
+         {
+            "coordinates":[
+               -201.5, 82.375
+            ],
+            "id":"monster_0",
+            "popupTitle":"Boss Mungka",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 Boss Mungka",
+            "tooltipDirection":"left"
+         },
+         {
+          "coordinates":[
+            -88, 130.125
+          ],
+          "id":"monster_1",
+          "popupTitle":"Hardshelled Saltburg",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"#2 Hardshelled Saltburg",
+          "tooltipDirection":"left"
+       },
+       {
+        "coordinates":[
+         -28.125, 126.125
+        ],
+        "id":"monster_2",
+        "popupTitle":"Old Salt Rock Turtle",
+        "popupContent":"",
+        "popupMedia":"",
+        "tooltip":"#3 Old Salt Rock Turtle",
+        "tooltipDirection":"left"
+     },
+     {
+      "coordinates":[
+         -165, 72.375
+      ],
+      "id":"monster_3",
+      "popupTitle":"Corpse Spider Boss",
+      "popupContent":"",
+      "popupMedia":"",
+      "tooltip":"#4 Corpse Spider Boss",
+      "tooltipDirection":"left"
+   },
+   {
+      "coordinates":[
+         -46.375, 171.875
+      ],
+      "id":"monster_4",
+      "popupTitle":"Dirty Salt Worm",
+      "popupContent":"",
+      "popupMedia":"",
+      "tooltip":"#8 Dirty Salt Worm",
+      "tooltipDirection":"right"
+   }
+      ]
+   },
+   {
+    "markerType":"Boss",
+    "enabled":true,
+    "allowSidebar":true,
+    "layerID":"layer_boss",
+    "data":[
+       {
+          "coordinates":[
+            -68.875, 141.125
+          ],
+          "id":"boss_0",
+          "popupTitle":"Salt Giant",
+          "popupContent":"",
+          "popupMedia":"",
+          "tooltip":"Salt Giant",
+          "tooltipDirection":"right"
+       }
+    ]
+ },  
+   {
+      "markerType":"Food",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_food",
+      "data":[
+         {
+            "coordinates":[
+               -81.25, 149
+            ],
+            "id":"food_0",
+            "popupTitle":"Salt-grilled Saltbug",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 Salt-grilled Saltbug",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -216.5, 89.875
+            ],
+            "id":"food_1",
+            "popupTitle":"Natural Mungka Jerky",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#2 Natural Mungka Jerky",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -177, 142
+            ],
+            "id":"food_3",
+            "popupTitle":"Salt Cracker",
+            "popupContent":"You pick multiple shards at a time. Use them until you get the Salt Cracker.",
+            "popupMedia":"",
+            "tooltip":"#7 Salt Cracker",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Ingredient",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_ingredient",
+      "data":[
+         {
+            "coordinates":[
+               -43.125, 172.375
+            ],
+            "id":"ingredient_0",
+            "popupTitle":"Salt Worm Poop",
+            "popupContent":"Required ingredient for '#3 Worm Poop Coffee'.<br>Used at cook Hella.",
+            "popupMedia":"",
+            "tooltip":"#3 Salt Worm Poop (1/1)",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -61.25, 124.25
+            ],
+            "id":"ingredient_1",
+            "popupTitle":"Ritual Food Ingredient",
+            "popupContent":"Affinity Thunder<br>Achieve trust level.",
+            "popupMedia":"",
+            "tooltip":"#6 Ritual Food Ingredient (1/1)",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Viewpoint",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_viewpoint",
+      "data":[
+         {
+            "coordinates":[
+               -156, 113.625
+            ],
+            "id":"viewpoint_0",
+            "popupTitle":"Salt Works",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#1 Salt Works",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -77.375, 134.125
+            ],
+            "id":"viewpoint_1",
+            "popupTitle":"Nomad Camp",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"#2 Nomad Camp",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"TMerchant",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_tmerchant",
+      "data":[
+         {
+            "coordinates":[
+               -166.5, 123.75
+            ],
+            "id":"tmerchant_0",
+            "popupTitle":"Lucas",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"Lucas",
+            "tooltipDirection":"right"
+         }
+      ]
+   },
+   {
+      "markerType":"Mokoko",
+      "enabled":true,
+      "allowSidebar":true,
+      "layerID":"layer_mokoko",
+      "data":[
+         {
+            "coordinates":[
+               -179.5, 62.125
+            ],
+            "id":"mokoko_0",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -173.75, 104.5
+            ],
+            "id":"mokoko_1",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -174.375, 110.625
+            ],
+            "id":"mokoko_2",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -202.125, 155.625
+            ],
+            "id":"mokoko_3",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -50.5, 109.625
+            ],
+            "id":"mokoko_4",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -71.125, 123.375
+            ],
+            "id":"mokoko_5",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -16.75, 139.5
+            ],
+            "id":"mokoko_6",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -64.625, 184.5
+            ],
+            "id":"mokoko_7",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         },
+         {
+            "coordinates":[
+               -157.625, 74
+            ],
+            "id":"mokoko_8",
+            "popupTitle":"Mokoko Seed",
+            "popupContent":"",
+            "popupMedia":"",
+            "tooltip":"",
+            "tooltipDirection":"right"
+         }
+      ]
+     },
+     {
+        "markerType":"Portal",
+        "enabled":true,
+        "allowSidebar":false,
+        "layerID":"layer_portal",
+        "data":[
+           {
+              "coordinates":[
+               -239, 91.5
+              ],
+              "id":"portal_0",
+              "destinationID":"10222",
+              "tooltip":"Rethramis Border",
+              "tooltipDirection":"bottom"
+           },
+           {
+            "coordinates":[
+               -108.5, 98
+            ],
+            "id":"portal_1",
+            "destinationID":"10691",
+            "tooltip":"Morai Ruins",
+            "tooltipDirection":"bottom"
+         },
+         {
+            "coordinates":[
+               -51.5, 73.5
+            ],
+            "id":"portal_2",
+            "destinationID":"10619",
+            "tooltip":"Ozhorn Hill",
+            "tooltipDirection":"bottom"
+         }
+        ]
+     }
+  ]
+}
