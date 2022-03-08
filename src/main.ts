@@ -211,7 +211,7 @@ for (const script of $('head script').toArray()) {
 await Deno.writeFile(path.join(outdir, 'index.html'), new TextEncoder().encode($.html()));
 
 if (shouldDownloadTiles) {
-    await downloadTiles((zoom, x, y) => `${rootUrl}/public/tiles/overworld/${zoom}_${x}_${y}.jpg`, 6);
+    await Promise.all(downloadTiles((zoom, x, y) => `https://papunika.com/map/public/tiles/overworld/${zoom}_${x}_${y}.jpg`, 6));
 }
 
 async function tryPublicFetchOrCached(url: string): Promise<void>;
@@ -299,23 +299,21 @@ if (shouldDownloadZones) {
             ...zones.flatMap(({ id, markerType }: any) => [
                 shouldDownloadZoneIcons && markerType === 1 && tryPublicFetchOrCached(`${rootUrl}/assets/zones/${id}.png`),
                 (markerType === 2 || markerType === 3) && tryPublicFetchOrCached(`${origin}/assets/Island/island_${id}.png`),
-                shouldDownloadTiles ? downloadTiles((zoom, x, y) => `${rootUrl}/public/tiles/zones/${id}/${zoom}_${x}_${y}.png`, 4),
+                ...(shouldDownloadTiles ? downloadTiles((zoom, x, y) => `${rootUrl}/public/tiles/zones/${id}/${zoom}_${x}_${y}.png`, 4) : []),
             ]),
         ],
     );
 }
 
-async function downloadTiles(url: (zoom: number, x: number, y: number) => string, maxZoom: number): Promise<void> {
-    await Promise.all(
-        Array.from(
-            { length: maxZoom },
-            (_, zoom) => Array.from(
+function downloadTiles(url: (zoom: number, x: number, y: number) => string, maxZoom: number): Array<Promise<void>> {
+    return Array.from(
+        { length: maxZoom },
+        (_, zoom) => Array.from(
+            { length: Math.pow(2, zoom) },
+            (_, x) => Array.from(
                 { length: Math.pow(2, zoom) },
-                (_, x) => Array.from(
-                    { length: Math.pow(2, zoom) },
-                    (_, y) => tryPublicFetchOrCached(url(zoom, x, y))
-                ),
+                (_, y) => tryPublicFetchOrCached(url(zoom, x, y))
             ),
-        ).flat(3),
-    )
+        ),
+    ).flat(3)
 }
