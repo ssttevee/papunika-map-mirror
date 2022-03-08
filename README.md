@@ -8,7 +8,7 @@ This program downloads sources and assets from the [papunika lost ark map](https
 ### Usage
 
 ```
-deno run --allow-net --allow-write src/main.ts
+deno run --allow-net --allow-write=mirror src/main.ts
 ```
 
 This will create a "mirror" folder which contains a static snapshot of the map. This folder may be served with any static website server software.
