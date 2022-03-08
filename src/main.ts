@@ -3,6 +3,14 @@ import * as path from "https://deno.land/std@0.125.0/path/mod.ts";
 import { createHash } from "https://deno.land/std@0.77.0/hash/mod.ts";
 import * as b64 from 'https://deno.land/std@0.82.0/encoding/base64.ts';
 
+if (Deno.args.includes('--help')) {
+    console.log('Usage:');
+    console.log('')
+    console.log('\t--outdir={folder}\t\t- the folder in which to store the mirrored files; defaults to "mirror"');
+    console.log('\t--threads={number}\t\t- max number of simultaneous downloads; defaults to 10');
+    Deno.exit(0);
+}
+
 if ((await Deno.permissions.query({ name: 'net' })).state !== 'granted') {
     throw new Error('--allow-net is required');
 }
