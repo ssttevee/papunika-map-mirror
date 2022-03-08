@@ -204,7 +204,11 @@ for (const link of $('head link[rel="stylesheet"]').toArray()) {
 
 for (const script of $('head script').toArray()) {
     if ((script.type as string) === 'script' && (script as TagElement).attribs.src) {
-        (script as TagElement).attribs.src = await cacheResourceFile((script as TagElement).attribs.src, 'static/js', (script as TagElement).attribs.src.includes('map.js') ? replaceJsPapunikaUrls : undefined);
+        if ((script as TagElement).attribs.src.startsWith('/cdn-cgi/')) {
+            $(script).remove();
+        } else {
+            (script as TagElement).attribs.src = await cacheResourceFile((script as TagElement).attribs.src, 'static/js', (script as TagElement).attribs.src.includes('map.js') ? replaceJsPapunikaUrls : undefined);
+        }
     }
 }
 
