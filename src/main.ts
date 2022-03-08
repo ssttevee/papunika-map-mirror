@@ -209,7 +209,7 @@ for (const script of $('head script').toArray()) {
 await Deno.writeFile(path.join(outdir, 'index.html'), new TextEncoder().encode($.html()));
 
 if (shouldDownloadTiles) {
-    await downloadTiles((zoom, x, y) => `https://papunika.com/map/public/tiles/overworld/${zoom}_${x}_${y}.jpg`, 5);
+    await downloadTiles((zoom, x, y) => `https://papunika.com/map/public/tiles/overworld/${zoom}_${x}_${y}.jpg`, 6);
 }
 
 async function tryPublicFetchOrCached(url: string): Promise<void>;
@@ -301,6 +301,7 @@ if (shouldDownloadZones) {
             ...zones.flatMap(({ id, markerType }: any) => [
                 shouldDownloadZoneIcons && markerType === 1 && tryPublicFetchOrCached(`https://papunika.com/map/assets/zones/${id}.png`),
                 (markerType === 2 || markerType === 3) && tryPublicFetchOrCached(`https://papunika.com/assets/Island/island_${id}.png`),
+                shouldDownloadTiles && downloadTiles((zoom, x, y) => `https://papunika.com/map/public/tiles/zones/${id}/${zoom}_${x}_${y}.png`, 4),
             ]),
         ],
     );
