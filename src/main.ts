@@ -19,6 +19,7 @@ const shouldDownloadAssets = !Deno.args.includes('--no-assets');
 const shouldDownloadZones = !Deno.args.includes('--no-zones');
 const shouldDownloadZoneIcons = !Deno.args.includes('--no-zone-icons');
 const refresh = Deno.args.includes('--refresh');
+const threads = parseInt(Deno.args.find((flag) => flag.startsWith('--threads='))?.substring(10)!) || 10;
 
 const origin = 'https://papunika.com';
 const rootUrl = origin + '/map';
@@ -98,13 +99,31 @@ class BadStatusCodeError extends Error {
     }
 }
 
-async function fetchSuccess(url: string): Promise<Response> {
-    const res = await fetch(url);
-    if (!res.ok) {
-        throw new BadStatusCodeError(res.status);
-    }
+const fetchQueue: Array<(slot: symbol) => void> = [];
+const fetchSlots = Array.from({ length: threads }, (_, i) => Symbol(`fetch slot ${i}`));
 
-    return res;
+console.log('using', threads, 'download threads');
+
+async function fetchSuccess(url: string): Promise<Response> {
+    const slot = fetchSlots.shift() || await new Promise<symbol>((resolve) => {
+        fetchQueue.push(resolve);
+    });
+
+    try {
+        const res = await fetch(url);
+        if (!res.ok) {
+            throw new BadStatusCodeError(res.status);
+        }
+
+        return res;
+    } finally {
+        const next = fetchQueue.shift();
+        if (next) {
+            next(slot);
+        } else {
+            fetchSlots.push(slot);
+        }
+    }
 }
 
 async function embedCssUrls(url: string, contents: Uint8Array): Promise<Uint8Array> {
