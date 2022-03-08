@@ -109,7 +109,7 @@ async function fetchSuccess(url: string): Promise<Response> {
 
 async function embedCssUrls(url: string, contents: Uint8Array): Promise<Uint8Array> {
     let s = new TextDecoder().decode(contents);
-    const resourceUrls = Array.from(new Set(Array.from(s.matchAll(/url\(((?!data:)[^)]+)\)/g), (m) => m[1])));
+    const resourceUrls = Array.from(new Set(Array.from(s.matchAll(/url\((?:"|')?((?!data:).+?)(?:"|')?\)/g), (m) => m[1])));
     for (const resourceUrl of resourceUrls) {
         if (resourceUrl.startsWith('#')) {
             continue;
