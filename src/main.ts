@@ -21,7 +21,7 @@ const shouldDownloadZoneIcons = !Deno.args.includes('--no-zone-icons');
 const refresh = Deno.args.includes('--refresh');
 
 const origin = 'https://papunika.com';
-const rootUrl = origin + '/map/';
+const rootUrl = origin + '/map';
 const world = rootUrl + '/data/zones/us/overworld.json';
 const assets: string[] = [
     'island',
@@ -211,7 +211,7 @@ for (const script of $('head script').toArray()) {
 await Deno.writeFile(path.join(outdir, 'index.html'), new TextEncoder().encode($.html()));
 
 if (shouldDownloadTiles) {
-    await downloadTiles((zoom, x, y) => `https://papunika.com/map/public/tiles/overworld/${zoom}_${x}_${y}.jpg`, 6);
+    await downloadTiles((zoom, x, y) => `${rootUrl}/public/tiles/overworld/${zoom}_${x}_${y}.jpg`, 6);
 }
 
 async function tryPublicFetchOrCached(url: string): Promise<void>;
@@ -271,7 +271,7 @@ async function tryPublicFetchOrCached(url: string, parse?: true): Promise<any> {
 
 if (shouldDownloadAssets) {
     await Promise.all(
-        assets.map((asset) => tryPublicFetchOrCached(`${rootUrl}assets/${asset}.png`)),
+        assets.map((asset) => tryPublicFetchOrCached(`${rootUrl}/assets/${asset}.png`)),
     )
 }
 
@@ -282,8 +282,8 @@ if (shouldDownloadZones) {
             ...(
                 await Promise.all(
                     [
-                        tryPublicFetchOrCached(`https://papunika.com/map/data/zones/us/00000.json`, true),
-                        ...zones.map(({ id }: any) => tryPublicFetchOrCached(`https://papunika.com/map/data/zones/us/${id}.json`, true)),
+                        tryPublicFetchOrCached(`${rootUrl}/data/zones/us/00000.json`, true),
+                        ...zones.map(({ id }: any) => tryPublicFetchOrCached(`${rootUrl}/data/zones/us/${id}.json`, true)),
                     ],
                 )
             ).flatMap(
@@ -291,15 +291,15 @@ if (shouldDownloadZones) {
                     ({ data }: any) => data.flatMap(
                         ({ popupMedia, rapportId }: any) => [
                             popupMedia && !popupMedia.startsWith('http') && tryPublicFetchOrCached(rootUrl + popupMedia),
-                            rapportId && tryPublicFetchOrCached(`https://papunika.com/assets/Rapport/rapport_npc_${rapportId}.png`),
+                            rapportId && tryPublicFetchOrCached(`${origin}/assets/Rapport/rapport_npc_${rapportId}.png`),
                         ],
                     ),
                 ),
             ),
             ...zones.flatMap(({ id, markerType }: any) => [
-                shouldDownloadZoneIcons && markerType === 1 && tryPublicFetchOrCached(`https://papunika.com/map/assets/zones/${id}.png`),
-                (markerType === 2 || markerType === 3) && tryPublicFetchOrCached(`https://papunika.com/assets/Island/island_${id}.png`),
-                shouldDownloadTiles && downloadTiles((zoom, x, y) => `https://papunika.com/map/public/tiles/zones/${id}/${zoom}_${x}_${y}.png`, 4),
+                shouldDownloadZoneIcons && markerType === 1 && tryPublicFetchOrCached(`${rootUrl}/assets/zones/${id}.png`),
+                (markerType === 2 || markerType === 3) && tryPublicFetchOrCached(`${origin}/assets/Island/island_${id}.png`),
+                shouldDownloadTiles ? downloadTiles((zoom, x, y) => `${rootUrl}/public/tiles/zones/${id}/${zoom}_${x}_${y}.png`, 4),
             ]),
         ],
     );
