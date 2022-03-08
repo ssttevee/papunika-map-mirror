@@ -92,6 +92,21 @@ async function findExistingCachedFile(dir: string, name?: string, ext?: string):
     }
 }
 
+class BadStatusCodeError extends Error {
+    constructor(public readonly status: number) {
+        super('bad status code: ' + status + (status === 403 ? ' (rate limited? or ip banned? ... try again in a few minutes)' : ''));
+    }
+}
+
+async function fetchSuccess(url: string): Promise<Response> {
+    const res = await fetch(url);
+    if (!res.ok) {
+        throw new BadStatusCodeError(res.status);
+    }
+
+    return res;
+}
+
 async function embedCssUrls(url: string, contents: Uint8Array): Promise<Uint8Array> {
     let s = new TextDecoder().decode(contents);
     const resourceUrls = Array.from(new Set(Array.from(s.matchAll(/url\(((?!data:)[^)]+)\)/g), (m) => m[1])));
@@ -105,11 +120,7 @@ async function embedCssUrls(url: string, contents: Uint8Array): Promise<Uint8Arr
             normalizedUrl = new URL(normalizedUrl, url).href;
         }
 
-        const res = await fetch(normalizedUrl);
-        if (res.status !== 200) {
-            throw new Error('bad status code: ' + res.status);
-        }
-
+        const res = await fetchSuccess(normalizedUrl);
         const mimeType = res.headers.get('content-type');
         if (!mimeType) {
             console.log('warning: no content-type header for ' + normalizedUrl);
@@ -141,12 +152,7 @@ async function cacheResourceFile(url: string, prefix = '/', mutate?: (url: strin
     let i = 0;
     while (true) {
         try {
-            const res = await fetch(url);
-            if (res.status !== 200) {
-                throw new Error('bad status code: ' + res.status);
-            }
-
-            let contents = new Uint8Array(await res.arrayBuffer());
+            let contents = new Uint8Array(await (await fetchSuccess(url)).arrayBuffer());
             if (mutate) {
                 contents = await mutate(url, contents);
             }
@@ -177,15 +183,11 @@ async function fetchRootPage(): Promise<string> {
     let i = 0;
     while (true) {
         try {
-            const res = await fetch(rootUrl);
-            if (res.status !== 200) {
-                throw new Error('bad status code: ' + res.status);
-            }
-    
-            return await res.text();
-        } catch {
+            return await (await fetchSuccess(rootUrl)).text();
+        } catch (err) {
+            console.error('failed to fetch root page:', err);
             const time = backoff(i++);
-            console.log('failed to fetch root page, retrying in ' +  + 'ms');
+            console.log(`retrying in ${time}ms`);
             await sleep(time);
             continue;
         }
@@ -233,17 +235,8 @@ async function tryPublicFetchOrCached(url: string, parse?: true): Promise<any> {
     let i = 0;
     while (true) {
         try {
-            const res = await fetch(url);
-            if (res.status === 404) {
-                console.warn('url not found:', url);
-                return;
-            }
-            if (res.status !== 200) {
-                throw new Error('bad status code: ' + res.status);
-            }
-
+            const buf = await (await fetchSuccess(url)).arrayBuffer();
             console.warn('fetched and cached url:', url);
-            const buf = await res.arrayBuffer();
             await Deno.mkdir(path.dirname(filepath), { recursive: true });
             await Deno.writeFile(filepath, new Uint8Array(buf));
 
@@ -253,6 +246,11 @@ async function tryPublicFetchOrCached(url: string, parse?: true): Promise<any> {
 
             return;
         } catch (err) {
+            if (err instanceof BadStatusCodeError && err.status === 404) {
+                console.warn('url not found:', url);
+                return;
+            }
+
             console.error('failed to cache ' + url + ':', err);
             if (existing) {
                 console.log('reusing cached file', existing);
