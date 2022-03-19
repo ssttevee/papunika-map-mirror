@@ -160,7 +160,11 @@ async function embedCssUrls(url: string, contents: Uint8Array): Promise<Uint8Arr
 }
 
 function replaceJsPapunikaUrls(url: string, contents: Uint8Array): Uint8Array {
-    return new TextEncoder().encode(new TextDecoder().decode(contents).replaceAll('"' + origin + '/', 'worldPath+"'));
+    return new TextEncoder().encode(
+        new TextDecoder().decode(contents)
+            .replaceAll('"' + origin + '/', 'worldPath+"')
+            .replaceAll("'" + origin + "/map/?", '"+worldPath+"/?'),
+    );
 }
 
 async function cacheResourceFile(url: string, prefix = '/', mutate?: (url: string, contents: Uint8Array) => Promise<Uint8Array> | Uint8Array): Promise<string> {
